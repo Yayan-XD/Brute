@@ -324,7 +324,7 @@ def menu():
         time.sleep(0.05)
         print "\033[1;32;98m[11] \033[1;91m>> \033[1;93mTools Atur Ulang Dan Perbarui" 
         time.sleep(0.05)
-        print "\033[1;32;98m[12] \033[1;91m>> \033[1;92mMulai Cloning MengujiXD" 
+        print "\033[1;32;98m[12] \033[1;91m>> \033[1;92mMulai Cloning Menguji" 
         time.sleep(0.05)
         print "\033[1;32;98m[13] \033[1;91m>> \033[1;93mMulai Update Yayan-XD Tools" 
         time.sleep(0.05)
