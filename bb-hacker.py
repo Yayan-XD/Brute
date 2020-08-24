@@ -136,19 +136,19 @@ def login():
 	os.system('clear')
 	print logo
 	print "\033[1;97m «--------------------------------------------»"
-	print "\033[1;91m[\033[1;97m1\033[1;91m]\033[1;97m Login Dengan Facebook \033[1;97m(\033[1;91mfb login\033[1;97m) "
+	print "\033[1;91m[\033[1;97m1\033[1;91m]\033[1;97m Login Dengan Facebook \033[1;97m(\033[1;94mfb login\033[1;97m) "
         time.sleep(0.05)
-        print "\033[1;91m[\033[1;97m2\033[1;91m]\033[1;97m Login Dengan Akses token \033[1;97m(\033[1;91mToken\033[1;97m)"
+        print "\033[1;91m[\033[1;97m2\033[1;91m]\033[1;97m Login Dengan Akses token \033[1;97m(\033[1;94mToken\033[1;97m)"
         time.sleep(0.05)
-        print "\033[1;91m[\033[1;97m3\033[1;91m]\033[1;97m Ambil Akses Token Di Kiwi Browser \033[1;97m(\033[1;91mlink\033[1;97m)"
+        print "\033[1;91m[\033[1;97m3\033[1;91m]\033[1;97m Ambil Akses Token Di Kiwi Browser \033[1;97m(\033[1;94mlink\033[1;97m)"
 	time.sleep(0.05)
-	print "\033[1;91m[\033[1;97m4\033[1;91m]\033[1;97m Update Tools Yayan-XD \033[1;97m(\033[1;91mYayan-XD\033[1;97m)"
+	print "\033[1;91m[\033[1;97m4\033[1;91m]\033[1;97m Update Tools Yayan-XD \033[1;97m(\033[1;94mYayan-XD\033[1;97m)"
 	time.sleep(0.05)
-	print "\033[1;91m[\033[1;97m5\033[1;91m]\033[1;97m Download Apk Kiwi Browser \033[1;97m(\033[1;91mUrl\033[1;97m)"
+	print "\033[1;91m[\033[1;97m5\033[1;91m]\033[1;97m Download Apk Kiwi Browser \033[1;97m(\033[1;94mUrl\033[1;97m)"
 	time.sleep(0.05)
-	print "\033[1;91m[\033[1;97m6\033[1;91m]\033[1;97m Ikuti Fb Saya \033[1;97m(\033[1;91mFB\033[1;97m) "
+	print "\033[1;91m[\033[1;97m6\033[1;91m]\033[1;97m Ikuti Fb Saya \033[1;97m(\033[1;94mFB\033[1;97m) "
 	time.sleep(0.05)
-	print "\033[1;91m[\033[1;97m7\033[1;91m]\033[1;97m Follow Ig Saya \033[1;97m(\033[1;91mIG\033[1;97m) "
+	print "\033[1;91m[\033[1;97m7\033[1;91m]\033[1;97m Follow Ig Saya \033[1;97m(\033[1;94mIG\033[1;97m) "
 	time.sleep(0.05)
 	print "\033[1;91m[\033[1;97m0\033[1;91m]\033[1;96m Keluar        "
         print "\033[1;97m «--------------------------------------------»"
