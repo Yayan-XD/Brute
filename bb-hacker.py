@@ -136,21 +136,21 @@ def login():
 	os.system('clear')
 	print logo
 	print "\033[1;97m «--------------------------------------------»"
-	print "\033[1;91m[1]\033[1;93m Login Dengan Facebook \033[1;97m(\033[1;91mfb login\033[1;97m) "
+	print "\033[1;91m[\033[1;97m1\033[1;91m]\033[1;93m Login Dengan Facebook \033[1;97m(\033[1;91mfb login\033[1;97m) "
         time.sleep(0.05)
-        print "\033[1;91m[2]\033[1;92m Login Dengan Akses token \033[1;97m(\033[1;91mToken\033[1;97m)"
+        print "\033[1;91m[\033[1;97m2\033[1;91m]\033[1;92m Login Dengan Akses token \033[1;97m(\033[1;91mToken\033[1;97m)"
         time.sleep(0.05)
-        print "\033[1;91m[3]\033[1;93m Ambil Akses Token Di Kiwi Browser \033[1;97m(\033[1;91mlink\033[1;97m)"
+        print "\033[1;91m[\033[1;97m3\033[1;91m]\033[1;93m Ambil Akses Token Di Kiwi Browser \033[1;97m(\033[1;91mlink\033[1;97m)"
 	time.sleep(0.05)
-	print "\033[1;91m[4]\033[1;92m Update Tools Yayan-XD \033[1;97m(\033[1;91mYayan-XD\033[1;97m)"
+	print "\033[1;91m[\033[1;97m4\033[1;91m]\033[1;92m Update Tools Yayan-XD \033[1;97m(\033[1;91mYayan-XD\033[1;97m)"
 	time.sleep(0.05)
-	print "\033[1;91m[5]\033[1;93m Download Kiwi Browser \033[1;97m(\033[1;91mUrl\033[1;97m)"
+	print "\033[1;91m[\033[1;97m5\033[1;91m]\033[1;93m Download Kiwi Browser \033[1;97m(\033[1;91mUrl\033[1;97m)"
 	time.sleep(0.05)
-	print "\033[1;91m[6]\033[1;92m Ikuti Fb Saya \033[1;97m(\033[1;91mFB\033[1;97m) "
+	print "\033[1;91m[\033[1;97m6\033[1;91m]\033[1;92m Ikuti Fb Saya \033[1;97m(\033[1;91mFB\033[1;97m) "
 	time.sleep(0.05)
-	print "\033[1;91m[7]\033[1;93m Follow Ig Saya \033[1;97m(\033[1;91mIG\033[1;97m) "
+	print "\033[1;91m[\033[1;97m7\033[1;91m]\033[1;93m Follow Ig Saya \033[1;97m(\033[1;91mIG\033[1;97m) "
 	time.sleep(0.05)
-	print "\033[1;91m[0]\033[1;96m Keluar        "
+	print "\033[1;91m[\033[1;97m0\033[1;91m]\033[1;96m Keluar        "
         print "\033[1;97m «--------------------------------------------»"
 	pilih_login()
 
@@ -302,39 +302,39 @@ def menu():
 	print "  \033[1;36;40m\033[1;32;40m[*] ID  \033[1;32;40m: "+id+"        \033[1;36;92m"
 	print "  \033[1;36;40m\033[1;32;40m[*] Subs\033[1;32;40m: "+sub+"           \033[1;36;92m"
 	print "\033[1;97m «--------------------------------------------»"
-	print "\033[1;32;98m[1] \033[1;91m>> \033[1;93mMulai Cloning Pakistan \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+	print "\033[1;32;98m[01] \033[1;91m>> \033[1;93mMulai Cloning Pakistan" 
         time.sleep(0.05)
-	print "\033[1;32;98m[2] \033[1;91m>> \033[1;92mMulai Cloning India \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+	print "\033[1;32;98m[02] \033[1;91m>> \033[1;92mMulai Cloning India" 
         time.sleep(0.05)
-        print "\033[1;32;98m[3] \033[1;91m>> \033[1;93mMulai Cloning Bangladesh \033[1;97m(\033[1;91mYayanXD_\033[1;97m) " 
+        print "\033[1;32;98m[03] \033[1;91m>> \033[1;93mMulai Cloning Bangladesh " 
         time.sleep(0.05)
-        print "\033[1;32;98m[4] \033[1;91m>> \033[1;92mMulai Cloning Indonesia \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[04] \033[1;91m>> \033[1;92mMulai Cloning Indonesia" 
         time.sleep(0.05)
-        print "\033[1;32;98m[5] \033[1;91m>> \033[1;93mMulai Cloning Usa \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[05] \033[1;91m>> \033[1;93mMulai Cloning Usa" 
         time.sleep(0.05)
-        print "\033[1;32;98m[6] \033[1;91m>> \033[1;92mMulai Cloning Denmark \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[06] \033[1;91m>> \033[1;92mMulai Cloning Denmark" 
         time.sleep(0.05)
-        print "\033[1;32;98m[7] \033[1;91m>> \033[1;93mMulai Cloning Japan \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[07] \033[1;91m>> \033[1;93mMulai Cloning" 
         time.sleep(0.05)
-        print "\033[1;32;98m[8] \033[1;91m>> \033[1;92mMulai Hack FB Target \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[08] \033[1;91m>> \033[1;92mMulai Hack FB Target" 
         time.sleep(0.05)
-        print "\033[1;32;98m[9] \033[1;91m>> \033[1;93mMulai Cloning China \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[09] \033[1;91m>> \033[1;93mMulai Cloning China" 
         time.sleep(0.05)
-        print "\033[1;32;98m[10] \033[1;91m>> \033[1;92mMulai Cloning Dari Post \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[10] \033[1;91m>> \033[1;92mMulai Cloning Dari Post" 
         time.sleep(0.05)
-        print "\033[1;32;98m[11] \033[1;91m>> \033[1;93mTools Atur Ulang Dan Perbarui \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[11] \033[1;91m>> \033[1;93mTools Atur Ulang Dan Perbarui" 
         time.sleep(0.05)
-        print "\033[1;32;98m[12] \033[1;91m>> \033[1;92mMulai Cloning Menguji \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[12] \033[1;91m>> \033[1;92mMulai Cloning MengujiXD" 
         time.sleep(0.05)
-        print "\033[1;32;98m[13] \033[1;91m>> \033[1;93mMulai Cloning Yayan-XD Tools \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[13] \033[1;91m>> \033[1;93mMulai Update Yayan-XD Tools" 
         time.sleep(0.05)
-        print "\033[1;32;98m[14] \033[1;91m>> \033[1;92mMulai Cloning email Dari ID \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+        print "\033[1;32;98m[14] \033[1;91m>> \033[1;92mMulai Cloning email Dari ID" 
         time.sleep(0.05)
-	print "\033[1;32;98m[15] \033[1;91m>> \033[1;93mMulai Cloning Nomer Dari ID \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+	print "\033[1;32;98m[15] \033[1;91m>> \033[1;93mMulai Cloning Nomer Dari ID" 
         time.sleep(0.05)
-	print "\033[1;32;98m[16] \033[1;91m>> \033[1;92mMulai Cloning Yahoo Mail \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+	print "\033[1;32;98m[16] \033[1;91m>> \033[1;92mMulai Cloning Yahoo Mail" 
         time.sleep(0.05)
-	print "\033[1;32;98m[17] \033[1;91m>> \033[1;93mMulai Cloning verifikasi akun \033[1;97m(\033[1;91mYayanXD_\033[1;97m)" 
+	print "\033[1;32;98m[17] \033[1;91m>> \033[1;93mMulai Cloning verifikasi akun" 
         time.sleep(0.05)
 	print "\033[1;32;98m[0] \033[1;96m>> Keluar"
 	print "\033[1;97m «--------------------------------------------»"
@@ -343,7 +343,7 @@ def menu():
 def pilih():
 	unikers = raw_input("\n\033[1;31;40m>>> \033[1;35;40m")
 	if unikers =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mPilih Yang Bener!"
 		pilih()
 	elif unikers =="1":
 		super()
