@@ -19,7 +19,7 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
 def keluar():
-	print "\x1b[1;91mExit"
+	print "\x1b[1;91mSelamat Tinggal"
 	os.sys.exit()
 
 def acak(b):
@@ -136,19 +136,19 @@ def login():
 	os.system('clear')
 	print logo
 	print "\033[1;97m «--------------------------------------------»"
-	print "\033[1;91m[\033[1;97m1\033[1;91m]\033[1;93m Login Dengan Facebook \033[1;97m(\033[1;91mfb login\033[1;97m) "
+	print "\033[1;91m[\033[1;97m1\033[1;91m]\033[1;97m Login Dengan Facebook \033[1;97m(\033[1;91mfb login\033[1;97m) "
         time.sleep(0.05)
-        print "\033[1;91m[\033[1;97m2\033[1;91m]\033[1;92m Login Dengan Akses token \033[1;97m(\033[1;91mToken\033[1;97m)"
+        print "\033[1;91m[\033[1;97m2\033[1;91m]\033[1;97m Login Dengan Akses token \033[1;97m(\033[1;91mToken\033[1;97m)"
         time.sleep(0.05)
-        print "\033[1;91m[\033[1;97m3\033[1;91m]\033[1;93m Ambil Akses Token Di Kiwi Browser \033[1;97m(\033[1;91mlink\033[1;97m)"
+        print "\033[1;91m[\033[1;97m3\033[1;91m]\033[1;97m Ambil Akses Token Di Kiwi Browser \033[1;97m(\033[1;91mlink\033[1;97m)"
 	time.sleep(0.05)
-	print "\033[1;91m[\033[1;97m4\033[1;91m]\033[1;92m Update Tools Yayan-XD \033[1;97m(\033[1;91mYayan-XD\033[1;97m)"
+	print "\033[1;91m[\033[1;97m4\033[1;91m]\033[1;97m Update Tools Yayan-XD \033[1;97m(\033[1;91mYayan-XD\033[1;97m)"
 	time.sleep(0.05)
-	print "\033[1;91m[\033[1;97m5\033[1;91m]\033[1;93m Download Apk Kiwi Browser \033[1;97m(\033[1;91mUrl\033[1;97m)"
+	print "\033[1;91m[\033[1;97m5\033[1;91m]\033[1;97m Download Apk Kiwi Browser \033[1;97m(\033[1;91mUrl\033[1;97m)"
 	time.sleep(0.05)
-	print "\033[1;91m[\033[1;97m6\033[1;91m]\033[1;92m Ikuti Fb Saya \033[1;97m(\033[1;91mFB\033[1;97m) "
+	print "\033[1;91m[\033[1;97m6\033[1;91m]\033[1;97m Ikuti Fb Saya \033[1;97m(\033[1;91mFB\033[1;97m) "
 	time.sleep(0.05)
-	print "\033[1;91m[\033[1;97m7\033[1;91m]\033[1;93m Follow Ig Saya \033[1;97m(\033[1;91mIG\033[1;97m) "
+	print "\033[1;91m[\033[1;97m7\033[1;91m]\033[1;97m Follow Ig Saya \033[1;97m(\033[1;91mIG\033[1;97m) "
 	time.sleep(0.05)
 	print "\033[1;91m[\033[1;97m0\033[1;91m]\033[1;96m Keluar        "
         print "\033[1;97m «--------------------------------------------»"
