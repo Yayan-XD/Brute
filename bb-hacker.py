@@ -607,9 +607,9 @@ def mafiax():
 	os.system('clear')
 	print logo
         print "\033[1;97m «--------------------------------------------»" 
-	print( "\x1b[1;32;92m[1] \033[1;33;93m>> Crack Tanpa ID \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print( "\x1b[1;32;92m[1] \033[1;33;93m>> Crack Tanpa ID \033[1;97m(\033[1;91mYayanXD\033[1;97m)") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;92m[2] \033[1;33;98m>> Crack Dari ID Publik \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print( "\x1b[1;32;92m[2] \033[1;33;98m>> Crack Dari ID Publik \033[1;97m(\033[1;91mYayanXD\033[1;97m)") 
 	time.sleep(0.05)
 	print( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
 	print "\033[1;97m «--------------------------------------------»"
@@ -618,7 +618,7 @@ def mafiax():
 def pilih_mafiax():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_mafiax()
         elif peak =="1":
 		os.system('clear')
@@ -650,7 +650,7 @@ def pilih_mafiax():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
@@ -809,7 +809,7 @@ def pakarmy():
 def pilih_pakarmy():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_pakarmy()
         elif peak =="1":
 		os.system('clear')
@@ -841,7 +841,7 @@ def pilih_pakarmy():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
@@ -1000,7 +1000,7 @@ def hackerz():
 def pilih_hackerz():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_hackerz()
         elif peak =="1":
 		os.system('clear')
@@ -1032,7 +1032,7 @@ def pilih_hackerz():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
@@ -1191,7 +1191,7 @@ def america():
 def pilih_america():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_america()
         elif peak =="1":
 		os.system('clear')
@@ -1223,7 +1223,7 @@ def pilih_america():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
@@ -1382,7 +1382,7 @@ def haterx():
 def pilih_haterx():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_haterx()
         elif peak =="1":
 		os.system('clear')
@@ -1414,7 +1414,7 @@ def pilih_haterx():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
@@ -1573,7 +1573,7 @@ def japanx():
 def pilih_japanx():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_japanx()
         elif peak =="1":
 		os.system('clear')
@@ -1605,7 +1605,7 @@ def pilih_japanx():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
@@ -1834,7 +1834,7 @@ def chinesex():
 def pilih_chinesex():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_chinesex()
         elif peak =="1":
 		os.system('clear')
@@ -1866,7 +1866,7 @@ def pilih_chinesex():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
@@ -2023,7 +2023,7 @@ def postx():
 def pilih_postx():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_postx()     
 	elif peak =="1":
 		os.system('clear')
@@ -2046,7 +2046,7 @@ def pilih_postx():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
@@ -2204,7 +2204,7 @@ def testx():
 def pilih_testx():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_testx()     
 	elif peak =="2":
 		os.system('clear')
@@ -2227,7 +2227,7 @@ def pilih_testx():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
@@ -2414,7 +2414,7 @@ def toolx():
 def pilih_toolx():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_toolx()     
 	elif peak =="2":
 		os.system('clear')
@@ -2437,7 +2437,7 @@ def pilih_toolx():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
@@ -2912,7 +2912,7 @@ def pilih_verifyx():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
