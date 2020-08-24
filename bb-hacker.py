@@ -302,41 +302,41 @@ def menu():
 	print "  \033[1;36;40m\033[1;32;40m[*] ID  \033[1;32;40m: "+id+"        \033[1;36;92m"
 	print "  \033[1;36;40m\033[1;32;40m[*] Subs\033[1;32;40m: "+sub+"           \033[1;36;92m"
 	print "\033[1;94m «--------------------------------------------»"
-	print "\033[1;32;98m[01] \033[1;91m>> \033[1;93mMulai Cloning Pakistan" 
+	print "\033[1;32;98m[\033[1;97m01\033[1;98m] \033[1;91m>> \033[1;93mMulai Cloning Pakistan" 
         time.sleep(0.05)
-	print "\033[1;32;98m[02] \033[1;91m>> \033[1;92mMulai Cloning India" 
+	print "\033[1;32;98m[\033[1;97m02\033[1;98m] \033[1;91m>> \033[1;92mMulai Cloning India" 
         time.sleep(0.05)
-        print "\033[1;32;98m[03] \033[1;91m>> \033[1;93mMulai Cloning Bangladesh " 
+        print "\033[1;32;98m[\033[1;97m03\033[1;98m] \033[1;91m>> \033[1;94mMulai Cloning Bangladesh " 
         time.sleep(0.05)
-        print "\033[1;32;98m[04] \033[1;91m>> \033[1;92mMulai Cloning Indonesia" 
+        print "\033[1;32;98m[\033[1;97m04\033[1;98m] \033[1;91m>> \033[1;93mMulai Cloning Indonesia" 
         time.sleep(0.05)
-        print "\033[1;32;98m[05] \033[1;91m>> \033[1;93mMulai Cloning Usa" 
+        print "\033[1;32;98m[\033[1;97m05\033[1;98m] \033[1;91m>> \033[1;92mMulai Cloning Usa" 
         time.sleep(0.05)
-        print "\033[1;32;98m[06] \033[1;91m>> \033[1;92mMulai Cloning Denmark" 
+        print "\033[1;32;98m[\033[1;97m06\033[1;98m] \033[1;91m>> \033[1;94mMulai Cloning Denmark" 
         time.sleep(0.05)
-        print "\033[1;32;98m[07] \033[1;91m>> \033[1;93mMulai Cloning Japan" 
+        print "\033[1;32;98m[\033[1;97m07\033[1;98m] \033[1;91m>> \033[1;93mMulai Cloning Japan" 
         time.sleep(0.05)
-        print "\033[1;32;98m[08] \033[1;91m>> \033[1;92mMulai Hack FB Target" 
+        print "\033[1;32;98m[\033[1;97m08\033[1;98m] \033[1;91m>> \033[1;92mMulai Hack FB Target" 
         time.sleep(0.05)
-        print "\033[1;32;98m[09] \033[1;91m>> \033[1;93mMulai Cloning China" 
+        print "\033[1;32;98m[\033[1;97m09\033[1;98m] \033[1;91m>> \033[1;94mMulai Cloning China" 
         time.sleep(0.05)
-        print "\033[1;32;98m[10] \033[1;91m>> \033[1;92mMulai Cloning Dari Post" 
+        print "\033[1;32;98m[\033[1;97m10\033[1;98m] \033[1;91m>> \033[1;93mMulai Cloning Dari Post" 
         time.sleep(0.05)
-        print "\033[1;32;98m[11] \033[1;91m>> \033[1;93mTools Atur Ulang Dan Perbarui" 
+        print "\033[1;32;98m[\033[1;97m11\033[1;98m] \033[1;91m>> \033[1;92mTools Atur Ulang Dan Perbarui" 
         time.sleep(0.05)
-        print "\033[1;32;98m[12] \033[1;91m>> \033[1;92mMulai Cloning Menguji" 
+        print "\033[1;32;98m[\033[1;97m12\033[1;98m] \033[1;91m>> \033[1;94mMulai Cloning Menguji" 
         time.sleep(0.05)
-        print "\033[1;32;98m[13] \033[1;91m>> \033[1;93mMulai Update Yayan-XD Tools" 
+        print "\033[1;32;98m[\033[1;97m13\033[1;98m] \033[1;91m>> \033[1;93mMulai Update Yayan-XD Tools" 
         time.sleep(0.05)
-        print "\033[1;32;98m[14] \033[1;91m>> \033[1;92mMulai Cloning email Dari ID" 
+        print "\033[1;32;98m[\033[1;97m14\033[1;98m] \033[1;91m>> \033[1;92mMulai Cloning email Dari ID" 
         time.sleep(0.05)
-	print "\033[1;32;98m[15] \033[1;91m>> \033[1;93mMulai Cloning Nomer Dari ID" 
+	print "\033[1;32;98m[\033[1;97m15\033[1;98m] \033[1;91m>> \033[1;94mMulai Cloning Nomer Dari ID" 
         time.sleep(0.05)
-	print "\033[1;32;98m[16] \033[1;91m>> \033[1;92mMulai Cloning Yahoo Mail" 
+	print "\033[1;32;98m[\033[1;97m16\033[1;98m] \033[1;91m>> \033[1;93mMulai Cloning Yahoo Mail" 
         time.sleep(0.05)
-	print "\033[1;32;98m[17] \033[1;91m>> \033[1;93mMulai Cloning verifikasi akun" 
+	print "\033[1;32;98m[\033[1;97m17\033[1;98m] \033[1;91m>> \033[1;92mMulai Cloning verifikasi akun" 
         time.sleep(0.05)
-	print "\033[1;32;98m[0] \033[1;96m>> Keluar"
+	print "\033[1;32;98m[\033[1;97m0\033[1;98m] \033[1;96m>> Keluar"
 	print "\033[1;94m «--------------------------------------------»"
 	pilih()
 
