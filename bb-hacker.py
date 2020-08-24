@@ -157,7 +157,7 @@ def login():
 def pilih_login():
 	peak = raw_input("\n\033[1;92mPilih Mana Man?:V\033[1;97m═╬══►\033[1;95m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_login()
 	elif peak =="1":
 		login1()
@@ -183,7 +183,7 @@ def pilih_login():
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih()
 			
 def login1():
@@ -343,7 +343,7 @@ def menu():
 def pilih():
 	unikers = raw_input("\n\033[1;31;40m>>> \033[1;35;40m")
 	if unikers =="":
-		print "\x1b[1;91mPilih Yang Bener!"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih()
 	elif unikers =="1":
 		super()
@@ -400,7 +400,7 @@ def pilih():
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih()
 
 def super():
@@ -427,7 +427,7 @@ def super():
 def pilih_super():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super() 
         elif peak =="1":
 		os.system('clear')
@@ -459,7 +459,7 @@ def pilih_super():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mSalah! Pilih Yang Bener..."
 		pilih_super()
 
 	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
