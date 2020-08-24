@@ -314,7 +314,7 @@ def menu():
         time.sleep(0.05)
         print "\033[1;32;98m[06] \033[1;91m>> \033[1;92mMulai Cloning Denmark" 
         time.sleep(0.05)
-        print "\033[1;32;98m[07] \033[1;91m>> \033[1;93mMulai Cloning" 
+        print "\033[1;32;98m[07] \033[1;91m>> \033[1;93mMulai Cloning Japan" 
         time.sleep(0.05)
         print "\033[1;32;98m[08] \033[1;91m>> \033[1;92mMulai Hack FB Target" 
         time.sleep(0.05)
