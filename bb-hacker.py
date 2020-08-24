@@ -135,7 +135,7 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;97m «--------------------------------------------»"
+	print "\033[1;94m «--------------------------------------------»"
 	print "\033[1;91m[\033[1;97m1\033[1;91m]\033[1;97m Login Dengan Facebook \033[1;97m(\033[1;94mfb login\033[1;97m) "
         time.sleep(0.05)
         print "\033[1;91m[\033[1;97m2\033[1;91m]\033[1;97m Login Dengan Akses token \033[1;97m(\033[1;94mToken\033[1;97m)"
@@ -151,7 +151,7 @@ def login():
 	print "\033[1;91m[\033[1;97m7\033[1;91m]\033[1;97m Follow Ig Saya \033[1;97m(\033[1;94mIG\033[1;97m) "
 	time.sleep(0.05)
 	print "\033[1;91m[\033[1;97m0\033[1;91m]\033[1;96m Keluar        "
-        print "\033[1;97m «--------------------------------------------»"
+        print "\033[1;94m «--------------------------------------------»"
 	pilih_login()
 
 def pilih_login():
@@ -195,12 +195,12 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo
-		print "\033[1;97m «--------------------------------------------»"
+		print "\033[1;94m «--------------------------------------------»"
 		jalan('\033[1;96m[✾]\x1b[1;91mGUNAKAN AKUN BARU UNTUK LOGIN\x1b[1;96m[✾]' )
 		jalan('\033[1;96m[✾]\x1b[1;91mJANGAN GUNAKAN AKUN OLD UNTUK LOGIN\x1b[1;96m[✾]' )
 		id = raw_input('\033[1;96m[!!] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[!!] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
-		print "\033[1;97m «--------------------------------------------»"
+		print "\033[1;94m «--------------------------------------------»"
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -248,7 +248,7 @@ def login1():
 def tokenz():
 	os.system('clear')
 	print logo
-	print "\033[1;97m «--------------------------------------------»"
+	print "\033[1;94m «--------------------------------------------»"
 	toket = raw_input("\033[1;91m[+]\033[1;92m Masukan Token\033[1;91m :\033[1;95>>\033[1;93m ")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
@@ -297,11 +297,11 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-        print "\033[1;97m «--------------------------------------------»"
+        print "\033[1;94m «--------------------------------------------»"
 	print "  \033[1;36;40m\033[1;32;40m[*] Nama\033[1;32;40m: "+nama+"  	   \033[1;36;40m"                               
 	print "  \033[1;36;40m\033[1;32;40m[*] ID  \033[1;32;40m: "+id+"        \033[1;36;92m"
 	print "  \033[1;36;40m\033[1;32;40m[*] Subs\033[1;32;40m: "+sub+"           \033[1;36;92m"
-	print "\033[1;97m «--------------------------------------------»"
+	print "\033[1;94m «--------------------------------------------»"
 	print "\033[1;32;98m[01] \033[1;91m>> \033[1;93mMulai Cloning Pakistan" 
         time.sleep(0.05)
 	print "\033[1;32;98m[02] \033[1;91m>> \033[1;92mMulai Cloning India" 
@@ -337,7 +337,7 @@ def menu():
 	print "\033[1;32;98m[17] \033[1;91m>> \033[1;93mMulai Cloning verifikasi akun" 
         time.sleep(0.05)
 	print "\033[1;32;98m[0] \033[1;96m>> Keluar"
-	print "\033[1;97m «--------------------------------------------»"
+	print "\033[1;94m «--------------------------------------------»"
 	pilih()
 
 def pilih():
@@ -415,13 +415,13 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-        print "\033[1;97m «--------------------------------------------»"
-        print( "\x1b[1;32;92m[1] \033[1;33;93m>> Crack Tanpa ID \033[1;97m(\033[1;91mYayanXD\033[1;97m)") 
+        print "\033[1;94m «--------------------------------------------»"
+        print( "\x1b[1;32;91m[\033[1;33;97m1\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar Teman") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;92m[2] \033[1;33;98m>> Crack Dari ID Publik \033[1;97m(\033[1;91mYayanXD\033[1;97m)") 
+	print( "\x1b[1;32;91m[\033[1;33;97m2\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar ID Publik") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
-	print "\033[1;97m «--------------------------------------------»"
+	print( "\x1b[1;32;91m[\033[1;33;97m0\033[1;33;91m] \033[1;33;95m>> \033[1;33;97mKeluar") 
+	print "\033[1;94m «--------------------------------------------»"
 	pilih_super()
 
 def pilih_super():
@@ -606,13 +606,13 @@ def mafiax():
 		login()
 	os.system('clear')
 	print logo
-        print "\033[1;97m «--------------------------------------------»" 
-	print( "\x1b[1;32;92m[1] \033[1;33;93m>> Crack Tanpa ID \033[1;97m(\033[1;91mYayanXD\033[1;97m)") 
+        print "\033[1;94m «--------------------------------------------»"
+        print( "\x1b[1;32;91m[\033[1;33;97m1\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar Teman") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;92m[2] \033[1;33;98m>> Crack Dari ID Publik \033[1;97m(\033[1;91mYayanXD\033[1;97m)") 
+	print( "\x1b[1;32;91m[\033[1;33;97m2\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar ID Publik") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
-	print "\033[1;97m «--------------------------------------------»"
+	print( "\x1b[1;32;91m[\033[1;33;97m0\033[1;33;91m] \033[1;33;95m>> \033[1;33;97mKeluar") 
+	print "\033[1;94m «--------------------------------------------»"
 	pilih_mafiax()
 
 def pilih_mafiax():
@@ -797,13 +797,13 @@ def pakarmy():
 		login()
 	os.system('clear')
 	print logo
-        print "\033[1;97m «--------------------------------------------»"
-	print( "\x1b[1;32;92m[1] \033[1;33;93m>> Crack Tanpa ID \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+        print "\033[1;94m «--------------------------------------------»"
+        print( "\x1b[1;32;91m[\033[1;33;97m1\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar Teman") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;92m[2] \033[1;33;98m>> Crack Dari ID Publik \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print( "\x1b[1;32;91m[\033[1;33;97m2\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar ID Publik") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
-	print "\033[1;97m «--------------------------------------------»"
+	print( "\x1b[1;32;91m[\033[1;33;97m0\033[1;33;91m] \033[1;33;95m>> \033[1;33;97mKeluar") 
+	print "\033[1;94m «--------------------------------------------»"
 	pilih_pakarmy()
 
 def pilih_pakarmy():
@@ -814,7 +814,7 @@ def pilih_pakarmy():
         elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;97m «--------------------------------------------»"
+		print "\033[1;94m «--------------------------------------------»"
 		jalan('\033[1;96m[⊱⋕⊰] \033[1;92mMendapatkan ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -823,7 +823,7 @@ def pilih_pakarmy():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-		print "\033[1;97m «--------------------------------------------»"
+		print "\033[1;94m «--------------------------------------------»"
 		idt = raw_input("\033[1;96m[⊱⋕⊰]\033[1;93m Masukan ID\033[1;91m : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -988,13 +988,13 @@ def hackerz():
 		login()
 	os.system('clear')
 	print logo
-        print "\033[1;97m «--------------------------------------------»"
-	print( "\x1b[1;32;92m[1] \033[1;33;93m>> Crack Tanpa ID \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+        print "\033[1;94m «--------------------------------------------»"
+        print( "\x1b[1;32;91m[\033[1;33;97m1\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar Teman") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;92m[2] \033[1;33;98m>> Crack Dari ID Publik \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print( "\x1b[1;32;91m[\033[1;33;97m2\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar ID Publik") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
-	print "\033[1;97m «--------------------------------------------»"
+	print( "\x1b[1;32;91m[\033[1;33;97m0\033[1;33;91m] \033[1;33;95m>> \033[1;33;97mKeluar") 
+	print "\033[1;94m «--------------------------------------------»"
 	pilih_hackerz()
 
 def pilih_hackerz():
@@ -1005,7 +1005,7 @@ def pilih_hackerz():
         elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;97m «--------------------------------------------»"
+		print "\033[1;94m «--------------------------------------------»"
 		jalan('\033[1;96m[⊱⋕⊰] \033[1;92mMendapatkan ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -1014,7 +1014,7 @@ def pilih_hackerz():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-		print "\033[1;97m «--------------------------------------------»"
+		print "\033[1;94m «--------------------------------------------»"
 		idt = raw_input("\033[1;96m[⊱⋕⊰]\033[1;93m Masukan ID\033[1;91m : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -1041,10 +1041,10 @@ def pilih_hackerz():
 	for o in titik:
 		print("\r\033[1;93mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;97m  «-----\x1b[1;91m【Untuk Berhenti Proses Tekan CTRL+Z】\033[1;97m----»"
-	print "\033[1;97m «--------------------------------------------»"
+	print "\033[1;94m «--------------------------------------------»"
 	jalan('   \033[1;93mJangan Dulu Keluar Lagi Cloning SABAR..!')
         jalan(' \033[1;91m            Tools By : YayanXD_')
-	print "\033[1;97m «--------------------------------------------»"
+	print "\033[1;94m «--------------------------------------------»"
 
 	def main(arg):
 		global oks
@@ -1179,13 +1179,13 @@ def america():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m «--------------------------------------------»"
-        print( "\x1b[1;32;92m[1] \033[1;33;93m>> Crack Tanpa ID \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print "\033[1;94m «--------------------------------------------»"
+        print( "\x1b[1;32;91m[\033[1;33;97m1\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar Teman") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;92m[2] \033[1;33;98m>> Crack Dari ID Publik \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print( "\x1b[1;32;91m[\033[1;33;97m2\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar ID Publik") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
-	print "\033[1;97m «--------------------------------------------»"
+	print( "\x1b[1;32;91m[\033[1;33;97m0\033[1;33;91m] \033[1;33;95m>> \033[1;33;97mKeluar") 
+	print "\033[1;94m «--------------------------------------------»"
 	pilih_america()
 
 def pilih_america():
@@ -1370,14 +1370,14 @@ def haterx():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m «--------------------------------------------»"
-        print( "\x1b[1;32;92m[1] \033[1;33;93m>> Crack Tanpan ID \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print "\033[1;94m «--------------------------------------------»"
+        print( "\x1b[1;32;91m[\033[1;33;97m1\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar Teman") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;92m[2] \033[1;33;98m>> Crack Dari Publik \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print( "\x1b[1;32;91m[\033[1;33;97m2\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar ID Publik") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
-	print "\033[1;97m «--------------------------------------------»"
-	pilih_haterx()
+	print( "\x1b[1;32;91m[\033[1;33;97m0\033[1;33;91m] \033[1;33;95m>> \033[1;33;97mKeluar") 
+	print "\033[1;94m «--------------------------------------------»"
+        pilih_haterx()
 
 def pilih_haterx():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
@@ -1561,13 +1561,13 @@ def japanx():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m «--------------------------------------------»"
-        print( "\x1b[1;32;92m[1] \033[1;33;93m>> Crack Tanpa ID \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print "\033[1;94m «--------------------------------------------»"
+        print( "\x1b[1;32;91m[\033[1;33;97m1\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar Teman") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;92m[2] \033[1;33;98m>> Crack Dari ID Publik \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print( "\x1b[1;32;91m[\033[1;33;97m2\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar ID Publik") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
-	print "\033[1;97m «--------------------------------------------»"
+	print( "\x1b[1;32;91m[\033[1;33;97m0\033[1;33;91m] \033[1;33;95m>> \033[1;33;97mKeluar") 
+	print "\033[1;94m «--------------------------------------------»"
 	pilih_japanx()
 
 def pilih_japanx():
@@ -1822,13 +1822,13 @@ def chinesex():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m «--------------------------------------------»"
-        print( "\x1b[1;32;92m[1] \033[1;33;93m>> Crack Tanpa ID \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print "\033[1;94m «--------------------------------------------»"
+        print( "\x1b[1;32;91m[\033[1;33;97m1\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar Teman") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;92m[2] \033[1;33;98m>> Crack Dari ID Publik \033[1;97m(\033[1;91mYayanXD_\033[1;97m)") 
+	print( "\x1b[1;32;91m[\033[1;33;97m2\033[1;33;91m] \033[1;33;95m>> \033[1;33;91mCrack Dari Daftar ID Publik") 
 	time.sleep(0.05)
-	print( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
-	print "\033[1;97m «--------------------------------------------»"
+	print( "\x1b[1;32;91m[\033[1;33;97m0\033[1;33;91m] \033[1;33;95m>> \033[1;33;97mKeluar") 
+	print "\033[1;94m «--------------------------------------------»"
 	pilih_chinesex()
 
 def pilih_chinesex():
