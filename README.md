@@ -1,8 +1,9 @@
 # Tools Update V.03
 
-* Login Fb Udah Gak Work
-* Login Pakai Token Masih Work😊
+* Cloning Semua Negara
+* Login Token
 * Hack Daftar Teman
+* Hack Target
 * Hack Daftar Teman publik
 
 
@@ -20,12 +21,18 @@ $ git clone https://github.com/Yayan-XD/B2
 
 $ cd B2
 
-$ pip2 install requests
-
-$ pip2 install mechanize
+$ pip2 install requests mechanize
 
 $ python2 bb-hacker.py
 ```
+
+
+* Usrrname dan Password Tools
+```
+Username : Yayan
+Password : Gans
+```
+
 
 ## MY SOCIAL MEDIA
 
