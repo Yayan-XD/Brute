@@ -18,11 +18,13 @@ $ pkg install git
 
 $ git clone https://github.com/Yayan-XD/B2
 
-$ pip2 install requests mechanize
+$ cd B2
 
-$cd B2
+$ pip2 install requests
 
-python2 bb-hacker.py
+$ pip2 install mechanize
+
+$ python2 bb-hacker.py
 ```
 
 # Username & Password Tools
