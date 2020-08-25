@@ -43,4 +43,4 @@ Facebook  [Ikuti](https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR)
 
 Twitter   [Ikuti](https://mobile.twitter.com/moch_xd)
 
-Wa [Hubungi](https://api.whatsapp.com/send?phone=+625603036683text=Hello Sir,You Cool')
+Wa [Hubungi](https://api.whatsapp.com/send?phone=+625603036683text=Hello Sir,You Cool)
