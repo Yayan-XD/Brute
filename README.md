@@ -34,7 +34,7 @@ Password : Gans
 ```
 
 
-Turtorial Cara Dapatin Token Di Kiwi Browser [Klik](https://github.com/Yayan-XD/Maha-Guru/blob/master/Tak%20berjudul%202_540p.mp4)
+Turtorial Cara Dapatin Token Di Kiwi Browser [Download](https://github.com/Yayan-XD/Maha-Guru/blob/master/Tak%20berjudul%202_540p.mp4)
 
 
 
