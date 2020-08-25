@@ -27,7 +27,7 @@ $ python2 bb-hacker.py
 ```
 
 
-* Usrrname dan Password Tools
+* Username dan Password Tools
 ```
 Username : Yayan
 Password : Gans
