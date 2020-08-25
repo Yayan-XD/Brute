@@ -41,6 +41,6 @@ Instagram [Ikuti](https://Instagram.com/yayanxd_)
 
 Facebook  [Ikuti](https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR) 
 
-WhatsApp  [Hubungi](https://api.whatsapp.com/send?phone=+625603036683)
+WhatsApp  [Hubungi](https://api.whatsapp.com/send?phone=+6285603036683)
 
 Twitter   [Ikuti](https://mobile.twitter.com/moch_xd)
