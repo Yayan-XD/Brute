@@ -76,6 +76,25 @@ logo = """
 \033[1;97m╚═══════════════════════════════════════╝
 """
 
+CorrectUsername = "Yayan"
+CorrectPassword = "Gans"
+
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;96m[☆] \x1b[1;94mUsername Tools \x1b[1;97m>>>> ")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;96m[☆] \x1b[1;94mPassword Tools \x1b[1;97m>>>> ")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username
+            loop = 'false'
+        else:
+            print "Salah Tolol!"
+            os.system('xdg-open https://github.com/Yayan-XD/B2')
+    else:
+        print "Salah Tolol!"
+        os.system('xdg-open https://github.com/Yayan-XD/B2')
+
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
