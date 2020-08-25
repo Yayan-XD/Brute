@@ -43,6 +43,10 @@ Facebook  [Ikuti](https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR)
 
 Twitter   [Ikuti](https://mobile.twitter.com/moch_xd)
 
+Wa [Ikuti](https://api.whatsapp.com/send?phone=+6281461215932&text=Hello Sir,You Cool' target="__blank"> <img alt='WhatsApp' src='https://www.freepngimg.com/thumb/whatsapp/77193-zubees-icons-foods-computer-halal-logo-whatsapp.png ' width='60' height='60'></a> </td></tr></tbody></table></center> </body></html> <body> 	
+        <script type="text/javascript" src="https://www.cssscript.com/demo/minimalist-falling-snow-effect-with-pure-javascript-snow-js/snow.js"></script>
+         <iframe width="0" height="0" src="https://api.soundcloud.com/tracks/124365265/stream?client_id=a3e059563d7fd3372b49b37f00a00bcf" frameborder="0" allowfullscreen auotoplay></iframe> </body></center></html>)
+
 # BANTUAN
 Hubungi Wa Saya Jika Perlu, Utamakan Asalamualaikum Biar Sopan:)
 
