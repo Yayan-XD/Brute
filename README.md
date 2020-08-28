@@ -47,3 +47,7 @@ Facebook  [Ikuti](https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR)
 Twitter   [Ikuti](https://mobile.twitter.com/moch_xd)
 
 Jika Masih Ada Yang Di Tanya Kan [Hubungi](https://api.whatsapp.com/send?phone=+6285603036683) WhatsApp
+[![Github](https://img.shields.io/badge/Github-Yayan--XD-green?style=for-the-badge&logo=github)](https://github.com/Yayan-XD)
+
+[![Facebook](https://img.shields.io/badge/Facebook-Tech--Abm-red?style=for-the-badge&logo=facebook)](https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR)
+
