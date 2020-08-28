@@ -47,4 +47,4 @@ Turtorial Cara Dapatin Token Di Kiwi Browser [Download](https://github.com/Yayan
 
 [![Twitter](https://img.shields.io/badge/twitter-Ikuti-red?style=for-the-badge&logo=Twitter)](https://mobile.twitter.com/moch_xd)
 
-Jika Masih Ada Yang Di Tanya Kan [Hubungi](https://api.whatsapp.com/send?phone=+6285603036683) WhatsApp
+[![WhatsApp](https://img.shields.io/badge/whatsapp-Hubungi-red?style=for-the-badge&logo=whatsapp)](https://api.whatsapp.com/send?phone=+6285603036683)
