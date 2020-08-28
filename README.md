@@ -8,23 +8,23 @@
 
 
 # Masukan Script Ini!
-```
-$ pkg update
+- `pkg update`
 
-$ pkg upgrade
+- `pkg upgrade`
 
-$ pkg install python2
+- `pkg install git`
 
-$ pkg install git
+- `pkg install python2`
 
-$ git clone https://github.com/Yayan-XD/B2
+- `git clone https://github.com/Yayan-XD/B2`
 
-$ cd B2
+- `cd B2`
 
-$ pip2 install requests mechanize
+- `pip2 install mechanize`
 
-$ python2 bb-hacker.py
-```
+- `pip2 install requests`
+
+- `python2 bb-hacker.py`
 
 
 * Username dan Password Tools
