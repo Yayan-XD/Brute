@@ -1,7 +1,6 @@
 jika ingin tidak dibatasi anda bisa meng-upgrade ke premium user dengan harga 15k (15 rb)/minggu lewat dana ke nomor *085603036683*
 
 <img src="https://github.com/Yayan-XD/Yayan-XD/blob/master/img/20200909_084956.jpg" width="120" height="120" align="left">
-<center>
 
 ## CARA UPGRADE KE PREMIUM:
 - kalian tinggal pilih nemu nomor *09* dan ikuti saja langkah-langkah nya.
