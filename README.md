@@ -1,4 +1,4 @@
-jika ingin tidak dibatasi anda bisa meng-upgrade ke premium user dengan harga 50k (50 rb)/bulan lewat dana ke nomor 089647787050
+jika ingin tidak dibatasi anda bisa meng-upgrade ke premium user dengan harga 15k (15 rb)/minggu lewat dana ke nomor 085603036683
 
 ### Install script
 ```python
