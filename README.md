@@ -16,6 +16,6 @@ $ git clone https://github.com/Yayan-XD/Brute
 
 ### run script
 ```python
-$ cd $HOME/brute
+$ cd $HOME/Brute
 $ python run.py
 ```
