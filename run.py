@@ -6,6 +6,7 @@ if sys.version[0:3] != "3.9":
 if __name__ == "__main__":
   try:
       os.system("git pull")
-      __import__("Brute").cek()
+      os.system("clear")
+      print("\n script masih dalam perbaikan mohon tunggu beberapa hari.")
   except Exception as e:
     exit(str(e))
