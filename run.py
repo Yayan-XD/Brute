@@ -3,7 +3,7 @@
 import random, os, subprocess
 import requests as req
 from urllib.parse import quote
-from time import sleep as 
+from time import sleep as waktu
 
 ### WARNA RANDOM ###
 M = "\x1b[1;91m" # MERAH 
