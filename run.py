@@ -1,6 +1,7 @@
 # code by Yayan XD and Rizky Dev
 
 import requests, random, os, subprocess
+import requests as req
 from urllib.parse import quote
 from time import sleep as ngentod
 
@@ -31,7 +32,7 @@ class Detect:
 	def __init__(self, key):
 		self.key = key
 	def Run(self):
-		check = requests.get(URL+"?project="+PROJECT_NAME+"&apikey="+self.key).json()
+		check = req.get(URL+"?project="+PROJECT_NAME+"&apikey="+self.key).json()
 		if check["status"] == "error":
 			exit("Your key is invalid, please contact admin")
 		elif check["status"] == "expired":
@@ -40,7 +41,7 @@ class Detect:
 			exit("Your key is expired, please contact admin")
 		else:
 			open(".key","w").write(self.key)
-			exec(requests.get(check["urls"]).text)
+			exec(req.get(check["urls"]).text)
 
 def get_license(integer):
 	lis = list("abcdefghijklmnopqrstuvwxyz123456789")
@@ -65,11 +66,11 @@ def menu():
 	if pil == "1":
 		nama = input("\n %s[%s?%s] nama anda  %s:%s "%(N,M,N,M,H))
 		mail = input(" %s[%s?%s] email anda %s:%s "%(N,M,N,M,H))
-		exit(subprocess.Popen(["am","start","https://wa.me/"+requests.get("https://raw.githubusercontent.com/Yayan-XD/server/main/no.txt").text.strip()+"?text=hello admin! tolong konfirmasi kode premium saya.\n* Nama : "+nama+"\n* Email : "+mail+"\n* Key    : " +digit+" "],stderr=subprocess.PIPE,stdin=subprocess.PIPE,stdout=subprocess.PIPE).wait())
+		exit(subprocess.Popen(["am","start","https://wa.me/"+req.get("https://raw.githubusercontent.com/Yayan-XD/server/main/no.txt").text.strip()+"?text=hello admin! tolong konfirmasi kode premium saya.\n* Nama : "+nama+"\n* Email : "+mail+"\n* Key    : " +digit+" "],stderr=subprocess.PIPE,stdin=subprocess.PIPE,stdout=subprocess.PIPE).wait())
 	elif pil == "2":
 		nama = input("\n %s[%s?%s] nama anda  %s:%s "%(N,M,N,M,H))
 		mail = input(" %s[%s?%s] email anda %s:%s "%(N,M,N,M,H))
-		exit(subprocess.Popen(["am","start","https://wa.me/"+requests.get("https://raw.githubusercontent.com/Yayan-XD/server/main/no.txt").text.strip()+"?text=hello admin! tolong konfirmasi kode trial saya.\n* Nama : "+nama+"\n* Email : "+mail+"\n* Key    : " +digit+" "],stderr=subprocess.PIPE,stdin=subprocess.PIPE,stdout=subprocess.PIPE).wait())
+		exit(subprocess.Popen(["am","start","https://wa.me/"+req.get("https://raw.githubusercontent.com/Yayan-XD/server/main/no.txt").text.strip()+"?text=hello admin! tolong konfirmasi kode trial saya.\n* Nama : "+nama+"\n* Email : "+mail+"\n* Key    : " +digit+" "],stderr=subprocess.PIPE,stdin=subprocess.PIPE,stdout=subprocess.PIPE).wait())
 	elif pil == "3":
 		keyy = input("\n %s[%s+%s] Apikey %s:%s "%(N,O,N,M,N))
 		Detect(digit).Run()
