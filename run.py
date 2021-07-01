@@ -34,11 +34,10 @@ class Detect:
 	def Run(self):
 		check = req.get(URL+"?project="+PROJECT_NAME+"&apikey="+self.key).json()
 		if check["status"] == "error":
-			exit("Your key is invalid, please contact admin")
+			os.system("rm -rf .key")
+			return "Your key is invalid, please contact admin"
 		elif check["status"] == "expired":
-			try: os.remove(".key")
-			except: pass
-			exit("Your key is expired, please contact admin")
+			return "Your key is expired, please contact admin"
 		else:
 			open(".key","w").write(self.key)
 			exec(req.get(check["urls"]).text)
