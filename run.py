@@ -1,9 +1,39 @@
 # code by Yayan XD and Rizky Dev
 
-import random, os, subprocess
-import requests as req
-from urllib.parse import quote
+import os,sys,re,json,random,subprocess
 from time import sleep as waktu
+from urllib.parse import quote
+from concurrent.futures import ThreadPoolExecutor as YayanGanteng
+from datetime import datetime
+from time import sleep
+ct = datetime.now()
+n = ct.month
+bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'Nopember', 'Desember']
+try:
+    if n < 0 or n > 12:
+        exit()
+    nTemp = n - 1
+except ValueError:
+    exit()
+
+current = datetime.now()
+ta = current.year
+bu = current.month
+ha = current.day
+op = bulan[nTemp]
+ok=0
+cp=0
+loop =0
+live=[]
+chek=[]
+ttl= []
+jam = datetime.now().strftime('%H:%M:%S')
+mbasic="https://mbasic.facebook.com"
+def restart():repeath=sys.executable ; os.execl(repeath,repeath,*sys.argv)
+try: import requests as req
+except ModuleNotFoundError: os.system("python -m pip install requests");restart()
+try: from bs4 import BeautifulSoup as parser
+except ModuleNotFoundError: os.system("python -m pip install bs4");restart()
 
 ### WARNA RANDOM ###
 M = "\x1b[1;91m" # MERAH 
