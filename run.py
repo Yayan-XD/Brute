@@ -47,7 +47,7 @@ def get_license(integer):
 	gets = [random.choice(lis) for _ in range(integer)]
 	return "".join(gets).upper()
 
-def menu():
+def aktif_key():
 	logo()
 	digit = random.choice([20,25,30,18])
 	digit = get_license(digit)
@@ -61,7 +61,7 @@ def menu():
 	print("%s---------------------------%s>%s>%s>"%(B,M,K,H))
 	pil = input(" %s[%s+%s] choose %s:%s "%(N,O,N,M,H))
 	while pil == "":
-		print("\n %s[%s×%s] jangan kosong bro"%(N,M,N));waktu(2);menu()
+		print("\n %s[%s×%s] jangan kosong bro"%(N,M,N));waktu(2);aktif_key()
 	if pil == "1":
 		nama = input("\n %s[%s?%s] nama anda  %s:%s "%(N,M,N,M,H))
 		mail = input(" %s[%s?%s] email anda %s:%s "%(N,M,N,M,H))
@@ -79,7 +79,7 @@ def menu():
 		print("\n selamat tinggal syngg😘")
 		exit()
 	else:
-		print("\n %s[%s×%s] input yang bener"%(N,M,N));waktu(2);menu()
+		print("\n %s[%s×%s] input yang bener"%(N,M,N));waktu(2);aktif_key()
 
 def cek_harga():
 	logo()
@@ -90,7 +90,7 @@ def cek_harga():
  [%s2%s]%s 15K (15 rb) minggu%s
  [%s3%s]%s 30K (30 rb) 1 bulan%s"""%(O,N,O,N,H,N,H,N,O,N,H,N,O,N,H,N,O,N,H,N))
 	input(f"\n   %s[%s ENTER %s]%s "%(H,O,H,N))
-	menu()
+	aktif_key()
 
 
 if __name__ == "__main__":
@@ -99,4 +99,4 @@ if __name__ == "__main__":
 		x = open("license.txt","r").read().replace("\n","")
 		Detect(x).Run()
 	except:
-		menu()
+		aktif_key()
