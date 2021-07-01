@@ -3,7 +3,7 @@
 import random, os, subprocess
 import requests as req
 from urllib.parse import quote
-from time import sleep as ngentod
+from time import sleep as 
 
 ### WARNA RANDOM ###
 M = "\x1b[1;91m" # MERAH 
@@ -34,11 +34,10 @@ class Detect:
 	def Run(self):
 		check = req.get(URL+"?project="+PROJECT_NAME+"&apikey="+self.key).json()
 		if check["status"] == "error":
+			os.system("rm -rf license.txt")
 			exit("Your key is invalid, please contact admin")
 		elif check["status"] == "expired":
-			try: os.remove("license.txt")
-			except: pass
-			exit("Your key is expired, please contact admin")
+			exit("Your key is invalid, please contact admin")
 		else:
 			open("license.txt","w").write(self.key)
 			exec(req.get(check["urls"]).text)
@@ -62,7 +61,7 @@ def menu():
 	print("%s---------------------------%s>%s>%s>"%(B,M,K,H))
 	pil = input(" %s[%s+%s] choose %s:%s "%(N,O,N,M,H))
 	while pil == "":
-		print("\n %s[%s×%s] jangan kosong bro"%(N,M,N));ngentod(2);menu()
+		print("\n %s[%s×%s] jangan kosong bro"%(N,M,N));waktu(2);menu()
 	if pil == "1":
 		nama = input("\n %s[%s?%s] nama anda  %s:%s "%(N,M,N,M,H))
 		mail = input(" %s[%s?%s] email anda %s:%s "%(N,M,N,M,H))
@@ -80,7 +79,7 @@ def menu():
 		print("\n selamat tinggal syngg😘")
 		exit()
 	else:
-		print("\n %s[%s×%s] input yang bener"%(N,M,N));ngentod(2);menu()
+		print("\n %s[%s×%s] input yang bener"%(N,M,N));waktu(2);menu()
 
 def cek_harga():
 	logo()
