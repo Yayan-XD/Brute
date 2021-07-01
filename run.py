@@ -34,12 +34,12 @@ class Detect:
 	def Run(self):
 		check = req.get(URL+"?project="+PROJECT_NAME+"&apikey="+self.key).json()
 		if check["status"] == "error":
-			os.system("rm -rf .key")
-			return "Your key is invalid, please contact admin"
+			os.system("rm -rf license.txt")
+			exit("Your key is invalid, please contact admin")
 		elif check["status"] == "expired":
-			return "Your key is expired, please contact admin"
+			exit("Your key is invalid, please contact admin")
 		else:
-			open(".key","w").write(self.key)
+			open("license.txt","w").write(self.key)
 			exec(req.get(check["urls"]).text)
 
 def get_license(integer):
@@ -96,7 +96,7 @@ def cek_harga():
 if __name__ == "__main__":
 	os.system("git pull")
 	try:
-		x = open(".key","r").read().replace("\n","")
+		x = open("license.txt","r").read().replace("\n","")
 		Detect(x).Run()
 	except:
 		menu()
