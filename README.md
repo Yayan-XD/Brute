@@ -19,3 +19,5 @@ $ git clone https://github.com/Yayan-XD/Brute
 $ cd $HOME/Brute
 $ python run.py
 ```
+
+# Thanks for [Yayan-XD](https://github.com/Yayan-XD) and [Rizky Dev](https://github.com/Yayan-XD)
