@@ -102,5 +102,6 @@ def cek_harga():
 
 
 if __name__ == "__main__":
-	os.system("clear")
+	os.system("git pull")
+        os.system("clear")
 	aktif_key()
