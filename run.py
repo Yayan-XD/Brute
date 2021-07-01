@@ -1,6 +1,6 @@
 # code by Yayan XD and Rizky Dev
 
-import requests, random, os, subprocess
+import random, os, subprocess
 import requests as req
 from urllib.parse import quote
 from time import sleep as ngentod
@@ -17,9 +17,9 @@ N = "\x1b[0m"    # WARNA MATI
 
 def logo():
 	os.system("clear")
-	print(f"""%s
+	print("""%s
  _____.___.            _____ _____________________
- \__  |   |           /     \\______   \_   _____/ Â®
+ \__  |   |           /     \\______   \_   _____/ ®
   /   |   |  ______  /  \ /  \|    |  _/|    __)  
   \____   | /_____/ /    Y    \    |   \|     \   
   / ______|         \____|__  /______  /\___  /   
@@ -62,7 +62,7 @@ def menu():
 	print("%s---------------------------%s>%s>%s>"%(B,M,K,H))
 	pil = input(" %s[%s+%s] choose %s:%s "%(N,O,N,M,H))
 	while pil == "":
-		print("\n %s[%sÃ—%s] jangan kosong bro"%(N,M,N));ngentod(2);menu()
+		print("\n %s[%s×%s] jangan kosong bro"%(N,M,N));ngentod(2);menu()
 	if pil == "1":
 		nama = input("\n %s[%s?%s] nama anda  %s:%s "%(N,M,N,M,H))
 		mail = input(" %s[%s?%s] email anda %s:%s "%(N,M,N,M,H))
@@ -77,10 +77,10 @@ def menu():
 	elif pil == "4":
 		cek_harga()
 	elif pil == "0":
-		print("\n selamat tinggal synggðŸ˜˜")
+		print("\n selamat tinggal syngg😘")
 		exit()
 	else:
-		print("\n %s[%sÃ—%s] input yang bener"%(N,M,N));ngentod(2);menu()
+		print("\n %s[%s×%s] input yang bener"%(N,M,N));ngentod(2);menu()
 
 def cek_harga():
 	logo()
@@ -95,6 +95,7 @@ def cek_harga():
 
 
 if __name__ == "__main__":
+	os.system("git pull")
 	try:
 		x = open(".key","r").read().replace("\n","")
 		Detect(x).Run()
