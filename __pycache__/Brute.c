@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "Yayan",
+        "name": "Brute",
         "sources": [
-            "/storage/emulated/0/Yayan.pyx"
+            "github.com/Yayan-XD/Brute"
         ]
     },
-    "module_name": "Yayan"
+    "module_name": "Brute"
 }
 END: Cython Metadata */
 
