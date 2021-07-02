@@ -27,6 +27,7 @@ def logo():
   \/                        \/       \/     \/    """%(N))
 
 def cek_key(key):
+	open("license.txt","w").write(key)
 	cek = req.get(URL+"?project="+PROJECT_NAME+"&apikey="+key).json()
 	if cek["status"] == "error":
 		try: os.remove("license.txt")
@@ -112,4 +113,3 @@ def aktif_key():
 if __name__ == "__main__":
 	os.system("git pull")
 	aktif_key()
-
