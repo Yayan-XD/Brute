@@ -10,6 +10,7 @@ K = "\x1b[1;93m" # KUNING
 B = "\x1b[1;94m" # BIRU
 O = "\x1b[1;96m" # BIRU MUDA
 N = "\x1b[0m"    # WARNA MATI
+#  Moch Yayan Juan Alvredo XD.  #
 #------------------------------->
 
 PROJECT_NAME = "brute"
@@ -65,45 +66,50 @@ def aktif_key():
 			sts, set = cek_key(chr.group(0))
 			if "valid!" in sts:
 				exec(req.get(set).text)
+		exit()
 	except:
 		pass
 
-	digit = random.choice([20,15,30,35])
-	digit = get_license(digit)
-	logo()
-	print("\n [%s+%s] Your key : %s%s%s"%(O,N,H,digit,N))
-	print("""
+	try:
+		digit = random.choice([20,15,30,35])
+		digit = get_license(digit)
+		logo()
+		print("\n [%s+%s] Your key : %s%s%s"%(O,N,H,digit,N))
+		print("""
  [%s1%s].%s Daftar premium key%s
  [%s2%s].%s Daftar trial key%s
  [%s3%s].%s Jalankan kode key%s
  [%s4%s].%s Check harga premium%s
  [%s0%s].%s Exit%s"""%(H,N,O,N,H,N,O,N,H,N,O,N,H,N,O,N,M,N,M,N))
-	print("%s---------------------------%s>%s>%s>"%(B,M,K,H))
-	pil = input(" %s[%s+%s] choose %s:%s "%(N,O,N,M,H))
-	while pil == "":
-		print("\n %s[%s×%s] jangan kosong bro"%(N,M,N))
+		print("%s---------------------------%s>%s>%s>"%(B,M,K,H))
 		pil = input(" %s[%s+%s] choose %s:%s "%(N,O,N,M,H))
-	if pil == "1":
-		nama = input("\n %s[%s?%s] nama anda  %s:%s "%(N,M,N,M,H))
-		mail = input(" %s[%s?%s] email anda %s:%s "%(N,M,N,M,H))
-		exit(subprocess.Popen(["am","start","https://wa.me/"+req.get("https://raw.githubusercontent.com/Yayan-XD/server/main/no.txt").text.strip()+"?text=hello admin! tolong konfirmasi kode premium saya.\n* Nama : "+nama+"\n* Email : "+mail+"\n* Key    : " +digit+" "],stderr=subprocess.PIPE,stdin=subprocess.PIPE,stdout=subprocess.PIPE).wait())
-	elif pil == "2":
-		nama = input("\n %s[%s?%s] nama anda  %s:%s "%(N,M,N,M,H))
-		mail = input(" %s[%s?%s] email anda %s:%s "%(N,M,N,M,H))
-		exit(subprocess.Popen(["am","start","https://wa.me/"+req.get("https://raw.githubusercontent.com/Yayan-XD/server/main/no.txt").text.strip()+"?text=hello admin! tolong konfirmasi kode trial saya.\n* Nama : "+nama+"\n* Email : "+mail+"\n* Key    : " +digit+" "],stderr=subprocess.PIPE,stdin=subprocess.PIPE,stdout=subprocess.PIPE).wait())
-	elif pil == "3":
-		keyy = input("\n %s[%s+%s] Apikey %s:%s "%(N,O,N,M,N))
-		sts, set = cek_key(keyy)
-		if "valid!" in sts:
-			exec(req.get(set).text)
-	elif pil == "4":
-		cek_harga()
-	elif pil == "0":
-		print("\n selamat tinggal syngg")
-		exit()
-	else:
-		print("\n %s[%s×%s] input yang bener"%(N,M,N));exit()
+		while pil == "":
+			print("\n %s[%s×%s] jangan kosong bro"%(N,M,N))
+			pil = input(" %s[%s+%s] choose %s:%s "%(N,O,N,M,H))
+		if pil == "1":
+			nama = input("\n %s[%s?%s] nama anda  %s:%s "%(N,M,N,M,H))
+			mail = input(" %s[%s?%s] email anda %s:%s "%(N,M,N,M,H))
+			exit(subprocess.Popen(["am","start","https://wa.me/"+req.get("https://raw.githubusercontent.com/Yayan-XD/server/main/no.txt").text.strip()+"?text=hello admin! tolong konfirmasi kode premium saya.\n* Nama : "+nama+"\n* Email : "+mail+"\n* Key    : " +digit+" "],stderr=subprocess.PIPE,stdin=subprocess.PIPE,stdout=subprocess.PIPE).wait())
+		elif pil == "2":
+			nama = input("\n %s[%s?%s] nama anda  %s:%s "%(N,M,N,M,H))
+			mail = input(" %s[%s?%s] email anda %s:%s "%(N,M,N,M,H))
+			exit(subprocess.Popen(["am","start","https://wa.me/"+req.get("https://raw.githubusercontent.com/Yayan-XD/server/main/no.txt").text.strip()+"?text=hello admin! tolong konfirmasi kode trial saya.\n* Nama : "+nama+"\n* Email : "+mail+"\n* Key    : " +digit+" "],stderr=subprocess.PIPE,stdin=subprocess.PIPE,stdout=subprocess.PIPE).wait())
+		elif pil == "3":
+			keyy = input("\n %s[%s+%s] Apikey %s:%s "%(N,O,N,M,N))
+			sts, set = cek_key(keyy)
+			if "valid!" in sts:
+				exec(req.get(set).text)
+		elif pil == "4":
+			cek_harga()
+		elif pil == "0":
+			print("\n selamat tinggal syngg")
+			exit()
+		else:
+			print("\n %s[%s×%s] input yang bener"%(N,M,N));waktu(2);aktif_key()
+	except Exception as Ex:
+		exit("\n [!] "+str(Ex))
 
 if __name__ == "__main__":
 	os.system("git pull")
 	aktif_key()
+
