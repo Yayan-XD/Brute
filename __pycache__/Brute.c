@@ -5,7 +5,7 @@
     "distutils": {
         "name": "Brute",
         "sources": [
-            "github.com/Yayan-XD/Brute"
+            "https://github.com/Yayan-XD/Brute"
         ]
     },
     "module_name": "Brute"
