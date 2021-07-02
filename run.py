@@ -59,7 +59,6 @@ def cek_harga():
 def aktif_key():
 	try:
 		xnxx = open("license.txt","r").read().replace("\n","")
-		# cek apakah user memasukan text kosong kedalam file key?
 		chr = re.search("[a-z-A-Z-0-9]+", str(xnxx))
 		if chr is None:
 			exit("\n [!] Your key not valid")
