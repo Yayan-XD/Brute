@@ -36,5 +36,5 @@ jika ingin tidak dibatasi anda bisa meng-upgrade ke premium user dengan harga 15
 ##### catatan:
  gunakanlah dengan bijak, atas apapun yang terjadi admin tidak bertanggung jawab.
 
-####### Thanks for [Yayan-XD](https://github.com/Yayan-XD) and [Rizky Dev](https://github.com/hekelpro)
+###### Thanks for [Yayan-XD](https://github.com/Yayan-XD) and [Rizky Dev](https://github.com/hekelpro)
 
