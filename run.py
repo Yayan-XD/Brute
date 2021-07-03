@@ -105,7 +105,7 @@ def aktif_key():
 		elif pil == "4":
 			cek_harga()
 		elif pil == "0":
-			print("\n selamat tinggal syngg")
+			print("\n selamat tinggal")
 			exit()
 		else:
 			print("\n %s[%s×%s] input yang bener"%(N,M,N));waktu(2);aktif_key()
