@@ -16,7 +16,7 @@ jika ingin tidak dibatasi anda bisa meng-upgrade ke premium user dengan harga 15
  cd $HOME/Brute
  python run.py
  ```
- oke script sudah berhasil dijalankan tinggal pastekan api key anda yang baru saja di kasih [admin](https://wa.me/6285603036683)
+ oke script sudah berhasil dijalankan tinggal registrasi mau menggunakan user premium or trial, jika anda memilih trial maka di batesi limit 1 days.
  jika sudah akan disuruh login dengan cookie akun fb, untuk pengambilan cookie FB anda bisa melihat tutorial [disini](https://youtu.be/DF7bUCn0GFY).
 
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/pict.jpg)
