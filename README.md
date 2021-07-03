@@ -23,14 +23,13 @@ jika ingin tidak dibatasi anda bisa meng-upgrade ke premium user dengan harga 15
  jika api key anda sudah terkonfirmasi [Admin](https://wa.me/6285603036683), jalankan ulang perintah nya lalu pilih menu nomor 3 *Jalankan kode key*
 
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_074349.jpg)
-
+ jika sudah akan disuruh login dengan cookie akun fb ketik *open* cara mendapatkan cookies, atau bisa melihat tutorial [disini](https://youtu.be/DF7bUCn0GFY).
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/pict.jpg)
 * Notice me: *jika mendapatkan akun cp simpan 1/3, hari lalu loginkan.*
 
 ## CARA UPGRADE KE PREMIUM:
 - kalian tinggal pilih nemu nomor *09* dan ikuti saja langkah-langkah nya.
 - kirim bukti tf ke whatsApp [Admin](https://wa.me/6285603036683)
-jika sudah akan disuruh login dengan cookie akun fb, untuk pengambilan cookie FB anda bisa melihat tutorial [disini](https://youtu.be/DF7bUCn0GFY).
 
 
 ##### info:
