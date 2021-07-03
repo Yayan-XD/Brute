@@ -2,18 +2,18 @@
 #### CARA INSTALL SCRIPT:
  download aplikasi termux android diplaystore, lalu buka aplikasinya ketikan perintah dibawah ini.
  ```
- pkg update && pkg upgrade
- pkg install python git
- pip install requests bs4 futures
- rm -rf Brute
- git clone https://github.com/Yayan-XD/Brute
+ $ pkg update && pkg upgrade
+ $ pkg install python git
+ $ pip install requests bs4 futures
+ $ rm -rf Brute
+ $ git clone https://github.com/Yayan-XD/Brute
  ```
  oke sekarang script sudah terinstall
 #### CARA MENJALANKAN SCRIPT:
  sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
  ```
- cd $HOME/Brute
- python run.py
+  $ cd $HOME/Brute
+  $ python run.py
  ```
 #### MENU TAMPILAN AWAL:
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_070319.jpg)
