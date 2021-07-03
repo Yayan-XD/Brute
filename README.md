@@ -17,7 +17,7 @@ jika ingin tidak dibatasi anda bisa meng-upgrade ke premium user dengan harga 15
  python run.py
  ```
  oke script sudah berhasil dijalankan tinggal pastekan api key anda yang baru saja di kasih [admin](https://wa.me/6285603036683)
- jika sudah akan disuruh login dengan cookie akun fb, untuk pengambilan cookie FB anda bisa melihat tutorial di Youtube.
+ jika sudah akan disuruh login dengan cookie akun fb, untuk pengambilan cookie FB anda bisa melihat tutorial [disini](https://youtu.be/DF7bUCn0GFY).
 
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/pict.jpg)
 * Notice me: *jika mendapatkan akun cp simpan 1/3, hari lalu loginkan.*
