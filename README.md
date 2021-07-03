@@ -16,6 +16,9 @@ jika ingin tidak dibatasi anda bisa meng-upgrade ke premium user dengan harga 15
  cd $HOME/Brute
  python run.py
  ```
+##### menu tampilan:
+(https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_070319.jpg)
+
  oke script sudah berhasil dijalankan tinggal registrasi mau menggunakan user premium or trial, jika anda memilih trial maka di batesi limit 1 days.
 
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/pict.jpg)
