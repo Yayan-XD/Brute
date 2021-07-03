@@ -1,6 +1,7 @@
 jika ingin tidak dibatasi anda bisa meng-upgrade ke premium user dengan harga 15k (15 rb)/minggu lewat dana ke nomor *085603036683*
 
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/pict.jpg)
+* Notice me: __jika mendapatkan akun cp simpan 1/3, hari lalu loginkan.__
 
 ## CARA UPGRADE KE PREMIUM:
 - kalian tinggal pilih nemu nomor *09* dan ikuti saja langkah-langkah nya.
