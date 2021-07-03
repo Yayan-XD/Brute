@@ -1,4 +1,3 @@
-jika ingin tidak dibatasi anda bisa meng-upgrade ke premium user dengan harga 15k (15 rb)/minggu lewat dana ke nomor *085603036683*
 
 #### CARA INSTALL SCRIPT:
  download aplikasi termux android diplaystore, lalu buka aplikasinya ketikan perintah dibawah ini.
