@@ -24,7 +24,7 @@
  jika sudah akan disuruh login dengan cookies akun fb ketik *open* cara mendapatkan cookies, atau bisa melihat tutorial [disini](https://youtu.be/DF7bUCn0GFY).
 
 #### Results:
-![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_070319.jpg)
+![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/pict.jpg)
 * Notice me: *jika mendapatkan akun cp simpan 1/3, hari lalu loginkan.*
 
 ## CARA UPGRADE KE PREMIUM:
