@@ -14,7 +14,7 @@ N = "\x1b[0m"    # WARNA MATI
 #------------------------------->
 
 PROJECT_NAME = "brute"
-URL = "https://yayanxd.my.id/chek.php"
+URL = "https://blackhuman.000webhostapp.com/chek.php"
 
 def logo():
 	os.system("clear")
