@@ -50,7 +50,7 @@ def cek_harga():
 	print (f"""
     %s*%s daftar harga Lisensi %s*%s\n
   %s>%s pembayaran via dana/pulsa %s<%s\n
- [%s1%s]%s 5K  (10 rb) Sehari%s
+ [%s1%s]%s 5K  (5  rb) Sehari%s
  [%s2%s]%s 15K (15 rb) minggu%s
  [%s3%s]%s 30K (30 rb) 1 bulan%s"""%(O,N,O,N,H,N,H,N,O,N,H,N,O,N,H,N,O,N,H,N))
 	input(f"\n   %s[%s ENTER %s]%s "%(H,O,H,N))
