@@ -15,6 +15,14 @@
   $ cd $HOME/Brute
   $ python run.py
  ```
+#### jika terjadi error pas perintah python run.py Kamu bisa mencoba cara dibawah ini:
+```
+$ cd $HOME/Brute
+$ pip install cython
+$ rm *.so
+$ cythonize -i brute.c
+$ python run.py
+```
 #### MENU TAMPILAN AWAL:
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_070319.jpg)
  oke script sudah berhasil dijalankan tinggal registrasi mau menggunakan user premium or trial, jika anda memilih trial maka di batesi limit 1 days.
