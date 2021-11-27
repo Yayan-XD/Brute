@@ -15,19 +15,6 @@
   $ cd $HOME/Brute
   $ python run.py
  ```
-#### jika terjadi error pas perintah python run.py Kamu bisa mencoba cara dibawah ini:
-```
-$ cd $HOME/Brute
-$ pip install cython
-$ rm *.so
-$ cythonize -i brute.c
-$ python run.py
-```
-#### MENU TAMPILAN AWAL:
-![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_070319.jpg)
- oke script sudah berhasil dijalankan tinggal registrasi mau menggunakan user premium or trial, jika anda memilih trial maka di batesi limit 1 days.
- jika api key anda sudah terkonfirmasi [Admin](https://wa.me/6285603036683), jalankan ulang perintah nya lalu pilih menu nomor 3 *Jalankan kode key*
-
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_074349.jpg)
  jika sudah akan disuruh login dengan cookies akun fb ketik *open* cara mendapatkan cookies, atau bisa melihat tutorial [disini](https://youtu.be/DF7bUCn0GFY).
 
