@@ -27,7 +27,7 @@
 * Notice me: *jika mendapatkan akun cp simpan 1/3, hari lalu loginkan.*
 
 ## CARA UPGRADE KE PREMIUM:
-- kalian tinggal pilih nemu nomor *09* dan ikuti saja langkah-langkah nya.
+- kalian tinggal ketik *beli* dan ikuti saja langkah-langkah nya.
 - kirim bukti tf ke whatsApp [Admin](https://wa.me/6285603036683)
 
 
