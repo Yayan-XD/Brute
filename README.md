@@ -22,9 +22,13 @@
 ### UPGRADE KE PREMUIM:
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_070319.jpg)
  ketik *beli* jika anda ingin mendapatkan key premuim, atau bisa juga ketik *admin* untuk mendapatkan informasi selanjutnya.
-#### Results:
+#### RESULTS CRACK FB:
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/pict.jpg)
 * Notice me: *jika mendapatkan akun cp simpan 1/3, hari lalu loginkan.*
+
+#### RESULTS CRACK IG:
+![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/Screenshot_20211127_123029.jpg)
+* Notice me: Hasil crack followers banyak atau sedikit nya tergantung target yang di dapatkan.
 
 ##### info:
  untuk versi sekarang hanya support di perangkat yang *aarch64* untuk mengecek
