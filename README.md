@@ -26,11 +26,6 @@
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/pict.jpg)
 * Notice me: *jika mendapatkan akun cp simpan 1/3, hari lalu loginkan.*
 
-## CARA UPGRADE KE PREMIUM:
-- kalian tinggal ketik *beli* dan ikuti saja langkah-langkah nya.
-- kirim bukti tf ke whatsApp [Admin](https://wa.me/6285603036683)
-
-
 ##### info:
  untuk versi sekarang hanya support di perangkat yang *aarch64* untuk mengecek
  ketik perintah ini : ```uname -m``` jika muncul *aarch64* selamat anda bisa menggunakan script ini,
