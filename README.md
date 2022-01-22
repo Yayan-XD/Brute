@@ -23,7 +23,7 @@
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_070319.jpg)
  ketik *trial* jika anda ingin mendapatkan key trial 1 hari., atau bisa juga ketik *admin* untuk mendapatkan informasi selanjutnya.
 
-### UPGRADE KE PREMUIM:
+### LOGIN COOKIE:
 
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_074349.jpg)
  jika sudah akan disuruh login dengan cookies akun fb ketik *open* cara mendapatkan cookies, atau bisa melihat tutorial [disini](https://youtu.be/DF7bUCn0GFY).
