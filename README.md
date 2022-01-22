@@ -13,7 +13,6 @@
  sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
  ```
   $ cd $HOME/Brute
-  $ python run.py
   $ git pull
   $ rm -f *.so
   $ python setup.py build_ext --inplace
