@@ -14,14 +14,19 @@
  ```
   $ cd $HOME/Brute
   $ python run.py
+  $ git pull
+  $ rm -f *.so
+  $ python setup.py build_ext --inplace
+  $ python run.py
  ```
 ### TAMPILAN AWAL:
-![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_074349.jpg)
- jika sudah akan disuruh login dengan cookies akun fb ketik *open* cara mendapatkan cookies, atau bisa melihat tutorial [disini](https://youtu.be/DF7bUCn0GFY).
+![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_070319.jpg)
+ ketik *trial* jika anda ingin mendapatkan key trial 1 hari., atau bisa juga ketik *admin* untuk mendapatkan informasi selanjutnya.
 
 ### UPGRADE KE PREMUIM:
-![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_070319.jpg)
- ketik *beli* jika anda ingin mendapatkan key premuim, atau bisa juga ketik *admin* untuk mendapatkan informasi selanjutnya.
+
+![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_074349.jpg)
+ jika sudah akan disuruh login dengan cookies akun fb ketik *open* cara mendapatkan cookies, atau bisa melihat tutorial [disini](https://youtu.be/DF7bUCn0GFY).
 #### RESULTS CRACK FB:
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/pict.jpg)
 * Notice me: *jika mendapatkan akun cp simpan 1/3, hari lalu loginkan.*
