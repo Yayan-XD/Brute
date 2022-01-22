@@ -2411,10 +2411,10 @@ static const char __pyx_k_accessToken_EAA_w[] = "{\"accessToken\":\"(EAA\\w+)";
       static const char __pyx_k_https_www_instagram_com_accounts[] = "https://www.instagram.com/accounts/login/";
       static const char __pyx_k_https_www_yayanxd_my_id_server_i[] = "https://www.yayanxd.my.id/server/ip/";
       static const char __pyx_k_xdg_open_https_apikey_yayanxd_my[] = "xdg-open https://apikey.yayanxd.my.id/";
-      static const char __pyx_k_xdg_open_https_wa_me_62856030366[] = "xdg-open https://wa.me/6285603036683?text=Mohon+bantuannya+cara+menggunakan+tools+brute";
+      static const char __pyx_k_xdg_open_https_wa_me_62877991835[] = "xdg-open https://wa.me/6287799183568?text=RATU+ERROR+BELI+LISENSINYA+DOOONG...........\077\077?";
       static const char __pyx_k_xdg_open_https_www_yayanxd_my_id[] = "xdg-open https://www.yayanxd.my.id/server";
+      static const char __pyx_k_xdg_open_https_www_youtube_com_c[] = "xdg-open https://www.youtube.com/channel/UCnCtCt65kIILj_AS-OsSS2Q";
       static const char __pyx_k_xdg_open_https_youtu_be_DF7bUCn0[] = "xdg-open https://youtu.be/DF7bUCn0GFY";
-      static const char __pyx_k_xdg_open_https_youtube_com_chann[] = "xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg";
       static const char __pyx_k_text_html_application_xhtml_xml_2[] = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";
       static const char __pyx_k_https_i_instagram_com_api_v1_fri_2[] = "https://i.instagram.com/api/v1/friendships/{}/followers/?count={}";
       static const char __pyx_k_https_i_instagram_com_api_v1_fri_3[] = "https://i.instagram.com/api/v1/friendships/{}/following/?count={}";
@@ -3282,10 +3282,10 @@ static const char __pyx_k_accessToken_EAA_w[] = "{\"accessToken\":\"(EAA\\w+)";
       static PyObject *__pyx_kp_u_x_requested_with;
       static PyObject *__pyx_n_s_xd;
       static PyObject *__pyx_kp_u_xdg_open_https_apikey_yayanxd_my;
-      static PyObject *__pyx_kp_u_xdg_open_https_wa_me_62856030366;
+      static PyObject *__pyx_kp_u_xdg_open_https_wa_me_62877991835;
       static PyObject *__pyx_kp_u_xdg_open_https_www_yayanxd_my_id;
+      static PyObject *__pyx_kp_u_xdg_open_https_www_youtube_com_c;
       static PyObject *__pyx_kp_u_xdg_open_https_youtu_be_DF7bUCn0;
-      static PyObject *__pyx_kp_u_xdg_open_https_youtube_com_chann;
       static PyObject *__pyx_n_s_xxx;
       static PyObject *__pyx_n_s_xz;
       static PyObject *__pyx_n_u_y;
@@ -6861,7 +6861,7 @@ static PyObject *__pyx_pf_5brute_16yayanxd(CYTHON_UNUSED PyObject *__pyx_self) {
  *         print('\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N));time.sleep(2)
  *         print(' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N));time.sleep(2)             # <<<<<<<<<<<<<<
  *         input(' %s*%s tekan enter '%(O,N))
- *         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+ *         os.system('xdg-open https://www.youtube.com/channel/UCnCtCt65kIILj_AS-OsSS2Q')
  */
       __pyx_t_1 = PyTuple_New(5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 164, __pyx_L7_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -6932,7 +6932,7 @@ static PyObject *__pyx_pf_5brute_16yayanxd(CYTHON_UNUSED PyObject *__pyx_self) {
  *         print('\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N));time.sleep(2)
  *         print(' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N));time.sleep(2)
  *         input(' %s*%s tekan enter '%(O,N))             # <<<<<<<<<<<<<<
- *         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+ *         os.system('xdg-open https://www.youtube.com/channel/UCnCtCt65kIILj_AS-OsSS2Q')
  *         moch_yayan()
  */
       __pyx_t_1 = PyTuple_New(5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 165, __pyx_L7_error)
@@ -6982,7 +6982,7 @@ static PyObject *__pyx_pf_5brute_16yayanxd(CYTHON_UNUSED PyObject *__pyx_self) {
       /* "brute.pyx":166
  *         print(' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N));time.sleep(2)
  *         input(' %s*%s tekan enter '%(O,N))
- *         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')             # <<<<<<<<<<<<<<
+ *         os.system('xdg-open https://www.youtube.com/channel/UCnCtCt65kIILj_AS-OsSS2Q')             # <<<<<<<<<<<<<<
  *         moch_yayan()
  *     except AttributeError:
  */
@@ -7001,7 +7001,7 @@ static PyObject *__pyx_pf_5brute_16yayanxd(CYTHON_UNUSED PyObject *__pyx_self) {
           __Pyx_DECREF_SET(__pyx_t_3, function);
         }
       }
-      __pyx_t_1 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_8, __pyx_kp_u_xdg_open_https_youtube_com_chann) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_kp_u_xdg_open_https_youtube_com_chann);
+      __pyx_t_1 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_8, __pyx_kp_u_xdg_open_https_www_youtube_com_c) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_kp_u_xdg_open_https_www_youtube_com_c);
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 166, __pyx_L7_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -7010,7 +7010,7 @@ static PyObject *__pyx_pf_5brute_16yayanxd(CYTHON_UNUSED PyObject *__pyx_self) {
 
       /* "brute.pyx":167
  *         input(' %s*%s tekan enter '%(O,N))
- *         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+ *         os.system('xdg-open https://www.youtube.com/channel/UCnCtCt65kIILj_AS-OsSS2Q')
  *         moch_yayan()             # <<<<<<<<<<<<<<
  *     except AttributeError:
  *         print('\n %s[%s%s] cookies invalid'%(N,M,N));time.sleep(1);yayanxd()
@@ -7054,7 +7054,7 @@ static PyObject *__pyx_pf_5brute_16yayanxd(CYTHON_UNUSED PyObject *__pyx_self) {
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
     /* "brute.pyx":168
- *         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+ *         os.system('xdg-open https://www.youtube.com/channel/UCnCtCt65kIILj_AS-OsSS2Q')
  *         moch_yayan()
  *     except AttributeError:             # <<<<<<<<<<<<<<
  *         print('\n %s[%s%s] cookies invalid'%(N,M,N));time.sleep(1);yayanxd()
@@ -28761,7 +28761,7 @@ static PyObject *__pyx_pf_5brute_44cok(CYTHON_UNUSED PyObject *__pyx_self) {
  *         print("\n[!] jangan kosong bro");time.sleep(2);cok()
  *     elif key in['admin','Admin','ADMIN']:             # <<<<<<<<<<<<<<
  *         jalan("\n %s* %sAnda akan di alihkan ke whatsapp..."%(O,H));time.sleep(0.02)
- *         os.system('xdg-open https://wa.me/6285603036683?text=Mohon+bantuannya+cara+menggunakan+tools+brute');cok()
+ *         os.system('xdg-open https://wa.me/6287799183568?text=RATU+ERROR+BELI+LISENSINYA+DOOONG...........???');cok()
  */
   __Pyx_INCREF(__pyx_v_key);
   __pyx_t_1 = __pyx_v_key;
@@ -28788,7 +28788,7 @@ static PyObject *__pyx_pf_5brute_44cok(CYTHON_UNUSED PyObject *__pyx_self) {
  *         print("\n[!] jangan kosong bro");time.sleep(2);cok()
  *     elif key in['admin','Admin','ADMIN']:
  *         jalan("\n %s* %sAnda akan di alihkan ke whatsapp..."%(O,H));time.sleep(0.02)             # <<<<<<<<<<<<<<
- *         os.system('xdg-open https://wa.me/6285603036683?text=Mohon+bantuannya+cara+menggunakan+tools+brute');cok()
+ *         os.system('xdg-open https://wa.me/6287799183568?text=RATU+ERROR+BELI+LISENSINYA+DOOONG...........???');cok()
  *     elif key in['trial','Trial','TRIAL']:
  */
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_jalan); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 642, __pyx_L1_error)
@@ -28874,7 +28874,7 @@ static PyObject *__pyx_pf_5brute_44cok(CYTHON_UNUSED PyObject *__pyx_self) {
     /* "brute.pyx":643
  *     elif key in['admin','Admin','ADMIN']:
  *         jalan("\n %s* %sAnda akan di alihkan ke whatsapp..."%(O,H));time.sleep(0.02)
- *         os.system('xdg-open https://wa.me/6285603036683?text=Mohon+bantuannya+cara+menggunakan+tools+brute');cok()             # <<<<<<<<<<<<<<
+ *         os.system('xdg-open https://wa.me/6287799183568?text=RATU+ERROR+BELI+LISENSINYA+DOOONG...........???');cok()             # <<<<<<<<<<<<<<
  *     elif key in['trial','Trial','TRIAL']:
  *         jalan("\n %s* %sAnda akan di alihkan ke website..."%(O,H));time.sleep(0.02)
  */
@@ -28893,7 +28893,7 @@ static PyObject *__pyx_pf_5brute_44cok(CYTHON_UNUSED PyObject *__pyx_self) {
         __Pyx_DECREF_SET(__pyx_t_2, function);
       }
     }
-    __pyx_t_1 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_8, __pyx_kp_u_xdg_open_https_wa_me_62856030366) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_kp_u_xdg_open_https_wa_me_62856030366);
+    __pyx_t_1 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_8, __pyx_kp_u_xdg_open_https_wa_me_62877991835) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_kp_u_xdg_open_https_wa_me_62877991835);
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 643, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -28923,14 +28923,14 @@ static PyObject *__pyx_pf_5brute_44cok(CYTHON_UNUSED PyObject *__pyx_self) {
  *         print("\n[!] jangan kosong bro");time.sleep(2);cok()
  *     elif key in['admin','Admin','ADMIN']:             # <<<<<<<<<<<<<<
  *         jalan("\n %s* %sAnda akan di alihkan ke whatsapp..."%(O,H));time.sleep(0.02)
- *         os.system('xdg-open https://wa.me/6285603036683?text=Mohon+bantuannya+cara+menggunakan+tools+brute');cok()
+ *         os.system('xdg-open https://wa.me/6287799183568?text=RATU+ERROR+BELI+LISENSINYA+DOOONG...........???');cok()
  */
     goto __pyx_L3;
   }
 
   /* "brute.pyx":644
  *         jalan("\n %s* %sAnda akan di alihkan ke whatsapp..."%(O,H));time.sleep(0.02)
- *         os.system('xdg-open https://wa.me/6285603036683?text=Mohon+bantuannya+cara+menggunakan+tools+brute');cok()
+ *         os.system('xdg-open https://wa.me/6287799183568?text=RATU+ERROR+BELI+LISENSINYA+DOOONG...........???');cok()
  *     elif key in['trial','Trial','TRIAL']:             # <<<<<<<<<<<<<<
  *         jalan("\n %s* %sAnda akan di alihkan ke website..."%(O,H));time.sleep(0.02)
  *         os.system('xdg-open https://apikey.yayanxd.my.id/');cok()
@@ -28957,7 +28957,7 @@ static PyObject *__pyx_pf_5brute_44cok(CYTHON_UNUSED PyObject *__pyx_self) {
   if (__pyx_t_6) {
 
     /* "brute.pyx":645
- *         os.system('xdg-open https://wa.me/6285603036683?text=Mohon+bantuannya+cara+menggunakan+tools+brute');cok()
+ *         os.system('xdg-open https://wa.me/6287799183568?text=RATU+ERROR+BELI+LISENSINYA+DOOONG...........???');cok()
  *     elif key in['trial','Trial','TRIAL']:
  *         jalan("\n %s* %sAnda akan di alihkan ke website..."%(O,H));time.sleep(0.02)             # <<<<<<<<<<<<<<
  *         os.system('xdg-open https://apikey.yayanxd.my.id/');cok()
@@ -29092,7 +29092,7 @@ static PyObject *__pyx_pf_5brute_44cok(CYTHON_UNUSED PyObject *__pyx_self) {
 
     /* "brute.pyx":644
  *         jalan("\n %s* %sAnda akan di alihkan ke whatsapp..."%(O,H));time.sleep(0.02)
- *         os.system('xdg-open https://wa.me/6285603036683?text=Mohon+bantuannya+cara+menggunakan+tools+brute');cok()
+ *         os.system('xdg-open https://wa.me/6287799183568?text=RATU+ERROR+BELI+LISENSINYA+DOOONG...........???');cok()
  *     elif key in['trial','Trial','TRIAL']:             # <<<<<<<<<<<<<<
  *         jalan("\n %s* %sAnda akan di alihkan ke website..."%(O,H));time.sleep(0.02)
  *         os.system('xdg-open https://apikey.yayanxd.my.id/');cok()
@@ -54988,10 +54988,10 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_u_x_requested_with, __pyx_k_x_requested_with, sizeof(__pyx_k_x_requested_with), 0, 1, 0, 0},
   {&__pyx_n_s_xd, __pyx_k_xd, sizeof(__pyx_k_xd), 0, 0, 1, 1},
   {&__pyx_kp_u_xdg_open_https_apikey_yayanxd_my, __pyx_k_xdg_open_https_apikey_yayanxd_my, sizeof(__pyx_k_xdg_open_https_apikey_yayanxd_my), 0, 1, 0, 0},
-  {&__pyx_kp_u_xdg_open_https_wa_me_62856030366, __pyx_k_xdg_open_https_wa_me_62856030366, sizeof(__pyx_k_xdg_open_https_wa_me_62856030366), 0, 1, 0, 0},
+  {&__pyx_kp_u_xdg_open_https_wa_me_62877991835, __pyx_k_xdg_open_https_wa_me_62877991835, sizeof(__pyx_k_xdg_open_https_wa_me_62877991835), 0, 1, 0, 0},
   {&__pyx_kp_u_xdg_open_https_www_yayanxd_my_id, __pyx_k_xdg_open_https_www_yayanxd_my_id, sizeof(__pyx_k_xdg_open_https_www_yayanxd_my_id), 0, 1, 0, 0},
+  {&__pyx_kp_u_xdg_open_https_www_youtube_com_c, __pyx_k_xdg_open_https_www_youtube_com_c, sizeof(__pyx_k_xdg_open_https_www_youtube_com_c), 0, 1, 0, 0},
   {&__pyx_kp_u_xdg_open_https_youtu_be_DF7bUCn0, __pyx_k_xdg_open_https_youtu_be_DF7bUCn0, sizeof(__pyx_k_xdg_open_https_youtu_be_DF7bUCn0), 0, 1, 0, 0},
-  {&__pyx_kp_u_xdg_open_https_youtube_com_chann, __pyx_k_xdg_open_https_youtube_com_chann, sizeof(__pyx_k_xdg_open_https_youtube_com_chann), 0, 1, 0, 0},
   {&__pyx_n_s_xxx, __pyx_k_xxx, sizeof(__pyx_k_xxx), 0, 0, 1, 1},
   {&__pyx_n_s_xz, __pyx_k_xz, sizeof(__pyx_k_xz), 0, 0, 1, 1},
   {&__pyx_n_u_y, __pyx_k_y, sizeof(__pyx_k_y), 0, 1, 0, 1},
