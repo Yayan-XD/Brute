@@ -15,8 +15,6 @@
  ```
   $ cd $HOME/Brute
   $ git pull
-  $ rm -f *.so
-  $ python setup.py build_ext --inplace
   $ python run.py
  ```
 ### TAMPILAN AWAL:
