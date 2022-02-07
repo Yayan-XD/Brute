@@ -13,10 +13,14 @@
 #### CARA MENJALANKAN SCRIPT:
  sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
  ```
-  $ cd $HOME/Brute
+  $ cd Brute
   $ git pull
-  $ python run.py
  ```
+#### GUNAKAN INI UNTUK MENGGANTI BAHASA
+```
+Indonesia : python run.py id
+English   : python run.py en
+```
 ### TAMPILAN AWAL:
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/__pycache__/IMG_20210703_070319.jpg)
  ketik *trial* jika anda ingin mendapatkan key trial 1 hari., atau bisa juga ketik *admin* untuk mendapatkan informasi selanjutnya.
