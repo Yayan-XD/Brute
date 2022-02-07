@@ -8,6 +8,8 @@ M = '\x1b[1;91m' # MERAH
 
 if __name__ == '__main__':
     os.system("git pull")
+    os.system("clear")
+    print("\n")
     try:
         arg_command = sys.argv[1]
     except IndexError:
