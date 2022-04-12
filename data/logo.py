@@ -10,7 +10,7 @@
 
 ############# DON'T REMOVE THIS FUNCTIONS #############
 
-import sys, os
+import sys, os, random
 #---- MODULE RICH IN PYTHON -------
 from rich import print as prints
 from rich.panel import Panel
@@ -31,7 +31,9 @@ def hapus_teks():
 # ------- LOGO --------
 def henceut():
     hapus_teks()
-    prints(Panel(f"""{bir} __  __        __  ______  ____{hps}
-{bir} \ \/ / ____  /  |/  / _ )/ __/ ® {hps}|| Created By YayanXD
-{bir}  \  / /___/ / /|_/ / _  / _/     {hps}|| Github.com/Yayan-XD
-{bir}  /_/       /_/  /_/____/_/ v3.0  {hps}|| Facebook.com/KM39453"""))
+    WAR = random.choice(["[deep_pink3]","[green]","[cyan]","[blue]"])
+    prints(Panel(f"""{WAR}  ▄▄▄▄· ▄▄▄  ▄• ▄▌▄▄▄▄▄▄▄▄ .    ·▄▄▄▄▄▄▄· 
+  ▐█ ▀█▪▀▄ █·█▪██▌•██  ▀▄.▀·    ▐▄▄·▐█ ▀█▪
+  ▐█▀▀█▄▐▀▀▄ █▌▐█▌ ▐█.▪▐▀▀▪▄    ██▪ ▐█▀▀█▄
+  ██▄▪▐█▐█•█▌▐█▄█▌ ▐█▌·▐█▄▄▌    ██▌.██▄▪▐█
+  ·▀▀▀▀ .▀  ▀ ▀▀▀  ▀▀▀  ▀▀▀     ▀▀▀ ·▀▀▀▀  {WAR}version: 0.4[/]"""))
