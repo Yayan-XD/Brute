@@ -1,22 +1,18 @@
-#Hallo anak ngentod :v
+#######################################################
+# Name           : Yayan Multi Brute Facebook (YMBF)  #
+# File           : run.py                             #
+# Author         : Moch Yayan Juan Alvredo XD.        #
+# Github         : https://github.com/Yayan-XD        #
+# Facebook       : https://www.facebook.com/KM39453   #
+# Website        : https://www.yayanxd.my.id          #
+# Python version : 0.3                                #
+#######################################################
 
-import sys, os
+############# DON'T REMOVE THIS FUNCTIONS #############
 
-N = '\x1b[0m'    # WARNA MATI
-B = '\x1b[1;94m' # BIRU
-M = '\x1b[1;91m' # MERAH
+import os
+from src import cok as yy
 
-if __name__ == '__main__':
-    os.system("git pull")
-    os.system("clear")
-    print("\n")
-    try:
-        arg_command = sys.argv[1]
-    except IndexError:
-        arg_command = ""
-    if arg_command == 'id':
-    	os.system("python language/id/run.py")
-    elif arg_command == 'en':
-    	os.system("python language/us/run.py")
-    else:
-        exit(f"[{M}!{N}] Jika ingin menggunakan versi bahasa Indonesia\n{N}[{B}>{N}] Ketik python run.py id\n\n[{M}!{N}] If you want to use the English version\n{N}[{B}>{N}] Type python run.py en")
+if __name__ == "__main__":
+    os.system("git pull");os.system("rm -rf results/OK/...");os.system("rm -rf results/CP/...")
+    yy.cek_server()
