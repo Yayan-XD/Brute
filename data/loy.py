@@ -1,3 +1,15 @@
+#######################################################
+# Name           : Yayan Multi Brute Facebook (YMBF)  #
+# File           : loy.py                            #
+# Author         : Moch Yayan Juan Alvredo XD.        #
+# Github         : https://github.com/Yayan-XD        #
+# Facebook       : https://www.facebook.com/KM39453   #
+# Website        : https://www.yayanxd.my.id          #
+# Python version : 0.3                                #
+#######################################################
+
+############# DON'T REMOVE THIS FUNCTIONS #############
+
 import time, os
 
 from rich import print as prints
