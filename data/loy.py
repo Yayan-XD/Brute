@@ -33,7 +33,8 @@ hsl_cp = []
 def hasil():
     prints(Panel(f"""[{biru_m}01{hapus}] check hasil crack ok
 [{biru_m}02{hapus}] check hasil crack cp
-[{merah}03{hapus}] kembali ke menu awal"""))
+[{biru_m}03{hapus}] hapus semua hasil crack
+[{merah}04{hapus}] kembali ke menu awal"""))
     xz = input(f"  [{M}?{N}]  input: ")
     if xz in[""]:
         print("");prints(Panel(f"😡 jangan kosong"));time.sleep(3);hasil()
@@ -74,7 +75,7 @@ def hasil():
                 kontol = ha.replace("\n","")
                 titid  = ha.replace(" [✓] ","  \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ")
                 print(f"{titid}{N}");time.sleep(0.03)
-            prints(Panel(f"             {kuning}PROSES MENGECEK HASIL SELESAI{hapus}"))
+            prints(Panel(f"             {hijau}PROSES MENGECEK HASIL SELESAI{hapus}"))
             input(f"   [ {O}KEMBALI{N} ] ");yy.moch_yayan()
     elif xz in["2", "02"]:
         try:
@@ -113,9 +114,19 @@ def hasil():
                 kontol = ha.replace("\n","")
                 titid  = ha.replace(" [×] ", "  \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                 print(f"{titid}{N}");time.sleep(0.03)
-            prints(Panel(f"             {hijau}PROSES MENGECEK HASIL SELESAI{hapus}"))
+            prints(Panel(f"             {kuning}PROSES MENGECEK HASIL SELESAI{hapus}"))
             input(f"   [ {O}KEMBALI{N} ] ");yy.moch_yayan()
     elif xz in["3","03"]:
+        os.system("rm -rf results")
+        try:os.mkdir("results")
+        except:pass
+        os.system("cd results")
+        try:os.mkdir("OK")
+        except:pass
+        try:os.mkdir("CP")
+        except:pass
+        prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil crack."));exit()
+    elif xz in["4","04"]:
         yy.moch_yayan()
     else:
         print("");prints(Panel(f"😡 memu [bold red]{xz}[/] tidak ada, cek menu nya!"));time.sleep(3);hasil()
