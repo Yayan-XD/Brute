@@ -120,11 +120,9 @@ def hasil():
         os.system("rm -rf results")
         try:os.mkdir("results")
         except:pass
-        os.system("cd #")
-        os.system("cd Brute/results")
-        try:os.mkdir("OK")
+        try:os.mkdir("results/OK")
         except:pass
-        try:os.mkdir("CP")
+        try:os.mkdir("results/CP")
         except:pass
         prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil crack."));exit()
     elif xz in["4","04"]:
