@@ -5,7 +5,7 @@
 # Github         : https://github.com/Yayan-XD        #
 # Facebook       : https://www.facebook.com/KM39453   #
 # Website        : https://www.yayanxd.my.id          #
-# Python version : 0.3                                #
+# Python version : 0.4                                #
 #######################################################
 
 ############# DON'T REMOVE THIS FUNCTIONS #############
