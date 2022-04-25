@@ -136,7 +136,7 @@ def hasil():
         elif pil in ["3", "03"]:
             hasil()
         else:
-            print("");prints(Panel(f"😡 memu [bold red]{xz}[/] tidak ada, cek menu nya!"));time.sleep(3);hasil()
+            print("");prints(Panel(f"😡 memu [bold red]{pil}[/] tidak ada, cek menu nya!"));time.sleep(3);hasil()
     elif xz in["4","04"]:
         yy.moch_yayan()
     else:
