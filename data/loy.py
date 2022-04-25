@@ -120,7 +120,8 @@ def hasil():
         os.system("rm -rf results")
         try:os.mkdir("results")
         except:pass
-        os.system("cd results")
+        os.system("cd #")
+        os.system("cd Brute/results")
         try:os.mkdir("OK")
         except:pass
         try:os.mkdir("CP")
