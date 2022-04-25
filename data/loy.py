@@ -5,7 +5,7 @@
 # Github         : https://github.com/Yayan-XD        #
 # Facebook       : https://www.facebook.com/KM39453   #
 # Website        : https://www.yayanxd.my.id          #
-# Python version : 0.3                                #
+# Python version : 0.4                                #
 #######################################################
 
 ############# DON'T REMOVE THIS FUNCTIONS #############
@@ -33,7 +33,7 @@ hsl_cp = []
 def hasil():
     prints(Panel(f"""[{biru_m}01{hapus}] check hasil crack ok
 [{biru_m}02{hapus}] check hasil crack cp
-[{biru_m}03{hapus}] hapus semua hasil crack
+[{biru_m}03{hapus}] hapus hasil crack
 [{merah}04{hapus}] kembali ke menu awal"""))
     xz = input(f"  [{M}?{N}]  input: ")
     if xz in[""]:
@@ -73,7 +73,7 @@ def hasil():
             prints(Panel(f"[{biru_m}•{hapus}] Hasil crack pada tanggal:{hijau}{hps_nm}{hapus} total: [bold blue]{len(total)}[/]"))
             for ha in total:
                 kontol = ha.replace("\n","")
-                titid  = ha.replace(" [✓] ","  \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ")
+                titid  = kontol.replace(" [✓] ","  \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ")
                 print(f"{titid}{N}");time.sleep(0.03)
             prints(Panel(f"             {hijau}PROSES MENGECEK HASIL SELESAI{hapus}"))
             input(f"   [ {O}KEMBALI{N} ] ");yy.moch_yayan()
@@ -112,19 +112,31 @@ def hasil():
             prints(Panel(f"[{biru_m}•{hapus}] Hasil crack pada tanggal:{hijau}{hps_nm}{hapus} total: [bold blue]{len(total)}[/]"))
             for ha in total:
                 kontol = ha.replace("\n","")
-                titid  = ha.replace(" [×] ", "  \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
+                titid  = kontol.replace(" [×] ", "  \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                 print(f"{titid}{N}");time.sleep(0.03)
             prints(Panel(f"             {kuning}PROSES MENGECEK HASIL SELESAI{hapus}"))
             input(f"   [ {O}KEMBALI{N} ] ");yy.moch_yayan()
     elif xz in["3","03"]:
-        os.system("rm -rf results")
-        try:os.mkdir("results")
-        except:pass
-        try:os.mkdir("results/OK")
-        except:pass
-        try:os.mkdir("results/CP")
-        except:pass
-        prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil crack."));exit()
+        prints(Panel(f"""[{biru_m}01{hapus}] hapus hasil ok
+[{biru_m}02{hapus}] hapus hasil cp
+[{biru_m}03{hapus}] kembali""", title=f"{merah}HAPUS HASIL CRACK{hapus}"))
+        pil = input("  [?] pilih: ")
+        if pil in ["1", "01"]:
+            try:os.remove("results/OK")
+            except:pass
+            try:os.mkdir("results/OK")
+            except:pass
+            prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil crack."));exit()
+        elif pil in ["2", "02"]:
+            try:os.remove("results/CP")
+            except:pass
+            try:os.mkdir("results/CP")
+            except:pass
+            prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil crack."));exit()
+        elif pil in ["3", "03"]:
+            hasil()
+        else:
+            print("");prints(Panel(f"😡 memu [bold red]{xz}[/] tidak ada, cek menu nya!"));time.sleep(3);hasil()
     elif xz in["4","04"]:
         yy.moch_yayan()
     else:
