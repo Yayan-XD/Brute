@@ -1,6 +1,6 @@
 #######################################################
 # Name           : Yayan Multi Brute Facebook (YMBF)  #
-# File           : loy.py                            #
+# File           : loy.py                             #
 # Author         : Moch Yayan Juan Alvredo XD.        #
 # Github         : https://github.com/Yayan-XD        #
 # Facebook       : https://www.facebook.com/KM39453   #
