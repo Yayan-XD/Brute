@@ -58,7 +58,7 @@ class Xnxx:
                 user = uid
         return {"uid":user}
 
-    def kontol(self, tokenz, cookie):
+    def kontol(self, kokz, tokz):
         prints(Panel(f"""[{bir}01{hps}] Check hasil crack
 [{bir}02{hps}] Setting user agent
 [{bir}03{hps}] Dump id dari id publik
@@ -73,9 +73,9 @@ class Xnxx:
         elif pil in["2", "02"]:
             self.seting_ua()
         elif pil in["3", "03"]:
-            self.dump_flw(tokenz, cookie)
+            self.dump_flw(kokz, tokz)
         elif pil in["4", "04"]:
-            self.dump_flw(tokenz, cookie)
+            self.dump_flw(kokz, tokz)
         elif pil in["5", "05"]:
             self.ua_random()
         elif pil in["0", "00"]:
@@ -175,7 +175,7 @@ class Xnxx:
         prints(Panel(f'''{pilihan}''',title=f'[ {bir}User Agent{hps} ]',subtitle=f'[ {bir}Sukses Diganti{hps} ]',padding=(1,4),width=54,title_align='center',style='#FF8F00'))
         input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
 
-    def dump_flw(self, tokenz, cookie):
+    def dump_flw(self, memek, kontol):
         try:
             nanya_keun = int(input(f"  [{O}?{N}] mau berapa id yang di dump : "))
         except:nanya_keun=1
@@ -188,7 +188,7 @@ class Xnxx:
             try:user = input(f"  [{O}*{N}] masukan id atau username {H}{mnh}{N} : "); uid = self.convert(user)
             except AttributeError:exit(f"\n  {N}[{M}x{N}] username atau id tidak benar")
             try:
-                tol = requests.Session().get('https://graph.facebook.com/%s?fields=subscribers.limit(500000)&access_token=%s'%(uid.get("uid"),tokenz),cookies=cookie)
+                tol = requests.Session().get('https://graph.facebook.com/%s?fields=subscribers.limit(500000)&access_token=%s'%(uid.get("uid"),kontol),cookies=memek)
                 zzz = json.loads(tol.text)
                 for x in zzz["subscribers"]["data"]:
                     self.id.append(x["id"]+"<=>"+x["name"]+"\n")
@@ -207,7 +207,7 @@ class Xnxx:
                 self.jalan('\n  %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
                 input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
 
-    def dump_id(self, tokenz, cookie):
+    def dump_id(self, memek, sagiri):
         try:
             nanya_keun = int(input(f"  [{O}?{N}] mau berapa id yang di dump : "))
         except:nanya_keun=1
@@ -220,7 +220,7 @@ class Xnxx:
             try:user = input(f"  [{O}*{N}] masukan id atau username {H}{mnh}{N} : "); uid = self.convert(user)
             except AttributeError:exit(f"\n  {N}[{M}x{N}] username atau id tidak benar")
             try:
-                tol = requests.Session().get('https://graph.facebook.com/%s?fields=friends.limit(5000)&access_token=%s'%(uid.get("uid"),tokenz),cookies=cookie)
+                tol = requests.Session().get('https://graph.facebook.com/%s?fields=friends.limit(5000)&access_token=%s'%(uid.get("uid"),sagiri),cookies=memek)
                 zzz = json.loads(tol.text)
                 for x in zzz["friends"]["data"]:
                     self.id.append(x["id"]+"<=>"+x["name"]+"\n")
