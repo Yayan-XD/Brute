@@ -87,6 +87,8 @@ class Cek_Crack:
             if len(self.hsl_cp)==0:
                 prints(Panel(f"🙁 {merah}tidak ada file yang mau di cek{hapus}"));exit()
             else:
+                self.xa = {}
+                self.xx = 0
                 prints(Panel(f"       HASIL {kuning}CP {hapus}YANG TERSIMPAN DI FOLDER ANDA"))
                 for tod in self.hsl_cp:
                     try:fi2 = open(f"results/CP/{tod}").readlines()
