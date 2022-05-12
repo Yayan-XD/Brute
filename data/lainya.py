@@ -67,7 +67,7 @@ class Xnxx:
 [{merah}00{hps}] Kembali""", title=f"{hijau}FITURE LAINYA{hps}"))
         pil = input(f"  [{M}?{N}] pilih: ")
         if pil in[""," "]:
-            prints(Panel(f"[{merah}!{hps}] jangan kosong"));self.kontol(tokenz, cookie)
+            prints(Panel(f"[{merah}!{hps}] jangan kosong"));self.kontol(kokz, tokz)
         elif pil in["1","01"]:
             emm.Cek_Crack().hasil()
         elif pil in["2", "02"]:
@@ -81,7 +81,7 @@ class Xnxx:
         elif pil in["0", "00"]:
             tol.Brute().moch_yayan()
         else:
-            prints(Panel(f"[{merah}!{hps}] input yang benar"));self.kontol(tokenz, cookie)
+            prints(Panel(f"[{merah}!{hps}] input yang benar"));self.kontol(kokz, tokz)
 
     def seting_ua(self):
         prints(Panel(f"""[{bir}01{hps}] Gunakan user agent random
