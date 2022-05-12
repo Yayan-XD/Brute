@@ -30,7 +30,6 @@ kuning = '[#FFFF00]'
 class Cek_Crack:
     def __init__(self):
         self.hsl_cp, self.hsl_ok = [], []
-        self.xa, self.xx = 0, {}
     
     def hasil(self):
         prints(Panel(f"""[{biru_m}01{hapus}] check hasil crack ok
@@ -49,6 +48,8 @@ class Cek_Crack:
             if len(self.hsl_ok)==0:
                 prints(Panel(f"🙁 {merah}tidak ada file yang mau di cek{hapus}"));exit()
             else:
+                self.xa = {}
+                self.xx = 0
                 prints(Panel(f"       HASIL {hijau}OK {hapus}YANG TERSIMPAN DI FOLDER ANDA"))
                 for ini in self.hsl_ok:
                     try:fi1 = open(f"results/OK/{ini}").readlines()
