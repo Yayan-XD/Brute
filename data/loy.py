@@ -14,7 +14,7 @@ import time, os
 
 from rich import print as prints
 from rich.panel import Panel
-from src import cok as tt
+from src import cok as yy
 
 O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
@@ -30,6 +30,7 @@ kuning = '[#FFFF00]'
 class Cek_Crack:
     def __init__(self):
         self.hsl_cp, self.hsl_ok = [], []
+        self.hasil()
     
     def hasil(self):
         prints(Panel(f"""[{biru_m}01{hapus}] check hasil crack ok
@@ -77,7 +78,7 @@ class Cek_Crack:
                     titid  = kontol.replace(" [✓] ","  \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ")
                     print(f"{titid}{N}");time.sleep(0.03)
                 prints(Panel(f"             {hijau}PROSES MENGECEK HASIL SELESAI{hapus}"))
-                input(f"   [ {O}KEMBALI{N} ] ");tt.Brute().moch_yayan()
+                input(f"   [ {O}KEMBALI{N} ] ");yy.Brute()
         elif xz in["2", "02"]:
             try:
                 xxx = os.listdir("results/CP")
@@ -116,7 +117,7 @@ class Cek_Crack:
                     titid  = kontol.replace(" [×] ", "  \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                     print(f"{titid}{N}");time.sleep(0.03)
                 prints(Panel(f"             {kuning}PROSES MENGECEK HASIL SELESAI{hapus}"))
-                input(f"   [ {O}KEMBALI{N} ] ");tt.Brute().moch_yayan()
+                input(f"   [ {O}KEMBALI{N} ] ");yy.Brute()
         elif xz in["3","03"]:
             prints(Panel(f"""[{biru_m}01{hapus}] hapus hasil ok
 [{biru_m}02{hapus}] hapus hasil cp
@@ -127,18 +128,18 @@ class Cek_Crack:
                 except:pass
                 try:os.mkdir("results/OK")
                 except:pass
-                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil ok."));input(f"   [ {O}KEMBALI{N} ] ");tt.Brute().moch_yayan()
+                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil crack."));exit()
             elif pil in ["2", "02"]:
                 try:os.remove("results/CP")
                 except:pass
                 try:os.mkdir("results/CP")
                 except:pass
-                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil cp."));input(f"   [ {O}KEMBALI{N} ] ");tt.Brute().moch_yayan()
+                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil crack."));exit()
             elif pil in ["3", "03"]:
                 self.hasil()
             else:
                 print("");prints(Panel(f"😡 memu [bold red]{pil}[/] tidak ada, cek menu nya!"));time.sleep(3);self.hasil()
         elif xz in["4","04"]:
-            tt.Brute().moch_yayan()
+            yy.Brute()
         else:
             print("");prints(Panel(f"😡 memu [bold red]{xz}[/] tidak ada, cek menu nya!"));time.sleep(3);self.hasil()

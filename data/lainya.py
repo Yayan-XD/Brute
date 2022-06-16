@@ -1,5 +1,5 @@
 #######################################################
-# Name           : Yayan Multi Brute Facebook (YMBF)  #
+# Name           : Brute Facebook (BF)                #
 # File           : lainya.py                          #
 # Author         : Moch Yayan Juan Alvredo XD.        #
 # Github         : https://github.com/Yayan-XD        #
@@ -10,12 +10,16 @@
 
 ############# DON'T REMOVE THIS FUNCTIONS #############
 
-import time, requests, sys, random, json, datetime, os, bs4, re
+
+import time, requests, sys, random, json, datetime, os, re
 from bs4 import BeautifulSoup as par
 
 from rich import print as prints
 from rich.panel import Panel
 from datetime import datetime
+
+from src import cok as tt
+from data.loy import Cek_Crack
 
 #----- WARNA RICH ----
 bir = '[bold cyan]'
@@ -29,23 +33,20 @@ O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
 H = '\x1b[1;92m' # HIJAU
 # ---- MODULE -----
-from data import loy as emm
-from src import cok as tol
 
 class Xnxx:
-    def __init__(self):
+    def __init__(self, cokz, tokz):
         self.id, self.uas = [], []
         self.data_ua, self.asd = {}, 0
+        self.cokie = cokz
+        self.token = tokz
+        self.kontol()
 
     def jalan(self, z):
         for e in z + "\n":
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.03)
-
-    def hapus_ua(self):
-        try:os.remove("data/ua.txt")
-        except:pass
 
     def convert(self, uid):
         if "me" in uid:
@@ -58,7 +59,7 @@ class Xnxx:
                 user = uid
         return {"uid":user}
 
-    def kontol(self, kokz, tokz):
+    def kontol(self):
         prints(Panel(f"""[{bir}01{hps}] Check hasil crack
 [{bir}02{hps}] Setting user agent
 [{bir}03{hps}] Dump id dari id publik
@@ -67,21 +68,21 @@ class Xnxx:
 [{merah}00{hps}] Kembali""", title=f"{hijau}FITURE LAINYA{hps}"))
         pil = input(f"  [{M}?{N}] pilih: ")
         if pil in[""," "]:
-            prints(Panel(f"[{merah}!{hps}] jangan kosong"));self.kontol(kokz, tokz)
+            prints(Panel(f"[{merah}!{hps}] jangan kosong"));self.kontol()
         elif pil in["1","01"]:
-            emm.Cek_Crack().hasil()
+            Cek_Crack()
         elif pil in["2", "02"]:
             self.seting_ua()
         elif pil in["3", "03"]:
-            self.dump_flw(kokz, tokz)
+            self.dump_flw()
         elif pil in["4", "04"]:
-            self.dump_flw(kokz, tokz)
+            self.dump_flw()
         elif pil in["5", "05"]:
             self.ua_random()
         elif pil in["0", "00"]:
-            tol.Brute().moch_yayan()
+            tt.Brute()
         else:
-            prints(Panel(f"[{merah}!{hps}] input yang benar"));self.kontol(kokz, tokz)
+            prints(Panel(f"[{merah}!{hps}] input yang benar"));self.kontol()
 
     def seting_ua(self):
         prints(Panel(f"""[{bir}01{hps}] Gunakan user agent random
@@ -90,27 +91,30 @@ class Xnxx:
 [{merah}00{hps}] Kembali """, title=f"{hijau}SETING USER AGENT{hps}"))
         pil = input(f"  [{M}?{N}] pilih: ")
         if pil in["1","01"]:
-            self.hapus_ua()
+            try:os.remove("data/ua_ran.txt")
+            except:pass
             a = requests.get("https://github.com/Cindy-Aulia/p/blob/main/data/ua.txt").text
-            ua=open("data/ua.txt", "w")
-            aa=re.findall('line">(.*?)<', str(a))
-            for un in aa:
-                ua.write(un+"\n")
-            ua=open("data/ua.txt", "r").read().splitlines()
-            for ub in ua:
-                self.uas.append(ub)
-            prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
+            ua=open("data/ua_ran.txt", "w")
+            xx=re.findall('line">(.*?)<', str(a))
+            for x in xx:
+                ua.write(xx+"\n")
+            ua=open("data/ua_ran.txt", "r").read().splitlines()
+            for i in ua:
+                self.uas.append(i)
+            prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tt.Brute()
         elif pil in["2", "02"]:
-           self.hapus_ua()
-           prints(Panel("jika ingin menggunakan user hp sendiri silahkan kunjungin situs web ini: https://yayanxd.my.id/server lalu klik ikon USER AGENT"))
+           try:os.remove("data/ua.txt")
+           except:pass
+           prints(Panel("jika ingin menggunakan user hp sendiri silahkan kunjungin situs web ini: [bold green]https://yayanxd.my.id/server[/] lalu klik ikon USER AGENT"))
            ua = input("  [*] masukan user agent: ")
            open("data/ua.txt", "w").write(ua)
-           prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
+           prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tt.Brute()
         elif pil in["3", "03"]:
-            self.hapus_ua()
-            ua = "Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"
+            try:os.remove("data/ua.txt")
+            except:pass
+            ua = "Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4X Build/MiUI MS; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 Instagram 38.0.0.13.95 Android (24/7.0; 480dpi; 1080x1920; Xiaomi/xiaomi; Redmi Note 4X; mido; qcom; ru_RU; 99640911)"
             open("data/ua.txt", "w").write(ua)
-            prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
+            prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tt.Brute()
         elif pil in["0", "00"]:
             self.kontol()
         else:
@@ -173,9 +177,9 @@ class Xnxx:
         open('data/ua.txt','w').write(self.data_ua[str(ch)])
         pilihan = open('data/ua.txt','r').read()
         prints(Panel(f'''{pilihan}''',title=f'[ {bir}User Agent{hps} ]',subtitle=f'[ {bir}Sukses Diganti{hps} ]',padding=(1,4),width=54,title_align='center',style='#FF8F00'))
-        input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
+        input(f" [ {O}Kembali{N} ] ");tt.Brute()
 
-    def dump_flw(self, memek, kontol):
+    def dump_flw(self):
         try:
             nanya_keun = int(input(f"  [{O}?{N}] mau berapa id yang di dump : "))
         except:nanya_keun=1
@@ -188,7 +192,7 @@ class Xnxx:
             try:user = input(f"  [{O}*{N}] masukan id atau username {H}{mnh}{N} : "); uid = self.convert(user)
             except AttributeError:exit(f"\n  {N}[{M}x{N}] username atau id tidak benar")
             try:
-                tol = requests.Session().get('https://graph.facebook.com/%s?fields=subscribers.limit(500000)&access_token=%s'%(uid.get("uid"),kontol),cookies=memek)
+                tol = requests.Session().get('https://graph.facebook.com/%s?fields=subscribers.limit(500000)&access_token=%s'%(uid.get("uid"),self.token),cookies=self.cokie)
                 zzz = json.loads(tol.text)
                 for x in zzz["subscribers"]["data"]:
                     self.id.append(x["id"]+"<=>"+x["name"]+"\n")
@@ -200,14 +204,14 @@ class Xnxx:
                 self.jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
                 print(' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
                 print("--------------------------------------------------------")
-                input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
+                input(f" [ {O}Kembali{N} ] ");tt.Brute()
             except KeyError:
                 try:os.remove(cin)
                 except:pass
                 self.jalan('\n  %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-                input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
+                input(f" [ {O}Kembali{N} ] ");tt.Brute()
 
-    def dump_id(self, memek, sagiri):
+    def dump_id(self):
         try:
             nanya_keun = int(input(f"  [{O}?{N}] mau berapa id yang di dump : "))
         except:nanya_keun=1
@@ -220,7 +224,7 @@ class Xnxx:
             try:user = input(f"  [{O}*{N}] masukan id atau username {H}{mnh}{N} : "); uid = self.convert(user)
             except AttributeError:exit(f"\n  {N}[{M}x{N}] username atau id tidak benar")
             try:
-                tol = requests.Session().get('https://graph.facebook.com/%s?fields=friends.limit(5000)&access_token=%s'%(uid.get("uid"),sagiri),cookies=memek)
+                tol = requests.Session().get('https://graph.facebook.com/%s?fields=friends.limit(5000)&access_token=%s'%(uid.get("uid"),self.token),cookies=self.cokie)
                 zzz = json.loads(tol.text)
                 for x in zzz["friends"]["data"]:
                     self.id.append(x["id"]+"<=>"+x["name"]+"\n")
@@ -232,9 +236,9 @@ class Xnxx:
                 self.jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
                 print(' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
                 print("--------------------------------------------------------")
-                input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
+                input(f" [ {O}Kembali{N} ] ");tt.Brute()
             except KeyError:
                 try:os.remove(cin)
                 except:pass
                 self.jalan('\n  %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-                input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
+                input(f" [ {O}Kembali{N} ] ");tt.Brute()

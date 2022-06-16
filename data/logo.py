@@ -1,5 +1,5 @@
 #######################################################
-# Name           : Yayan Multi Brute Facebook (YMBF)  #
+# Name           : Brute Facebook (BF)                #
 # File           : logo.py                            #
 # Author         : Moch Yayan Juan Alvredo XD.        #
 # Github         : https://github.com/Yayan-XD        #
@@ -10,14 +10,12 @@
 
 ############# DON'T REMOVE THIS FUNCTIONS #############
 
+
 import sys, os, random
 
 #---- MODULE RICH IN PYTHON -------
 from rich import print as prints
 from rich.panel import Panel
-biru_m = '[bold cyan]'
-hapus  = '[/]'
-
 
 class Logo:
 
