@@ -122,7 +122,7 @@ class Cek_Crack:
             prints(Panel(f"""[{biru_m}01{hapus}] hapus hasil ok
 [{biru_m}02{hapus}] hapus hasil cp
 [{biru_m}03{hapus}] kembali""", title=f"{merah}HAPUS HASIL CRACK{hapus}"))
-            pil = input("  [?] pilih: ")
+            pil = input(f"  [{O}?{N}] pilih: ")
             if pil in ["1", "01"]:
                 try:os.remove("results/OK")
                 except:pass
