@@ -128,13 +128,13 @@ class Cek_Crack:
                 except:os.system("rm -rf results/OK")
                 try:os.mkdir("results/OK")
                 except:pass
-                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil crack."));input(f"   [ {O}TEKAN ENTER {N} ] ");yy.Brute()
+                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil ok."));input(f"   [ {O}TEKAN ENTER {N} ] ");yy.Brute()
             elif pil in ["2", "02"]:
                 try:os.remove("results/CP")
-                except:pass
+                except:os.system("rm -rf results/CP")
                 try:os.mkdir("results/CP")
                 except:pass
-                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil crack."));input(f"   [ {O}TEKAN ENTER {N} ] ");yy.Brute()
+                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil cp."));input(f"   [ {O}TEKAN ENTER {N} ] ");yy.Brute()
             elif pil in ["3", "03"]:
                 self.hasil()
             else:
