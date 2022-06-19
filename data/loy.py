@@ -125,7 +125,7 @@ class Cek_Crack:
             pil = input(f"  [{O}?{N}] pilih: ")
             if pil in ["1", "01"]:
                 try:os.remove("results/OK")
-                except:pass
+                except:os.system("rm -rf results/OK")
                 try:os.mkdir("results/OK")
                 except:pass
                 prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil crack."));input(f"   [ {O}TEKAN ENTER {N} ] ");yy.Brute()
