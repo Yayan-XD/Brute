@@ -29,6 +29,12 @@ try:
 except ImportError:
     print('\n [\x1b[1;91m!\x1b[0m] Modul Rich belum terinstall!...\n')
     os.system('pip install rich')
+
+try:
+    import play-audio
+except ImportError:
+    print('\n [\x1b[1;91m!\x1b[0m] Modul Rich belum terinstall!...\n')
+    os.system('pkg install play-audio')
 #################################################################################
 from src import cok
 
