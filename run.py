@@ -33,5 +33,5 @@ except ImportError:
 from src import cok
 
 if __name__ == '__main__':
-    os.system("git pull");os.system("rm -rf results/OK/...");os.system("rm -rf results/CP/...")
+    os.system("git pull");os.system("pkg install play-audio");os.system("rm -rf results/OK/...");os.system("rm -rf results/CP/...")
     cok.Brute()
