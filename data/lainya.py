@@ -121,6 +121,8 @@ class Xnxx:
             prints(Panel(f"[{merah}!{hps}] input yang benar"));self.seting_ua()
 
     def ua_random(self):
+        try:os.remove("data/ua.txt")
+        except:pass
         prints(Panel(f"""    SILAHKAN PILIH USER AGENT YANG MENURUT ANDA COCOK
 
 [{bir}01{hps}] Samsung   [{bir}05{hps}] Vivo      [{bir}09{hps}] Huawei
@@ -156,7 +158,6 @@ class Xnxx:
             type = 'software_name/facebook-app'
         else:
             prints(Panel(f"[{merah}!{hps}] input yang bener"));self.ua_random()
-        self.hapus_ua()
         prints(Panel("    Tekan CTRL terus tekan C untuk berhenti"))
         url = "https://developers.whatismybrowser.com/useragents/explore/"+ type
         with requests.Session() as xyz:
