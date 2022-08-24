@@ -11,13 +11,13 @@
 ############# DON'T REMOVE THIS FUNCTIONS #############
 
 
+from operator import length_hint
 import time, requests, sys, random, json, datetime, os, re
 from bs4 import BeautifulSoup as par
 
 from rich import print as prints
 from rich.panel import Panel
 from datetime import datetime
-
 from src import cok as tt
 from data.loy import Cek_Crack
 
@@ -27,6 +27,7 @@ hps  = '[/]'
 A2 = "[#AAAAAA]" # Abu-Abu
 merah  = '[#FF0022]'
 hijau  = '[#00FF33]'
+kuning = '[#FFFF00]'
 # ---- WARNA PY   ----
 M = '\x1b[1;91m' # MERAH
 O = '\x1b[1;96m' # BIRU MUDA
@@ -60,13 +61,13 @@ class Xnxx:
         return {"uid":user}
 
     def kontol(self):
-        prints(Panel(f"""[{bir}01{hps}] Check hasil crack
-[{bir}02{hps}] Setting user agent
-[{bir}03{hps}] Dump id dari id publik
-[{bir}04{hps}] Dump id dari followers
-[{bir}05{hps}] munculka user agent random
-[{merah}00{hps}] Kembali""", title=f"{hijau}FITURE LAINYA{hps}"))
-        pil = input(f"  [{M}?{N}] pilih: ")
+        prints(Panel(f"""            [{bir}01{hps}] Check hasil crack
+            [{bir}02{hps}] Setting user agent                   
+            [{bir}03{hps}] Dump id dari id publik               
+            [{bir}04{hps}] Dump id dari followers               
+            [{bir}05{hps}] munculka user agent random               
+            [{merah}00{hps}] Kembali            """, title=f'{merah}•{kuning}•{hijau}•{hijau} MENU LAINYA {hijau}•{kuning}•{merah}•', padding=(0,5),style="bold white"))
+        pil = input(f"[{M}?{N}] pilih: ")
         if pil in[""," "]:
             prints(Panel(f"[{merah}!{hps}] jangan kosong"));self.kontol()
         elif pil in["1","01"]:
@@ -97,7 +98,7 @@ class Xnxx:
             ua=open("data/ua_ran.txt", "w")
             xx=re.findall('line">(.*?)<', str(a))
             for x in xx:
-                ua.write(xx+"\n")
+                ua.write(x+"\n")
             ua=open("data/ua_ran.txt", "r").read().splitlines()
             for i in ua:
                 self.uas.append(i)
@@ -112,7 +113,7 @@ class Xnxx:
         elif pil in["3", "03"]:
             try:os.remove("data/ua.txt")
             except:pass
-            ua = "Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4X Build/MiUI MS; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 Instagram 38.0.0.13.95 Android (24/7.0; 480dpi; 1080x1920; Xiaomi/xiaomi; Redmi Note 4X; mido; qcom; ru_RU; 99640911)"
+            ua = "Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"
             open("data/ua.txt", "w").write(ua)
             prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tt.Brute()
         elif pil in["0", "00"]:
@@ -121,8 +122,6 @@ class Xnxx:
             prints(Panel(f"[{merah}!{hps}] input yang benar"));self.seting_ua()
 
     def ua_random(self):
-        try:os.remove("data/ua.txt")
-        except:pass
         prints(Panel(f"""    SILAHKAN PILIH USER AGENT YANG MENURUT ANDA COCOK
 
 [{bir}01{hps}] Samsung   [{bir}05{hps}] Vivo      [{bir}09{hps}] Huawei
@@ -158,6 +157,7 @@ class Xnxx:
             type = 'software_name/facebook-app'
         else:
             prints(Panel(f"[{merah}!{hps}] input yang bener"));self.ua_random()
+        self.hapus_ua()
         prints(Panel("    Tekan CTRL terus tekan C untuk berhenti"))
         url = "https://developers.whatismybrowser.com/useragents/explore/"+ type
         with requests.Session() as xyz:
@@ -198,7 +198,7 @@ class Xnxx:
                 for x in zzz["subscribers"]["data"]:
                     self.id.append(x["id"]+"<=>"+x["name"]+"\n")
                     w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-                    sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Proses Dump Id...'%(x['id'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+                    sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Proses Dump Id...'%(x['id'],N,datetime.now().strftime('%H:%M:%S'), len(self.id)
                     )); sys.stdout.flush()
                     time.sleep(0.0050)
                 hsl.close()
@@ -230,7 +230,7 @@ class Xnxx:
                 for x in zzz["friends"]["data"]:
                     self.id.append(x["id"]+"<=>"+x["name"]+"\n")
                     w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-                    sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Proses Dump Id...'%(x['id'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+                    sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Proses Dump Id...'%(x['id'],N,datetime.now().strftime('%H:%M:%S'), len(self.id)
                     )); sys.stdout.flush()
                     time.sleep(0.0050)
                 hsl.close()
