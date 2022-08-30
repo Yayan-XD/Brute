@@ -30,8 +30,8 @@ C2 = "[#00FFFF]" # BIRU MUDA
 P2 = "[bold white]" # PUTIH
 J2 = "[#FF8F00]" # JINGGA
 A2 = "[#AAAAAA]" # ABU-ABU
-ran_rich = rc([K2,C2,J2,H2,U2])
-
+ran_rich = rc([H2,J2,U2,J2])
+ran_rich1= rc([A2,B2,A2])
 class Logo:
 
     def __init__(self):
@@ -44,11 +44,13 @@ class Logo:
         else:
             try:os.system("clear")
             except:pass
+        self.log()
 
     def log(self):
-        prints(Panel(f"""[bold]{ran_rich}██████  ██████  ██    ██ ████████ ███████     ███████ ██████  
-██   ██ ██   ██ ██    ██    ██    ██          ██      ██   ██ 
-██████  ██████  ██    ██    ██    █████       █████   ██████  
-██   ██ ██   ██ ██    ██    ██    ██          ██      ██   ██ 
-██████  ██   ██  ██████     ██    ███████     ██      ██████
-    {P2}Selamat datang di script brute {B2}facebook{P2} version {K2}4{P2}.{K2}7{P2}""",padding=(0,8),style="bold white"))
+        prints(Panel(f"""{ran_rich}██████{C2}╗{ran_rich1}░{ran_rich}██████{C2}╗{ran_rich1}░{ran_rich}██{C2}╗{ran_rich1}░░░{ran_rich}██{C2}╗{ran_rich}████████{C2}╗{ran_rich}███████{C2}╗ {ran_rich} ███████{C2}╗{ran_rich}██████{C2}╗{ran_rich1}░[/]
+{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║╚══{ran_rich}██{C2}╔══╝{ran_rich}██{C2}╔════╝ {ran_rich} ██{C2}╔════╝{ran_rich}██{C2}╔══{ran_rich}██{C2}╗
+{ran_rich}██████╦{C2}╝{ran_rich}██████{C2}╔╝{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}█████{C2}╗{ran_rich1}░░{ran_rich}  █████{C2}╗{ran_rich1}░░{ran_rich}██████{C2}╦╝
+{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}╔══╝{ran_rich1}░░{ran_rich}  ██{C2}╔══╝{ran_rich1}░░{ran_rich}██{C2}╔══{ran_rich}██{C2}╗
+{ran_rich}██████{C2}╦╝{ran_rich}██{C2}║{ran_rich1}░░{ran_rich}██{C2}║╚{ran_rich}██████{C2}╔╝{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}███████{C2}╗ {ran_rich} ██{C2}║{ran_rich1}░░░░░{ran_rich}██████{C2}╦╝
+{C2}╚═════╝{ran_rich1}░{C2}╚═╝{ran_rich1}░░{C2}╚═╝{ran_rich1}░{C2}╚═════╝{ran_rich1}░░░░{C2}╚═╝{ran_rich1}░░░{C2}╚══════╝  ╚═╝{ran_rich1}░░░░░{C2}╚═════╝{ran_rich1}░
+    {P2}Selamat datang di script brute {B2}facebook{P2} version {K2}4{P2}.{K2}7{P2}""",padding=(0,3),style="bold white"))
