@@ -46,10 +46,10 @@ class Logo:
             except:pass
 
     def log(self):
-        prints(Panel(f"""{ran_rich}██████{C2}╗{ran_rich1}░{ran_rich}██████{C2}╗{ran_rich1}░{ran_rich}██{C2}╗{ran_rich1}░░░{ran_rich}██{C2}╗{ran_rich}████████{C2}╗{ran_rich}███████{C2}╗ {ran_rich} ███████{C2}╗{ran_rich}██████{C2}╗{ran_rich1}░[/]
-{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║╚══{ran_rich}██{C2}╔══╝{ran_rich}██{C2}╔════╝ {ran_rich} ██{C2}╔════╝{ran_rich}██{C2}╔══{ran_rich}██{C2}╗
-{ran_rich}██████{C2}╦╝{ran_rich}██████{C2}╔╝{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}█████{C2}╗{ran_rich1}░░{ran_rich}  █████{C2}╗{ran_rich1}░░{ran_rich}██████{C2}╦╝
-{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}╔══╝{ran_rich1}░░{ran_rich}  ██{C2}╔══╝{ran_rich1}░░{ran_rich}██{C2}╔══{ran_rich}██{C2}╗
-{ran_rich}██████{C2}╦╝{ran_rich}██{C2}║{ran_rich1}░░{ran_rich}██{C2}║╚{ran_rich}██████{C2}╔╝{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}███████{C2}╗ {ran_rich} ██{C2}║{ran_rich1}░░░░░{ran_rich}██████{C2}╦╝
-{C2}╚═════╝{ran_rich1}░{C2}╚═╝{ran_rich1}░░{C2}╚═╝{ran_rich1}░{C2}╚═════╝{ran_rich1}░░░░{C2}╚═╝{ran_rich1}░░░{C2}╚══════╝  ╚═╝{ran_rich1}░░░░░{C2}╚═════╝{ran_rich1}░
-    {P2}Selamat datang di script brute {B2}facebook{P2} version {K2}4{P2}.{K2}7{P2}""",padding=(0,3),style="bold white"))
+        prints(Panel(f"""{ran_rich}   ██████{C2}╗{ran_rich1}░{ran_rich}██████{C2}╗{ran_rich1}░{ran_rich}██{C2}╗{ran_rich1}░░░{ran_rich}██{C2}╗{ran_rich}████████{C2}╗{ran_rich}███████{C2}╗ {ran_rich} ███████{C2}╗{ran_rich}██████{C2}╗{ran_rich1}░[/]
+   {ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║╚══{ran_rich}██{C2}╔══╝{ran_rich}██{C2}╔════╝ {ran_rich} ██{C2}╔════╝{ran_rich}██{C2}╔══{ran_rich}██{C2}╗
+   {ran_rich}██████{C2}╦╝{ran_rich}██████{C2}╔╝{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}█████{C2}╗{ran_rich1}░░{ran_rich}  █████{C2}╗{ran_rich1}░░{ran_rich}██████{C2}╦╝
+   {ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}╔══╝{ran_rich1}░░{ran_rich}  ██{C2}╔══╝{ran_rich1}░░{ran_rich}██{C2}╔══{ran_rich}██{C2}╗
+   {ran_rich}██████{C2}╦╝{ran_rich}██{C2}║{ran_rich1}░░{ran_rich}██{C2}║╚{ran_rich}██████{C2}╔╝{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}███████{C2}╗ {ran_rich} ██{C2}║{ran_rich1}░░░░░{ran_rich}██████{C2}╦╝
+   {C2}╚═════╝{ran_rich1}░{C2}╚═╝{ran_rich1}░░{C2}╚═╝{ran_rich1}░{C2}╚═════╝{ran_rich1}░░░░{C2}╚═╝{ran_rich1}░░░{C2}╚══════╝  ╚═╝{ran_rich1}░░░░░{C2}╚═════╝{ran_rich1}░
+        {P2}Selamat datang di script brute {B2}facebook{P2} version {K2}4{P2}.{K2}7{P2}""",padding=(0,3),style="bold white"))
