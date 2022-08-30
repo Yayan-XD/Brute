@@ -48,7 +48,7 @@ class Logo:
     def log(self):
         prints(Panel(f"""{ran_rich}██████{C2}╗{ran_rich1}░{ran_rich}██████{C2}╗{ran_rich1}░{ran_rich}██{C2}╗{ran_rich1}░░░{ran_rich}██{C2}╗{ran_rich}████████{C2}╗{ran_rich}███████{C2}╗ {ran_rich} ███████{C2}╗{ran_rich}██████{C2}╗{ran_rich1}░[/]
 {ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║╚══{ran_rich}██{C2}╔══╝{ran_rich}██{C2}╔════╝ {ran_rich} ██{C2}╔════╝{ran_rich}██{C2}╔══{ran_rich}██{C2}╗
-{ran_rich}██████╦{C2}╝{ran_rich}██████{C2}╔╝{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}█████{C2}╗{ran_rich1}░░{ran_rich}  █████{C2}╗{ran_rich1}░░{ran_rich}██████{C2}╦╝
+{ran_rich}██████{C2}╦╝{ran_rich}██████{C2}╔╝{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}█████{C2}╗{ran_rich1}░░{ran_rich}  █████{C2}╗{ran_rich1}░░{ran_rich}██████{C2}╦╝
 {ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}╔══{ran_rich}██{C2}╗{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}██{C2}╔══╝{ran_rich1}░░{ran_rich}  ██{C2}╔══╝{ran_rich1}░░{ran_rich}██{C2}╔══{ran_rich}██{C2}╗
 {ran_rich}██████{C2}╦╝{ran_rich}██{C2}║{ran_rich1}░░{ran_rich}██{C2}║╚{ran_rich}██████{C2}╔╝{ran_rich1}░░░{ran_rich}██{C2}║{ran_rich1}░░░{ran_rich}███████{C2}╗ {ran_rich} ██{C2}║{ran_rich1}░░░░░{ran_rich}██████{C2}╦╝
 {C2}╚═════╝{ran_rich1}░{C2}╚═╝{ran_rich1}░░{C2}╚═╝{ran_rich1}░{C2}╚═════╝{ran_rich1}░░░░{C2}╚═╝{ran_rich1}░░░{C2}╚══════╝  ╚═╝{ran_rich1}░░░░░{C2}╚═════╝{ran_rich1}░
