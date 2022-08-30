@@ -15,6 +15,9 @@ import time, os
 from rich import print as prints
 from rich.panel import Panel
 from src import cok as yy
+from rich.table import Table
+from rich.console import Console
+console = Console()
 
 O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
@@ -36,8 +39,8 @@ class Cek_Crack:
         prints(Panel(f"""[{biru_m}01{hapus}] check hasil crack ok
 [{biru_m}02{hapus}] check hasil crack cp
 [{biru_m}03{hapus}] hapus hasil crack
-[{merah}04{hapus}] kembali ke menu awal"""))
-        xz = input(f"  [{M}?{N}]  input: ")
+[{merah}04{hapus}] kembali ke menu awal""",padding=(0,5),style="bold white"))
+        xz = input(f"[{M}?{N}] input: ")
         if xz in[""]:
             print("");prints(Panel(f"😡 jangan kosong"));time.sleep(3);self.hasil()
         elif xz in["1", "01"]:
@@ -51,20 +54,25 @@ class Cek_Crack:
             else:
                 self.xa = {}
                 self.xx = 0
-                prints(Panel(f"       HASIL {hijau}OK {hapus}YANG TERSIMPAN DI FOLDER ANDA"))
+                prints(Panel(f"[{biru_m}!{hapus}]  HASIL {hijau}OK {hapus}YANG TERSIMPAN DI FOLDER ANDA", padding=(0,8),style="bold white"))
+                table = Table(title=f"")
+                table.add_column("nomor",width=5,justify="center",style="bold cyan")
+                table.add_column("HASIL OK",width=36,justify="center",style="bold white")
+                table.add_column("TOTAL AKUN",width=10,justify="center",style="bold green")
                 for ini in self.hsl_ok:
                     try:fi1 = open(f"results/OK/{ini}").readlines()
                     except:continue
                     self.xx+=1
                     if self.xx<100:
-                        nom ="0"+str(self.xx)
+                        nom =""+str(self.xx)
                         self.xa.update({str(self.xx):str(ini)})
-                        self.xa.update({nom:str(self.xx)})
-                        print(f"  [{O}{nom}{N}] {ini} -> {H}{str(len(fi1))}{N}")
+                        self.xa.update({nom+"0":str(self.xx)})
+                        table.add_row(f"{nom}", f"{ini}", f"{str(len(fi1))}")
                     else:
                         self.xa.update({str(self.xx):str(ini)})
-                        print(f"  [{O}{nom}{N}] {ini} -> {H}{str(len(fi1))}{N}")
-                prints(Panel(f"         {biru_m}SILAHKAN PILIH NOMOR YANG MAU ANDA CEK{hapus}"))
+                        table.add_row(f"{nom}", f"{ini}", f"{str(len(fi1))}")
+                console.print(table)
+                prints(Panel(f"[{biru_m}!{hapus}]  SILAHKAN PILIH NOMOR YANG MAU ANDA CEK  [{biru_m}!{hapus}]", padding=(0,8),style="bold white"))
                 file = input(f"  [{M}?{N}] nomor : ")
                 try:ajg = self.xa[file]
                 except KeyError:
@@ -72,13 +80,13 @@ class Cek_Crack:
                 nm_file = ajg.replace("-", " ")
                 hps_nm  = nm_file.replace(".txt", "").replace("OK", "")
                 total = open(f"results/OK/{ajg}", "r").readlines()
-                prints(Panel(f"[{biru_m}•{hapus}] Hasil crack pada tanggal:{hijau}{hps_nm}{hapus} total: [bold blue]{len(total)}[/]"))
+                prints(Panel(f"[{biru_m}•{hapus}] Hasil crack pada tanggal:{hijau}{hps_nm}{hapus} total: [bold blue]{len(total)}[/]", padding=(0,8),style="bold white"))
                 for ha in total:
                     kontol = ha.replace("\n","")
                     titid  = kontol.replace(" [✓] ","  \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ")
                     print(f"{titid}{N}");time.sleep(0.03)
-                prints(Panel(f"             {hijau}PROSES MENGECEK HASIL SELESAI{hapus}"))
-                input(f"   [ {O}TEKAN ENTER {N} ] ");yy.Brute()
+                prints(Panel(f"     {hijau}PROSES MENGECEK HASIL SELESAI{hapus}", padding=(0,8),style="bold white"))
+                input(f"   [ {O}KEMBALI{N} ] ");yy.Brute()
         elif xz in["2", "02"]:
             try:
                 xxx = os.listdir("results/CP")
@@ -90,20 +98,25 @@ class Cek_Crack:
             else:
                 self.xa = {}
                 self.xx = 0
-                prints(Panel(f"       HASIL {kuning}CP {hapus}YANG TERSIMPAN DI FOLDER ANDA"))
+                prints(Panel(f"[{biru_m}!{hapus}]  HASIL {kuning}CP {hapus}YANG TERSIMPAN DI FOLDER ANDA", padding=(0,8),style="bold white"))
+                table = Table(title=f"")
+                table.add_column("nomor",width=5,justify="center",style="bold cyan")
+                table.add_column("HASIL CP",width=36,justify="center",style="bold white")
+                table.add_column("TOTAL AKUN",width=10,justify="center",style="bold green")
                 for tod in self.hsl_cp:
                     try:fi2 = open(f"results/CP/{tod}").readlines()
                     except:continue
                     self.xx+=1
                     if self.xx<100:
-                        nom ="0"+str(self.xx)
+                        nom =""+str(self.xx)
                         self.xa.update({str(self.xx):str(tod)})
-                        self.xa.update({nom:str(self.xx)})
-                        print(f"  [{O}{nom}{N}] {tod} -> {H}{str(len(fi2))}{N}")
+                        self.xa.update({nom+"0":str(self.xx)})
+                        table.add_row(f"{nom}", f"{tod}", f"{str(len(fi2))}")
                     else:
                         self.xa.update({str(self.xx):str(tod)})
-                        print(f"  [{O}{nom}{N}] {tod} -> {H}{str(len(fi2))}{N}")
-                prints(Panel(f"         {biru_m}SILAHKAN PILIH NOMOR YANG MAU ANDA CEK{hapus}"))
+                        table.add_row(f"{nom}", f"{tod}", f"{str(len(fi2))}")
+                console.print(table)
+                prints(Panel(f"[{biru_m}!{hapus}]  SILAHKAN PILIH NOMOR YANG MAU ANDA CEK  [{biru_m}!{hapus}]", padding=(0,8),style="bold white"))
                 file = input(f"  [{M}?{N}] nomor : ")
                 try:ajg = self.xa[file]
                 except KeyError:
@@ -111,18 +124,18 @@ class Cek_Crack:
                 nm_file = ajg.replace("-", " ")
                 hps_nm  = nm_file.replace(".txt", "").replace("CP", "")
                 total = open(f"results/CP/{ajg}", "r").readlines()
-                prints(Panel(f"[{biru_m}•{hapus}] Hasil crack pada tanggal:{hijau}{hps_nm}{hapus} total: [bold blue]{len(total)}[/]"))
+                prints(Panel(f"[{biru_m}•{hapus}] Hasil crack pada tanggal:{hijau}{hps_nm}{hapus} total: [bold blue]{len(total)}[/]", padding=(0,8),style="bold white"))
                 for ha in total:
                     kontol = ha.replace("\n","")
                     titid  = kontol.replace(" [×] ", "  \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                     print(f"{titid}{N}");time.sleep(0.03)
-                prints(Panel(f"             {kuning}PROSES MENGECEK HASIL SELESAI{hapus}"))
-                input(f"   [ {O}TEKAN ENTER {N} ] ");yy.Brute()
+                prints(Panel(f"      {kuning}PROSES MENGECEK HASIL SELESAI{hapus}", padding=(0,8),style="bold white"))
+                input(f"   [ {O}KEMBALI{N} ] ");yy.Brute()
         elif xz in["3","03"]:
             prints(Panel(f"""[{biru_m}01{hapus}] hapus hasil ok
 [{biru_m}02{hapus}] hapus hasil cp
-[{biru_m}03{hapus}] kembali""", title=f"{merah}HAPUS HASIL CRACK{hapus}"))
-            pil = input(f"  [{O}?{N}] pilih: ")
+[{biru_m}03{hapus}] kembali""", title=f"{merah}HAPUS HASIL CRACK{hapus}", padding=(0,8),style="bold white"))
+            pil = input(f"[{O}?{N}] pilih: ")
             if pil in ["1", "01"]:
                 try:os.remove("results/OK")
                 except:os.system("rm -rf results/OK")
