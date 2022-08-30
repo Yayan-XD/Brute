@@ -44,7 +44,6 @@ class Logo:
         else:
             try:os.system("clear")
             except:pass
-        self.log()
 
     def log(self):
         prints(Panel(f"""{ran_rich}██████{C2}╗{ran_rich1}░{ran_rich}██████{C2}╗{ran_rich1}░{ran_rich}██{C2}╗{ran_rich1}░░░{ran_rich}██{C2}╗{ran_rich}████████{C2}╗{ran_rich}███████{C2}╗ {ran_rich} ███████{C2}╗{ran_rich}██████{C2}╗{ran_rich1}░[/]
