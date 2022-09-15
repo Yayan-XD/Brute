@@ -11,15 +11,15 @@
 ############# DON'T REMOVE THIS FUNCTIONS #############
 
 
-from operator import length_hint
 import time, requests, sys, random, json, datetime, os, re
 from bs4 import BeautifulSoup as par
 
 from rich import print as prints
 from rich.panel import Panel
 from datetime import datetime
-from src import cok as tt
-from data.loy import Cek_Crack
+
+from src import cok as Brute
+from .loy import Cek_Crack
 
 #----- WARNA RICH ----
 bir = '[bold cyan]'
@@ -49,6 +49,10 @@ class Xnxx:
             sys.stdout.flush()
             time.sleep(0.03)
 
+    def hapus_ua(self):
+        try:os.remove("data/ua_xx.txt")
+        except:pass
+
     def convert(self, uid):
         if "me" in uid:
             return {"uid":uid}
@@ -66,10 +70,10 @@ class Xnxx:
             [{bir}03{hps}] Dump id dari id publik               
             [{bir}04{hps}] Dump id dari followers               
             [{bir}05{hps}] munculka user agent random               
-            [{merah}00{hps}] Kembali            """, title=f'{merah}•{kuning}•{hijau}•{hijau} MENU LAINYA {hijau}•{kuning}•{merah}•', padding=(0,5),style="bold white"))
+            [{merah}00{hps}] Kembali            """, title=f'{merah}•{kuning}•{hijau}•{hijau} MENU LAINYA {hijau}•{kuning}•{merah}•', padding=(0,5), style="bold white", width=70))
         pil = input(f"[{M}?{N}] pilih: ")
         if pil in[""," "]:
-            prints(Panel(f"[{merah}!{hps}] jangan kosong"));self.kontol()
+            prints(Panel(f"[{merah}!{hps}] jangan kosong", style="bold white", width=70));self.kontol()
         elif pil in["1","01"]:
             Cek_Crack()
         elif pil in["2", "02"]:
@@ -81,45 +85,42 @@ class Xnxx:
         elif pil in["5", "05"]:
             self.ua_random()
         elif pil in["0", "00"]:
-            tt.Brute()
+            Brute()
         else:
-            prints(Panel(f"[{merah}!{hps}] input yang benar"));self.kontol()
+            prints(Panel(f"[{merah}!{hps}] input yang benar", style="bold white", width=70));self.kontol()
 
     def seting_ua(self):
         prints(Panel(f"""[{bir}01{hps}] Gunakan user agent random
 [{bir}02{hps}] Gunakan user agent hp sendiri
 [{bir}03{hps}] Gunakan user agent bawaan scrpit
-[{merah}00{hps}] Kembali """, title=f"{hijau}SETING USER AGENT{hps}"))
-        pil = input(f"  [{M}?{N}] pilih: ")
+[{merah}00{hps}] Kembali """, title=f"{hijau}SETING USER AGENT{hps}", padding=(0,5), style="bold white", width=70))
+        pil = input(f"[{M}?{N}] pilih: ")
         if pil in["1","01"]:
-            try:os.remove("data/ua_ran.txt")
-            except:pass
+            self.hapus_ua()
             a = requests.get("https://github.com/Cindy-Aulia/p/blob/main/data/ua.txt").text
-            ua=open("data/ua_ran.txt", "w")
+            ua=open("data/ua_xx.txt", "w")
             xx=re.findall('line">(.*?)<', str(a))
             for x in xx:
                 ua.write(x+"\n")
-            ua=open("data/ua_ran.txt", "r").read().splitlines()
+            ua=open("data/ua_xx.txt", "r").read().splitlines()
             for i in ua:
                 self.uas.append(i)
-            prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tt.Brute()
+            prints(Panel("berhasil mengganti user agent", style="bold white", width=70));input(f"[ {O}Kembali{N} ] ");Brute()
         elif pil in["2", "02"]:
-           try:os.remove("data/ua.txt")
-           except:pass
-           prints(Panel("jika ingin menggunakan user hp sendiri silahkan kunjungin situs web ini: [bold green]https://yayanxd.my.id/server[/] lalu klik ikon USER AGENT"))
+           self.hapus_ua()
+           prints(Panel("jika ingin menggunakan user hp sendiri silahkan kunjungin situs web ini: [bold green]https://yayanxd.my.id/server[/] lalu klik ikon USER AGENT", style="bold white", width=70))
            ua = input("  [*] masukan user agent: ")
-           open("data/ua.txt", "w").write(ua)
-           prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tt.Brute()
+           open("data/ua_xx.txt", "w").write(ua)
+           prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");Brute()
         elif pil in["3", "03"]:
-            try:os.remove("data/ua.txt")
-            except:pass
+            self.hapus_ua()
             ua = "Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"
-            open("data/ua.txt", "w").write(ua)
-            prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tt.Brute()
+            open("data/ua_xx.txt", "w").write(ua)
+            prints(Panel("berhasil mengganti user agent", style="bold white", width=70));input(f"[ {O}Kembali{N} ] ");Brute()
         elif pil in["0", "00"]:
             self.kontol()
         else:
-            prints(Panel(f"[{merah}!{hps}] input yang benar"));self.seting_ua()
+            prints(Panel(f"[{merah}!{hps}] input yang benar", style="bold white", width=70));self.seting_ua()
 
     def ua_random(self):
         prints(Panel(f"""    SILAHKAN PILIH USER AGENT YANG MENURUT ANDA COCOK
@@ -127,10 +128,10 @@ class Xnxx:
 [{bir}01{hps}] Samsung   [{bir}05{hps}] Vivo      [{bir}09{hps}] Huawei
 [{bir}02{hps}] Nokia     [{bir}06{hps}] Iphone    [{bir}10{hps}] Windows
 [{bir}03{hps}] Xiomi     [{bir}07{hps}] Asus      [{bir}11{hps}] Chrome
-[{bir}04{hps}] Oppo      [{bir}08{hps}] lenovo    [{bir}12{hps}] Facebook""", title=f"{hijau}UA PILIHAN{hps}"))
+[{bir}04{hps}] Oppo      [{bir}08{hps}] lenovo    [{bir}12{hps}] Facebook""", title=f"{hijau}UA PILIHAN{hps}", style="bold white", width=70))
         cxx = input(f"{N}└──> ")
         if cxx in["", " "]:
-            prints(Panel(f"[{merah}!{hps}] jangan kosong"));self.ua_random()
+            prints(Panel(f"[{merah}!{hps}] jangan kosong", style="bold white", width=70));self.ua_random()
         elif cxx in["1", "01"]:
             type = 'software_name/samsung-browser'
         elif cxx in["2", "02"]:
@@ -156,7 +157,7 @@ class Xnxx:
         elif cxx in["12"]:
             type = 'software_name/facebook-app'
         else:
-            prints(Panel(f"[{merah}!{hps}] input yang bener"));self.ua_random()
+            prints(Panel(f"[{merah}!{hps}] input yang bener", style="bold white", width=70));self.ua_random()
         self.hapus_ua()
         prints(Panel("    Tekan CTRL terus tekan C untuk berhenti"))
         url = "https://developers.whatismybrowser.com/useragents/explore/"+ type
@@ -170,28 +171,28 @@ class Xnxx:
                     self.asd += 1
                     pu = str(self.asd)
                     self.data_ua.update({pu:x.replace('[#AAAAAA]','')})
-                    prints(Panel(x,title=f'[{bir}{pu}{hps}]',width=54,title_align='left',style='#FF8F00'))
+                    prints(Panel(x,title=f'[{bir}{pu}{hps}]', style="bold white", width=70))
                     time.sleep(2)
                 except KeyboardInterrupt:
                     break
         ch = int(input(f"{N}   └──> "))
         open('data/ua.txt','w').write(self.data_ua[str(ch)])
         pilihan = open('data/ua.txt','r').read()
-        prints(Panel(f'''{pilihan}''',title=f'[ {bir}User Agent{hps} ]',subtitle=f'[ {bir}Sukses Diganti{hps} ]',padding=(1,4),width=54,title_align='center',style='#FF8F00'))
-        input(f" [ {O}Kembali{N} ] ");tt.Brute()
+        prints(Panel(f'''{pilihan}''',title=f'[ {bir}User Agent{hps} ]',subtitle=f'[ {bir}Sukses Diganti{hps} ]',padding=(1,4), style="bold white", width=70))
+        input(f"[ {O}Kembali{N} ] ");Brute()
 
     def dump_flw(self):
         try:
-            nanya_keun = int(input(f"  [{O}?{N}] mau berapa id yang di dump : "))
+            nanya_keun = int(input(f"[{O}?{N}] mau berapa id yang di dump : "))
         except:nanya_keun=1
-        nama = input(f"  [{O}?{N}] masukan nama file: ")
+        nama = input(f"[{O}?{N}] masukan nama file: ")
         cin = (nama+".json").replace(' ', '_')
         hsl = open(cin, "w")
-        prints(Panel(f"[{bir}*{hps}] Ketik 'me' jika ingin dump id dari followers anda."))
+        prints(Panel(f"[{bir}*{hps}] Ketik 'me' jika ingin dump id dari followers anda.", style="bold white", width=70))
         for mnh in range(nanya_keun):
             mnh +=1
-            try:user = input(f"  [{O}*{N}] masukan id atau username {H}{mnh}{N} : "); uid = self.convert(user)
-            except AttributeError:exit(f"\n  {N}[{M}x{N}] username atau id tidak benar")
+            try:user = input(f"[{O}*{N}] masukan id atau username {H}{mnh}{N} : "); uid = self.convert(user)
+            except AttributeError:exit(f"\n[{N}[{M}x{N}] username atau id tidak benar")
             try:
                 tol = requests.Session().get('https://graph.facebook.com/%s?fields=subscribers.limit(500000)&access_token=%s'%(uid.get("uid"),self.token),cookies=self.cokie)
                 zzz = json.loads(tol.text)
@@ -203,27 +204,27 @@ class Xnxx:
                     time.sleep(0.0050)
                 hsl.close()
                 self.jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
-                print(' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
+                print('[%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
                 print("--------------------------------------------------------")
-                input(f" [ {O}Kembali{N} ] ");tt.Brute()
+                input(f"[ {O}Kembali{N} ] ");Brute()
             except KeyError:
                 try:os.remove(cin)
                 except:pass
-                self.jalan('\n  %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-                input(f" [ {O}Kembali{N} ] ");tt.Brute()
+                self.jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
+                input(f"[ {O}Kembali{N} ] ");Brute()
 
     def dump_id(self):
         try:
             nanya_keun = int(input(f"  [{O}?{N}] mau berapa id yang di dump : "))
         except:nanya_keun=1
-        nama = input(f"  [{O}?{N}] masukan nama file: ")
+        nama = input(f"[{O}?{N}] masukan nama file: ")
         cin = (nama+".json").replace(' ', '_')
         hsl = open(cin, "w")
-        prints(Panel(f"[{bir}*{hps}] Ketik 'me' jika ingin dump id dari teman anda."))
+        prints(Panel(f"[{bir}*{hps}] Ketik 'me' jika ingin dump id dari teman anda.", style="bold white", width=70))
         for mnh in range(nanya_keun):
             mnh +=1
-            try:user = input(f"  [{O}*{N}] masukan id atau username {H}{mnh}{N} : "); uid = self.convert(user)
-            except AttributeError:exit(f"\n  {N}[{M}x{N}] username atau id tidak benar")
+            try:user = input(f"[{O}*{N}] masukan id atau username {H}{mnh}{N} : "); uid = self.convert(user)
+            except AttributeError:exit(f"\n{N}[{M}x{N}] username atau id tidak benar")
             try:
                 tol = requests.Session().get('https://graph.facebook.com/%s?fields=friends.limit(5000)&access_token=%s'%(uid.get("uid"),self.token),cookies=self.cokie)
                 zzz = json.loads(tol.text)
@@ -235,11 +236,11 @@ class Xnxx:
                     time.sleep(0.0050)
                 hsl.close()
                 self.jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
-                print(' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
+                print('[%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
                 print("--------------------------------------------------------")
-                input(f" [ {O}Kembali{N} ] ");tt.Brute()
+                input(f"[ {O}Kembali{N} ] ");Brute()
             except KeyError:
                 try:os.remove(cin)
                 except:pass
                 self.jalan('\n  %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-                input(f" [ {O}Kembali{N} ] ");tt.Brute()
+                input(f"[ {O}Kembali{N} ] ");Brute()
