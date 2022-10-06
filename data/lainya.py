@@ -18,7 +18,7 @@ from rich import print as prints
 from rich.panel import Panel
 from datetime import datetime
 
-from src import cok as Brute
+from src import cok as xx
 from .loy import Cek_Crack
 
 #----- WARNA RICH ----
@@ -50,7 +50,7 @@ class Xnxx:
             time.sleep(0.03)
 
     def hapus_ua(self):
-        try:os.remove("data/ua_xx.txt")
+        try:os.remove("assets/ua_xx.txt")
         except:pass
 
     def convert(self, uid):
@@ -85,7 +85,7 @@ class Xnxx:
         elif pil in["5", "05"]:
             self.ua_random()
         elif pil in["0", "00"]:
-            Brute()
+            xx.Brute()
         else:
             prints(Panel(f"[{merah}!{hps}] input yang benar", style="bold white", width=70));self.kontol()
 
@@ -98,25 +98,25 @@ class Xnxx:
         if pil in["1","01"]:
             self.hapus_ua()
             a = requests.get("https://github.com/Cindy-Aulia/p/blob/main/data/ua.txt").text
-            ua=open("data/ua_xx.txt", "w")
+            ua=open("assets/ua_xx.txt", "w")
             xx=re.findall('line">(.*?)<', str(a))
             for x in xx:
                 ua.write(x+"\n")
-            ua=open("data/ua_xx.txt", "r").read().splitlines()
+            ua=open("assets/ua_xx.txt", "r").read().splitlines()
             for i in ua:
                 self.uas.append(i)
-            prints(Panel("berhasil mengganti user agent", style="bold white", width=70));input(f"[ {O}Kembali{N} ] ");Brute()
+            prints(Panel("berhasil mengganti user agent", style="bold white", width=70));input(f"[ {O}Kembali{N} ] ");xx.Brute()
         elif pil in["2", "02"]:
            self.hapus_ua()
            prints(Panel("jika ingin menggunakan user hp sendiri silahkan kunjungin situs web ini: [bold green]https://yayanxd.my.id/server[/] lalu klik ikon USER AGENT", style="bold white", width=70))
            ua = input("  [*] masukan user agent: ")
-           open("data/ua_xx.txt", "w").write(ua)
-           prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");Brute()
+           open("assets/ua_xx.txt", "w").write(ua)
+           prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");xx.Brute()
         elif pil in["3", "03"]:
             self.hapus_ua()
             ua = "Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"
-            open("data/ua_xx.txt", "w").write(ua)
-            prints(Panel("berhasil mengganti user agent", style="bold white", width=70));input(f"[ {O}Kembali{N} ] ");Brute()
+            open("assets/ua_xx.txt", "w").write(ua)
+            prints(Panel("berhasil mengganti user agent", style="bold white", width=70));input(f"[ {O}Kembali{N} ] ");xx.Brute()
         elif pil in["0", "00"]:
             self.kontol()
         else:
@@ -176,10 +176,10 @@ class Xnxx:
                 except KeyboardInterrupt:
                     break
         ch = int(input(f"{N}   └──> "))
-        open('data/ua.txt','w').write(self.data_ua[str(ch)])
-        pilihan = open('data/ua.txt','r').read()
+        open('assets/ua.txt','w').write(self.data_ua[str(ch)])
+        pilihan = open('assets/ua.txt','r').read()
         prints(Panel(f'''{pilihan}''',title=f'[ {bir}User Agent{hps} ]',subtitle=f'[ {bir}Sukses Diganti{hps} ]',padding=(1,4), style="bold white", width=70))
-        input(f"[ {O}Kembali{N} ] ");Brute()
+        input(f"[ {O}Kembali{N} ] ");xx.Brute()
 
     def dump_flw(self):
         try:
@@ -206,12 +206,12 @@ class Xnxx:
                 self.jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
                 print('[%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
                 print("--------------------------------------------------------")
-                input(f"[ {O}Kembali{N} ] ");Brute()
+                input(f"[ {O}Kembali{N} ] ");xx.Brute()
             except KeyError:
                 try:os.remove(cin)
                 except:pass
                 self.jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-                input(f"[ {O}Kembali{N} ] ");Brute()
+                input(f"[ {O}Kembali{N} ] ");xx.Brute()
 
     def dump_id(self):
         try:
@@ -238,9 +238,9 @@ class Xnxx:
                 self.jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
                 print('[%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
                 print("--------------------------------------------------------")
-                input(f"[ {O}Kembali{N} ] ");Brute()
+                input(f"[ {O}Kembali{N} ] ");xx.Brute()
             except KeyError:
                 try:os.remove(cin)
                 except:pass
                 self.jalan('\n  %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-                input(f"[ {O}Kembali{N} ] ");Brute()
+                input(f"[ {O}Kembali{N} ] ");xx.Brute()
