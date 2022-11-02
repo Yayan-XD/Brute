@@ -36,7 +36,7 @@
 ##### info:
  untuk versi sekarang hanya support di perangkat yang *aarch64* untuk mengecek
  ketik perintah ini : ```uname -m``` jika muncul *aarch64* selamat anda bisa menggunakan script ini,
- oh iya script ini juga cuma bisa dijalanin dipython veri 3.11 untuk mengecek versi python
+ oh iya script ini juga cuma bisa dijalanin dipython versi 3.11 untuk mengecek versi python
  ketik perintah ini : ```python --version```
 
 ##### catatan:
