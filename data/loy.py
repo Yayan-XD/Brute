@@ -72,7 +72,7 @@ class Cek_Crack:
                     else:
                         self.xa.update({str(self.xx):str(ini)})
                         table.add_row(f"{nom}", f"{ini}", f"{str(len(fi1))}")
-                console.print(table)
+                console.print(table, justify="center")
                 prints(Panel(f"[{biru_m}!{hapus}]  SILAHKAN PILIH NOMOR YANG MAU ANDA CEK  [{biru_m}!{hapus}]", padding=(0,5), style="bold white", width=70))
                 file = input(f"  [{M}?{N}] nomor : ")
                 try:ajg = self.xa[file]
@@ -116,7 +116,7 @@ class Cek_Crack:
                     else:
                         self.xa.update({str(self.xx):str(tod)})
                         table.add_row(f"{nom}", f"{tod}", f"{str(len(fi2))}")
-                console.print(table)
+                console.print(table, justify="center")
                 prints(Panel(f"[{biru_m}!{hapus}]  SILAHKAN PILIH NOMOR YANG MAU ANDA CEK  [{biru_m}!{hapus}]", padding=(0,5), style="bold white", width=70))
                 file = input(f"  [{M}?{N}] nomor : ")
                 try:ajg = self.xa[file]
