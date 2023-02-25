@@ -18,8 +18,8 @@ from rich import print as prints
 from rich.panel import Panel
 from datetime import datetime
 
+from .loy import Cek_Crack as memeo1
 from src import cok
-from .loy import Cek_Crack
 
 #----- WARNA RICH ----
 bir = '[bold cyan]'
@@ -76,7 +76,7 @@ class Xnxx:
         if pil in[""," "]:
             prints(Panel(f"[{merah}!{hps}] jangan kosong", style="bold white", width=70));self.kontol()
         elif pil in["1","01"]:
-            Cek_Crack()
+            memeo1()
         elif pil in["2", "02"]:
             self.seting_ua()
         elif pil in["3", "03"]:
