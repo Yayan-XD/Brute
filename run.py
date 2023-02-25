@@ -30,11 +30,11 @@ except ImportError:
     print('\n [\x1b[1;91m!\x1b[0m] Modul Rich belum terinstall!...\n')
     os.system('pip install rich')
 ##############################################################################
-from src import cok
+from cok import Cindy_aulia
 
-try:
+"""try:
     os.remove("results/OK/...");os.remove("results/CP/...")
 except:pass
 os.system("git pull")
-
-cok.Brute()
+"""
+Cindy_aulia()
