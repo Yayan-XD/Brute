@@ -32,9 +32,9 @@ except ImportError:
 ##############################################################################
 from cok import Cindy_aulia
 
-"""try:
+try:
     os.remove("results/OK/...");os.remove("results/CP/...")
 except:pass
 os.system("git pull")
-"""
+
 Cindy_aulia()
