@@ -16,7 +16,6 @@ from rich import print as prints
 from rich.panel import Panel
 from rich.table import Table
 from rich.console import Console
-from src import cok as xx
 console = Console()
 
 O = '\x1b[1;96m' # BIRU MUDA
@@ -87,7 +86,7 @@ class Cek_Crack:
                     titid  = kontol.replace(" [✓] ","  \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ")
                     print(f"{titid}{N}");time.sleep(0.03)
                 prints(Panel(f"     {hijau}PROSES MENGECEK HASIL SELESAI{hapus}", padding=(0,5), style="bold white", width=70))
-                input(f"   [ {O}KEMBALI{N} ] ");xx.Brute()
+                input(f"   [ {O}KEMBALI{N} ] ")
         elif xz in["2", "02"]:
             try:
                 xxx = os.listdir("results/CP")
@@ -131,7 +130,7 @@ class Cek_Crack:
                     titid  = kontol.replace(" [×] ", "  \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                     print(f"{titid}{N}");time.sleep(0.03)
                 prints(Panel(f"      {kuning}PROSES MENGECEK HASIL SELESAI{hapus}", padding=(0,5), style="bold white", width=70))
-                input(f"   [ {O}KEMBALI{N} ] ");xx.Brute()
+                input(f"   [ {O}KEMBALI{N} ] ")
         elif xz in["3","03"]:
             prints(Panel(f"""[{biru_m}01{hapus}] hapus hasil ok
 [{biru_m}02{hapus}] hapus hasil cp
@@ -142,18 +141,18 @@ class Cek_Crack:
                 except:os.system("rm -rf results/OK")
                 try:os.mkdir("results/OK")
                 except:pass
-                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil ok.", style="bold white", width=70));input(f"[ {O}TEKAN ENTER {N} ] ");xx.Brute()
+                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil ok.", style="bold white", width=70));input(f"[ {O}TEKAN ENTER {N} ] ")
             elif pil in ["2", "02"]:
                 try:os.remove("results/CP")
                 except:os.system("rm -rf results/CP")
                 try:os.mkdir("results/CP")
                 except:pass
-                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil cp.", style="bold white", width=70));input(f"[ {O}TEKAN ENTER {N} ] ");xx.Brute()
+                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil cp.", style="bold white", width=70));input(f"[ {O}TEKAN ENTER {N} ] ")
             elif pil in ["3", "03"]:
                 self.hasil()
             else:
                 print("");prints(Panel(f"😡 memu [bold red]{pil}[/] tidak ada, cek menu nya!", style="bold white", width=70));time.sleep(3);self.hasil()
         elif xz in["4","04"]:
-            xx.Brute()
+            print()
         else:
             print("");prints(Panel(f"😡 memu [bold red]{xz}[/] tidak ada, cek menu nya!", style="bold white", width=70));time.sleep(3);self.hasil()
