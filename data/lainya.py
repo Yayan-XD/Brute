@@ -19,7 +19,7 @@ from rich.panel import Panel
 from datetime import datetime
 
 from src import cok
-from .loy import Cek_Crack
+from loy import Cek_Crack
 
 #----- WARNA RICH ----
 bir = '[bold cyan]'
