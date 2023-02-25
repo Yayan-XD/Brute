@@ -18,7 +18,7 @@ from rich import print as prints
 from rich.panel import Panel
 from datetime import datetime
 
-from src.cok import Brute
+from src import cok
 from .loy import Cek_Crack
 
 #----- WARNA RICH ----
@@ -86,7 +86,7 @@ class Xnxx:
         elif pil in["5", "05"]:
             self.ua_random()
         elif pil in["0", "00"]:
-            Brute()
+            cok.Brute()
         else:
             prints(Panel(f"[{merah}!{hps}] input yang benar", style="bold white", width=70));self.kontol()
 
@@ -106,18 +106,18 @@ class Xnxx:
             ua=open("assets/ua_xx.txt", "a").read().splitlines()
             for i in ua:
                 self.uas.append(i)
-            prints(Panel("berhasil mengganti user agent", style="bold white", width=70));input(f"[ {O}Kembali{N} ] ");xx.Brute()
+            prints(Panel("berhasil mengganti user agent", style="bold white", width=70));input(f"[ {O}Kembali{N} ] ");cok.Brute()
         elif pil in["2", "02"]:
            self.hapus_ua()
            prints(Panel("jika ingin menggunakan user hp sendiri silahkan kunjungin situs web ini: [bold green]https://yayanxd.my.id/server[/] lalu klik ikon USER AGENT", style="bold white", width=70))
            ua = input("  [*] masukan user agent: ")
            open("assets/ua_xx.txt", "w").write(ua)
-           prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");xx.Brute()
+           prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");cok.Brute()
         elif pil in["3", "03"]:
             self.hapus_ua()
             ua = "Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"
             open("assets/ua_xx.txt", "w").write(ua)
-            prints(Panel("berhasil mengganti user agent", style="bold white", width=70));input(f"[ {O}Kembali{N} ] ");xx.Brute()
+            prints(Panel("berhasil mengganti user agent", style="bold white", width=70));input(f"[ {O}Kembali{N} ] ");cok.Brute()
         elif pil in["0", "00"]:
             self.kontol()
         else:
@@ -180,7 +180,7 @@ class Xnxx:
         open('assets/ua.txt','w').write(self.data_ua[str(ch)])
         pilihan = open('assets/ua.txt','r').read()
         prints(Panel(f'''{pilihan}''',title=f'[ {bir}User Agent{hps} ]',subtitle=f'[ {bir}Sukses Diganti{hps} ]',padding=(1,4), style="bold white", width=70))
-        input(f"[ {O}Kembali{N} ] ");Brute()
+        input(f"[ {O}Kembali{N} ] ");cok.Brute()
 
     def dump_flw(self):
         try:
@@ -207,12 +207,12 @@ class Xnxx:
                 self.jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
                 print('[%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
                 print("--------------------------------------------------------")
-                input(f"[ {O}Kembali{N} ] ");Brute()
+                input(f"[ {O}Kembali{N} ] ");cok.Brute()
             except KeyError:
                 try:os.remove(cin)
                 except:pass
                 self.jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-                input(f"[ {O}Kembali{N} ] ");Brute()
+                input(f"[ {O}Kembali{N} ] ");cok.Brute()
 
     def dump_id(self):
         try:
@@ -239,9 +239,9 @@ class Xnxx:
                 self.jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
                 print('[%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
                 print("--------------------------------------------------------")
-                input(f"[ {O}Kembali{N} ] ");Brute()
+                input(f"[ {O}Kembali{N} ] ");cok.Brute()
             except KeyError:
                 try:os.remove(cin)
                 except:pass
                 self.jalan('\n  %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-                input(f"[ {O}Kembali{N} ] ");Brute()
+                input(f"[ {O}Kembali{N} ] ");cok.Brute()
