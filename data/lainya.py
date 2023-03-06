@@ -38,7 +38,7 @@ class Lain:
         elif pil in["1","01"]:
             loy.Cek_Crack()
         elif pil in["2", "02"]:
-            Ngocok()
+            Ngocok.menu()
         elif pil in["3", "03"]:
             Bot_Facebook(cookie, tokenz)
         elif pil in["0", "00"]:
