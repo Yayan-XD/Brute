@@ -13,10 +13,11 @@
 from rich import print as prints
 from rich.panel import Panel
 
-from yz.loy import Cek_Crack as memeo1
-from data.ksabar import Ngocok
 from yz import cok as dncijjoeppe
 from yxz.bot_fb import Bot_Facebook
+from yz.loy import Cek_Crack as memeo1
+from data.ksabar import Ngocok as xxxxs
+
 
 merah  = '[#FF0022]'
 hijau  = '[#00FF33]'
@@ -38,7 +39,7 @@ class Lain:
         elif pil in["1","01"]:
             memeo1()
         elif pil in["2", "02"]:
-            Ngocok()
+            xxxxs()
         elif pil in["3", "03"]:
             Bot_Facebook(cookie, tokenz)
         elif pil in["0", "00"]:
