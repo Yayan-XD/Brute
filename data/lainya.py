@@ -14,7 +14,7 @@ from rich import print as prints
 from rich.panel import Panel
 
 from yz import cok, loy
-from yxz import bot_fb
+from yxz.bot_fb import Bot_Facebook
 from .ksabar import Ngocok
 merah  = '[#FF0022]'
 hijau  = '[#00FF33]'
@@ -38,7 +38,7 @@ class Lain:
         elif pil in["2", "02"]:
             Ngocok()
         elif pil in["3", "03"]:
-            bot_fb.Bot_Facebook(cookie, tokenz)
+            Bot_Facebook(cookie, tokenz)
         elif pil in["0", "00"]:
             cok.Cindy_aulia()
         else:
