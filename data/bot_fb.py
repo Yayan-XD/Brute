@@ -18,8 +18,8 @@ from rich import print as prints
 from rich.panel import Panel
 #----------- MODULE RICH -------------
 from yz import cok as sayang
-from data.dump import Dump
-from .logo import Logo
+from .dump import Dump
+from yxz.logo import Logo
 
 N = '\x1b[0m'    # WARNA MATI
 H = '\x1b[1;92m' # HIJAU
