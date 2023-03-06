@@ -16,7 +16,7 @@ from rich.panel import Panel
 from yz import cok, loy
 
 from .bot_fb import Bot_Facebook
-from .ksabar import Ngocok
+from data.ksabar import Ngocok
 
 merah  = '[#FF0022]'
 hijau  = '[#00FF33]'
