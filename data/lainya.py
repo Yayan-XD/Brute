@@ -15,7 +15,7 @@ from rich.panel import Panel
 
 from yz import cok as dncijjoeppe
 from yz.loy import Cek_Crack as memeo1
-from yxz.bot_fb import Bot_Facebook as xx
+
 
 merah  = '[#FF0022]'
 hijau  = '[#00FF33]'
@@ -39,7 +39,7 @@ class Lain:
         elif pil in["2", "02"]:
             exit()
         elif pil in["3", "03"]:
-            xx(cookie, tokenz)
+            exit(cookie, tokenz)
         elif pil in["0", "00"]:
             dncijjoeppe.Cindy_aulia()
         else:
