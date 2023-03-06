@@ -15,7 +15,7 @@ from rich.panel import Panel
 
 from yz import cok, loy
 
-from data.bot_fb import Bot_Facebook
+#from .bot_fb import Bot_Facebook
 #from .ksabar import Ngocok
 
 merah  = '[#FF0022]'
@@ -38,9 +38,10 @@ class Xnxx:
         elif pil in["1","01"]:
             loy.Cek_Crack()
         elif pil in["2", "02"]:
-            exit()
+            exit("belum tersedia")
         elif pil in["3", "03"]:
-            Bot_Facebook(cookie, tokenz)
+            exit("belum tersedia")
+            #Bot_Facebook(cookie, tokenz)
         elif pil in["0", "00"]:
             cok.Cindy_aulia()
         else:
