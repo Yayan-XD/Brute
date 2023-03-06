@@ -20,8 +20,6 @@ from rich.panel import Panel
 reed = "[bold red]"
 blue = "[bold blue]"
 
-#code by {K}Yayan XD.{N} (founder of {M}xnscode{N})
-
 class Logo:
 
     def __init__(self):
