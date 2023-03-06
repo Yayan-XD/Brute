@@ -13,10 +13,9 @@
 from rich import print as prints
 from rich.panel import Panel
 
-from yz import cok as dncijjoeppe
-from yz.loy import Cek_Crack as memeo1
-
-
+from yz import cok, loy
+from yxz import bot_fb
+from .ksabar import Ngocok
 merah  = '[#FF0022]'
 hijau  = '[#00FF33]'
 kuning = '[#FFFF00]'
@@ -35,12 +34,12 @@ class Lain:
         if pil in[""," "]:
             prints(Panel("[[bold red]![/]] jangan kosong", style="bold white", width=70));self.kontol()
         elif pil in["1","01"]:
-            memeo1()
+            loy.Cek_Crack()
         elif pil in["2", "02"]:
-            exit()
+            Ngocok()
         elif pil in["3", "03"]:
-            exit(cookie, tokenz)
+            bot_fb.Bot_Facebook(cookie, tokenz)
         elif pil in["0", "00"]:
-            dncijjoeppe.Cindy_aulia()
+            cok.Cindy_aulia()
         else:
             prints(Panel("[[bold red]![/]] input yang benar", style="bold white", width=70));self.kontol()
