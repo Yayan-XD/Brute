@@ -152,7 +152,7 @@ class Cek_Crack:
                 self.hasil()
             else:
                 print("");prints(Panel(f"😡 memu [bold red]{pil}[/] tidak ada, cek menu nya!", style="bold white", width=70));time.sleep(3);self.hasil()
-        elif xz in["4","04"]:
+        elif xz in["0","00"]:
             sayang.Cindy_aulia()
         else:
             print("");prints(Panel(f"😡 memu [bold red]{xz}[/] tidak ada, cek menu nya!", style="bold white", width=70));time.sleep(3);self.hasil()
