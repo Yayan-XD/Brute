@@ -13,9 +13,9 @@
 from rich import print as prints
 from rich.panel import Panel
 
+from data import ksabar as Apacoba
 from yz import cok as dncijjoeppe
 from yz.loy import Cek_Crack as memeo1
-from data import ksabar as Apacoba
 from yxz.bot_fb import Bot_Facebook as xx
 
 merah  = '[#FF0022]'
