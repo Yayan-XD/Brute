@@ -13,9 +13,9 @@
 from rich import print as prints
 from rich.panel import Panel
 
-from yxz.bot_fb import Bot_Facebook
-from yz import cok, loy
+from .bot_fb import Bot_Facebook
 from .ksabar import Ngocok
+from yz import cok, loy
 
 merah  = '[#FF0022]'
 hijau  = '[#00FF33]'
