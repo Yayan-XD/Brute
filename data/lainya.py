@@ -24,7 +24,7 @@ kuning = '[#FFFF00]'
 
 M = '\x1b[1;91m' # MERAH
 N = '\x1b[0m'    # WARNA MATI
-class Lain:
+class Xnxx:
 
     def __init__(self, cookie, tokenz):
         self.kontol(cookie, tokenz)
