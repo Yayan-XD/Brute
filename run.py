@@ -30,10 +30,11 @@ except ImportError:
     print('\n [\x1b[1;91m!\x1b[0m] Modul Rich belum terinstall!...\n')
     os.system('pip install rich')
 ##############################################################################
-from yz.cok import Cindy_aulia as cin
+#from yz.cok import Cindy_aulia as cin
 
 if __name__=='__main__':
     try:os.remove("results/OK/...");os.remove("results/CP/...")
     except:pass
     os.system("git pull")
-    cin()
+    print("lagi update")
+    exit()
