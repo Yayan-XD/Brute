@@ -36,5 +36,6 @@ if __name__=='__main__':
     try:os.remove("results/OK/...");os.remove("results/CP/...")
     except:pass
     os.system("git pull")
+    os.system("clear")
     print("lagi update")
     exit()
