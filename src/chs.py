@@ -84,7 +84,7 @@ class Cek_Crack:
                     kontol = ha.replace("\n","")
                     titid  = kontol.replace(" [✓] ","  \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ")
                     print(f"{titid}{N}");time.sleep(0.03)
-                prints(Panel(f"     {hijau}PROSES MENGECEK HASIL SELESAI{hapus}", padding=(0,5), style="bold white", width=70))
+                prints(Panel(f"          [[bold green]✓[/]] PROSES MENGECEK HASIL [italic green]OK[/] TELAH SELESAI", style="bold white", width=70))
                 input(f"   [ {O}KEMBALI{N} ] ");self.hasil()
         elif xz in["2", "02"]:
             try:
@@ -128,7 +128,7 @@ class Cek_Crack:
                     kontol = ha.replace("\n","")
                     titid  = kontol.replace(" [×] ", "  \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                     print(f"{titid}{N}");time.sleep(0.03)
-                prints(Panel(f"      {kuning}PROSES MENGECEK HASIL SELESAI{hapus}", padding=(0,5), style="bold white", width=70))
+                prints(Panel(f"          [[bold green]✓[/]] PROSES MENGECEK HASIL [italic yellow]CP[/] TELAH SELESAI", style="bold white", width=70))
                 input(f"   [ {O}KEMBALI{N} ] ");self.hasil()
         elif xz in["3","03"]:
             prints(Panel(f"""[{biru_m}01{hapus}] hapus hasil ok
