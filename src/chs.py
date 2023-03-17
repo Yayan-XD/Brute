@@ -140,13 +140,13 @@ class Cek_Crack:
                 except:os.system("rm -rf results/OK")
                 try:os.mkdir("results/OK")
                 except:pass
-                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil ok.", style="bold white", width=70));input(f"[ {O}TEKAN ENTER {N} ] ");self.hasil()
+                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil ok.", style="bold white", width=70));input(f"[ {O}TEKAN ENTER{N} ] ");self.hasil()
             elif pil in ["2", "02"]:
                 try:os.remove("results/CP")
                 except:os.system("rm -rf results/CP")
                 try:os.mkdir("results/CP")
                 except:pass
-                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil cp.", style="bold white", width=70));input(f"[ {O}TEKAN ENTER {N} ] ");self.hasil()
+                prints(Panel(f"[{hijau}✓{hapus}] berhasil menghapus semua hasil cp.", style="bold white", width=70));input(f"[ {O}TEKAN ENTER{N} ] ");self.hasil()
             elif pil in ["3", "03"]:
                 self.hasil()
             else:
