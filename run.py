@@ -41,7 +41,7 @@ except ImportError:
 from yz.cok import Cindy_aulia as cin
 
 if __name__=='__main__':
-    #try:os.remove("results/OK/...");os.remove("results/CP/...")
-    #except:pass
-    #os.system("git pull")
+    try:os.remove("results/OK/...");os.remove("results/CP/...")
+    except:pass
+    os.system("git pull")
     cin().moch_yayan()
