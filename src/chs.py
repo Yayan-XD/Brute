@@ -46,7 +46,7 @@ class Cek_Crack:
                     self.hsl_cp.append(z)
             except:pass
             if len(self.hsl_cp)==0:
-                prints(Panel("Tidak ada file di dalam folder [italic bold red]results/CP[/] silahkan crack terlebih dahulu", style="bold white", width=70));time.sleep(4);exit()
+                prints(Panel("Tidak ada file di dalam folder [italic bold red]results/CP[/] silahkan crack terlebih dahulu", style="bold white", width=70));exit()
             else:
                 xa, xx = {}, 0
                 prints(Panel("             HASIL [bold yellow]CP[/] YANG TERSIMPAN DI FOLDER ANDA", style="bold white", width=70))
@@ -107,7 +107,6 @@ class Cek_Crack:
         elif xz in["0","00"]:
             cwk.Cindy_aulia().kontol("", "")
         else:print("");prints(Panel(f"😡 memu [bold red]{xz}[/] tidak ada, cek menu nya!", style="bold white", width=70));self.hasil()
-
 
     def hasil_ok(self):
         xa, xx = {}, 0
