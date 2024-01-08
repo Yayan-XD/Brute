@@ -38,10 +38,10 @@ except ImportError:
     clear();print(f"\n [{M}!{N}] Modul {H}Rich{N} belum terinstall!..\n.")
     os.system("pip install rich")
 ##############################################################################
-from yz.cok import Cindy_aulia as cin
+from menu import Brute
 
 if __name__=='__main__':
     try:os.remove("results/OK/...");os.remove("results/CP/...")
     except:pass
-    os.system("git pull")
-    cin().moch_yayan()
+    #os.system("git pull")
+    Brute().menu()
