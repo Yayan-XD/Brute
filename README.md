@@ -1,4 +1,4 @@
-<img src="https://github.com/Yayan-XD/Brute/blob/master/assets/Screenshot%20(207).png">
+<img src="[https://github.com/Yayan-XD/Brute/blob/master/assets/Screenshot%20(207).png](https://github.com/Yayan-XD/Brute/blob/master/assests/Screenshot%20from%202024-01-08%2015-09-46.png)">
 
 
 #### CARA INSTALL SCRIPT:
