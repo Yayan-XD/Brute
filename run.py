@@ -43,5 +43,5 @@ from menu import Brute
 if __name__=='__main__':
     try:os.remove("results/OK/...");os.remove("results/CP/...")
     except:pass
-    #os.system("git pull")
+    os.system("git pull")
     Brute().menu()
