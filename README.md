@@ -1,4 +1,4 @@
-![template_s](https://github.com/Yayan-XD/Yayan-XD/blob/master/img/wallpaperbetter_(1).jpg)
+![template_s]([https://github.com/Yayan-XD/Yayan-XD/blob/master/img/wallpaperbetter_(1).jpg](https://github.com/Yayan-XD/Brute/blob/master/assests/Screenshot%20from%202024-01-08%2015-09-46.png))
 
 
 #### CARA INSTALL SCRIPT:
