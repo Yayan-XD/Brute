@@ -38,10 +38,11 @@ except ImportError:
     clear();print(f"\n [{M}!{N}] Modul {H}Rich{N} belum terinstall!..\n.")
     os.system("pip install rich")
 ##############################################################################
-from menu import Brute
+#from menu import Brute
 
 if __name__=='__main__':
     try:os.remove("results/OK/...");os.remove("results/CP/...")
     except:pass
     os.system("git pull")
-    Brute().menu()
+    clear()
+    exit(f"\n\n[{M}!{N}] Mohon tunggu, script sedang di update ke versi terbaru")
