@@ -1,4 +1,4 @@
-![template_s]()
+![template_s](https://github.com/Yayan-XD/Brute/blob/master/assets/menu.png)
 
 
 #### CARA INSTALL SCRIPT:
