@@ -1,4 +1,4 @@
-![template_s](https://github.com/Yayan-XD/Brute/blob/master/assests/yxz.png)
+![template_s]()
 
 
 #### CARA INSTALL SCRIPT:
