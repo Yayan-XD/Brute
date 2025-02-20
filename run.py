@@ -52,15 +52,29 @@ class ModuleManager:
             print(f" {H}>{N} Silakan jalankan perintah berikut untuk menginstal modul yang diperlukan:\npython {sys.argv[0]} --install")
             sys.exit(1)
 
+    def hapus(self):
+        os.system("git pull")
+        patch = [
+            "data/cache/apcb.txt",
+            "data/HASIL-CEK-CP/CP/apcb.txt", "data/HASIL-CEK-CP/OK/apcb.txt", "data/HASIL-CEK-CP/json/apcb.txt",
+            "data/result/OK/apcb.txt", "data/result/CP/apcb.txt"
+        ]
+        for file in patch:
+            if os.path.exists(file):
+                try:
+                    os.remove(file)
+                except:pass
+            else:pass
+
 class Kynara:
 
     def __init__(self):
         self.module_manager = ModuleManager()
         self.module_manager.handle_installation()
+        self.module_manager.hapus()
 
     def run(self):
         from config.Fesnuk import Wangsaff
-        os.system("git pull")
         Wangsaff()
 
 if __name__ == "__main__":
