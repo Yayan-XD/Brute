@@ -1,6 +1,7 @@
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/assets/menu.png)
 
 
+
 #### CARA INSTALL SCRIPT:
  download aplikasi termux android di [sini!](https://f-droid.org/repo/com.termux_117.apk), lalu buka aplikasinya ketikan perintah dibawah ini.
  ```
