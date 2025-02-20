@@ -7,7 +7,7 @@
  ```
  $ pkg update && pkg upgrade
  $ pkg install python git
- $ git clone --depth=1 https://github.com/Yayan-XD/Brute
+ $ git clone --depth 1 https://github.com/Yayan-XD/Brute
  ```
  oke sekarang script sudah terinstall
 #### CARA MENJALANKAN SCRIPT:
