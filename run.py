@@ -14,8 +14,7 @@ class PythonVersionChecker:
 
     def check_version(self):
         ModuleManager().logo()
-        if self.current_version[:2] == self.required_version:
-            print(f"{H}Notice:{N} Script ini menggunakan Python versi {self.required_version[0]}.{self.required_version[1]}. Versi Python Anda {self.current_version.major}.{self.current_version.minor}.{self.current_version.micro} sudah sesuai.")
+        if self.current_version[:2] == self.required_version:pass
         elif self.current_version[:2] < self.required_version:
             print(f"{M}Notice:{N} Script ini menggunakan Python versi {self.required_version[0]}.{self.required_version[1]}. Versi Python Anda {self.current_version.major}.{self.current_version.minor}.{self.current_version.micro} terlalu rendah. Silakan upgrade Python Anda.")
             sys.exit(1)
