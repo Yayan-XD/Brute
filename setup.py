@@ -22,4 +22,4 @@ if not extensions:
 setup(
     ext_modules=cythonize(extensions, language_level=3),
     script_args=["build_ext", "--inplace"]
-    )
+)
