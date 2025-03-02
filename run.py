@@ -1,31 +1,31 @@
 import os
 import sys
-import platform
 import subprocess
 import importlib.util
+import platform
+from bluid.logo import Logo
 
 M = "\x1b[0;31m"  # Merah
 H = "\x1b[0;32m"  # Hijau
-N = "\x1b[0m"     # Reset warna
-
-OS_NAME = platform.system().lower()
-ARCH = platform.architecture()[0]
+N = "\x1b[0m"     # Reset ke default
 
 FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
 
-def cek_file_so():
-    for folder in FOLDERS:
-        for file in os.listdir(folder):
-            if file.endswith(".so"):
-                return True
-    return False
+class PythonVersionChecker:
+    def __init__(self, required_version):
+        self.required_version = required_version
+        self.current_version = sys.version_info
 
-def compile_c_to_so():
-    print(f"\n{M}✘ Tidak ada file .so yang sesuai dengan OS Anda ({OS_NAME}-{ARCH})!{N}")
-    print(f"{H}Memulai proses kompilasi ulang dari file .c...{N}")
-    subprocess.run([sys.executable, "setup.py"], check=True)
-    print(f"\n{H}✓ Kompilasi selesai! Coba jalankan ulang:{N} python run.py")
-    sys.exit(0)
+    def check_version(self):
+        Logo("barme")
+        if self.current_version[:2] == self.required_version:
+            pass
+        elif self.current_version[:2] < self.required_version:
+            print(f"{M}Notice:{N} Script ini membutuhkan Python {self.required_version[0]}.{self.required_version[1]}. Versi Anda terlalu rendah ({self.current_version.major}.{self.current_version.minor}.{self.current_version.micro}). Silakan upgrade Python Anda.")
+            sys.exit(1)
+        else:
+            print(f"{M}Notice:{N} Script ini membutuhkan Python {self.required_version[0]}.{self.required_version[1]}. Versi Anda terlalu tinggi ({self.current_version.major}.{self.current_version.minor}.{self.current_version.micro}). Silakan downgrade Python Anda.")
+            sys.exit(1)
 
 class ModuleManager:
     REQUIRED_MODULES = ["requests", "rich", "bs4", "cython"]
@@ -37,6 +37,7 @@ class ModuleManager:
         return [module for module in self.REQUIRED_MODULES if importlib.util.find_spec(module) is None]
 
     def install_modules(self):
+        Logo("barme")
         for module in self.missing_modules:
             try:
                 subprocess.check_call([sys.executable, "-m", "pip", "install", module])
@@ -45,6 +46,7 @@ class ModuleManager:
                 print(f"\n {M}!{N} Gagal menginstal {module}")
 
     def handle_installation(self):
+        Logo("barme")
         if "--install" in sys.argv:
             print(f"\n {H}•{N} Menginstal modul yang diperlukan...")
             self.install_modules()
@@ -58,25 +60,36 @@ class ModuleManager:
 
 class Kynara:
     def __init__(self):
+        python_checker = PythonVersionChecker((3, 11))
+        python_checker.check_version()
         self.module_manager = ModuleManager()
         self.module_manager.handle_installation()
 
     def run(self):
         from bluid.menu import yayanxd
+        yayanxd().hapus()
         yayanxd().menu()
 
-if __name__ == "__main__":
-    if sys.version_info < (3, 12):
-        print(f"{M}✘ Script ini membutuhkan Python 3.12 atau lebih tinggi!{N}")
-        sys.exit(1)
+def cek_file_so():
+    for folder in FOLDERS:
+        for file in os.listdir(folder):
+            if file.endswith(".so"):
+                return True
+    return False
 
-    ModuleManager().handle_installation()
+def compile_c_to_so():
+    print(f"\n{M}✘ Tidak ada file .so yang sesuai!{N}")
+    print(f"{H}Memulai proses kompilasi ulang dari file .c...{N}")
+    subprocess.run([sys.executable, "setup.py", "build_ext", "--inplace"], check=True)
+    print(f"\n{H}✓ Kompilasi selesai! Silakan jalankan ulang:{N} python {sys.argv[0]}")
+    sys.exit(0)
+
+if __name__ == "__main__":
     if "--yxd" in sys.argv:
         compile_c_to_so()
     if cek_file_so():
-        print(f"\n{H}✓ Semua file .so tersedia! Menjalankan script...{N}")
         kyna = Kynara()
         kyna.run()
     else:
-        print(f"{M}✘ Tidak ada file .so yang sesuai! Jalankan:{N} python run.py --yxd")
+        print(f"{M}✘ Tidak ada file .so yang sesuai! Jalankan:{N} python {sys.argv[0]} --yxd")
         sys.exit(1)
