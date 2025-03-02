@@ -1,31 +1,30 @@
 import os
 from setuptools import setup, Extension
 from Cython.Build import cythonize
-import shutil
 
 FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
 
 extensions = []
 for folder in FOLDERS:
     if not os.path.exists(folder):
-        print(f"[!] Folder {folder} tidak ditemukan")
         continue
     for file in os.listdir(folder):
         if file.endswith(".c"):
-            module_name = f"{folder}.{file.replace('.c', '')}"
             module_path = os.path.join(folder, file)
+            module_name = f"{folder}.{file[:-2]}"
             extensions.append(
                 Extension(
-                    module_name,
-                    [module_path],
-                    extra_compile_args=["-O3"]
+                    name=module_name,
+                    sources=[module_path],
+                    extra_compile_args=["-O3", "-Wall"]
                 )
             )
 
-if os.path.exists("build"):
-    shutil.rmtree("build")
-
 setup(
-    ext_modules=cythonize(extensions, language_level=3, build_dir="build"),
+    ext_modules=cythonize(
+        extensions,
+        language_level=3,
+        compiler_directives={'binding': True}
+    ),
     script_args=["build_ext", "--inplace"]
 )
