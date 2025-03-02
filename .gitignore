@@ -1,7 +1,0 @@
-*
-
-!**/*.so
-
-!README.md
-!run.py
-!.gitignore
