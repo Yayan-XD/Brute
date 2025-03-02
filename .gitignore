@@ -1,15 +1,7 @@
 *
 
-!*.so
+!**/*.so
 
-__pycache__/
-*.pyc
-*.pyo
-
-*.log
-*.tmp
-build/
-dist/
-
-venv/
-env/
+!README.md
+!run.py
+!.gitignore
