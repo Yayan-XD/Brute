@@ -1,132 +1,134 @@
 import os
 import sys
-import platform
 import subprocess
 import importlib.util
 import shutil
+from pathlib import Path
 
 from bluid.logo import Logo
 
 M = "\x1b[0;31m"  # Merah
 H = "\x1b[0;32m"  # Hijau
-N = "\x1b[0m"     # Reset warna
+N = "\x1b[0m"     # Reset ke default
 
-class App:
+class PythonVersionChecker:
+    def __init__(self, required_version):
+        self.required_version = required_version
+        self.current_version = sys.version_info
+
+    def check_version(self):
+        Logo("barme")
+        if self.current_version[:2] < self.required_version:
+            print(f"\n{M}Notice:{N} Python versi Anda ({self.current_version.major}.{self.current_version.minor}.{self.current_version.micro}) terlalu rendah!")
+            print(f"{H}Harap upgrade ke Python {self.required_version[0]}.{self.required_version[1]} atau lebih tinggi{N}")
+            sys.exit(1)
+
+class ModuleManager:
+    REQUIRED_MODULES = ["requests", "rich", "bs4", "pytz", "cython"]
+
+    def __init__(self):
+        self.missing_modules = self._check_missing()
+
+    def _check_missing(self):
+        return [mod for mod in self.REQUIRED_MODULES 
+               if not importlib.util.find_spec(mod.split('[')[0])]
+
+    def install_modules(self):
+        Logo("barme")
+        print(f"\n{H}[•] Memulai instalasi modul...{N}")
+        for module in self.missing_modules:
+            try:
+                subprocess.check_call(
+                    [sys.executable, "-m", "pip", "install", module],
+                    stdout=subprocess.DEVNULL
+                )
+                print(f"{H}[✓] {module} terinstal{N}")
+            except subprocess.CalledProcessError:
+                print(f"{M}[✗] Gagal instal {module}{N}")
+                sys.exit(1)
+
+    def validate(self):
+        if self.missing_modules:
+            Logo("barme")
+            print(f"\n{M}[!] Modul tidak ditemukan:{N}")
+            for mod in self.missing_modules:
+                print(f" - {mod}")
+            print(f"\n{H}Jalankan:{N} python run.py --install")
+            sys.exit(1)
+
+class Compiler:
     def __init__(self):
         self.FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
-        self.REQUIRED_MODULES = ["requests", "rich", "bs4", "pytz"]
-        self.force_compile = False
+        self.force = False
 
     def _clean_build(self):
         if os.path.exists("build"):
             shutil.rmtree("build")
-            print(f"{H}[+] Build directory cleaned{N}")
+            print(f"{H}[✓] Build directory dibersihkan{N}")
 
-    def _show_logo(self, style="barme"):
-        Logo(style)
-
-    class ModuleManager:
-        def __init__(self, required_modules):
-            self.required_modules = required_modules
-            self.missing = self._check_missing()
-
-        def _check_missing(self):
-            return [mod for mod in self.required_modules 
-                   if not importlib.util.find_spec(mod.split('[')[0])]
-
-        def install(self):
-            for mod in self.missing:
-                try:
-                    subprocess.run(
-                        [sys.executable, "-m", "pip", "install", mod],
-                        check=True,
-                        stdout=subprocess.DEVNULL
-                    )
-                    print(f"{H}[✓] {mod} installed{N}")
-                except Exception as e:
-                    print(f"{M}[!] Failed install {mod}: {e}{N}")
-                    sys.exit(1)
-
-        def validate(self):
-            if self.missing:
-                print(f"\n{M}[!] Missing modules: {', '.join(self.missing)}{N}")
-                print(f"{H}[>] Run: python run.py --install{N}")
-                sys.exit(1)
-
-    def _get_c_files(self):
-        files = []
-        for folder in self.FOLDERS:
-            if not os.path.exists(folder):
-                continue
-            for file in os.listdir(folder):
-                if file.endswith(".c"):
-                    c_file = os.path.join(folder, file)
-                    so_file = c_file.replace(".c", ".so")
-                    
-                    if self.force_compile or not os.path.exists(so_file):
-                        files.append(c_file)
-                    else:
-                        # Cek timestamp
-                        c_time = os.path.getmtime(c_file)
-                        so_time = os.path.getmtime(so_file)
-                        if c_time > so_time:
-                            files.append(c_file)
-        return files
-
-    def _compile_files(self, files):
-        self._show_logo()
-        print(f"\n{H}[~] Compiling {len(files)} files...{N}")
-        
+    def _compile_files(self):
         try:
-            self._clean_build()
+            Logo("barme")
+            print(f"{H}[•] Kompilasi file .c ke .so...{N}")
             subprocess.run(
                 [sys.executable, "setup.py", "build_ext", "--inplace"],
                 check=True,
                 stdout=subprocess.DEVNULL
             )
-            
-            for root, _, files in os.walk("build"):
-                for file in files:
-                    if file.endswith(".so"):
-                        src = os.path.join(root, file)
-                        dest = os.path.join(root.split(os.sep)[1], file)
-                        shutil.copy2(src, dest)
-            
-            self._clean_build()
-            print(f"{H}[✓] Compile success!{N}")
-            
-        except Exception as e:
-            print(f"{M}[!] Compile failed: {e}{N}")
-            sys.exit(1)
+            return True
+        except subprocess.CalledProcessError:
+            Logo("barme")
+            print(f"{M}[✗] Gagal kompilasi!{N}")
+            return False
 
-    def run(self):
+    def _cleanup_c_files(self):
+        for folder in self.FOLDERS:
+            for path in Path(folder).glob("*.c"):
+                Logo("barme")
+                print(f"{H}[•] Menghapus {path.name}{N}")
+                os.unlink(path)
 
-        if "--install" in sys.argv:
-            manager = self.ModuleManager(self.REQUIRED_MODULES)
-            manager.install()
-            return
-            
-        if "--force" in sys.argv:
-            self.force_compile = True
-            print(f"{H}[!] Force compile enabled{N}")
+    def auto_compile(self):
+        if any(Path(folder).glob("*.c") for folder in self.FOLDERS) or self.force:
+            if self._compile_files():
+                self._cleanup_c_files()
+                self._clean_build()
+                return True
+            return False
+        return True
 
-        manager = self.ModuleManager(self.REQUIRED_MODULES)
-        manager.validate()
+class Kynara:
+    def __init__(self):
+        self.version_checker = PythonVersionChecker((3, 12))
+        self.module_manager = ModuleManager()
+        self.compiler = Compiler()
 
-        files_to_compile = self._get_c_files()
-        if files_to_compile:
-            self._compile_files(files_to_compile)
-        else:
-            print(f"{H}[✓] All files are up-to-date{N}")
-
+    def _run_main_app(self):
         try:
             from bluid.menu import yayanxd
-            self._show_logo()
             yayanxd().hapus()
             yayanxd().menu()
         except ImportError as e:
-            print(f"{M}[!] Failed to start app: {e}{N}")
+            Logo("barme")
+            print(f"{M}[✗] Error: {e}{N}")
             sys.exit(1)
 
+    def run(self):
+        self.version_checker.check_version()
+        if "--install" in sys.argv:
+            self.module_manager.install_modules()
+            return
+            
+        if "--force" in sys.argv:
+            self.compiler.force = True
+            for folder in self.compiler.FOLDERS:
+                for path in Path(folder).glob("*.so"):
+                    os.unlink(path)
+
+        self.module_manager.validate()
+        if not self.compiler.auto_compile():
+            sys.exit(1)
+        self._run_main_app()
+
 if __name__ == "__main__":
-    App().run()
+    Kynara().run()
