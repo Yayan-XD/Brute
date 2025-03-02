@@ -23,7 +23,7 @@ class App:
             print(f"{H}[+] Build directory cleaned{N}")
 
     def _show_logo(self, style="barme"):
-        Logo(style).display()
+        Logo(style)
 
     class ModuleManager:
         def __init__(self, required_modules):
