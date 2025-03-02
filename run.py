@@ -74,6 +74,7 @@ class Kynara:
 
     def run(self):
         from bluid.menu import yayanxd
+        yayanxd().hapus()
         yayanxd().menu()
 
 if __name__ == "__main__":
