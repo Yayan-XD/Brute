@@ -1,0 +1,22 @@
+# File Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.c
+
+# Folder hasil build
+build/
+dist/
+
+# Log dan file sementara
+*.log
+*.tmp
+
+# Virtual environment
+venv/
+env/
+
+# Artifacts dari Cython
+*.egg-info/
