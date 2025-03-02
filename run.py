@@ -89,7 +89,6 @@ if __name__ == "__main__":
         print("✅ Kompilasi selesai!\n")
     
     if cek_file_so():
-        print(f"\n{H}✓ Semua file .so tersedia! Menjalankan script...{N}")
         kyna = Kynara()
         kyna.run()
     else:
