@@ -13,6 +13,14 @@ ARCH = platform.architecture()[0]
 
 FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
 
+def ensure_cython_installed():
+    if importlib.util.find_spec("Cython") is None:
+        print(f"{H}Menginstal Cython...{N}")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "cython"])
+        print(f"{H}✓ Cython berhasil diinstal!{N}")
+
+ensure_cython_installed()
+
 def needs_recompile():
     for folder in FOLDERS:
         for file in os.listdir(folder):
@@ -39,7 +47,7 @@ def compile_c_to_so():
     sys.exit(0)
 
 class ModuleManager:
-    REQUIRED_MODULES = ["requests", "rich", "bs4", "cython"]
+    REQUIRED_MODULES = ["requests", "rich", "bs4"]
 
     def __init__(self):
         self.missing_modules = self.check_modules()
