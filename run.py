@@ -13,7 +13,6 @@ ARCH = platform.architecture()[0]
 
 FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
 
-# Periksa dan instal Cython jika belum terinstal
 REQUIRED_MODULES = ["requests", "rich", "bs4", "cython"]
 
 def ensure_cython_installed():
