@@ -1,17 +1,15 @@
+*
+
+!*.so
+
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-*.so
-*.c
-
-build/
-dist/
 
 *.log
 *.tmp
+build/
+dist/
 
 venv/
 env/
-
-*.egg-info/
