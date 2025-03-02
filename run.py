@@ -91,8 +91,8 @@ class Kynara:
         yayanxd().menu()
 
 if __name__ == "__main__":
-    if sys.version_info < (3, 6):
-        print(f"{M}✘ Script ini membutuhkan Python 3.6 atau lebih tinggi!{N}")
+    if sys.version_info < (3, 12):
+        print(f"{M}✘ Script ini membutuhkan Python 3.12 atau lebih tinggi!{N}")
         sys.exit(1)
 
     kyna = Kynara()
