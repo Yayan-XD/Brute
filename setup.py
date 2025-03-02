@@ -1,3 +1,4 @@
+# setup.py
 import os
 from setuptools import setup, Extension
 from Cython.Build import cythonize
@@ -11,12 +12,12 @@ for folder in FOLDERS:
     for file in os.listdir(folder):
         if file.endswith(".c"):
             module_path = os.path.join(folder, file)
-            module_name = f"{folder}.{file[:-2]}"
+            module_name = module_path.replace("/", ".").replace(".c", "")
             extensions.append(
                 Extension(
-                    name=module_name,
-                    sources=[module_path],
-                    extra_compile_args=["-O3", "-Wall"]
+                    module_name,
+                    [module_path],
+                    extra_compile_args=["-O3", "-w"]
                 )
             )
 
@@ -25,6 +26,5 @@ setup(
         extensions,
         language_level=3,
         compiler_directives={'binding': True}
-    ),
-    script_args=["build_ext", "--inplace"]
+    )
 )
