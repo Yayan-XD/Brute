@@ -4,7 +4,7 @@ import platform
 import subprocess
 import importlib.util
 
-from bluid.logo import Logo  # Pastikan modul Logo sudah diimplementasikan dengan benar
+from bluid.logo import Logo
 
 M = "\x1b[0;31m"  # Merah
 H = "\x1b[0;32m"  # Hijau
@@ -19,9 +19,9 @@ class App:
 
     def ensure_cython_installed(self):
         if importlib.util.find_spec("Cython") is None:
-            Logo("barme")  # Tampilkan logo sebelum notifikasi instalasi
+            Logo("barme")
             print(f"{H}Menginstal Cython...{N}")
-            subprocess.check_call([sys.executable, "-m", "pip", "install", "cython"])
+            subprocess.check_call([sys.executable, "-m", "pip", "install", "cython", "pytz"])
             print(f"{H}✓ Cython berhasil diinstal!{N}")
 
     def needs_recompile(self):
@@ -34,7 +34,6 @@ class App:
                     so_file = os.path.join(folder, file.replace(".c", ".so"))
                     c_file = os.path.join(folder, file)
 
-                    # Jika file .so tidak ada atau file .c lebih baru, tambahkan ke daftar recompile
                     if not os.path.exists(so_file) or os.path.getmtime(c_file) > os.path.getmtime(so_file):
                         files_to_recompile.append(c_file)
         return files_to_recompile
@@ -50,11 +49,11 @@ class App:
 
     def compile_c_to_so(self, files_to_recompile):
         if not files_to_recompile:
-            Logo("barme")  # Tampilkan logo sebelum notifikasi
+            Logo("barme")
             print(f"\n{H}✓ Semua file .so sudah sesuai. Tidak perlu kompilasi ulang.{N}")
             return
 
-        Logo("barme")  # Tampilkan logo sebelum notifikasi
+        Logo("barme")
         print(f"\n{M}✘ File .c berikut perlu dikompilasi ulang ke .so:{N}")
         for file in files_to_recompile:
             print(f" - {file}")
@@ -76,7 +75,7 @@ class App:
             return [module for module in self.required_modules if importlib.util.find_spec(module) is None]
 
         def install_modules(self):
-            Logo("barme")  # Tampilkan logo sebelum notifikasi instalasi
+            Logo("barme")
             for module in self.missing_modules:
                 try:
                     subprocess.check_call([sys.executable, "-m", "pip", "install", module])
@@ -86,14 +85,14 @@ class App:
 
         def handle_installation(self):
             if "--install" in sys.argv:
-                Logo("barme")  # Tampilkan logo sebelum notifikasi instalasi
+                Logo("barme")
                 print(f"\n {H}•{N} Menginstal modul yang diperlukan...")
                 self.install_modules()
                 print(f" {H}✓{N} Semua modul telah diinstal. Silakan jalankan skrip lagi.")
                 sys.exit(0)
 
             if self.missing_modules:
-                Logo("barme")  # Tampilkan logo sebelum notifikasi
+                Logo("barme")
                 print(f" {M}!{N} Modul berikut belum terinstal:", ", ".join(self.missing_modules))
                 print(f" {H}>{N} Jalankan perintah berikut untuk menginstalnya:\npython {sys.argv[0]} --install")
                 sys.exit(1)
@@ -109,12 +108,12 @@ class App:
                 yayanxd().hapus()
                 yayanxd().menu()
             except ImportError as e:
-                Logo("barme")  # Tampilkan logo sebelum notifikasi error
+                Logo("barme")
                 print(f"{M}✗ Gagal mengimpor modul: {e}{N}")
                 sys.exit(1)
 
     def main(self):
-        Logo("barme")  # Tampilkan logo di awal program
+        Logo("barme")
         if sys.version_info < (3, 12):
             print(f"{M}✘ Script ini membutuhkan Python 3.12 atau lebih tinggi!{N}")
             sys.exit(1)
@@ -122,7 +121,6 @@ class App:
         module_manager = self.ModuleManager(self.REQUIRED_MODULES)
         module_manager.handle_installation()
 
-        # Periksa file .c yang perlu dikompilasi ulang
         files_to_recompile = self.needs_recompile()
         self.compile_c_to_so(files_to_recompile)
 
@@ -130,7 +128,7 @@ class App:
             kyna = self.Kynara(module_manager)
             kyna.run()
         else:
-            Logo("barme")  # Tampilkan logo sebelum notifikasi
+            Logo("barme")
             print(f"\n{M}✘ Tidak ada file .so yang ditemukan!{N}")
             print(f"{H}> Jalankan perintah berikut untuk mengompilasi ulang:{N} python run.py --yxd")
             sys.exit(0)
