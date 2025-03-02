@@ -13,6 +13,9 @@ ARCH = platform.architecture()[0]
 
 FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
 
+# Periksa dan instal Cython jika belum terinstal
+REQUIRED_MODULES = ["requests", "rich", "bs4", "cython"]
+
 def ensure_cython_installed():
     if importlib.util.find_spec("Cython") is None:
         print(f"{H}Menginstal Cython...{N}")
@@ -47,13 +50,11 @@ def compile_c_to_so():
     sys.exit(0)
 
 class ModuleManager:
-    REQUIRED_MODULES = ["requests", "rich", "bs4"]
-
     def __init__(self):
         self.missing_modules = self.check_modules()
 
     def check_modules(self):
-        return [module for module in self.REQUIRED_MODULES if importlib.util.find_spec(module) is None]
+        return [module for module in REQUIRED_MODULES if importlib.util.find_spec(module) is None]
 
     def install_modules(self):
         for module in self.missing_modules:
