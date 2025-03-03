@@ -1,4 +1,3 @@
-
 import os
 import glob
 import sys
@@ -22,10 +21,10 @@ class PythonVersionChecker:
         if self.current_version[:2] == self.required_version:
             pass
         elif self.current_version[:2] < self.required_version:
-            print(f"{M}Notice:{N} Script ini menggunakan Python versi {self.required_version[0]}.{self.required_version[1]}. Versi Python Anda {self.current_version.major}.{self.current_version.minor}.{self.current_version.micro} terlalu rendah. Silakan upgrade Python Anda.")
+            print(f"{M}Notice:{N} Versi Python Anda terlalu rendah. Silakan upgrade.")
             sys.exit(1)
         else:
-            print(f"{M}Notice:{N} Script ini menggunakan Python versi {self.required_version[0]}.{self.required_version[1]}. Versi Python Anda {self.current_version.major}.{self.current_version.minor}.{self.current_version.micro} terlalu tinggi. Silakan downgrade Python Anda.")
+            print(f"{M}Notice:{N} Versi Python Anda terlalu tinggi. Silakan downgrade.")
             sys.exit(1)
 
 class ModuleManager:
@@ -56,44 +55,61 @@ class ModuleManager:
 
         if self.missing_modules:
             print(f" {M}!{N} Modul berikut belum terinstal:", ", ".join(self.missing_modules))
-            print(f" {H}>{N} Silakan jalankan perintah berikut untuk menginstal modul yang diperlukan:\npython {sys.argv[0]} --install")
+            print(f" {H}>{N} Silakan jalankan perintah:\npython {sys.argv[0]} --install")
             sys.exit(1)
 
 class Kynara:
+    TARGET_FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
+
     def __init__(self):
-        python_checker = PythonVersionChecker((3, 11))
+        python_checker = PythonVersionChecker((3, 12))
         python_checker.check_version()
         self.module_manager = ModuleManager()
         self.module_manager.handle_installation()
 
-    def run(self):
-        from bluid.menu import yayanxd
-        yayanxd().hapus()
-        yayanxd().menu()
+    def compile_cpp_to_so(self):
+        cpp_files = []
+        for folder in self.TARGET_FOLDERS:
+            cpp_files.extend(glob.glob(f"{folder}/*.cpp"))
 
-if __name__ == "__main__":
-    kyna = Kynara()
-    kyna.run()
+        if not cpp_files:
+            return False
 
-    TARGET_FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
-    cpp_files = []
-    for folder in TARGET_FOLDERS:
-        cpp_files.extend(glob.glob(f"{folder}/*.cpp"))
-    
-    if cpp_files:
         extensions = [
             Extension(file.replace(".cpp", ""), [file], extra_compile_args=["-std=c++11"], language="c++")
             for file in cpp_files
         ]
-        
+
         setup(
             name="encrypted_files",
             ext_modules=cythonize(extensions, language_level=3),
             script_args=["build_ext", "--inplace", "--force"]
         )
-        
+
         for file in cpp_files:
             os.remove(file)
-            print(f"{H}✓{N} Menghapus file: {file}")
-    else:
-        print(f"{M}!{N} Tidak ada file .cpp yang ditemukan untuk dikompilasi.")
+
+        return True
+
+    def run(self):
+        so_files = []
+        for folder in self.TARGET_FOLDERS:
+            so_files.extend(glob.glob(f"{folder}/*.so"))
+
+        if so_files:
+            from bluid.menu import yayanxd
+            yayanxd().hapus()
+            yayanxd().menu()
+        else:
+            Logo("barme")
+            print(f"{M}!{N} Tunggu sebentar, memerlukan beberapa menit saja.")
+            if self.compile_cpp_to_so():
+                from bluid.menu import yayanxd
+                yayanxd().hapus()
+                yayanxd().menu()
+            else:
+                print(f"{M}!{N} Gagal mengompilasi file .cpp!")
+
+if __name__ == "__main__":
+    kyna = Kynara()
+    kyna.run()
