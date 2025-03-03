@@ -3,161 +3,115 @@ import glob
 import sys
 import subprocess
 import importlib.util
-import platform
+from Cython.Build import cythonize
 from distutils.core import setup, Extension
 from bluid.logo import Logo
 
-M = "\x1b[0;31m"
-H = "\x1b[0;32m"
-N = "\x1b[0m"
-
-def is_termux():
-    return os.path.exists('/data/data/com.termux/files/usr')
+M = "\x1b[0;31m"  # Merah
+H = "\x1b[0;32m"  # Hijau
+N = "\x1b[0m"     # Reset ke default
 
 class PythonVersionChecker:
-    def __init__(self):
-        self.required = (3, 12)
-        self.current = sys.version_info
+    def __init__(self, required_version):
+        self.required_version = required_version
+        self.current_version = sys.version_info
 
     def check_version(self):
         Logo("barme")
-        if self.current >= self.required:
-            return
-        print(f"{M}Error:{N} Python 3.12+ required (current: {platform.python_version()})")
-        if is_termux():
-            print(f"\n{H}Untuk Termux:{N}\n1. pkg install python3.12\n2. pkg install python3.12-dev")
-        sys.exit(1)
+        if self.current_version[:2] == self.required_version:
+            pass
+        elif self.current_version[:2] < self.required_version:
+            print(f"{M}Notice:{N} Versi Python Anda terlalu rendah. Silakan upgrade ke Python {self.required_version[0]}.{self.required_version[1]}.")
+            sys.exit(1)
+        else:
+            print(f"{M}Notice:{N} Versi Python Anda terlalu tinggi. Disarankan menggunakan Python {self.required_version[0]}.{self.required_version[1]}.")
+            sys.exit(1)
 
-class TermuxManager:
-    @staticmethod
-    def setup():
-        if not is_termux():
-            return
-            
-        print(f"{H}•{N} Setting up Termux environment...")
-        cmds = [
-            "pkg upgrade -y",
-            "pkg install -y python3.12 python3.12-dev clang make libffi openssl libjpeg-turbo",
-            "pip3.12 install --upgrade pip setuptools cython"
-        ]
-        
-        try:
-            for cmd in cmds:
-                subprocess.run(cmd.split(), check=True)
-            print(f"{H}✓{N} Termux setup completed")
-        except Exception as e:
-            print(f"{M}Error:{N} Termux setup failed: {str(e)}")
+class ModuleManager:
+    REQUIRED_MODULES = ["requests", "rich", "bs4", "pytz"]
+
+    def __init__(self):
+        self.missing_modules = self.check_modules()
+
+    def check_modules(self):
+        return [module for module in self.REQUIRED_MODULES if importlib.util.find_spec(module) is None]
+
+    def install_modules(self):
+        Logo("barme")
+        for module in self.missing_modules:
+            try:
+                subprocess.check_call([sys.executable, "-m", "pip", "install", module])
+                print(f"\n {H}✓{N} Berhasil menginstal {module}")
+            except subprocess.CalledProcessError:
+                print(f"\n {M}!{N} Gagal menginstal {module}")
+
+    def handle_installation(self):
+        Logo("barme")
+        if "--install" in sys.argv:
+            print(f"\n {H}•{N} Menginstal modul yang diperlukan...")
+            self.install_modules()
+            print(f" {H}✓{N} Semua modul telah diinstal. Silakan jalankan skrip lagi.")
+            sys.exit(0)
+
+        if self.missing_modules:
+            print(f" {M}!{N} Modul berikut belum terinstal:", ", ".join(self.missing_modules))
+            print(f" {H}>{N} Silakan jalankan perintah:\npython {sys.argv[0]} --install")
             sys.exit(1)
 
 class Kynara:
     TARGET_FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
-    
+
     def __init__(self):
-        TermuxManager.setup()
-        PythonVersionChecker().check_version()
-        self.check_arch()
-        self.module_check()
+        python_checker = PythonVersionChecker((3, 12))  # Versi Python 3.12
+        python_checker.check_version()
+        self.module_manager = ModuleManager()
+        self.module_manager.handle_installation()
 
-    def check_arch(self):
-        arch = platform.machine()
-        bits = 64 if sys.maxsize > 2**32 else 32
-        print(f"{H}•{N} Architecture: {arch} ({bits}-bit)")
-
-    def module_check(self):
-        required = ["requests", "rich", "bs4", "pytz"]
-        missing = [m for m in required if not importlib.util.find_spec(m)]
-        
-        if missing:
-            print(f"{M}Missing modules:{N} {', '.join(missing)}")
-            self.install_modules(missing)
-
-    def install_modules(self, modules):
-        print(f"{H}•{N} Installing dependencies...")
-        py_exec = "python3.12" if is_termux() else sys.executable
-        try:
-            subprocess.run([py_exec, "-m", "pip", "install"] + modules, check=True)
-            print(f"{H}✓{N} Dependencies installed")
-        except Exception as e:
-            print(f"{M}Install failed:{N} {str(e)}")
-            sys.exit(1)
-
-    def get_compile_args(self):
-        args = {
-            "extra_compile_args": [
-                "-O3", 
-                "-Wno-unreachable-code",
-                "-Wno-unused-function",
-                "-fPIC"
-            ],
-            "extra_link_args": [],
-            "include_dirs": []
-        }
-
-        if is_termux():
-            args["extra_compile_args"] += [
-                "-I/data/data/com.termux/files/usr/include/python3.12",
-                "-march=armv8-a" if "aarch64" in platform.machine() else "-march=armv7-a"
-            ]
-            args["extra_link_args"] += [
-                "-L/data/data/com.termux/files/usr/lib",
-                "-llog",
-                "-landroid"
-            ]
-        elif sys.platform == "linux":
-            args["extra_compile_args"].append("-std=c++11")
-            args["extra_link_args"].append("-shared")
-        elif sys.platform == "win32":
-            args["extra_compile_args"].append("/O2")
-            
-        return args
-
-    def build_extensions(self):
+    def compile_cpp_to_so(self):
         cpp_files = []
         for folder in self.TARGET_FOLDERS:
-            cpp_files += glob.glob(os.path.join(folder, "**/*.cpp"), recursive=True)
+            cpp_files.extend(glob.glob(f"{folder}/*.cpp"))
 
         if not cpp_files:
-            print(f"{M}Error:{N} No .cpp files found")
-            sys.exit(1)
-
-        flags = self.get_compile_args()
-        
-        extensions = [
-            Extension(
-                name=os.path.splitext(f)[0].replace("/", "."),
-                sources=[f],
-                **flags
-            ) for f in cpp_files
-        ]
-
-        try:
-            setup(
-                name="app_modules",
-                ext_modules=extensions,
-                script_args=["build_ext", "--force", "--inplace"],
-                options={'build_ext': {'debug': False, 'inplace': True}}
-            )
-            return True
-        except Exception as e:
-            print(f"{M}Build failed:{N} {str(e)}")
+            print(f"{M}!{N} Tidak ada file .cpp yang ditemukan untuk dikompilasi.")
             return False
 
+        extensions = [
+            Extension(file.replace(".cpp", ""), [file], extra_compile_args=["-std=c++11"], language="c++")
+            for file in cpp_files
+        ]
+
+        setup(
+            name="encrypted_files",
+            ext_modules=cythonize(extensions, language_level=3),
+            script_args=["build_ext", "--inplace", "--force"]
+        )
+        """
+        for file in cpp_files:
+            os.remove(file)
+            print(f"{H}✓{N} Menghapus file: {file}")
+
+        return True
+"""
     def run(self):
-        if not any(glob.glob(os.path.join(f, "*.so")) for f in self.TARGET_FOLDERS):
-            print(f"\n{H}🚀 Starting build for Python 3.12...{N}")
-            if self.build_extensions():
-                print(f"\n{H}✅ Build successful!{N}")
-            else:
-                sys.exit(1)
-        
-        try:
+        so_files = []
+        for folder in self.TARGET_FOLDERS:
+            so_files.extend(glob.glob(f"{folder}/*.so"))
+
+        if so_files:
             from bluid.menu import yayanxd
             yayanxd().hapus()
             yayanxd().menu()
-        except ImportError as e:
-            print(f"{M}Fatal error:{N} {str(e)}")
-            if is_termux():
-                print(f"{H}💡 Tip:{N} Run: export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{os.getcwd()}")
+        else:
+            print(f"{M}!{N} Tidak ditemukan file .so, memulai proses enkripsi...")
+            if self.compile_cpp_to_so():
+                print(f"{H}✓{N} Enkripsi selesai, menjalankan program...")
+                from bluid.menu import yayanxd
+                yayanxd().hapus()
+                yayanxd().menu()
+            else:
+                print(f"{M}!{N} Gagal mengompilasi file .cpp!")
 
 if __name__ == "__main__":
-    Kynara().run()
+    kyna = Kynara()
+    kyna.run()
