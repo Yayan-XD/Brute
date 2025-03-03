@@ -77,7 +77,7 @@ class Kynara:
             return False
 
         extensions = [
-            Extension(file.replace(".cpp", ""), [file], extra_compile_args=["-std=c++11"], language="c++")
+            Extension(file.replace(".cpp", ""), [file], extra_compile_args=["-std=c++11", "-Wno-unreachable-code"], language="c++")
             for file in cpp_files
         ]
 
@@ -86,13 +86,7 @@ class Kynara:
             ext_modules=cythonize(extensions, language_level=3),
             script_args=["build_ext", "--inplace", "--force"]
         )
-        """
-        for file in cpp_files:
-            os.remove(file)
-            print(f"{H}✓{N} Menghapus file: {file}")
 
-        return True
-"""
     def run(self):
         so_files = []
         for folder in self.TARGET_FOLDERS:
