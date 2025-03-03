@@ -59,13 +59,13 @@ class ModuleManager:
             sys.exit(1)
 
 class Kynara:
-    TARGET_FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
 
     def __init__(self):
         python_checker = PythonVersionChecker((3, 12))  # Versi Python 3.12
         python_checker.check_version()
         self.module_manager = ModuleManager()
         self.module_manager.handle_installation()
+        self.TARGET_FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
 
     def compile_cpp_to_so(self):
         cpp_files = []
