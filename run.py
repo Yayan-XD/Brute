@@ -4,7 +4,7 @@ import sys
 import subprocess
 import importlib.util
 from Cython.Build import cythonize
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 from bluid.logo import Logo
 
 M = "\x1b[0;31m"  # Merah
@@ -59,13 +59,13 @@ class ModuleManager:
             sys.exit(1)
 
 class Kynara:
+    TARGET_FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
 
     def __init__(self):
         python_checker = PythonVersionChecker((3, 12))  # Versi Python 3.12
         python_checker.check_version()
         self.module_manager = ModuleManager()
         self.module_manager.handle_installation()
-        self.TARGET_FOLDERS = ["bluid", "botfb", "yxdfb", "yxdig"]
 
     def compile_cpp_to_so(self):
         cpp_files = []
@@ -76,16 +76,44 @@ class Kynara:
             print(f"{M}!{N} Tidak ada file .cpp yang ditemukan untuk dikompilasi.")
             return False
 
-        extensions = [
-            Extension(file.replace(".cpp", ""), [file], extra_compile_args=["-std=c++11", "-Wno-unreachable-code"], language="c++")
-            for file in cpp_files
-        ]
+        print(f"{H}✓{N} Ditemukan {len(cpp_files)} file .cpp, memulai kompilasi...")
 
-        setup(
-            name="encrypted_files",
-            ext_modules=cythonize(extensions, language_level=3),
-            script_args=["build_ext", "--inplace", "--force"]
-        )
+        # Buat file setup sementara untuk menghindari deadlock
+        setup_code = f"""
+from setuptools import setup, Extension
+from Cython.Build import cythonize
+
+extensions = [
+    Extension(
+        "{cpp_files[0].replace('.cpp', '')}", 
+        {cpp_files}, 
+        extra_compile_args=["-std=c++11", "-O2"], 
+        language="c++"
+    )
+]
+
+setup(
+    name="encrypted_files",
+    ext_modules=cythonize(extensions, language_level=3),
+    script_args=["build_ext", "--inplace", "--force"]
+)
+        """
+
+        with open("setup_temp.py", "w") as f:
+            f.write(setup_code)
+
+        # Jalankan setup secara terpisah
+        result = subprocess.run([sys.executable, "setup_temp.py"], capture_output=True, text=True)
+
+        if result.returncode == 0:
+            print(f"{H}✓{N} Kompilasi berhasil!")
+            for file in cpp_files:
+                os.remove(file)
+                print(f"{H}✓{N} Menghapus file: {file}")
+            return True
+        else:
+            print(f"{M}!{N} Gagal mengompilasi!\n{result.stderr}")
+            return False
 
     def run(self):
         so_files = []
