@@ -27,7 +27,7 @@ class PythonVersionChecker:
             sys.exit(1)
 
 class ModuleManager:
-    REQUIRED_MODULES = ["requests", "rich", "bs4", "pytz"]
+    REQUIRED_MODULES = ["requests", "rich", "bs4", "pytz", "setuptools"]
 
     def __init__(self):
         self.missing_modules = self.check_modules()
