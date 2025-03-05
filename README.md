@@ -26,6 +26,3 @@
 
 ##### catatan:
  gunakanlah dengan bijak, atas apapun yang terjadi admin tidak bertanggung jawab.
-
-###### Thanks for [Yayan-XD](https://github.com/Yayan-XD) and [Rizky Dev](https://github.com/hekelpro)
-
