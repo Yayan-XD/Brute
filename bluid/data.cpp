@@ -17950,12 +17950,22 @@ static const char *__pyx_filename;
 static const char *__pyx_f[] = {
   "bluid/data.py",
 };
-# 1580 "bluid/data.cpp"
+# 1495 "bluid/data.cpp"
+struct __pyx_obj_4data___pyx_scope_struct__genexpr;
+# 1504 "bluid/data.cpp"
+struct __pyx_obj_4data___pyx_scope_struct__genexpr {
+  PyObject ob_base;
+  PyObject *__pyx_genexpr_arg_0;
+  PyObject *__pyx_genexpr_arg_1;
+  PyObject *__pyx_genexpr_arg_2;
+  PyObject *__pyx_v_val;
+};
+# 1597 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_ExceptionMatchesInState(PyThreadState* tstate, PyObject* err);
-# 1610 "bluid/data.cpp"
+# 1627 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb);
 static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb);
-# 1630 "bluid/data.cpp"
+# 1647 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_GetAttrStr(PyObject* obj, PyObject* attr_name);
 
 
@@ -17981,9 +17991,9 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyBytes_Equals(PyObject
 
 
 static __inline__ __attribute__ ((__unused__)) int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals);
-# 1679 "bluid/data.cpp"
+# 1696 "bluid/data.cpp"
     static __inline__ __attribute__ ((__unused__)) PyObject * __Pyx_GetKwValue_FASTCALL(PyObject *kwnames, PyObject *const *kwvalues, PyObject *s);
-# 1706 "bluid/data.cpp"
+# 1723 "bluid/data.cpp"
 static void __Pyx_RaiseDoubleKeywordsError(const char* func_name, PyObject* kw_name);
 
 
@@ -17999,16 +18009,16 @@ static void __Pyx_RaiseArgtupleInvalid(const char* func_name, int exact,
 
 
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw);
-# 1729 "bluid/data.cpp"
+# 1746 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx__PyObject_LookupSpecial(PyObject* obj, PyObject* attr_name, int with_error);
-# 1772 "bluid/data.cpp"
+# 1789 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject *arg);
 
 
 
 
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_FastCallDict(PyObject *func, PyObject **args, size_t nargs, PyObject *kwargs);
-# 1823 "bluid/data.cpp"
+# 1840 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx__GetModuleGlobalName(PyObject *name);
 
 
@@ -18032,7 +18042,7 @@ static _PyErr_StackItem * __Pyx_PyErr_GetTopmostException(PyThreadState *tstate)
 static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionSave(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb);
 
 static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionReset(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb);
-# 1854 "bluid/data.cpp"
+# 1871 "bluid/data.cpp"
 static int __Pyx__GetException(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb);
 
 
@@ -18041,7 +18051,7 @@ static int __Pyx__GetException(PyThreadState *tstate, PyObject **type, PyObject 
 
 
 static PyObject *__Pyx_PyDict_GetItem(PyObject *d, PyObject* key);
-# 1871 "bluid/data.cpp"
+# 1888 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) int __Pyx_PySequence_ContainsTF(PyObject* item, PyObject* seq, int eq) {
     int result = PySequence_Contains(seq, item);
     return __builtin_expect(!!(result < 0), 0) ? result : (result == (eq == 2));
@@ -18179,7 +18189,7 @@ static double __Pyx_PyUnicode_AsDouble_WithSpaces(PyObject *obj) {
     const char *last;
     char *end;
     Py_ssize_t start, length = PyUnicode_GET_LENGTH(((PyObject*)((obj))));
-    const int kind = ((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((obj))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 2008, __PRETTY_FUNCTION__, "PyUnicode_Check(obj)")), ((PyASCIIObject*)((obj))))->state.kind));
+    const int kind = ((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((obj))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 2025, __PRETTY_FUNCTION__, "PyUnicode_Check(obj)")), ((PyASCIIObject*)((obj))))->state.kind));
     const void* data = PyUnicode_DATA(((PyObject*)((obj))));
     start = 0;
     while (Py_UNICODE_ISSPACE(PyUnicode_READ(static_cast<int>(kind), static_cast<const void*>(data), (start))))
@@ -18232,7 +18242,7 @@ static __inline__ __attribute__ ((__unused__)) double __Pyx_PyUnicode_AsDouble(P
 
 
 static double __Pyx__PyObject_AsDouble(PyObject* obj);
-# 2096 "bluid/data.cpp"
+# 2113 "bluid/data.cpp"
 static PyObject* __Pyx_PyUnicode_Join(PyObject* value_tuple, Py_ssize_t value_count, Py_ssize_t result_ulength,
                                       Py_UCS4 max_char);
 
@@ -18262,7 +18272,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx_RaiseNoneNotIterableEr
 
 
 static void __Pyx_UnpackTupleError(PyObject *, Py_ssize_t index);
-# 2133 "bluid/data.cpp"
+# 2150 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) int __Pyx_unpack_tuple2_exact(
     PyObject* tuple, PyObject** value1, PyObject** value2, int decref_tuple);
 static int __Pyx_unpack_tuple2_generic(
@@ -18279,9 +18289,14 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_Call2Arg
 
 
 static PyObject* __Pyx_PyObject_CallMethod1(PyObject* obj, PyObject* method_name, PyObject* arg);
-# 2158 "bluid/data.cpp"
+# 2175 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyBytes_Join(PyObject* sep, PyObject* values);
-# 2177 "bluid/data.cpp"
+# 2185 "bluid/data.cpp"
+static __inline__ __attribute__ ((__unused__)) void __Pyx_RaiseUnboundLocalError(const char *varname);
+
+
+static void __Pyx_Generator_Replace_StopIteration(int in_async_gen);
+# 2200 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_List_Fast(PyObject *o, Py_ssize_t i,
                                                               int wraparound, int boundscheck);
 
@@ -18293,7 +18308,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Tuple_
 static PyObject *__Pyx_GetItemInt_Generic(PyObject *o, PyObject* j);
 static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Fast(PyObject *o, Py_ssize_t i,
                                                      int is_list, int wraparound, int boundscheck);
-# 2196 "bluid/data.cpp"
+# 2219 "bluid/data.cpp"
     static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_PyUnicode_ConcatInPlaceImpl(PyObject **p_left, PyObject *right
 
 
@@ -18316,7 +18331,7 @@ extern "C" {
 # 22 "/data/data/com.termux/files/usr/include/python3.12/structmember.h" 2
 # 54 "/data/data/com.termux/files/usr/include/python3.12/structmember.h"
 }
-# 2209 "bluid/data.cpp" 2
+# 2232 "bluid/data.cpp" 2
 
 
 
@@ -18329,7 +18344,7 @@ static PyObject *__Pyx_FetchSharedCythonABIModule(void);
 
 
 static PyTypeObject* __Pyx_FetchCommonType(PyTypeObject* type);
-# 2242 "bluid/data.cpp"
+# 2265 "bluid/data.cpp"
 static PyObject *__Pyx_PyMethod_New(PyObject *func, PyObject *self, PyObject *typ) {
     CYTHON_UNUSED_VAR(typ);
     if (!self)
@@ -18343,7 +18358,7 @@ static PyObject *__Pyx_PyMethod_New(PyObject *func, PyObject *self, PyObject *ty
 
 
 static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_PyVectorcall_FastCallDict(PyObject *func, vectorcallfunc vc, PyObject *const *args, size_t nargs, PyObject *kw);
-# 2278 "bluid/data.cpp"
+# 2301 "bluid/data.cpp"
 typedef struct {
 
 
@@ -18407,7 +18422,7 @@ static PyObject * __Pyx_CyFunction_Vectorcall_NOARGS(PyObject *func, PyObject *c
 static PyObject * __Pyx_CyFunction_Vectorcall_O(PyObject *func, PyObject *const *args, size_t nargsf, PyObject *kwnames);
 static PyObject * __Pyx_CyFunction_Vectorcall_FASTCALL_KEYWORDS(PyObject *func, PyObject *const *args, size_t nargsf, PyObject *kwnames);
 static PyObject * __Pyx_CyFunction_Vectorcall_FASTCALL_KEYWORDS_METHOD(PyObject *func, PyObject *const *args, size_t nargsf, PyObject *kwnames);
-# 2349 "bluid/data.cpp"
+# 2372 "bluid/data.cpp"
 static PyObject *__Pyx_CyFunction_New(PyMethodDef *ml,
                                       int flags, PyObject* qualname,
                                       PyObject *closure,
@@ -18421,13 +18436,20 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_GetSlice
         int has_cstart, int has_cstop, int wraparound);
 
 
+
+static int __Pyx_validate_bases_tuple(const char *type_name, Py_ssize_t dictoffset, PyObject *bases);
+
+
+
+[[maybe_unused]] static int __Pyx_PyType_Ready(PyTypeObject *t);
+# 2400 "bluid/data.cpp"
 static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level);
 
 
 static PyObject *__Pyx_ImportDottedModule(PyObject *name, PyObject *parts_tuple);
 
 static PyObject *__Pyx_ImportDottedModule_WalkParts(PyObject *module, PyObject *name, PyObject *parts_tuple);
-# 2382 "bluid/data.cpp"
+# 2420 "bluid/data.cpp"
 static PyObject *__Pyx_CalculateMetaclass(PyTypeObject *metaclass, PyObject *bases);
 
 
@@ -18471,7 +18493,7 @@ static void __Pyx_AddTraceback(const char *funcname, int c_line,
 
 
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyInt_From_long(long value);
-# 2433 "bluid/data.cpp"
+# 2471 "bluid/data.cpp"
 typedef const char *__Pyx_TypeName;
 
 
@@ -18492,7 +18514,67 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_IsSubtype(PyTypeObject 
 static __inline__ __attribute__ ((__unused__)) int __Pyx_IsAnySubtype2(PyTypeObject *cls, PyTypeObject *a, PyTypeObject *b);
 static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_GivenExceptionMatches(PyObject *err, PyObject *type);
 static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_GivenExceptionMatches2(PyObject *err, PyObject *type1, PyObject *type2);
-# 2463 "bluid/data.cpp"
+# 2501 "bluid/data.cpp"
+static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject *cause);
+
+
+
+
+static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionSwap(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb);
+
+
+
+
+
+struct __pyx_CoroutineObject;
+typedef PyObject *(*__pyx_coroutine_body_t)(struct __pyx_CoroutineObject *, PyThreadState *, PyObject *);
+# 2523 "bluid/data.cpp"
+typedef struct __pyx_CoroutineObject {
+    PyObject ob_base;
+    __pyx_coroutine_body_t body;
+    PyObject *closure;
+    _PyErr_StackItem gi_exc_state;
+    PyObject *gi_weakreflist;
+    PyObject *classobj;
+    PyObject *yieldfrom;
+    PyObject *gi_name;
+    PyObject *gi_qualname;
+    PyObject *gi_modulename;
+    PyObject *gi_code;
+    PyObject *gi_frame;
+    int resume_label;
+    char is_running;
+} __pyx_CoroutineObject;
+static __pyx_CoroutineObject *__Pyx__Coroutine_New(
+    PyTypeObject *type, __pyx_coroutine_body_t body, PyObject *code, PyObject *closure,
+    PyObject *name, PyObject *qualname, PyObject *module_name);
+static __pyx_CoroutineObject *__Pyx__Coroutine_NewInit(
+            __pyx_CoroutineObject *gen, __pyx_coroutine_body_t body, PyObject *code, PyObject *closure,
+            PyObject *name, PyObject *qualname, PyObject *module_name);
+static __inline__ __attribute__ ((__unused__)) void __Pyx_Coroutine_ExceptionClear(_PyErr_StackItem *self);
+static int __Pyx_Coroutine_clear(PyObject *self);
+static PyObject *__Pyx_Coroutine_Send(PyObject *self, PyObject *value);
+static PyObject *__Pyx_Coroutine_Close(PyObject *self);
+static PyObject *__Pyx_Coroutine_Throw(PyObject *gen, PyObject *args);
+# 2570 "bluid/data.cpp"
+static int __Pyx_PyGen__FetchStopIterationValue(PyThreadState *tstate, PyObject **pvalue);
+static __inline__ __attribute__ ((__unused__)) void __Pyx_Coroutine_ResetFrameBackpointer(_PyErr_StackItem *exc_state);
+
+
+static PyObject* __Pyx_Coroutine_patch_module(PyObject* module, const char* py_code);
+
+
+static int __Pyx_patch_abc(void);
+
+
+
+
+
+
+static PyObject *__Pyx_Generator_Next(PyObject *self);
+static int __pyx_Generator_init(PyObject *module);
+
+
 static unsigned long __Pyx_get_runtime_version(void);
 static int __Pyx_check_binary_version(unsigned long ct_version, unsigned long rt_version, int allow_newer);
 
@@ -18541,6 +18623,7 @@ static const char __pyx_k__6[] = "[";
 static const char __pyx_k__7[] = ";";
 static const char __pyx_k__8[] = "]";
 static const char __pyx_k__9[] = "  ";
+static const char __pyx_k_gc[] = "gc";
 static const char __pyx_k_ua[] = "ua";
 static const char __pyx_k_0_2[] = ".0";
 static const char __pyx_k_4_4[] = "4.4";
@@ -18554,11 +18637,11 @@ static const char __pyx_k_8_1[] = "8.1";
 static const char __pyx_k__10[] = " ";
 static const char __pyx_k__14[] = ".";
 static const char __pyx_k__17[] = "; ";
-static const char __pyx_k__18[] = "_";
-static const char __pyx_k__19[] = "";
+static const char __pyx_k__18[] = "";
+static const char __pyx_k__19[] = "_";
 static const char __pyx_k__29[] = ")";
 static const char __pyx_k__30[] = "*";
-static const char __pyx_k__37[] = "?";
+static const char __pyx_k__39[] = "?";
 static const char __pyx_k_api[] = "api";
 static const char __pyx_k_doc[] = "__doc__";
 static const char __pyx_k_dpi[] = "dpi";
@@ -18584,6 +18667,7 @@ static const char __pyx_k_QKQ1[] = "QKQ1.";
 static const char __pyx_k_RP1A[] = "RP1A.";
 static const char __pyx_k_SP1A[] = "SP1A.";
 static const char __pyx_k_TP1A[] = "TP1A.";
+static const char __pyx_k_args[] = "args";
 static const char __pyx_k_data[] = "data";
 static const char __pyx_k_dict[] = "__dict__";
 static const char __pyx_k_exit[] = "__exit__";
@@ -18596,12 +18680,14 @@ static const char __pyx_k_name[] = "__name__";
 static const char __pyx_k_open[] = "open";
 static const char __pyx_k_qcom[] = "qcom";
 static const char __pyx_k_self[] = "self";
+static const char __pyx_k_send[] = "send";
 static const char __pyx_k_spec[] = "__spec__";
 static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_Build[] = " Build/";
 static const char __pyx_k_Opera[] = "Opera";
 static const char __pyx_k_Ultra[] = "Ultra";
 static const char __pyx_k_brand[] = "brand";
+static const char __pyx_k_close[] = "close";
 static const char __pyx_k_en_US[] = "en_US";
 static const char __pyx_k_enter[] = "__enter__";
 static const char __pyx_k_helio[] = "helio";
@@ -18612,10 +18698,12 @@ static const char __pyx_k_model[] = "model";
 static const char __pyx_k_round[] = "round";
 static const char __pyx_k_split[] = "split";
 static const char __pyx_k_super[] = "super";
+static const char __pyx_k_throw[] = "throw";
 static const char __pyx_k_width[] = ",width=";
 static const char __pyx_k_Chrome[] = "Chrome";
 static const char __pyx_k_choice[] = "choice";
 static const char __pyx_k_device[] = "device";
+static const char __pyx_k_enable[] = "enable";
 static const char __pyx_k_exynos[] = "exynos";
 static const char __pyx_k_height[] = ",height=";
 static const char __pyx_k_import[] = "__import__";
@@ -18624,14 +18712,18 @@ static const char __pyx_k_random[] = "random";
 static const char __pyx_k_tensor[] = "tensor";
 static const char __pyx_k_Android[] = " Android (";
 static const char __pyx_k_Firefox[] = "Firefox";
+static const char __pyx_k_Unknown[] = "Unknown";
 static const char __pyx_k_chipset[] = "chipset";
 static const char __pyx_k_density[] = "density";
+static const char __pyx_k_disable[] = "disable";
+static const char __pyx_k_genexpr[] = "genexpr";
 static const char __pyx_k_isalpha[] = "isalpha";
 static const char __pyx_k_isdigit[] = "isdigit";
 static const char __pyx_k_prepare[] = "__prepare__";
 static const char __pyx_k_randint[] = "randint";
 static const char __pyx_k_replace[] = "replace";
 static const char __pyx_k_samsung[] = "samsung";
+static const char __pyx_k_unknown[] = "unknown";
 static const char __pyx_k_version[] = "version";
 static const char __pyx_k_width_2[] = "width";
 static const char __pyx_k_api_mode[] = "api_mode";
@@ -18650,6 +18742,7 @@ static const char __pyx_k_UserAgent[] = "UserAgent";
 static const char __pyx_k_barcelona[] = "barcelona";
 static const char __pyx_k_density_2[] = "{density=";
 static const char __pyx_k_dimensity[] = "dimensity";
+static const char __pyx_k_isenabled[] = "isenabled";
 static const char __pyx_k_metaclass[] = "__metaclass__";
 static const char __pyx_k_operators[] = "operators";
 static const char __pyx_k_components[] = "components";
@@ -18683,6 +18776,7 @@ static const char __pyx_k_UserAgent___init[] = "UserAgent.__init__";
 static const char __pyx_k_android_versions[] = "android_versions";
 static const char __pyx_k_browser_variants[] = "browser_variants";
 static const char __pyx_k_browser_versions[] = "browser_versions";
+static const char __pyx_k_get_valid_device[] = "get_valid_device";
 static const char __pyx_k_processed_chipset[] = "processed_chipset";
 static const char __pyx_k_asyncio_coroutines[] = "asyncio.coroutines";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
@@ -18692,19 +18786,24 @@ static const char __pyx_k_Mobile_Safari_537_36[] = " Mobile Safari/537.36";
 static const char __pyx_k_UserAgent_ua_facebook[] = "UserAgent.ua_facebook";
 static const char __pyx_k_UserAgent_ua_instagram[] = "UserAgent.ua_instagram";
 static const char __pyx_k_Mozilla_5_0_Linux_Android[] = "Mozilla/5.0 (Linux; Android ";
+static const char __pyx_k_UserAgent_get_valid_device[] = "UserAgent.get_valid_device";
 static const char __pyx_k_AppleWebKit_537_36_KHTML_like_G[] = ") AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.4 Chrome/";
+static const char __pyx_k_UserAgent_get_valid_device_local[] = "UserAgent.get_valid_device.<locals>.genexpr";
 static const char __pyx_k_UserAgent_ua_instagram_locals_la[] = "UserAgent.ua_instagram.<locals>.<lambda>";
 static const char __pyx_k_AppleWebKit_537_36_KHTML_like_G_2[] = ") AppleWebKit/537.36 (KHTML, like Gecko) ";
 
 static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_self);
 static PyObject *__pyx_pf_4data_9UserAgent_2ua_facebook([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_api_mode);
-static PyObject *__pyx_lambda_funcdef_lambda([[maybe_unused]] PyObject *__pyx_self, [[maybe_unused]] PyObject *__pyx_v_x);
-static PyObject *__pyx_lambda_funcdef_lambda1([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_x);
+static PyObject *__pyx_pf_4data_9UserAgent_16get_valid_device_genexpr([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_genexpr_arg_0, PyObject *__pyx_genexpr_arg_1, PyObject *__pyx_genexpr_arg_2);
+static PyObject *__pyx_pf_4data_9UserAgent_4get_valid_device([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_self);
+static PyObject *__pyx_lambda_funcdef_lambda1([[maybe_unused]] PyObject *__pyx_self, [[maybe_unused]] PyObject *__pyx_v_x);
 static PyObject *__pyx_lambda_funcdef_lambda2([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_x);
-static PyObject *__pyx_lambda_funcdef_lambda3([[maybe_unused]] PyObject *__pyx_self, [[maybe_unused]] PyObject *__pyx_v_x);
-static PyObject *__pyx_lambda_funcdef_lambda4([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_x);
+static PyObject *__pyx_lambda_funcdef_lambda3([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_x);
+static PyObject *__pyx_lambda_funcdef_lambda4([[maybe_unused]] PyObject *__pyx_self, [[maybe_unused]] PyObject *__pyx_v_x);
 static PyObject *__pyx_lambda_funcdef_lambda5([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_x);
-static PyObject *__pyx_pf_4data_9UserAgent_4ua_instagram([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_barcelona);
+static PyObject *__pyx_lambda_funcdef_lambda6([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_x);
+static PyObject *__pyx_pf_4data_9UserAgent_6ua_instagram([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_barcelona);
+static PyObject *__pyx_tp_new_4data___pyx_scope_struct__genexpr(PyTypeObject *t, PyObject *a, PyObject *k);
 
 
 typedef struct {
@@ -18716,7 +18815,14 @@ typedef struct {
   PyObject *__pyx_empty_unicode;
 
   PyTypeObject *__pyx_CyFunctionType;
-# 2704 "bluid/data.cpp"
+
+
+
+
+
+  PyTypeObject *__pyx_GeneratorType;
+# 2847 "bluid/data.cpp"
+  PyTypeObject *__pyx_ptype_4data___pyx_scope_struct__genexpr;
   PyObject *__pyx_kp_u_0;
   PyObject *__pyx_kp_u_0_2;
   PyObject *__pyx_kp_s_1;
@@ -18778,8 +18884,11 @@ typedef struct {
   PyObject *__pyx_kp_u_SP1A;
   PyObject *__pyx_kp_u_TP1A;
   PyObject *__pyx_n_s_Ultra;
+  PyObject *__pyx_n_s_Unknown;
   PyObject *__pyx_n_s_UserAgent;
   PyObject *__pyx_n_s_UserAgent___init;
+  PyObject *__pyx_n_s_UserAgent_get_valid_device;
+  PyObject *__pyx_n_s_UserAgent_get_valid_device_local;
   PyObject *__pyx_n_s_UserAgent_ua_facebook;
   PyObject *__pyx_n_s_UserAgent_ua_instagram;
   PyObject *__pyx_n_s_UserAgent_ua_instagram_locals_la;
@@ -18787,12 +18896,12 @@ typedef struct {
   PyObject *__pyx_kp_s__10;
   PyObject *__pyx_kp_u__14;
   PyObject *__pyx_kp_u__17;
-  PyObject *__pyx_n_s__18;
-  PyObject *__pyx_kp_s__19;
+  PyObject *__pyx_kp_s__18;
+  PyObject *__pyx_n_s__19;
   PyObject *__pyx_kp_u__29;
   PyObject *__pyx_kp_s__3;
   PyObject *__pyx_n_s__30;
-  PyObject *__pyx_n_s__37;
+  PyObject *__pyx_n_s__39;
   PyObject *__pyx_kp_u__4;
   PyObject *__pyx_kp_u__5;
   PyObject *__pyx_kp_u__6;
@@ -18805,6 +18914,7 @@ typedef struct {
   PyObject *__pyx_n_s_api;
   PyObject *__pyx_n_s_api_devices;
   PyObject *__pyx_n_s_api_mode;
+  PyObject *__pyx_n_s_args;
   PyObject *__pyx_kp_s_arm64_v8a_null;
   PyObject *__pyx_n_s_asyncio_coroutines;
   PyObject *__pyx_n_s_barcelona;
@@ -18821,6 +18931,7 @@ typedef struct {
   PyObject *__pyx_n_s_chipset_mapping;
   PyObject *__pyx_n_s_choice;
   PyObject *__pyx_n_s_cline_in_traceback;
+  PyObject *__pyx_n_s_close;
   PyObject *__pyx_kp_s_com_facebook_mahos;
   PyObject *__pyx_n_s_components;
   PyObject *__pyx_n_s_d;
@@ -18832,15 +18943,20 @@ typedef struct {
   PyObject *__pyx_n_s_devices_data;
   PyObject *__pyx_n_s_dict;
   PyObject *__pyx_n_s_dimensity;
+  PyObject *__pyx_kp_u_disable;
   PyObject *__pyx_n_s_doc;
   PyObject *__pyx_n_s_dpi;
   PyObject *__pyx_n_u_dpi;
   PyObject *__pyx_n_s_en_US;
+  PyObject *__pyx_kp_u_enable;
   PyObject *__pyx_n_s_enter;
   PyObject *__pyx_n_s_exit;
   PyObject *__pyx_n_s_exynos;
   PyObject *__pyx_n_s_f;
+  PyObject *__pyx_kp_u_gc;
+  PyObject *__pyx_n_s_genexpr;
   PyObject *__pyx_n_s_get;
+  PyObject *__pyx_n_s_get_valid_device;
   PyObject *__pyx_kp_u_height;
   PyObject *__pyx_n_s_height_2;
   PyObject *__pyx_n_s_helio;
@@ -18852,6 +18968,7 @@ typedef struct {
   PyObject *__pyx_n_s_is_coroutine;
   PyObject *__pyx_n_s_isalpha;
   PyObject *__pyx_n_s_isdigit;
+  PyObject *__pyx_kp_u_isenabled;
   PyObject *__pyx_n_s_items;
   PyObject *__pyx_n_s_join;
   PyObject *__pyx_n_s_json;
@@ -18882,6 +18999,7 @@ typedef struct {
   PyObject *__pyx_n_s_round;
   PyObject *__pyx_n_s_samsung;
   PyObject *__pyx_n_s_self;
+  PyObject *__pyx_n_s_send;
   PyObject *__pyx_n_s_set_name;
   PyObject *__pyx_n_s_short_model;
   PyObject *__pyx_n_s_spec;
@@ -18889,10 +19007,12 @@ typedef struct {
   PyObject *__pyx_n_s_super;
   PyObject *__pyx_n_s_tensor;
   PyObject *__pyx_n_s_test;
+  PyObject *__pyx_n_s_throw;
   PyObject *__pyx_n_s_ua;
   PyObject *__pyx_n_s_ua_facebook;
   PyObject *__pyx_n_s_ua_instagram;
   PyObject *__pyx_n_s_ua_parts;
+  PyObject *__pyx_n_s_unknown;
   PyObject *__pyx_n_s_user_agent;
   PyObject *__pyx_n_s_v;
   PyObject *__pyx_n_s_version;
@@ -18930,11 +19050,13 @@ typedef struct {
   PyObject *__pyx_tuple__31;
   PyObject *__pyx_tuple__33;
   PyObject *__pyx_tuple__35;
+  PyObject *__pyx_tuple__37;
   PyObject *__pyx_codeobj__32;
   PyObject *__pyx_codeobj__34;
   PyObject *__pyx_codeobj__36;
+  PyObject *__pyx_codeobj__38;
 } __pyx_mstate;
-# 2937 "bluid/data.cpp"
+# 3097 "bluid/data.cpp"
 static __pyx_mstate __pyx_mstate_global_static =
 
     {};
@@ -18942,7 +19064,7 @@ static __pyx_mstate __pyx_mstate_global_static =
 
 
 static __pyx_mstate *__pyx_mstate_global = &__pyx_mstate_global_static;
-# 3671 "bluid/data.cpp"
+# 3885 "bluid/data.cpp"
 static PyObject *__pyx_pw_4data_9UserAgent_1__init__(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
@@ -18995,12 +19117,12 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[0];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 3723; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 3937; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else goto __pyx_L5_argtuple_error;
       }
       if (__builtin_expect(!!(kw_args > 0), 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "__init__") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 3728; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "__init__") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 3942; (void)__pyx_clineno; } goto __pyx_L3_error; }
       }
     } else if (__builtin_expect(!!(__pyx_nargs != 1), 0)) {
       goto __pyx_L5_argtuple_error;
@@ -19011,7 +19133,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__init__", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 3739; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __Pyx_RaiseArgtupleInvalid("__init__", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 3953; (void)__pyx_clineno; } goto __pyx_L3_error; }
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -19061,13 +19183,13 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
   const char *__pyx_filename = __null;
   int __pyx_clineno = 0;
                                            ;
-# 3797 "bluid/data.cpp"
+# 4011 "bluid/data.cpp"
             {
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_mstate_global->__pyx_tuple_, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 3798; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_mstate_global->__pyx_tuple_, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 4012; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_2 = __Pyx__PyObject_LookupSpecial(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_exit, 1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 3800; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_2 = __Pyx__PyObject_LookupSpecial(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_exit, 1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 4014; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_4 = __Pyx__PyObject_LookupSpecial(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_enter, 1); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 3802; (void)__pyx_clineno; } goto __pyx_L3_error; }
+    __pyx_t_4 = __Pyx__PyObject_LookupSpecial(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_enter, 1); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 4016; (void)__pyx_clineno; } goto __pyx_L3_error; }
                            ;
     __pyx_t_5 = __null;
     __pyx_t_6 = 0;
@@ -19087,7 +19209,7 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
       PyObject *__pyx_callargs[2] = {__pyx_t_5, __null};
       __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(0+__pyx_t_6), __null);
       Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-      if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 3822; (void)__pyx_clineno; } goto __pyx_L3_error; }
+      if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 4036; (void)__pyx_clineno; } goto __pyx_L3_error; }
                              ;
       Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
     }
@@ -19105,10 +19227,10 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
                  {
           __pyx_v_f = __pyx_t_4;
           __pyx_t_4 = 0;
-# 3848 "bluid/data.cpp"
-          (__pyx_t_1) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_json); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 3848; (void)__pyx_clineno; } goto __pyx_L7_error; }
+# 4062 "bluid/data.cpp"
+          (__pyx_t_1) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_json); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 4062; (void)__pyx_clineno; } goto __pyx_L7_error; }
                                  ;
-          __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_load); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 3850; (void)__pyx_clineno; } goto __pyx_L7_error; }
+          __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_load); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 4064; (void)__pyx_clineno; } goto __pyx_L7_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
           __pyx_t_1 = __null;
@@ -19129,13 +19251,13 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
             PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_v_f};
             __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-            if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 3871; (void)__pyx_clineno; } goto __pyx_L7_error; }
+            if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 4085; (void)__pyx_clineno; } goto __pyx_L7_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
           }
-          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_devices_data, __pyx_t_4) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 3875; (void)__pyx_clineno; } goto __pyx_L7_error; }
+          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_devices_data, __pyx_t_4) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 4089; (void)__pyx_clineno; } goto __pyx_L7_error; }
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-# 3885 "bluid/data.cpp"
+# 4099 "bluid/data.cpp"
         }
         Py_XDECREF(((PyObject*)((__pyx_t_7)))); __pyx_t_7 = 0;
         Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
@@ -19148,20 +19270,20 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
         Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
                     {
           __Pyx_AddTraceback("data.UserAgent.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
-          if (__Pyx__GetException(__pyx_tstate, &__pyx_t_4, &__pyx_t_3, &__pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 3897; (void)__pyx_clineno; } goto __pyx_L9_except_error; }
+          if (__Pyx__GetException(__pyx_tstate, &__pyx_t_4, &__pyx_t_3, &__pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 4111; (void)__pyx_clineno; } goto __pyx_L9_except_error; }
                                   ;
                                   ;
                                   ;
-          __pyx_t_5 = PyTuple_Pack(3, __pyx_t_4, __pyx_t_3, __pyx_t_1); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 3901; (void)__pyx_clineno; } goto __pyx_L9_except_error; }
+          __pyx_t_5 = PyTuple_Pack(3, __pyx_t_4, __pyx_t_3, __pyx_t_1); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 4115; (void)__pyx_clineno; } goto __pyx_L9_except_error; }
                                  ;
           __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, __null);
           Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 3906; (void)__pyx_clineno; } goto __pyx_L9_except_error; }
+          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 4120; (void)__pyx_clineno; } goto __pyx_L9_except_error; }
                                   ;
           __pyx_t_11 = __Pyx_PyObject_IsTrue(__pyx_t_10);
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-          if (__pyx_t_11 < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 3910; (void)__pyx_clineno; } goto __pyx_L9_except_error; }
+          if (__pyx_t_11 < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 4124; (void)__pyx_clineno; } goto __pyx_L9_except_error; }
           __pyx_t_12 = (!__pyx_t_11);
           if (__builtin_expect(!!(__pyx_t_12), 0)) {
                                     ;
@@ -19169,7 +19291,7 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
                                      ;
             __Pyx_ErrRestoreInState(PyThreadState_Get(), __pyx_t_4, __pyx_t_3, __pyx_t_1);
             __pyx_t_4 = 0; __pyx_t_3 = 0; __pyx_t_1 = 0;
-            { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 3918; (void)__pyx_clineno; } goto __pyx_L9_except_error; }
+            { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 4132; (void)__pyx_clineno; } goto __pyx_L9_except_error; }
           }
           Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
@@ -19195,7 +19317,7 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
         if (__pyx_t_2) {
           __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_mstate_global->__pyx_tuple__2, __null);
           Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-          if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 3944; (void)__pyx_clineno; } goto __pyx_L1_error; }
+          if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 4158; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
         }
@@ -19209,64 +19331,64 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
     goto __pyx_L1_error;
     __pyx_L16:;
   }
-# 3966 "bluid/data.cpp"
-  __pyx_t_1 = PyList_New(13); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3966; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 4180 "bluid/data.cpp"
+  __pyx_t_1 = PyList_New(13); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4180; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_4_4))));
                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_4_4)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3970; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_4_4)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4184; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_5_0))));
                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_5_0)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3973; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_5_0)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4187; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_5_1))));
                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_5_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3976; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_5_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4190; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_6_0))));
                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_6_0)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3979; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_6_0)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4193; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_7_0))));
                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_7_0)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3982; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_7_0)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4196; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_7_1))));
                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (5), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_7_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3985; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (5), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_7_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4199; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_8_0))));
                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_8_0)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3988; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_8_0)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4202; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_8_1))));
                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (7), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_8_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3991; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (7), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_8_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4205; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_9))));
                              ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_9)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3994; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_9)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4208; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_10))));
                               ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (9), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_10)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 3997; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (9), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_10)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4211; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_11))));
                               ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (10), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_11)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4000; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (10), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_11)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4214; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_12))));
                               ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (11), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_12)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4003; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (11), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_12)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4217; (void)__pyx_clineno; } goto __pyx_L1_error; };
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_13))));
                               ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (12), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_13)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4006; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_android_versions, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4007; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (12), ((PyObject*)((__pyx_mstate_global->__pyx_kp_s_13)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4220; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_android_versions, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 4221; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-# 4017 "bluid/data.cpp"
+# 4231 "bluid/data.cpp"
   {
-    __pyx_t_1 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4018; (void)__pyx_clineno; } goto __pyx_L19_error; }
+    __pyx_t_1 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4232; (void)__pyx_clineno; } goto __pyx_L19_error; }
                            ;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_devices_data); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4020; (void)__pyx_clineno; } goto __pyx_L19_error; }
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_devices_data); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4234; (void)__pyx_clineno; } goto __pyx_L19_error; }
                            ;
     if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyList_Type))), 1) || Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyTuple_Type))) {
       __pyx_t_4 = __pyx_t_3; Py_INCREF(((PyObject*)((__pyx_t_4))));
       __pyx_t_13 = 0;
       __pyx_t_14 = __null;
     } else {
-      __pyx_t_13 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_3); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4027; (void)__pyx_clineno; } goto __pyx_L19_error; }
+      __pyx_t_13 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_3); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4241; (void)__pyx_clineno; } goto __pyx_L19_error; }
                              ;
-      __pyx_t_14 = (Py_TYPE(((PyObject*)((__pyx_t_4))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4029; (void)__pyx_clineno; } goto __pyx_L19_error; }
+      __pyx_t_14 = (Py_TYPE(((PyObject*)((__pyx_t_4))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4243; (void)__pyx_clineno; } goto __pyx_L19_error; }
     }
     Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
     for (;;) {
@@ -19280,7 +19402,7 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
             if (__pyx_t_13 >= __pyx_temp) break;
           }
 
-          __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_4))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 4043, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_4)")), ((PyListObject*)((__pyx_t_4))))->ob_item[(__pyx_t_13)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_13++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4043; (void)__pyx_clineno; } goto __pyx_L19_error; }
+          __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_4))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 4257, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_4)")), ((PyListObject*)((__pyx_t_4))))->ob_item[(__pyx_t_13)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_13++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4257; (void)__pyx_clineno; } goto __pyx_L19_error; }
 
 
 
@@ -19294,7 +19416,7 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
             if (__pyx_t_13 >= __pyx_temp) break;
           }
 
-          __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_4))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 4057, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_4)")), ((PyTupleObject*)((__pyx_t_4))))->ob_item[(__pyx_t_13)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_13++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4057; (void)__pyx_clineno; } goto __pyx_L19_error; }
+          __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_4))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 4271, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_4)")), ((PyTupleObject*)((__pyx_t_4))))->ob_item[(__pyx_t_13)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_13++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4271; (void)__pyx_clineno; } goto __pyx_L19_error; }
 
 
 
@@ -19306,7 +19428,7 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (__builtin_expect(!!(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration)), 1)) PyErr_Clear();
-            else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4069; (void)__pyx_clineno; } goto __pyx_L19_error; }
+            else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4283; (void)__pyx_clineno; } goto __pyx_L19_error; }
           }
           break;
         }
@@ -19314,23 +19436,23 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
       }
       do { PyObject *tmp = (PyObject *) __pyx_7genexpr__pyx_v_d; __pyx_7genexpr__pyx_v_d = __pyx_t_3; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
       __pyx_t_3 = 0;
-      __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_7genexpr__pyx_v_d)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_7genexpr__pyx_v_d, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_7genexpr__pyx_v_d, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4077; (void)__pyx_clineno; } goto __pyx_L19_error; }
+      __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_7genexpr__pyx_v_d)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_7genexpr__pyx_v_d, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_7genexpr__pyx_v_d, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4291; (void)__pyx_clineno; } goto __pyx_L19_error; }
                              ;
-      __pyx_t_11 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_Ultra, __pyx_t_3, 2)); if (__builtin_expect(!!((__pyx_t_11 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4079; (void)__pyx_clineno; } goto __pyx_L19_error; }
+      __pyx_t_11 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_Ultra, __pyx_t_3, 2)); if (__builtin_expect(!!((__pyx_t_11 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4293; (void)__pyx_clineno; } goto __pyx_L19_error; }
       Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
       if (!__pyx_t_11) {
       } else {
         __pyx_t_12 = __pyx_t_11;
         goto __pyx_L23_bool_binop_done;
       }
-      __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_7genexpr__pyx_v_d)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_7genexpr__pyx_v_d, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_7genexpr__pyx_v_d, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4086; (void)__pyx_clineno; } goto __pyx_L19_error; }
+      __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_7genexpr__pyx_v_d)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_7genexpr__pyx_v_d, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_7genexpr__pyx_v_d, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4300; (void)__pyx_clineno; } goto __pyx_L19_error; }
                              ;
-      __pyx_t_11 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_kp_s__3, __pyx_t_3, 2)); if (__builtin_expect(!!((__pyx_t_11 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4088; (void)__pyx_clineno; } goto __pyx_L19_error; }
+      __pyx_t_11 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_kp_s__3, __pyx_t_3, 2)); if (__builtin_expect(!!((__pyx_t_11 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4302; (void)__pyx_clineno; } goto __pyx_L19_error; }
       Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
       __pyx_t_12 = __pyx_t_11;
       __pyx_L23_bool_binop_done:;
       if (__pyx_t_12) {
-        if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_7genexpr__pyx_v_d)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4093; (void)__pyx_clineno; } goto __pyx_L19_error; }
+        if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_7genexpr__pyx_v_d)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4307; (void)__pyx_clineno; } goto __pyx_L19_error; }
       }
     }
     Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
@@ -19341,23 +19463,23 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
     goto __pyx_L1_error;
     __pyx_L26_exit_scope:;
   }
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_api_devices, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4104; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_api_devices, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 4318; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-# 4114 "bluid/data.cpp"
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_api_devices); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 4114; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 4328 "bluid/data.cpp"
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_api_devices); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 4328; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (__builtin_expect(!!((__pyx_t_12 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 4116; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (__builtin_expect(!!((__pyx_t_12 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 4330; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
   __pyx_t_11 = (!__pyx_t_12);
   if (__pyx_t_11) {
-# 4128 "bluid/data.cpp"
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_devices_data); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 14; (void)__pyx_lineno; __pyx_clineno = 4128; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 4342 "bluid/data.cpp"
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_devices_data); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 14; (void)__pyx_lineno; __pyx_clineno = 4342; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_api_devices, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 14; (void)__pyx_lineno; __pyx_clineno = 4130; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_api_devices, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 14; (void)__pyx_lineno; __pyx_clineno = 4344; (void)__pyx_clineno; } goto __pyx_L1_error; }
     Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-# 4140 "bluid/data.cpp"
+# 4354 "bluid/data.cpp"
   }
-# 4151 "bluid/data.cpp"
+# 4365 "bluid/data.cpp"
   __pyx_r = (&_Py_NoneStruct); Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -19374,7 +19496,7 @@ static PyObject *__pyx_pf_4data_9UserAgent___init__([[maybe_unused]] PyObject *_
                                ;
   return __pyx_r;
 }
-# 4177 "bluid/data.cpp"
+# 4391 "bluid/data.cpp"
 static PyObject *__pyx_pw_4data_9UserAgent_3ua_facebook(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
@@ -19430,7 +19552,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[0];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 4232; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 4446; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else goto __pyx_L5_argtuple_error;
         [[fallthrough]];
         case 1:
@@ -19438,14 +19560,14 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[1];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 4240; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 4454; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("ua_facebook", 1, 2, 2, 1); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 4242; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("ua_facebook", 1, 2, 2, 1); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 4456; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
       }
       if (__builtin_expect(!!(kw_args > 0), 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "ua_facebook") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 4247; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "ua_facebook") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 4461; (void)__pyx_clineno; } goto __pyx_L3_error; }
       }
     } else if (__builtin_expect(!!(__pyx_nargs != 2), 0)) {
       goto __pyx_L5_argtuple_error;
@@ -19458,7 +19580,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("ua_facebook", 1, 2, 2, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 4260; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __Pyx_RaiseArgtupleInvalid("ua_facebook", 1, 2, 2, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 4474; (void)__pyx_clineno; } goto __pyx_L3_error; }
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -19493,10 +19615,10 @@ static PyObject *__pyx_pf_4data_9UserAgent_2ua_facebook([[maybe_unused]] PyObjec
   PyObject *__pyx_v_build_numbers = __null;
   PyObject *__pyx_v_browser_variants = __null;
   PyObject *__pyx_v_browser_versions = __null;
-  PyObject *__pyx_v_android_version = __null;
   PyObject *__pyx_v_build_number = __null;
   PyObject *__pyx_v_browser_variant = __null;
   PyObject *__pyx_v_browser_version = __null;
+  PyObject *__pyx_v_android_version = __null;
   PyObject *__pyx_v_user_agent = __null;
   PyObject *__pyx_8genexpr1__pyx_v_k = __null;
   PyObject *__pyx_8genexpr1__pyx_v_v = __null;
@@ -19508,689 +19630,1145 @@ static PyObject *__pyx_pf_4data_9UserAgent_2ua_facebook([[maybe_unused]] PyObjec
   PyObject *__pyx_t_4 = __null;
   PyObject *__pyx_t_5 = __null;
   unsigned int __pyx_t_6;
-  double __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_UCS4 __pyx_t_9;
-  PyObject *__pyx_t_10 = __null;
+  int __pyx_t_7;
+  double __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_UCS4 __pyx_t_10;
   PyObject *__pyx_t_11 = __null;
   PyObject *__pyx_t_12 = __null;
-  Py_ssize_t __pyx_t_13;
-  int __pyx_t_14;
+  PyObject *__pyx_t_13 = __null;
+  Py_ssize_t __pyx_t_14;
   int __pyx_t_15;
-  Py_ssize_t __pyx_t_16;
+  int __pyx_t_16;
+  Py_ssize_t __pyx_t_17;
   int __pyx_lineno = 0;
   const char *__pyx_filename = __null;
   int __pyx_clineno = 0;
                                               ;
-# 4332 "bluid/data.cpp"
-  __pyx_t_1 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_api, __pyx_v_api_mode, 2)); if (__builtin_expect(!!((__pyx_t_1 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 18; (void)__pyx_lineno; __pyx_clineno = 4332; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 4547 "bluid/data.cpp"
+  __pyx_t_1 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_api, __pyx_v_api_mode, 2)); if (__builtin_expect(!!((__pyx_t_1 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 4547; (void)__pyx_clineno; } goto __pyx_L1_error; }
   if (__pyx_t_1) {
-# 4342 "bluid/data.cpp"
-    (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 4342; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 4344; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_api_devices); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 4347; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_5 = __null;
-    __pyx_t_6 = 0;
-
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 0)) {
-      __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
-      if (__builtin_expect(!!(__pyx_t_5), 1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
-        Py_INCREF(((PyObject*)((__pyx_t_5))));
-        Py_INCREF(((PyObject*)((function))));
-        do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_6 = 1;
-      }
-    }
-
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_t_3};
-      __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
-      Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+# 4557 "bluid/data.cpp"
+    while (1) {
+# 4566 "bluid/data.cpp"
+      (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 4566; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 4568; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
       Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-      if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 4368; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_api_devices); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 4571; (void)__pyx_clineno; } goto __pyx_L1_error; }
                              ;
-      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    }
-    __pyx_v_device = __pyx_t_2;
-    __pyx_t_2 = 0;
-# 4382 "bluid/data.cpp"
-    __pyx_t_2 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_density) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_density)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 4382; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_7 = ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyFloat_Type))), 1)) ? PyFloat_AS_DOUBLE(((PyObject*)((__pyx_t_2)))) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyLong_Type))), 1) ? PyLong_AsDouble(__pyx_t_2) : __Pyx__PyObject_AsDouble(__pyx_t_2)); if (__builtin_expect(!!(__pyx_t_7 == ((double)((double)-1)) && PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 4384; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-    __pyx_t_2 = PyFloat_FromDouble((__pyx_t_7 * 160.0)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 4386; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_round, __pyx_t_2); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 4388; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-    __pyx_t_2 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 4391; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_v_dpi = ((PyObject*)__pyx_t_2);
-    __pyx_t_2 = 0;
-# 4404 "bluid/data.cpp"
-    __pyx_t_2 = ((14 <= 8) ? PyDict_New() : _PyDict_NewPresized(14)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4404; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBAN, __pyx_mstate_global->__pyx_n_s_FB4A) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4406; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBAV, __pyx_mstate_global->__pyx_kp_s_447_0_0_24_113) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4407; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBBV, __pyx_mstate_global->__pyx_kp_s_277444756) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4408; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 4417 "bluid/data.cpp"
-    __pyx_t_4 = PyTuple_New(7); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4417; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_8 = 0;
-    __pyx_t_9 = 127;
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_density_2))));
-    __pyx_t_8 += 9;
-                                       ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_density_2))));
-    Py_INCREF(((PyObject*)((__pyx_v_dpi))));
-    __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_v_dpi)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_v_dpi)))) : __pyx_t_9;
-    __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_v_dpi))));
-                              ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (1), ((PyObject*)((__pyx_v_dpi))));
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_width))));
-    __pyx_t_8 += 7;
-                                   ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_width))));
-    __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_width_2) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_width_2)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4434; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4436; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_9;
-    __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
-                            ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (3), ((PyObject*)((__pyx_t_5))));
-    __pyx_t_5 = 0;
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_height))));
-    __pyx_t_8 += 8;
-                                    ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_height))));
-    __pyx_t_5 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_height_2) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_height_2)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4448; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4450; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_9;
-    __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
-                            ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (5), ((PyObject*)((__pyx_t_3))));
-    __pyx_t_3 = 0;
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__4))));
-    __pyx_t_8 += 1;
-                                ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__4))));
-    __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_4, 7, __pyx_t_8, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4462; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBDM, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4465; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBLC, __pyx_mstate_global->__pyx_n_s_en_US) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4467; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBRV, __pyx_mstate_global->__pyx_kp_s_556730939) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4468; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 4477 "bluid/data.cpp"
-    __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_operators) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_operators)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 28; (void)__pyx_lineno; __pyx_clineno = 4477; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBCR, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4479; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 4489 "bluid/data.cpp"
-    __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 4489; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBMF, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4491; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 4501 "bluid/data.cpp"
-    __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 30; (void)__pyx_lineno; __pyx_clineno = 4501; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBBD, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4503; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBPN, __pyx_mstate_global->__pyx_kp_s_com_facebook_mahos) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4505; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 4514 "bluid/data.cpp"
-    __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 32; (void)__pyx_lineno; __pyx_clineno = 4514; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBDV, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4516; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 4526 "bluid/data.cpp"
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_get); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 4526; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    (__pyx_t_10) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 4528; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                            ;
-    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 4530; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                            ;
-    Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_android_versions); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 4533; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                            ;
-    __pyx_t_12 = __null;
-    __pyx_t_6 = 0;
+      __pyx_t_5 = __null;
+      __pyx_t_6 = 0;
 
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyMethod_Type))), 0)) {
-      __pyx_t_12 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_11))));
-      if (__builtin_expect(!!(__pyx_t_12), 1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_11))));
-        Py_INCREF(((PyObject*)((__pyx_t_12))));
-        Py_INCREF(((PyObject*)((function))));
-        do { PyObject *tmp = (PyObject *) __pyx_t_11; __pyx_t_11 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_6 = 1;
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 0)) {
+        __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
+        if (__builtin_expect(!!(__pyx_t_5), 1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
+          Py_INCREF(((PyObject*)((__pyx_t_5))));
+          Py_INCREF(((PyObject*)((function))));
+          do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_6 = 1;
+        }
       }
-    }
 
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_12, __pyx_t_10};
-      __pyx_t_5 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
-      Py_XDECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-      Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-      if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 4554; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-    }
-    __pyx_t_11 = __null;
-    __pyx_t_6 = 0;
-
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 1)) {
-      __pyx_t_11 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
-      if (__builtin_expect(!!(__pyx_t_11), 1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
-        Py_INCREF(((PyObject*)((__pyx_t_11))));
-        Py_INCREF(((PyObject*)((function))));
-        do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_6 = 1;
-      }
-    }
-
-    {
-      PyObject *__pyx_callargs[3] = {__pyx_t_11, __pyx_mstate_global->__pyx_n_s_android_version, __pyx_t_5};
-      __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(2+__pyx_t_6), __null);
-      Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-      if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 4577; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    }
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBSV, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4581; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBOP, __pyx_mstate_global->__pyx_kp_s_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4583; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBCA, __pyx_mstate_global->__pyx_kp_s_arm64_v8a_null) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 4584; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    __pyx_v_components = ((PyObject*)__pyx_t_2);
-    __pyx_t_2 = 0;
-# 4595 "bluid/data.cpp"
-    {
-      __pyx_t_2 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 38; (void)__pyx_lineno; __pyx_clineno = 4596; (void)__pyx_clineno; } goto __pyx_L6_error; }
-                             ;
-      __pyx_t_8 = 0;
-      __pyx_t_4 = __Pyx_dict_iterator(__pyx_v_components, 1, __pyx_mstate_global->__pyx_n_s_items, (&__pyx_t_13), (&__pyx_t_14)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 38; (void)__pyx_lineno; __pyx_clineno = 4599; (void)__pyx_clineno; } goto __pyx_L6_error; }
-                             ;
-      Py_XDECREF(((PyObject*)((__pyx_t_3))));
-      __pyx_t_3 = __pyx_t_4;
-      __pyx_t_4 = 0;
-      while (1) {
-        __pyx_t_15 = __Pyx_dict_iter_next(__pyx_t_3, __pyx_t_13, &__pyx_t_8, &__pyx_t_4, &__pyx_t_5, __null, __pyx_t_14);
-        if (__builtin_expect(!!(__pyx_t_15 == 0), 0)) break;
-        if (__builtin_expect(!!(__pyx_t_15 == -1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 38; (void)__pyx_lineno; __pyx_clineno = 4607; (void)__pyx_clineno; } goto __pyx_L6_error; }
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_t_3};
+        __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+        Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+        if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 4592; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
-                               ;
-        do { PyObject *tmp = (PyObject *) __pyx_8genexpr1__pyx_v_k; __pyx_8genexpr1__pyx_v_k = __pyx_t_4; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_4 = 0;
-        do { PyObject *tmp = (PyObject *) __pyx_8genexpr1__pyx_v_v; __pyx_8genexpr1__pyx_v_v = __pyx_t_5; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_5 = 0;
-        __pyx_t_5 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 38; (void)__pyx_lineno; __pyx_clineno = 4614; (void)__pyx_clineno; } goto __pyx_L6_error; }
-                               ;
-        __pyx_t_16 = 0;
-        __pyx_t_9 = 127;
-        __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_k)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_8genexpr1__pyx_v_k)))), __pyx_8genexpr1__pyx_v_k) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_k)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_8genexpr1__pyx_v_k) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_k)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_8genexpr1__pyx_v_k) : PyObject_Format(__pyx_8genexpr1__pyx_v_k, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 38; (void)__pyx_lineno; __pyx_clineno = 4618; (void)__pyx_clineno; } goto __pyx_L6_error; }
-                               ;
-        __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_9;
-        __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
-                                ;
-        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (0), ((PyObject*)((__pyx_t_4))));
-        __pyx_t_4 = 0;
-        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
-        __pyx_t_16 += 1;
-                                    ;
-        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
-        __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_v)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_8genexpr1__pyx_v_v)))), __pyx_8genexpr1__pyx_v_v) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_v)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_8genexpr1__pyx_v_v) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_v)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_8genexpr1__pyx_v_v) : PyObject_Format(__pyx_8genexpr1__pyx_v_v, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 38; (void)__pyx_lineno; __pyx_clineno = 4629; (void)__pyx_clineno; } goto __pyx_L6_error; }
-                               ;
-        __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_9;
-        __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
-                                ;
-        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (2), ((PyObject*)((__pyx_t_4))));
-        __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_5, 3, __pyx_t_16, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 38; (void)__pyx_lineno; __pyx_clineno = 4636; (void)__pyx_clineno; } goto __pyx_L6_error; }
-                               ;
-        Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-        if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_2, (PyObject*)__pyx_t_4)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 38; (void)__pyx_lineno; __pyx_clineno = 4639; (void)__pyx_clineno; } goto __pyx_L6_error; }
         Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
       }
-      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-      Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_k)))); __pyx_8genexpr1__pyx_v_k = 0;
-      Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_v)))); __pyx_8genexpr1__pyx_v_v = 0;
-      goto __pyx_L9_exit_scope;
-      __pyx_L6_error:;
-      Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_k)))); __pyx_8genexpr1__pyx_v_k = 0;
-      Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_v)))); __pyx_8genexpr1__pyx_v_v = 0;
-      goto __pyx_L1_error;
-      __pyx_L9_exit_scope:;
-    }
-    __pyx_v_ua_parts = ((PyObject*)__pyx_t_2);
-    __pyx_t_2 = 0;
-# 4662 "bluid/data.cpp"
-    Py_XDECREF(((PyObject*)((__pyx_r))));
-    __pyx_t_2 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 39; (void)__pyx_lineno; __pyx_clineno = 4663; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_13 = 0;
-    __pyx_t_9 = 127;
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__6))));
-    __pyx_t_13 += 1;
-                                ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_2))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__6))));
-    __pyx_t_3 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__7, __pyx_v_ua_parts); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 39; (void)__pyx_lineno; __pyx_clineno = 4671; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 39; (void)__pyx_lineno; __pyx_clineno = 4673; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_9;
-    __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
-                            ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_2))), (1), ((PyObject*)((__pyx_t_4))));
-    __pyx_t_4 = 0;
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__8))));
-    __pyx_t_13 += 1;
-                                ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_2))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__8))));
-    __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_2, 3, __pyx_t_13, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 39; (void)__pyx_lineno; __pyx_clineno = 4685; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-    __pyx_t_2 = PyUnicode_Replace(((PyObject*)__pyx_t_4), __pyx_mstate_global->__pyx_kp_s__9, __pyx_mstate_global->__pyx_kp_s__10, -1L); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 39; (void)__pyx_lineno; __pyx_clineno = 4688; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_r = __pyx_t_2;
-    __pyx_t_2 = 0;
-    goto __pyx_L0;
-# 4702 "bluid/data.cpp"
-  }
-# 4711 "bluid/data.cpp"
-           {
-    (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 42; (void)__pyx_lineno; __pyx_clineno = 4712; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 42; (void)__pyx_lineno; __pyx_clineno = 4714; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_devices_data); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 42; (void)__pyx_lineno; __pyx_clineno = 4717; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_5 = __null;
-    __pyx_t_6 = 0;
-
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyMethod_Type))), 0)) {
-      __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_3))));
-      if (__builtin_expect(!!(__pyx_t_5), 1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_3))));
-        Py_INCREF(((PyObject*)((__pyx_t_5))));
-        Py_INCREF(((PyObject*)((function))));
-        do { PyObject *tmp = (PyObject *) __pyx_t_3; __pyx_t_3 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_6 = 1;
+      do { PyObject *tmp = (PyObject *) __pyx_v_device; __pyx_v_device = __pyx_t_2; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
+      __pyx_t_2 = 0;
+# 4606 "bluid/data.cpp"
+      __pyx_t_2 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 4606; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_7 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_Unknown, __pyx_t_2, 2)); if (__builtin_expect(!!((__pyx_t_7 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 4608; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      if (!__pyx_t_7) {
+      } else {
+        __pyx_t_1 = __pyx_t_7;
+        goto __pyx_L7_bool_binop_done;
       }
-    }
-
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_t_4};
-      __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
-      Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_2 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 4615; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_7 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_Unknown, __pyx_t_2, 2)); if (__builtin_expect(!!((__pyx_t_7 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 4617; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      __pyx_t_1 = __pyx_t_7;
+      __pyx_L7_bool_binop_done:;
+      if (__pyx_t_1) {
+# 4630 "bluid/data.cpp"
+        goto __pyx_L4_continue;
+# 4639 "bluid/data.cpp"
+      }
+# 4648 "bluid/data.cpp"
+      __pyx_t_2 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_density) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_density)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 4648; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_8 = ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyFloat_Type))), 1)) ? PyFloat_AS_DOUBLE(((PyObject*)((__pyx_t_2)))) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyLong_Type))), 1) ? PyLong_AsDouble(__pyx_t_2) : __Pyx__PyObject_AsDouble(__pyx_t_2)); if (__builtin_expect(!!(__pyx_t_8 == ((double)((double)-1)) && PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 4650; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      __pyx_t_2 = PyFloat_FromDouble((__pyx_t_8 * 160.0)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 4652; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_round, __pyx_t_2); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 4654; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      __pyx_t_2 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 4657; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
       Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-      if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 42; (void)__pyx_lineno; __pyx_clineno = 4738; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      __pyx_v_dpi = ((PyObject*)__pyx_t_2);
+      __pyx_t_2 = 0;
+# 4670 "bluid/data.cpp"
+      __pyx_t_2 = ((14 <= 8) ? PyDict_New() : _PyDict_NewPresized(14)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4670; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBAN, __pyx_mstate_global->__pyx_n_s_FB4A) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4672; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBAV, __pyx_mstate_global->__pyx_kp_s_447_0_0_24_113) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4673; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBBV, __pyx_mstate_global->__pyx_kp_s_277444756) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4674; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 4683 "bluid/data.cpp"
+      __pyx_t_4 = PyTuple_New(7); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 28; (void)__pyx_lineno; __pyx_clineno = 4683; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_9 = 0;
+      __pyx_t_10 = 127;
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_density_2))));
+      __pyx_t_9 += 9;
+                                         ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_density_2))));
+      Py_INCREF(((PyObject*)((__pyx_v_dpi))));
+      __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_v_dpi)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_v_dpi)))) : __pyx_t_10;
+      __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_v_dpi))));
+                                ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (1), ((PyObject*)((__pyx_v_dpi))));
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_width))));
+      __pyx_t_9 += 7;
+                                     ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_width))));
+      __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_width_2) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_width_2)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 28; (void)__pyx_lineno; __pyx_clineno = 4700; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 28; (void)__pyx_lineno; __pyx_clineno = 4702; (void)__pyx_clineno; } goto __pyx_L1_error; }
                              ;
       Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    }
-    __pyx_v_device = __pyx_t_2;
-    __pyx_t_2 = 0;
-# 4752 "bluid/data.cpp"
-    (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 4752; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 4754; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_mstate_global->__pyx_tuple__11, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 4757; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_2)))), __pyx_t_2) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_2) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_2) : PyObject_Format(__pyx_t_2, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 4760; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-    __pyx_t_2 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_RP1A, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 4763; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 4766; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 4768; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_mstate_global->__pyx_tuple__11, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 4771; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 4774; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    __pyx_t_3 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_QKQ1, __pyx_t_4); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 4777; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-# 4788 "bluid/data.cpp"
-    (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 45; (void)__pyx_lineno; __pyx_clineno = 4788; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 45; (void)__pyx_lineno; __pyx_clineno = 4790; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_mstate_global->__pyx_tuple__11, __null); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 45; (void)__pyx_lineno; __pyx_clineno = 4793; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 45; (void)__pyx_lineno; __pyx_clineno = 4796; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_SP1A, __pyx_t_5); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 45; (void)__pyx_lineno; __pyx_clineno = 4799; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 45; (void)__pyx_lineno; __pyx_clineno = 4802; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 45; (void)__pyx_lineno; __pyx_clineno = 4804; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                            ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_mstate_global->__pyx_tuple__11, __null); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 45; (void)__pyx_lineno; __pyx_clineno = 4807; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-    __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 45; (void)__pyx_lineno; __pyx_clineno = 4810; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                            ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_5 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_TP1A, __pyx_t_11); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 45; (void)__pyx_lineno; __pyx_clineno = 4813; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-# 4824 "bluid/data.cpp"
-    __pyx_t_11 = PyList_New(4); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 43; (void)__pyx_lineno; __pyx_clineno = 4824; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                            ;
-                            ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (0), ((PyObject*)((__pyx_t_2)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 43; (void)__pyx_lineno; __pyx_clineno = 4827; (void)__pyx_clineno; } goto __pyx_L1_error; };
-                            ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (1), ((PyObject*)((__pyx_t_3)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 43; (void)__pyx_lineno; __pyx_clineno = 4829; (void)__pyx_clineno; } goto __pyx_L1_error; };
-                            ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_t_4)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 43; (void)__pyx_lineno; __pyx_clineno = 4831; (void)__pyx_clineno; } goto __pyx_L1_error; };
-                            ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (3), ((PyObject*)((__pyx_t_5)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 43; (void)__pyx_lineno; __pyx_clineno = 4833; (void)__pyx_clineno; } goto __pyx_L1_error; };
-    __pyx_t_2 = 0;
-    __pyx_t_3 = 0;
-    __pyx_t_4 = 0;
-    __pyx_t_5 = 0;
-    __pyx_v_build_numbers = ((PyObject*)__pyx_t_11);
-    __pyx_t_11 = 0;
-# 4848 "bluid/data.cpp"
-    __pyx_t_11 = PyList_New(5); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 48; (void)__pyx_lineno; __pyx_clineno = 4848; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                            ;
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Chrome))));
-                                   ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Chrome)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 48; (void)__pyx_lineno; __pyx_clineno = 4852; (void)__pyx_clineno; } goto __pyx_L1_error; };
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Firefox))));
-                                    ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Firefox)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 48; (void)__pyx_lineno; __pyx_clineno = 4855; (void)__pyx_clineno; } goto __pyx_L1_error; };
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Opera))));
+      __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_10;
+      __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+                              ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (3), ((PyObject*)((__pyx_t_5))));
+      __pyx_t_5 = 0;
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_height))));
+      __pyx_t_9 += 8;
+                                      ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_height))));
+      __pyx_t_5 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_height_2) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_height_2)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 28; (void)__pyx_lineno; __pyx_clineno = 4714; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 28; (void)__pyx_lineno; __pyx_clineno = 4716; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_10;
+      __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
+                              ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (5), ((PyObject*)((__pyx_t_3))));
+      __pyx_t_3 = 0;
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__4))));
+      __pyx_t_9 += 1;
                                   ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Opera)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 48; (void)__pyx_lineno; __pyx_clineno = 4858; (void)__pyx_clineno; } goto __pyx_L1_error; };
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Edge))));
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__4))));
+      __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_4, 7, __pyx_t_9, __pyx_t_10); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 28; (void)__pyx_lineno; __pyx_clineno = 4728; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBDM, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4731; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBLC, __pyx_mstate_global->__pyx_n_s_en_US) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4733; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBRV, __pyx_mstate_global->__pyx_kp_s_556730939) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4734; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 4743 "bluid/data.cpp"
+      __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_operators) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_operators)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 31; (void)__pyx_lineno; __pyx_clineno = 4743; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBCR, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4745; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+# 4755 "bluid/data.cpp"
+      __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 32; (void)__pyx_lineno; __pyx_clineno = 4755; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBMF, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4757; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+# 4767 "bluid/data.cpp"
+      __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 4767; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBBD, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4769; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBPN, __pyx_mstate_global->__pyx_kp_s_com_facebook_mahos) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4771; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 4780 "bluid/data.cpp"
+      __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 35; (void)__pyx_lineno; __pyx_clineno = 4780; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBDV, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4782; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+# 4792 "bluid/data.cpp"
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_get); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 36; (void)__pyx_lineno; __pyx_clineno = 4792; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 36; (void)__pyx_lineno; __pyx_clineno = 4794; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                              ;
+      __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 36; (void)__pyx_lineno; __pyx_clineno = 4796; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                              ;
+      Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_android_versions); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 36; (void)__pyx_lineno; __pyx_clineno = 4799; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                              ;
+      __pyx_t_13 = __null;
+      __pyx_t_6 = 0;
+
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyMethod_Type))), 0)) {
+        __pyx_t_13 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_12))));
+        if (__builtin_expect(!!(__pyx_t_13), 1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_12))));
+          Py_INCREF(((PyObject*)((__pyx_t_13))));
+          Py_INCREF(((PyObject*)((function))));
+          do { PyObject *tmp = (PyObject *) __pyx_t_12; __pyx_t_12 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_6 = 1;
+        }
+      }
+
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_13, __pyx_t_11};
+        __pyx_t_5 = __Pyx_PyObject_FastCallDict(__pyx_t_12, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
+        Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
+        if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 36; (void)__pyx_lineno; __pyx_clineno = 4820; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
+      }
+      __pyx_t_12 = __null;
+      __pyx_t_6 = 0;
+
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 1)) {
+        __pyx_t_12 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
+        if (__builtin_expect(!!(__pyx_t_12), 1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
+          Py_INCREF(((PyObject*)((__pyx_t_12))));
+          Py_INCREF(((PyObject*)((function))));
+          do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_6 = 1;
+        }
+      }
+
+      {
+        PyObject *__pyx_callargs[3] = {__pyx_t_12, __pyx_mstate_global->__pyx_n_s_android_version, __pyx_t_5};
+        __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(2+__pyx_t_6), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
+        Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+        if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 36; (void)__pyx_lineno; __pyx_clineno = 4843; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      }
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBSV, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4847; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBOP, __pyx_mstate_global->__pyx_kp_s_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4849; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_FBCA, __pyx_mstate_global->__pyx_kp_s_arm64_v8a_null) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 4850; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      __pyx_v_components = ((PyObject*)__pyx_t_2);
+      __pyx_t_2 = 0;
+# 4861 "bluid/data.cpp"
+      {
+        __pyx_t_2 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 41; (void)__pyx_lineno; __pyx_clineno = 4862; (void)__pyx_clineno; } goto __pyx_L11_error; }
+                               ;
+        __pyx_t_9 = 0;
+        __pyx_t_4 = __Pyx_dict_iterator(__pyx_v_components, 1, __pyx_mstate_global->__pyx_n_s_items, (&__pyx_t_14), (&__pyx_t_15)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 41; (void)__pyx_lineno; __pyx_clineno = 4865; (void)__pyx_clineno; } goto __pyx_L11_error; }
+                               ;
+        Py_XDECREF(((PyObject*)((__pyx_t_3))));
+        __pyx_t_3 = __pyx_t_4;
+        __pyx_t_4 = 0;
+        while (1) {
+          __pyx_t_16 = __Pyx_dict_iter_next(__pyx_t_3, __pyx_t_14, &__pyx_t_9, &__pyx_t_4, &__pyx_t_5, __null, __pyx_t_15);
+          if (__builtin_expect(!!(__pyx_t_16 == 0), 0)) break;
+          if (__builtin_expect(!!(__pyx_t_16 == -1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 41; (void)__pyx_lineno; __pyx_clineno = 4873; (void)__pyx_clineno; } goto __pyx_L11_error; }
                                  ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Edge)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 48; (void)__pyx_lineno; __pyx_clineno = 4861; (void)__pyx_clineno; } goto __pyx_L1_error; };
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_YandexBrowser))));
+                                 ;
+          do { PyObject *tmp = (PyObject *) __pyx_8genexpr1__pyx_v_k; __pyx_8genexpr1__pyx_v_k = __pyx_t_4; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_4 = 0;
+          do { PyObject *tmp = (PyObject *) __pyx_8genexpr1__pyx_v_v; __pyx_8genexpr1__pyx_v_v = __pyx_t_5; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_5 = 0;
+          __pyx_t_5 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 41; (void)__pyx_lineno; __pyx_clineno = 4880; (void)__pyx_clineno; } goto __pyx_L11_error; }
+                                 ;
+          __pyx_t_17 = 0;
+          __pyx_t_10 = 127;
+          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_k)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_8genexpr1__pyx_v_k)))), __pyx_8genexpr1__pyx_v_k) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_k)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_8genexpr1__pyx_v_k) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_k)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_8genexpr1__pyx_v_k) : PyObject_Format(__pyx_8genexpr1__pyx_v_k, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 41; (void)__pyx_lineno; __pyx_clineno = 4884; (void)__pyx_clineno; } goto __pyx_L11_error; }
+                                 ;
+          __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_10;
+          __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+                                  ;
+          PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (0), ((PyObject*)((__pyx_t_4))));
+          __pyx_t_4 = 0;
+          Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
+          __pyx_t_17 += 1;
+                                      ;
+          PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
+          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_v)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_8genexpr1__pyx_v_v)))), __pyx_8genexpr1__pyx_v_v) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_v)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_8genexpr1__pyx_v_v) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_8genexpr1__pyx_v_v)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_8genexpr1__pyx_v_v) : PyObject_Format(__pyx_8genexpr1__pyx_v_v, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 41; (void)__pyx_lineno; __pyx_clineno = 4895; (void)__pyx_clineno; } goto __pyx_L11_error; }
+                                 ;
+          __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_10;
+          __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+                                  ;
+          PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (2), ((PyObject*)((__pyx_t_4))));
+          __pyx_t_4 = 0;
+          __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_5, 3, __pyx_t_17, __pyx_t_10); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 41; (void)__pyx_lineno; __pyx_clineno = 4902; (void)__pyx_clineno; } goto __pyx_L11_error; }
+                                 ;
+          Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+          if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_2, (PyObject*)__pyx_t_4)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 41; (void)__pyx_lineno; __pyx_clineno = 4905; (void)__pyx_clineno; } goto __pyx_L11_error; }
+          Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+        }
+        Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+        Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_k)))); __pyx_8genexpr1__pyx_v_k = 0;
+        Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_v)))); __pyx_8genexpr1__pyx_v_v = 0;
+        goto __pyx_L14_exit_scope;
+        __pyx_L11_error:;
+        Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_k)))); __pyx_8genexpr1__pyx_v_k = 0;
+        Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_v)))); __pyx_8genexpr1__pyx_v_v = 0;
+        goto __pyx_L1_error;
+        __pyx_L14_exit_scope:;
+      }
+      __pyx_v_ua_parts = ((PyObject*)__pyx_t_2);
+      __pyx_t_2 = 0;
+# 4928 "bluid/data.cpp"
+      Py_XDECREF(((PyObject*)((__pyx_r))));
+      __pyx_t_2 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 42; (void)__pyx_lineno; __pyx_clineno = 4929; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_14 = 0;
+      __pyx_t_10 = 127;
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__6))));
+      __pyx_t_14 += 1;
+                                  ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_2))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__6))));
+      __pyx_t_3 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__7, __pyx_v_ua_parts); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 42; (void)__pyx_lineno; __pyx_clineno = 4937; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 42; (void)__pyx_lineno; __pyx_clineno = 4939; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_10;
+      __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+                              ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_2))), (1), ((PyObject*)((__pyx_t_4))));
+      __pyx_t_4 = 0;
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__8))));
+      __pyx_t_14 += 1;
+                                  ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_2))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__8))));
+      __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_2, 3, __pyx_t_14, __pyx_t_10); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 42; (void)__pyx_lineno; __pyx_clineno = 4951; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      __pyx_t_2 = PyUnicode_Replace(((PyObject*)__pyx_t_4), __pyx_mstate_global->__pyx_kp_s__9, __pyx_mstate_global->__pyx_kp_s__10, -1L); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 42; (void)__pyx_lineno; __pyx_clineno = 4954; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_r = __pyx_t_2;
+      __pyx_t_2 = 0;
+      goto __pyx_L0;
+      __pyx_L4_continue:;
+    }
+# 4970 "bluid/data.cpp"
+    goto __pyx_L3;
+  }
+# 4980 "bluid/data.cpp"
+           {
+    while (1) {
+# 4990 "bluid/data.cpp"
+      (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 46; (void)__pyx_lineno; __pyx_clineno = 4990; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 46; (void)__pyx_lineno; __pyx_clineno = 4992; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_devices_data); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 46; (void)__pyx_lineno; __pyx_clineno = 4995; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_5 = __null;
+      __pyx_t_6 = 0;
+
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyMethod_Type))), 0)) {
+        __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_3))));
+        if (__builtin_expect(!!(__pyx_t_5), 1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_3))));
+          Py_INCREF(((PyObject*)((__pyx_t_5))));
+          Py_INCREF(((PyObject*)((function))));
+          do { PyObject *tmp = (PyObject *) __pyx_t_3; __pyx_t_3 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_6 = 1;
+        }
+      }
+
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_t_4};
+        __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+        Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+        if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 46; (void)__pyx_lineno; __pyx_clineno = 5016; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      }
+      do { PyObject *tmp = (PyObject *) __pyx_v_device; __pyx_v_device = __pyx_t_2; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
+      __pyx_t_2 = 0;
+# 5030 "bluid/data.cpp"
+      __pyx_t_2 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 47; (void)__pyx_lineno; __pyx_clineno = 5030; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_7 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_Unknown, __pyx_t_2, 2)); if (__builtin_expect(!!((__pyx_t_7 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 47; (void)__pyx_lineno; __pyx_clineno = 5032; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      if (!__pyx_t_7) {
+      } else {
+        __pyx_t_1 = __pyx_t_7;
+        goto __pyx_L18_bool_binop_done;
+      }
+      __pyx_t_2 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 47; (void)__pyx_lineno; __pyx_clineno = 5039; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_7 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_Unknown, __pyx_t_2, 2)); if (__builtin_expect(!!((__pyx_t_7 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 47; (void)__pyx_lineno; __pyx_clineno = 5041; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      __pyx_t_1 = __pyx_t_7;
+      __pyx_L18_bool_binop_done:;
+      if (__pyx_t_1) {
+# 5054 "bluid/data.cpp"
+        goto __pyx_L15_continue;
+# 5063 "bluid/data.cpp"
+      }
+# 5072 "bluid/data.cpp"
+      (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 5072; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 5074; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_mstate_global->__pyx_tuple__11, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 5077; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_2)))), __pyx_t_2) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_2) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_2) : PyObject_Format(__pyx_t_2, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 5080; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      __pyx_t_2 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_RP1A, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 5083; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 5086; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 5088; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_mstate_global->__pyx_tuple__11, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 5091; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 5094; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      __pyx_t_3 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_QKQ1, __pyx_t_4); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 5097; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+# 5108 "bluid/data.cpp"
+      (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5108; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5110; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_mstate_global->__pyx_tuple__11, __null); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5113; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5116; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_t_4 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_SP1A, __pyx_t_5); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5119; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5122; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5124; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                              ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_mstate_global->__pyx_tuple__11, __null); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5127; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
+      __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5130; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                              ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_TP1A, __pyx_t_12); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5133; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
+# 5144 "bluid/data.cpp"
+      __pyx_t_12 = PyList_New(4); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 50; (void)__pyx_lineno; __pyx_clineno = 5144; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                              ;
+                              ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (0), ((PyObject*)((__pyx_t_2)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 50; (void)__pyx_lineno; __pyx_clineno = 5147; (void)__pyx_clineno; } goto __pyx_L1_error; };
+                              ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (1), ((PyObject*)((__pyx_t_3)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 50; (void)__pyx_lineno; __pyx_clineno = 5149; (void)__pyx_clineno; } goto __pyx_L1_error; };
+                              ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (2), ((PyObject*)((__pyx_t_4)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 50; (void)__pyx_lineno; __pyx_clineno = 5151; (void)__pyx_clineno; } goto __pyx_L1_error; };
+                              ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (3), ((PyObject*)((__pyx_t_5)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 50; (void)__pyx_lineno; __pyx_clineno = 5153; (void)__pyx_clineno; } goto __pyx_L1_error; };
+      __pyx_t_2 = 0;
+      __pyx_t_3 = 0;
+      __pyx_t_4 = 0;
+      __pyx_t_5 = 0;
+      __pyx_v_build_numbers = ((PyObject*)__pyx_t_12);
+      __pyx_t_12 = 0;
+# 5168 "bluid/data.cpp"
+      __pyx_t_12 = PyList_New(5); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 55; (void)__pyx_lineno; __pyx_clineno = 5168; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                              ;
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Chrome))));
+                                     ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Chrome)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 55; (void)__pyx_lineno; __pyx_clineno = 5172; (void)__pyx_clineno; } goto __pyx_L1_error; };
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Firefox))));
+                                      ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Firefox)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 55; (void)__pyx_lineno; __pyx_clineno = 5175; (void)__pyx_clineno; } goto __pyx_L1_error; };
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Opera))));
+                                    ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Opera)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 55; (void)__pyx_lineno; __pyx_clineno = 5178; (void)__pyx_clineno; } goto __pyx_L1_error; };
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Edge))));
+                                   ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Edge)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 55; (void)__pyx_lineno; __pyx_clineno = 5181; (void)__pyx_clineno; } goto __pyx_L1_error; };
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_YandexBrowser))));
+                                            ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_YandexBrowser)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 55; (void)__pyx_lineno; __pyx_clineno = 5184; (void)__pyx_clineno; } goto __pyx_L1_error; };
+      __pyx_v_browser_variants = ((PyObject*)__pyx_t_12);
+      __pyx_t_12 = 0;
+# 5195 "bluid/data.cpp"
+      __pyx_t_12 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5195; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                              ;
+      __pyx_t_14 = 0;
+      __pyx_t_10 = 127;
+      (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5199; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5201; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_mstate_global->__pyx_tuple__12, __null); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5204; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5207; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_10;
+      __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+                              ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (0), ((PyObject*)((__pyx_t_4))));
+      __pyx_t_4 = 0;
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0))));
+      __pyx_t_14 += 3;
+                                 ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0))));
+      (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5219; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5221; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_mstate_global->__pyx_tuple__13, __null); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5224; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5227; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_10;
+      __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+                              ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (2), ((PyObject*)((__pyx_t_5))));
+      __pyx_t_5 = 0;
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__14))));
+      __pyx_t_14 += 1;
+                                   ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__14))));
+      (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5239; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5241; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_mstate_global->__pyx_tuple__15, __null); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5244; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5247; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_10;
+      __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+                              ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (4), ((PyObject*)((__pyx_t_4))));
+      __pyx_t_4 = 0;
+      __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_12, 5, __pyx_t_14, __pyx_t_10); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5255; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
+# 5266 "bluid/data.cpp"
+      __pyx_t_12 = PyTuple_New(4); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5266; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                              ;
+      __pyx_t_14 = 0;
+      __pyx_t_10 = 127;
+      (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5270; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5272; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_mstate_global->__pyx_tuple__16, __null); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5275; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5278; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_10;
+      __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
+                              ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (0), ((PyObject*)((__pyx_t_3))));
+      __pyx_t_3 = 0;
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0))));
+      __pyx_t_14 += 3;
+                                 ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0))));
+      (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5290; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5292; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_mstate_global->__pyx_tuple__13, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5295; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5298; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_10;
+      __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+                              ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (2), ((PyObject*)((__pyx_t_5))));
+      __pyx_t_5 = 0;
+      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0_2))));
+      __pyx_t_14 += 2;
+                                   ;
+      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0_2))));
+      __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_12, 4, __pyx_t_14, __pyx_t_10); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5310; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
+# 5321 "bluid/data.cpp"
+      __pyx_t_12 = PyList_New(2); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 56; (void)__pyx_lineno; __pyx_clineno = 5321; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                              ;
+                              ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (0), ((PyObject*)((__pyx_t_4)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 56; (void)__pyx_lineno; __pyx_clineno = 5324; (void)__pyx_clineno; } goto __pyx_L1_error; };
+                              ;
+      if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_12))), (1), ((PyObject*)((__pyx_t_5)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 56; (void)__pyx_lineno; __pyx_clineno = 5326; (void)__pyx_clineno; } goto __pyx_L1_error; };
+      __pyx_t_4 = 0;
+      __pyx_t_5 = 0;
+      __pyx_v_browser_versions = ((PyObject*)__pyx_t_12);
+      __pyx_t_12 = 0;
+# 5339 "bluid/data.cpp"
+      (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 61; (void)__pyx_lineno; __pyx_clineno = 5339; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 61; (void)__pyx_lineno; __pyx_clineno = 5341; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = __null;
+      __pyx_t_6 = 0;
+
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 0)) {
+        __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
+        if (__builtin_expect(!!(__pyx_t_5), 1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
+          Py_INCREF(((PyObject*)((__pyx_t_5))));
+          Py_INCREF(((PyObject*)((function))));
+          do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_6 = 1;
+        }
+      }
+
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_v_build_numbers};
+        __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+        if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 61; (void)__pyx_lineno; __pyx_clineno = 5362; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                                ;
+        Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      }
+      __pyx_v_build_number = __pyx_t_12;
+      __pyx_t_12 = 0;
+# 5376 "bluid/data.cpp"
+      (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 62; (void)__pyx_lineno; __pyx_clineno = 5376; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 62; (void)__pyx_lineno; __pyx_clineno = 5378; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_t_4 = __null;
+      __pyx_t_6 = 0;
+
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyMethod_Type))), 0)) {
+        __pyx_t_4 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_5))));
+        if (__builtin_expect(!!(__pyx_t_4), 1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_5))));
+          Py_INCREF(((PyObject*)((__pyx_t_4))));
+          Py_INCREF(((PyObject*)((function))));
+          do { PyObject *tmp = (PyObject *) __pyx_t_5; __pyx_t_5 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_6 = 1;
+        }
+      }
+
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_browser_variants};
+        __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_5, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+        if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 62; (void)__pyx_lineno; __pyx_clineno = 5399; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                                ;
+        Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      }
+      __pyx_v_browser_variant = __pyx_t_12;
+      __pyx_t_12 = 0;
+# 5413 "bluid/data.cpp"
+      (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 63; (void)__pyx_lineno; __pyx_clineno = 5413; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 63; (void)__pyx_lineno; __pyx_clineno = 5415; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = __null;
+      __pyx_t_6 = 0;
+
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 0)) {
+        __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
+        if (__builtin_expect(!!(__pyx_t_5), 1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
+          Py_INCREF(((PyObject*)((__pyx_t_5))));
+          Py_INCREF(((PyObject*)((function))));
+          do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_6 = 1;
+        }
+      }
+
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_v_browser_versions};
+        __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+        if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 63; (void)__pyx_lineno; __pyx_clineno = 5436; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                                ;
+        Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      }
+      __pyx_v_browser_version = __pyx_t_12;
+      __pyx_t_12 = 0;
+# 5450 "bluid/data.cpp"
+      (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 64; (void)__pyx_lineno; __pyx_clineno = 5450; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 64; (void)__pyx_lineno; __pyx_clineno = 5452; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_android_versions); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 64; (void)__pyx_lineno; __pyx_clineno = 5455; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_3 = __null;
+      __pyx_t_6 = 0;
+
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyMethod_Type))), 0)) {
+        __pyx_t_3 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_5))));
+        if (__builtin_expect(!!(__pyx_t_3), 1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_5))));
+          Py_INCREF(((PyObject*)((__pyx_t_3))));
+          Py_INCREF(((PyObject*)((function))));
+          do { PyObject *tmp = (PyObject *) __pyx_t_5; __pyx_t_5 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_6 = 1;
+        }
+      }
+
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_4};
+        __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_5, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+        Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+        if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 64; (void)__pyx_lineno; __pyx_clineno = 5476; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                                ;
+        Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      }
+      __pyx_v_android_version = __pyx_t_12;
+      __pyx_t_12 = 0;
+# 5490 "bluid/data.cpp"
+      __pyx_t_5 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 66; (void)__pyx_lineno; __pyx_clineno = 5490; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 66; (void)__pyx_lineno; __pyx_clineno = 5492; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      __pyx_t_5 = __null;
+      __pyx_t_6 = 0;
+
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 1)) {
+        __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
+        if (__builtin_expect(!!(__pyx_t_5), 1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
+          Py_INCREF(((PyObject*)((__pyx_t_5))));
+          Py_INCREF(((PyObject*)((function))));
+          do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_6 = 1;
+        }
+      }
+
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_5, __null};
+        __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(0+__pyx_t_6), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+        if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 66; (void)__pyx_lineno; __pyx_clineno = 5513; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                                ;
+        Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      }
+      __pyx_t_1 = (__Pyx_PyUnicode_Equals(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_samsung, 2)); if (__builtin_expect(!!((__pyx_t_1 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 66; (void)__pyx_lineno; __pyx_clineno = 5517; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
+      if (__pyx_t_1) {
+# 5528 "bluid/data.cpp"
+        __pyx_t_12 = PyTuple_New(9); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 68; (void)__pyx_lineno; __pyx_clineno = 5528; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                                ;
+        __pyx_t_14 = 0;
+        __pyx_t_10 = 127;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mozilla_5_0_Linux_Android))));
+        __pyx_t_14 += 28;
+                                                           ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mozilla_5_0_Linux_Android))));
+        __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_android_version)))), __pyx_v_android_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_android_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_android_version) : PyObject_Format(__pyx_v_android_version, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 68; (void)__pyx_lineno; __pyx_clineno = 5536; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_10;
+        __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+                                ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (1), ((PyObject*)((__pyx_t_4))));
+        __pyx_t_4 = 0;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
+        __pyx_t_14 += 2;
+                                     ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
+        __pyx_t_4 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 68; (void)__pyx_lineno; __pyx_clineno = 5547; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 68; (void)__pyx_lineno; __pyx_clineno = 5549; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+        __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_10;
+        __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+                                ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (3), ((PyObject*)((__pyx_t_5))));
+        __pyx_t_5 = 0;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Build))));
+        __pyx_t_14 += 7;
+                                       ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Build))));
+        __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_build_number)))), __pyx_v_build_number) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_build_number) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_build_number) : PyObject_Format(__pyx_v_build_number, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 68; (void)__pyx_lineno; __pyx_clineno = 5561; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_10;
+        __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+                                ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (5), ((PyObject*)((__pyx_t_5))));
+        __pyx_t_5 = 0;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_AppleWebKit_537_36_KHTML_like_G))));
+        __pyx_t_14 += 67;
+                                                                 ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_AppleWebKit_537_36_KHTML_like_G))));
+# 5580 "bluid/data.cpp"
+        __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_browser_version)))), __pyx_v_browser_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_browser_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_browser_version) : PyObject_Format(__pyx_v_browser_version, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 69; (void)__pyx_lineno; __pyx_clineno = 5580; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_10;
+        __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+                                ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (7), ((PyObject*)((__pyx_t_5))));
+        __pyx_t_5 = 0;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mobile_Safari_537_36))));
+        __pyx_t_14 += 21;
+                                                      ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mobile_Safari_537_36))));
+# 5599 "bluid/data.cpp"
+        __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_12, 9, __pyx_t_14, __pyx_t_10); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 68; (void)__pyx_lineno; __pyx_clineno = 5599; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
+        __pyx_v_user_agent = ((PyObject*)__pyx_t_5);
+        __pyx_t_5 = 0;
+# 5612 "bluid/data.cpp"
+        goto __pyx_L20;
+      }
+# 5622 "bluid/data.cpp"
+               {
+        __pyx_t_5 = PyTuple_New(11); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 73; (void)__pyx_lineno; __pyx_clineno = 5623; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        __pyx_t_14 = 0;
+        __pyx_t_10 = 127;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mozilla_5_0_Linux_Android))));
+        __pyx_t_14 += 28;
+                                                           ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mozilla_5_0_Linux_Android))));
+        __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_android_version)))), __pyx_v_android_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_android_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_android_version) : PyObject_Format(__pyx_v_android_version, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 73; (void)__pyx_lineno; __pyx_clineno = 5631; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                                ;
+        __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) : __pyx_t_10;
+        __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_12))));
+                                 ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (1), ((PyObject*)((__pyx_t_12))));
+        __pyx_t_12 = 0;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
+        __pyx_t_14 += 2;
+                                     ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
+        __pyx_t_12 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 73; (void)__pyx_lineno; __pyx_clineno = 5642; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                                ;
+        __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 73; (void)__pyx_lineno; __pyx_clineno = 5644; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
+        __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_10;
+        __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+                                ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (3), ((PyObject*)((__pyx_t_4))));
+        __pyx_t_4 = 0;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Build))));
+        __pyx_t_14 += 7;
+                                       ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Build))));
+        __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_build_number)))), __pyx_v_build_number) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_build_number) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_build_number) : PyObject_Format(__pyx_v_build_number, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 73; (void)__pyx_lineno; __pyx_clineno = 5656; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_10;
+        __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+                                ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (5), ((PyObject*)((__pyx_t_4))));
+        __pyx_t_4 = 0;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_AppleWebKit_537_36_KHTML_like_G_2))));
+        __pyx_t_14 += 41;
+                                                                   ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_AppleWebKit_537_36_KHTML_like_G_2))));
+# 5675 "bluid/data.cpp"
+        __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_variant)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_browser_variant)))), __pyx_v_browser_variant) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_variant)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_browser_variant) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_variant)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_browser_variant) : PyObject_Format(__pyx_v_browser_variant, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 74; (void)__pyx_lineno; __pyx_clineno = 5675; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_10;
+        __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+                                ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (7), ((PyObject*)((__pyx_t_4))));
+        __pyx_t_4 = 0;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
+        __pyx_t_14 += 1;
+                                    ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
+        __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_browser_version)))), __pyx_v_browser_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_browser_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_browser_version) : PyObject_Format(__pyx_v_browser_version, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 74; (void)__pyx_lineno; __pyx_clineno = 5686; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        __pyx_t_10 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_10) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_10;
+        __pyx_t_14 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+                                ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (9), ((PyObject*)((__pyx_t_4))));
+        __pyx_t_4 = 0;
+        Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mobile_Safari_537_36))));
+        __pyx_t_14 += 21;
+                                                      ;
+        PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (10), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mobile_Safari_537_36))));
+# 5705 "bluid/data.cpp"
+        __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_5, 11, __pyx_t_14, __pyx_t_10); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 73; (void)__pyx_lineno; __pyx_clineno = 5705; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+        Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+        __pyx_v_user_agent = ((PyObject*)__pyx_t_4);
+        __pyx_t_4 = 0;
+      }
+      __pyx_L20:;
+# 5720 "bluid/data.cpp"
+      Py_XDECREF(((PyObject*)((__pyx_r))));
+      __pyx_t_4 = PyUnicode_Replace(__pyx_v_user_agent, __pyx_mstate_global->__pyx_kp_s__9, __pyx_mstate_global->__pyx_kp_s__10, -1L); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 77; (void)__pyx_lineno; __pyx_clineno = 5721; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      __pyx_r = __pyx_t_4;
+      __pyx_t_4 = 0;
+      goto __pyx_L0;
+      __pyx_L15_continue:;
+    }
+  }
+  __pyx_L3:;
+# 5740 "bluid/data.cpp"
+  __pyx_r = (&_Py_NoneStruct); Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  Py_XDECREF(((PyObject*)((__pyx_t_2))));
+  Py_XDECREF(((PyObject*)((__pyx_t_3))));
+  Py_XDECREF(((PyObject*)((__pyx_t_4))));
+  Py_XDECREF(((PyObject*)((__pyx_t_5))));
+  Py_XDECREF(((PyObject*)((__pyx_t_11))));
+  Py_XDECREF(((PyObject*)((__pyx_t_12))));
+  Py_XDECREF(((PyObject*)((__pyx_t_13))));
+  __Pyx_AddTraceback("data.UserAgent.ua_facebook", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = __null;
+  __pyx_L0:;
+  Py_XDECREF(((PyObject*)((__pyx_v_device))));
+  Py_XDECREF(((PyObject*)((__pyx_v_dpi))));
+  Py_XDECREF(((PyObject*)((__pyx_v_components))));
+  Py_XDECREF(((PyObject*)((__pyx_v_ua_parts))));
+  Py_XDECREF(((PyObject*)((__pyx_v_build_numbers))));
+  Py_XDECREF(((PyObject*)((__pyx_v_browser_variants))));
+  Py_XDECREF(((PyObject*)((__pyx_v_browser_versions))));
+  Py_XDECREF(((PyObject*)((__pyx_v_build_number))));
+  Py_XDECREF(((PyObject*)((__pyx_v_browser_variant))));
+  Py_XDECREF(((PyObject*)((__pyx_v_browser_version))));
+  Py_XDECREF(((PyObject*)((__pyx_v_android_version))));
+  Py_XDECREF(((PyObject*)((__pyx_v_user_agent))));
+  Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_k))));
+  Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_v))));
+                         ;
+                               ;
+  return __pyx_r;
+}
+# 5781 "bluid/data.cpp"
+static PyObject *__pyx_pw_4data_9UserAgent_5get_valid_device(PyObject *__pyx_self,
+
+PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
+
+
+
+);
+static PyMethodDef __pyx_mdef_4data_9UserAgent_5get_valid_device = {"get_valid_device", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_5get_valid_device, 0x0080|0x0002, 0};
+static PyObject *__pyx_pw_4data_9UserAgent_5get_valid_device(PyObject *__pyx_self,
+
+PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
+
+
+
+) {
+  PyObject *__pyx_v_self = 0;
+
+
+
+  [[maybe_unused]] PyObject *const *__pyx_kwvalues;
+  PyObject* values[1] = {0};
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = __null;
+  int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+
+                                                             ;
+
+
+
+
+
+
+
+  __pyx_kwvalues = ((__pyx_args) + (__pyx_nargs));
+  {
+    PyObject **__pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_s_self,0};
+    if (__pyx_kwds) {
+      Py_ssize_t kw_args;
+      switch (__pyx_nargs) {
+        case 1: values[0] = __pyx_args[0];
+        [[fallthrough]];
+        case 0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyTuple_GET_SIZE(((PyObject*)((__pyx_kwds))));
+      switch (__pyx_nargs) {
+        case 0:
+        if (__builtin_expect(!!((values[0] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_mstate_global->__pyx_n_s_self)) != 0), 1)) {
+          (void)values[0];
+          kw_args--;
+        }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 79; (void)__pyx_lineno; __pyx_clineno = 5833; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else goto __pyx_L5_argtuple_error;
+      }
+      if (__builtin_expect(!!(kw_args > 0), 0)) {
+        const Py_ssize_t kwd_pos_args = __pyx_nargs;
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "get_valid_device") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 79; (void)__pyx_lineno; __pyx_clineno = 5838; (void)__pyx_clineno; } goto __pyx_L3_error; }
+      }
+    } else if (__builtin_expect(!!(__pyx_nargs != 1), 0)) {
+      goto __pyx_L5_argtuple_error;
+    } else {
+      values[0] = __pyx_args[0];
+    }
+    __pyx_v_self = values[0];
+  }
+  goto __pyx_L6_skip;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("get_valid_device", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 79; (void)__pyx_lineno; __pyx_clineno = 5849; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __pyx_L6_skip:;
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L3_error:;
+  {
+    Py_ssize_t __pyx_temp;
+    for (__pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+                                                    ;
+    }
+  }
+  __Pyx_AddTraceback("data.UserAgent.get_valid_device", __pyx_clineno, __pyx_lineno, __pyx_filename);
+                               ;
+  return __null;
+  __pyx_L4_argument_unpacking_done:;
+  __pyx_r = __pyx_pf_4data_9UserAgent_4get_valid_device(__pyx_self, __pyx_v_self);
+
+
+  {
+    Py_ssize_t __pyx_temp;
+    for (__pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+                                                    ;
+    }
+  }
+                               ;
+  return __pyx_r;
+}
+static PyObject *__pyx_gb_4data_9UserAgent_16get_valid_device_2generator(__pyx_CoroutineObject *__pyx_generator, [[maybe_unused]] PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value);
+# 5885 "bluid/data.cpp"
+static PyObject *__pyx_pf_4data_9UserAgent_16get_valid_device_genexpr([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_genexpr_arg_0, PyObject *__pyx_genexpr_arg_1, PyObject *__pyx_genexpr_arg_2) {
+  struct __pyx_obj_4data___pyx_scope_struct__genexpr *__pyx_cur_scope;
+  PyObject *__pyx_r = __null;
+
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = __null;
+  int __pyx_clineno = 0;
                                           ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_YandexBrowser)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 48; (void)__pyx_lineno; __pyx_clineno = 4864; (void)__pyx_clineno; } goto __pyx_L1_error; };
-    __pyx_v_browser_variants = ((PyObject*)__pyx_t_11);
-    __pyx_t_11 = 0;
-# 4875 "bluid/data.cpp"
-    __pyx_t_11 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4875; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                            ;
-    __pyx_t_13 = 0;
-    __pyx_t_9 = 127;
-    (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4879; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4881; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_mstate_global->__pyx_tuple__12, __null); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4884; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4887; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_9;
-    __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
-                            ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (0), ((PyObject*)((__pyx_t_4))));
-    __pyx_t_4 = 0;
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0))));
-    __pyx_t_13 += 3;
-                               ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0))));
-    (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4899; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4901; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_mstate_global->__pyx_tuple__13, __null); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4904; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4907; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_9;
-    __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
-                            ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_t_5))));
-    __pyx_t_5 = 0;
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__14))));
-    __pyx_t_13 += 1;
+  __pyx_cur_scope = (struct __pyx_obj_4data___pyx_scope_struct__genexpr *)__pyx_tp_new_4data___pyx_scope_struct__genexpr(__pyx_mstate_global->__pyx_ptype_4data___pyx_scope_struct__genexpr, __pyx_mstate_global->__pyx_empty_tuple, __null);
+  if (__builtin_expect(!!(!__pyx_cur_scope), 0)) {
+    __pyx_cur_scope = ((struct __pyx_obj_4data___pyx_scope_struct__genexpr *)(&_Py_NoneStruct));
+    Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
+    { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5897; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  } else {
+                                             ;
+  }
+  __pyx_cur_scope->__pyx_genexpr_arg_0 = __pyx_genexpr_arg_0;
+  Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_0))));
+                                                     ;
+  __pyx_cur_scope->__pyx_genexpr_arg_1 = __pyx_genexpr_arg_1;
+  Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_1))));
+                                                     ;
+  __pyx_cur_scope->__pyx_genexpr_arg_2 = __pyx_genexpr_arg_2;
+  Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_2))));
+                                                     ;
+  {
+    __pyx_CoroutineObject *gen = __Pyx__Coroutine_New(__pyx_mstate_global->__pyx_GeneratorType, (__pyx_coroutine_body_t) __pyx_gb_4data_9UserAgent_16get_valid_device_2generator, __null, (PyObject *) __pyx_cur_scope, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_UserAgent_get_valid_device_local, __pyx_mstate_global->__pyx_n_s_data); if (__builtin_expect(!!(!gen), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5911; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    Py_DECREF(((PyObject*)((__pyx_cur_scope))));
                                  ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__14))));
-    (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4919; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4921; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_mstate_global->__pyx_tuple__15, __null); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4924; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4927; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_9;
-    __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
-                            ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (4), ((PyObject*)((__pyx_t_4))));
-    __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_11, 5, __pyx_t_13, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 4935; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-# 4946 "bluid/data.cpp"
-    __pyx_t_11 = PyTuple_New(4); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 4946; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                            ;
-    __pyx_t_13 = 0;
-    __pyx_t_9 = 127;
-    (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 4950; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 4952; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_mstate_global->__pyx_tuple__16, __null); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 4955; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 4958; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_9;
-    __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
-                            ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (0), ((PyObject*)((__pyx_t_3))));
-    __pyx_t_3 = 0;
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0))));
-    __pyx_t_13 += 3;
+    return (PyObject *) gen;
+  }
+
+
+  __pyx_L1_error:;
+  __Pyx_AddTraceback("data.UserAgent.get_valid_device.genexpr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = __null;
+  Py_DECREF(((PyObject*)(((PyObject *)__pyx_cur_scope))));
+                         ;
                                ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0))));
-    (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 4970; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 4972; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_mstate_global->__pyx_tuple__13, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 4975; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 4978; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_9;
-    __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
-                            ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_t_5))));
-    __pyx_t_5 = 0;
-    Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0_2))));
-    __pyx_t_13 += 2;
+  return __pyx_r;
+}
+
+static PyObject *__pyx_gb_4data_9UserAgent_16get_valid_device_2generator(__pyx_CoroutineObject *__pyx_generator, [[maybe_unused]] PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value)
+{
+  struct __pyx_obj_4data___pyx_scope_struct__genexpr *__pyx_cur_scope = ((struct __pyx_obj_4data___pyx_scope_struct__genexpr *)__pyx_generator->closure);
+  PyObject *__pyx_r = __null;
+  PyObject *__pyx_t_1 = __null;
+  PyObject *__pyx_t_2 = __null;
+  Py_ssize_t __pyx_t_3;
+  PyObject *__pyx_t_4 = __null;
+  PyObject *__pyx_t_5 = __null;
+  unsigned int __pyx_t_6;
+  int __pyx_t_7;
+  int __pyx_t_8;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = __null;
+  int __pyx_clineno = 0;
+
+                                          ;
+  switch (__pyx_generator->resume_label) {
+    case 0: goto __pyx_L3_first_run;
+    default:
                                  ;
-    PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0_2))));
-    __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_11, 4, __pyx_t_13, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 4990; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-# 5001 "bluid/data.cpp"
-    __pyx_t_11 = PyList_New(2); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5001; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    return __null;
+  }
+  __pyx_L3_first_run:;
+  if (__builtin_expect(!!(!__pyx_sent_value), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5951; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__builtin_expect(!!(!__pyx_cur_scope->__pyx_genexpr_arg_0), 0)) { __Pyx_RaiseUnboundLocalError(".0"); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5952; (void)__pyx_clineno; } goto __pyx_L1_error; } }
+  if (__builtin_expect(!!(!__pyx_cur_scope->__pyx_genexpr_arg_1), 0)) { __Pyx_RaiseUnboundLocalError(".1"); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5953; (void)__pyx_clineno; } goto __pyx_L1_error; } }
+  if (__builtin_expect(!!(!__pyx_cur_scope->__pyx_genexpr_arg_2), 0)) { __Pyx_RaiseUnboundLocalError(".2"); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5954; (void)__pyx_clineno; } goto __pyx_L1_error; } }
+  __pyx_t_1 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5955; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_0))));
+                                                     ;
+  if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (0), ((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_0)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5959; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_1))));
+                                                     ;
+  if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (1), ((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5962; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_2))));
+                                                     ;
+  if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (2), ((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_2)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5965; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  __pyx_t_2 = __pyx_t_1; Py_INCREF(((PyObject*)((__pyx_t_2))));
+  __pyx_t_3 = 0;
+  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+  for (;;) {
+    if (__pyx_t_3 >= 3) break;
+
+    __pyx_t_1 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_2))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 5972, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_2)")), ((PyTupleObject*)((__pyx_t_2))))->ob_item[(__pyx_t_3)]); Py_INCREF(((PyObject*)((__pyx_t_1)))); __pyx_t_3++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5972; (void)__pyx_clineno; } goto __pyx_L1_error; }
+
+
+
+
+                                               ;
+    do { PyObject *tmp = (PyObject *) __pyx_cur_scope->__pyx_v_val; __pyx_cur_scope->__pyx_v_val = __pyx_t_1; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
                             ;
-                            ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (0), ((PyObject*)((__pyx_t_4)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5004; (void)__pyx_clineno; } goto __pyx_L1_error; };
-                            ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_11))), (1), ((PyObject*)((__pyx_t_5)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 52; (void)__pyx_lineno; __pyx_clineno = 5006; (void)__pyx_clineno; } goto __pyx_L1_error; };
-    __pyx_t_4 = 0;
-    __pyx_t_5 = 0;
-    __pyx_v_browser_versions = ((PyObject*)__pyx_t_11);
-    __pyx_t_11 = 0;
-# 5019 "bluid/data.cpp"
-    (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5019; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_1 = 0;
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_cur_scope->__pyx_v_val, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 5981; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5021; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_android_versions); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5024; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_3 = __null;
-    __pyx_t_6 = 0;
-
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 0)) {
-      __pyx_t_3 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
-      if (__builtin_expect(!!(__pyx_t_3), 1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
-        Py_INCREF(((PyObject*)((__pyx_t_3))));
-        Py_INCREF(((PyObject*)((function))));
-        do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_6 = 1;
-      }
-    }
-
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_5};
-      __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
-      Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-      if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 5045; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                              ;
-      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    }
-    __pyx_v_android_version = __pyx_t_11;
-    __pyx_t_11 = 0;
-# 5059 "bluid/data.cpp"
-    (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5059; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5061; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = __null;
-    __pyx_t_6 = 0;
-
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyMethod_Type))), 0)) {
-      __pyx_t_4 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_5))));
-      if (__builtin_expect(!!(__pyx_t_4), 1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_5))));
-        Py_INCREF(((PyObject*)((__pyx_t_4))));
-        Py_INCREF(((PyObject*)((function))));
-        do { PyObject *tmp = (PyObject *) __pyx_t_5; __pyx_t_5 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_6 = 1;
-      }
-    }
-
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_build_numbers};
-      __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_5, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
-      Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-      if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 5082; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                              ;
-      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    }
-    __pyx_v_build_number = __pyx_t_11;
-    __pyx_t_11 = 0;
-# 5096 "bluid/data.cpp"
-    (__pyx_t_5) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 59; (void)__pyx_lineno; __pyx_clineno = 5096; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 59; (void)__pyx_lineno; __pyx_clineno = 5098; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_5 = __null;
-    __pyx_t_6 = 0;
-
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 0)) {
-      __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
-      if (__builtin_expect(!!(__pyx_t_5), 1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
-        Py_INCREF(((PyObject*)((__pyx_t_5))));
-        Py_INCREF(((PyObject*)((function))));
-        do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_6 = 1;
-      }
-    }
-
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_v_browser_variants};
-      __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
-      Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-      if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 59; (void)__pyx_lineno; __pyx_clineno = 5119; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                              ;
-      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    }
-    __pyx_v_browser_variant = __pyx_t_11;
-    __pyx_t_11 = 0;
-# 5133 "bluid/data.cpp"
-    (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 5133; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 5135; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = __null;
-    __pyx_t_6 = 0;
-
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyMethod_Type))), 0)) {
-      __pyx_t_4 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_5))));
-      if (__builtin_expect(!!(__pyx_t_4), 1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_5))));
-        Py_INCREF(((PyObject*)((__pyx_t_4))));
-        Py_INCREF(((PyObject*)((function))));
-        do { PyObject *tmp = (PyObject *) __pyx_t_5; __pyx_t_5 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_6 = 1;
-      }
-    }
-
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_browser_versions};
-      __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_5, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
-      Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-      if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 5156; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                              ;
-      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    }
-    __pyx_v_browser_version = __pyx_t_11;
-    __pyx_t_11 = 0;
-# 5170 "bluid/data.cpp"
-    __pyx_t_5 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 62; (void)__pyx_lineno; __pyx_clineno = 5170; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 62; (void)__pyx_lineno; __pyx_clineno = 5172; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
     __pyx_t_5 = __null;
     __pyx_t_6 = 0;
 
@@ -20207,206 +20785,166 @@ static PyObject *__pyx_pf_4data_9UserAgent_2ua_facebook([[maybe_unused]] PyObjec
 
     {
       PyObject *__pyx_callargs[2] = {__pyx_t_5, __null};
-      __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(0+__pyx_t_6), __null);
+      __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(0+__pyx_t_6), __null);
       Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-      if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 62; (void)__pyx_lineno; __pyx_clineno = 5193; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                              ;
-      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    }
-    __pyx_t_1 = (__Pyx_PyUnicode_Equals(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_samsung, 2)); if (__builtin_expect(!!((__pyx_t_1 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 62; (void)__pyx_lineno; __pyx_clineno = 5197; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-    if (__pyx_t_1) {
-# 5208 "bluid/data.cpp"
-      __pyx_t_11 = PyTuple_New(9); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 64; (void)__pyx_lineno; __pyx_clineno = 5208; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                              ;
-      __pyx_t_13 = 0;
-      __pyx_t_9 = 127;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mozilla_5_0_Linux_Android))));
-      __pyx_t_13 += 28;
-                                                         ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mozilla_5_0_Linux_Android))));
-      __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_android_version)))), __pyx_v_android_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_android_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_android_version) : PyObject_Format(__pyx_v_android_version, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 64; (void)__pyx_lineno; __pyx_clineno = 5216; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_9;
-      __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
-                              ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (1), ((PyObject*)((__pyx_t_4))));
-      __pyx_t_4 = 0;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-      __pyx_t_13 += 2;
-                                   ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-      __pyx_t_4 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 64; (void)__pyx_lineno; __pyx_clineno = 5227; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 64; (void)__pyx_lineno; __pyx_clineno = 5229; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 6001; (void)__pyx_clineno; } goto __pyx_L1_error; }
                              ;
       Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-      __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_9;
-      __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
-                              ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (3), ((PyObject*)((__pyx_t_5))));
-      __pyx_t_5 = 0;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Build))));
-      __pyx_t_13 += 7;
-                                     ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Build))));
-      __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_build_number)))), __pyx_v_build_number) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_build_number) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_build_number) : PyObject_Format(__pyx_v_build_number, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 64; (void)__pyx_lineno; __pyx_clineno = 5241; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_9;
-      __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
-                              ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (5), ((PyObject*)((__pyx_t_5))));
-      __pyx_t_5 = 0;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_AppleWebKit_537_36_KHTML_like_G))));
-      __pyx_t_13 += 67;
-                                                               ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_AppleWebKit_537_36_KHTML_like_G))));
-# 5260 "bluid/data.cpp"
-      __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_browser_version)))), __pyx_v_browser_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_browser_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_browser_version) : PyObject_Format(__pyx_v_browser_version, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 65; (void)__pyx_lineno; __pyx_clineno = 5260; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_9;
-      __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
-                              ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (7), ((PyObject*)((__pyx_t_5))));
-      __pyx_t_5 = 0;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mobile_Safari_537_36))));
-      __pyx_t_13 += 21;
-                                                    ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mobile_Safari_537_36))));
-# 5279 "bluid/data.cpp"
-      __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_11, 9, __pyx_t_13, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 64; (void)__pyx_lineno; __pyx_clineno = 5279; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-      __pyx_v_user_agent = ((PyObject*)__pyx_t_5);
-      __pyx_t_5 = 0;
-# 5292 "bluid/data.cpp"
-      goto __pyx_L10;
     }
-# 5302 "bluid/data.cpp"
-             {
-      __pyx_t_5 = PyTuple_New(11); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 69; (void)__pyx_lineno; __pyx_clineno = 5303; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      __pyx_t_13 = 0;
-      __pyx_t_9 = 127;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mozilla_5_0_Linux_Android))));
-      __pyx_t_13 += 28;
-                                                         ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mozilla_5_0_Linux_Android))));
-      __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_android_version)))), __pyx_v_android_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_android_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_android_version)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_android_version) : PyObject_Format(__pyx_v_android_version, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 69; (void)__pyx_lineno; __pyx_clineno = 5311; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                              ;
-      __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_9;
-      __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
-                               ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (1), ((PyObject*)((__pyx_t_11))));
-      __pyx_t_11 = 0;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-      __pyx_t_13 += 2;
-                                   ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-      __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 69; (void)__pyx_lineno; __pyx_clineno = 5322; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                              ;
-      __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 69; (void)__pyx_lineno; __pyx_clineno = 5324; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-      __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_9;
-      __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
-                              ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (3), ((PyObject*)((__pyx_t_4))));
-      __pyx_t_4 = 0;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Build))));
-      __pyx_t_13 += 7;
-                                     ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Build))));
-      __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_build_number)))), __pyx_v_build_number) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_build_number) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_build_number)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_build_number) : PyObject_Format(__pyx_v_build_number, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 69; (void)__pyx_lineno; __pyx_clineno = 5336; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_9;
-      __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
-                              ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (5), ((PyObject*)((__pyx_t_4))));
-      __pyx_t_4 = 0;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_AppleWebKit_537_36_KHTML_like_G_2))));
-      __pyx_t_13 += 41;
-                                                                 ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_AppleWebKit_537_36_KHTML_like_G_2))));
-# 5355 "bluid/data.cpp"
-      __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_variant)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_browser_variant)))), __pyx_v_browser_variant) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_variant)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_browser_variant) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_variant)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_browser_variant) : PyObject_Format(__pyx_v_browser_variant, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 70; (void)__pyx_lineno; __pyx_clineno = 5355; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_9;
-      __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
-                              ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (7), ((PyObject*)((__pyx_t_4))));
-      __pyx_t_4 = 0;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
-      __pyx_t_13 += 1;
-                                  ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
-      __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_browser_version)))), __pyx_v_browser_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_browser_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_browser_version)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_browser_version) : PyObject_Format(__pyx_v_browser_version, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 70; (void)__pyx_lineno; __pyx_clineno = 5366; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_9;
-      __pyx_t_13 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
-                              ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (9), ((PyObject*)((__pyx_t_4))));
-      __pyx_t_4 = 0;
-      Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mobile_Safari_537_36))));
-      __pyx_t_13 += 21;
-                                                    ;
-      PyTuple_SET_ITEM(((PyObject*)((__pyx_t_5))), (10), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Mobile_Safari_537_36))));
-# 5385 "bluid/data.cpp"
-      __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_5, 11, __pyx_t_13, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 69; (void)__pyx_lineno; __pyx_clineno = 5385; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-      __pyx_v_user_agent = ((PyObject*)__pyx_t_4);
-      __pyx_t_4 = 0;
+    __pyx_t_8 = (__Pyx_PyUnicode_Equals(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_unknown, 2)); if (__builtin_expect(!!((__pyx_t_8 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 6005; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (!__pyx_t_8) {
+    } else {
+      __pyx_t_7 = __pyx_t_8;
+      goto __pyx_L7_bool_binop_done;
     }
-    __pyx_L10:;
-# 5400 "bluid/data.cpp"
+    __pyx_t_8 = (__Pyx_PyUnicode_Equals(__pyx_t_1, __pyx_mstate_global->__pyx_kp_s__18, 2)); if (__builtin_expect(!!((__pyx_t_8 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 6011; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_7 = __pyx_t_8;
+    __pyx_L7_bool_binop_done:;
+    Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+    __pyx_t_8 = __pyx_t_7;
+    if (__pyx_t_8) {
+      Py_XDECREF(((PyObject*)((__pyx_r))));
+      Py_INCREF(((PyObject*)((((PyObject*)((&_Py_TrueStruct)))))));
+      __pyx_r = ((PyObject*)((&_Py_TrueStruct)));
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      goto __pyx_L0;
+    }
+  }
+  Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+           {
     Py_XDECREF(((PyObject*)((__pyx_r))));
-    __pyx_t_4 = PyUnicode_Replace(__pyx_v_user_agent, __pyx_mstate_global->__pyx_kp_s__9, __pyx_mstate_global->__pyx_kp_s__10, -1L); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 72; (void)__pyx_lineno; __pyx_clineno = 5401; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_r = __pyx_t_4;
-    __pyx_t_4 = 0;
+    Py_INCREF(((PyObject*)((((PyObject*)((&_Py_FalseStruct)))))));
+    __pyx_r = ((PyObject*)((&_Py_FalseStruct)));
     goto __pyx_L0;
   }
-# 5417 "bluid/data.cpp"
+  CYTHON_UNUSED_VAR(__pyx_cur_scope);
+
+
+  goto __pyx_L0;
   __pyx_L1_error:;
+  __Pyx_Generator_Replace_StopIteration(0);
+  Py_XDECREF(((PyObject*)((__pyx_t_1))));
+  Py_XDECREF(((PyObject*)((__pyx_t_2))));
+  Py_XDECREF(((PyObject*)((__pyx_t_4))));
+  Py_XDECREF(((PyObject*)((__pyx_t_5))));
+  __Pyx_AddTraceback("genexpr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_L0:;
+                         ;
+
+
+
+  __pyx_generator->resume_label = -1;
+  __Pyx_Coroutine_clear((PyObject*)__pyx_generator);
+                               ;
+  return __pyx_r;
+}
+# 6061 "bluid/data.cpp"
+static PyObject *__pyx_pf_4data_9UserAgent_4get_valid_device([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_self) {
+  PyObject *__pyx_v_device = __null;
+  PyObject *__pyx_gb_4data_9UserAgent_16get_valid_device_2generator = 0;
+  PyObject *__pyx_r = __null;
+
+  PyObject *__pyx_t_1 = __null;
+  PyObject *__pyx_t_2 = __null;
+  PyObject *__pyx_t_3 = __null;
+  PyObject *__pyx_t_4 = __null;
+  unsigned int __pyx_t_5;
+  int __pyx_t_6;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = __null;
+  int __pyx_clineno = 0;
+                                                   ;
+# 6084 "bluid/data.cpp"
+  while (1) {
+# 6093 "bluid/data.cpp"
+    (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 81; (void)__pyx_lineno; __pyx_clineno = 6093; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 81; (void)__pyx_lineno; __pyx_clineno = 6095; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_devices_data); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 81; (void)__pyx_lineno; __pyx_clineno = 6098; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    __pyx_t_4 = __null;
+    __pyx_t_5 = 0;
+
+    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyMethod_Type))), 0)) {
+      __pyx_t_4 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_3))));
+      if (__builtin_expect(!!(__pyx_t_4), 1)) {
+        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_3))));
+        Py_INCREF(((PyObject*)((__pyx_t_4))));
+        Py_INCREF(((PyObject*)((function))));
+        do { PyObject *tmp = (PyObject *) __pyx_t_3; __pyx_t_3 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+        __pyx_t_5 = 1;
+      }
+    }
+
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_t_2};
+      __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_5, (size_t)(1+__pyx_t_5), __null);
+      Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+      Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+      if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 81; (void)__pyx_lineno; __pyx_clineno = 6119; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+    }
+    do { PyObject *tmp = (PyObject *) __pyx_v_device; __pyx_v_device = __pyx_t_1; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
+    __pyx_t_1 = 0;
+# 6133 "bluid/data.cpp"
+    __pyx_t_1 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 6133; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 6135; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    __pyx_t_2 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model_chipset) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model_chipset)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 6137; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    __pyx_t_4 = __pyx_pf_4data_9UserAgent_16get_valid_device_genexpr(__null, __pyx_t_1, __pyx_t_3, __pyx_t_2); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 6139; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_Generator_Next(__pyx_t_4); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 6144; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+    __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (__builtin_expect(!!((__pyx_t_6 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 6147; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+    if (__pyx_t_6) {
+# 6158 "bluid/data.cpp"
+      goto __pyx_L3_continue;
+# 6167 "bluid/data.cpp"
+    }
+# 6176 "bluid/data.cpp"
+    Py_XDECREF(((PyObject*)((__pyx_r))));
+    Py_INCREF(((PyObject*)((__pyx_v_device))));
+    __pyx_r = __pyx_v_device;
+    goto __pyx_L0;
+    __pyx_L3_continue:;
+  }
+# 6192 "bluid/data.cpp"
+  __pyx_r = (&_Py_NoneStruct); Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  Py_XDECREF(((PyObject*)((__pyx_t_1))));
   Py_XDECREF(((PyObject*)((__pyx_t_2))));
   Py_XDECREF(((PyObject*)((__pyx_t_3))));
   Py_XDECREF(((PyObject*)((__pyx_t_4))));
-  Py_XDECREF(((PyObject*)((__pyx_t_5))));
-  Py_XDECREF(((PyObject*)((__pyx_t_10))));
-  Py_XDECREF(((PyObject*)((__pyx_t_11))));
-  Py_XDECREF(((PyObject*)((__pyx_t_12))));
-  __Pyx_AddTraceback("data.UserAgent.ua_facebook", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("data.UserAgent.get_valid_device", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = __null;
   __pyx_L0:;
   Py_XDECREF(((PyObject*)((__pyx_v_device))));
-  Py_XDECREF(((PyObject*)((__pyx_v_dpi))));
-  Py_XDECREF(((PyObject*)((__pyx_v_components))));
-  Py_XDECREF(((PyObject*)((__pyx_v_ua_parts))));
-  Py_XDECREF(((PyObject*)((__pyx_v_build_numbers))));
-  Py_XDECREF(((PyObject*)((__pyx_v_browser_variants))));
-  Py_XDECREF(((PyObject*)((__pyx_v_browser_versions))));
-  Py_XDECREF(((PyObject*)((__pyx_v_android_version))));
-  Py_XDECREF(((PyObject*)((__pyx_v_build_number))));
-  Py_XDECREF(((PyObject*)((__pyx_v_browser_variant))));
-  Py_XDECREF(((PyObject*)((__pyx_v_browser_version))));
-  Py_XDECREF(((PyObject*)((__pyx_v_user_agent))));
-  Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_k))));
-  Py_XDECREF(((PyObject*)((__pyx_8genexpr1__pyx_v_v))));
+  Py_XDECREF(((PyObject*)((__pyx_gb_4data_9UserAgent_16get_valid_device_2generator))));
                          ;
                                ;
   return __pyx_r;
 }
-# 5456 "bluid/data.cpp"
-static PyObject *__pyx_pw_4data_9UserAgent_5ua_instagram(PyObject *__pyx_self,
+# 6218 "bluid/data.cpp"
+static PyObject *__pyx_pw_4data_9UserAgent_7ua_instagram(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 
 
 
 );
-static PyMethodDef __pyx_mdef_4data_9UserAgent_5ua_instagram = {"ua_instagram", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_5ua_instagram, 0x0080|0x0002, 0};
-static PyObject *__pyx_pw_4data_9UserAgent_5ua_instagram(PyObject *__pyx_self,
+static PyMethodDef __pyx_mdef_4data_9UserAgent_7ua_instagram = {"ua_instagram", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_7ua_instagram, 0x0080|0x0002, 0};
+static PyObject *__pyx_pw_4data_9UserAgent_7ua_instagram(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 
@@ -20453,7 +20991,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[0];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 5511; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 6273; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else goto __pyx_L5_argtuple_error;
         [[fallthrough]];
         case 1:
@@ -20461,14 +20999,14 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[1];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 5519; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 6281; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("ua_instagram", 1, 2, 2, 1); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 5521; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("ua_instagram", 1, 2, 2, 1); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 6283; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
       }
       if (__builtin_expect(!!(kw_args > 0), 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "ua_instagram") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 5526; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "ua_instagram") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 6288; (void)__pyx_clineno; } goto __pyx_L3_error; }
       }
     } else if (__builtin_expect(!!(__pyx_nargs != 2), 0)) {
       goto __pyx_L5_argtuple_error;
@@ -20481,7 +21019,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("ua_instagram", 1, 2, 2, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 5539; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __Pyx_RaiseArgtupleInvalid("ua_instagram", 1, 2, 2, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 6301; (void)__pyx_clineno; } goto __pyx_L3_error; }
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -20495,7 +21033,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
                                ;
   return __null;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_4data_9UserAgent_4ua_instagram(__pyx_self, __pyx_v_self, __pyx_v_barcelona);
+  __pyx_r = __pyx_pf_4data_9UserAgent_6ua_instagram(__pyx_self, __pyx_v_self, __pyx_v_barcelona);
 
 
   {
@@ -20507,16 +21045,16 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
                                ;
   return __pyx_r;
 }
-# 5575 "bluid/data.cpp"
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_lambda(PyObject *__pyx_self,
+# 6337 "bluid/data.cpp"
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_lambda1(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 
 
 
 );
-static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_lambda = {"lambda", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_lambda, 0x0080|0x0002, 0};
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_lambda(PyObject *__pyx_self,
+static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_lambda1 = {"lambda1", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_lambda1, 0x0080|0x0002, 0};
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_lambda1(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 
@@ -20534,117 +21072,6 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
 
-                                                   ;
-
-
-
-
-
-
-
-  __pyx_kwvalues = ((__pyx_args) + (__pyx_nargs));
-  {
-    PyObject **__pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_s_x,0};
-    if (__pyx_kwds) {
-      Py_ssize_t kw_args;
-      switch (__pyx_nargs) {
-        case 1: values[0] = __pyx_args[0];
-        [[fallthrough]];
-        case 0: break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-      kw_args = PyTuple_GET_SIZE(((PyObject*)((__pyx_kwds))));
-      switch (__pyx_nargs) {
-        case 0:
-        if (__builtin_expect(!!((values[0] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_mstate_global->__pyx_n_s_x)) != 0), 1)) {
-          (void)values[0];
-          kw_args--;
-        }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 5627; (void)__pyx_clineno; } goto __pyx_L3_error; }
-        else goto __pyx_L5_argtuple_error;
-      }
-      if (__builtin_expect(!!(kw_args > 0), 0)) {
-        const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 5632; (void)__pyx_clineno; } goto __pyx_L3_error; }
-      }
-    } else if (__builtin_expect(!!(__pyx_nargs != 1), 0)) {
-      goto __pyx_L5_argtuple_error;
-    } else {
-      values[0] = __pyx_args[0];
-    }
-    __pyx_v_x = values[0];
-  }
-  goto __pyx_L6_skip;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("lambda", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 5643; (void)__pyx_clineno; } goto __pyx_L3_error; }
-  __pyx_L6_skip:;
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L3_error:;
-  {
-    Py_ssize_t __pyx_temp;
-    for (__pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-                                                    ;
-    }
-  }
-  __Pyx_AddTraceback("data.UserAgent.ua_instagram.lambda", __pyx_clineno, __pyx_lineno, __pyx_filename);
-                               ;
-  return __null;
-  __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_lambda_funcdef_lambda(__pyx_self, __pyx_v_x);
-
-
-  {
-    Py_ssize_t __pyx_temp;
-    for (__pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-                                                    ;
-    }
-  }
-                               ;
-  return __pyx_r;
-}
-
-static PyObject *__pyx_lambda_funcdef_lambda([[maybe_unused]] PyObject *__pyx_self, [[maybe_unused]] PyObject *__pyx_v_x) {
-  PyObject *__pyx_r = __null;
-
-                                         ;
-  Py_XDECREF(((PyObject*)((__pyx_r))));
-  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_qcom))));
-  __pyx_r = __pyx_mstate_global->__pyx_n_s_qcom;
-  goto __pyx_L0;
-
-
-  __pyx_L0:;
-                         ;
-                               ;
-  return __pyx_r;
-}
-# 5695 "bluid/data.cpp"
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_1lambda1(PyObject *__pyx_self,
-
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-
-
-
-);
-static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_1lambda1 = {"lambda1", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_1lambda1, 0x0080|0x0002, 0};
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_1lambda1(PyObject *__pyx_self,
-
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-
-
-
-) {
-  PyObject *__pyx_v_x = 0;
-
-
-
-  [[maybe_unused]] PyObject *const *__pyx_kwvalues;
-  PyObject* values[1] = {0};
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = __null;
-  int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-
                                                     ;
 
 
@@ -20671,12 +21098,12 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[0];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 5747; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 6389; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else goto __pyx_L5_argtuple_error;
       }
       if (__builtin_expect(!!(kw_args > 0), 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda1") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 5752; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda1") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 6394; (void)__pyx_clineno; } goto __pyx_L3_error; }
       }
     } else if (__builtin_expect(!!(__pyx_nargs != 1), 0)) {
       goto __pyx_L5_argtuple_error;
@@ -20687,7 +21114,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("lambda1", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 5763; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __Pyx_RaiseArgtupleInvalid("lambda1", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 6405; (void)__pyx_clineno; } goto __pyx_L3_error; }
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -20714,46 +21141,31 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_lambda_funcdef_lambda1([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_lambda_funcdef_lambda1([[maybe_unused]] PyObject *__pyx_self, [[maybe_unused]] PyObject *__pyx_v_x) {
   PyObject *__pyx_r = __null;
 
-  PyObject *__pyx_t_1 = __null;
-  PyObject *__pyx_t_2 = __null;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = __null;
-  int __pyx_clineno = 0;
                                           ;
   Py_XDECREF(((PyObject*)((__pyx_r))));
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 5800; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_mstate_global->__pyx_tuple__20, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 5802; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  __pyx_r = __pyx_t_2;
-  __pyx_t_2 = 0;
+  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_qcom))));
+  __pyx_r = __pyx_mstate_global->__pyx_n_s_qcom;
   goto __pyx_L0;
 
 
-  __pyx_L1_error:;
-  Py_XDECREF(((PyObject*)((__pyx_t_1))));
-  Py_XDECREF(((PyObject*)((__pyx_t_2))));
-  __Pyx_AddTraceback("data.UserAgent.ua_instagram.lambda1", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = __null;
   __pyx_L0:;
                          ;
                                ;
   return __pyx_r;
 }
-# 5830 "bluid/data.cpp"
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_2lambda2(PyObject *__pyx_self,
+# 6457 "bluid/data.cpp"
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_1lambda2(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 
 
 
 );
-static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_2lambda2 = {"lambda2", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_2lambda2, 0x0080|0x0002, 0};
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_2lambda2(PyObject *__pyx_self,
+static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_1lambda2 = {"lambda2", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_1lambda2, 0x0080|0x0002, 0};
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_1lambda2(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 
@@ -20797,12 +21209,12 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[0];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 92; (void)__pyx_lineno; __pyx_clineno = 5882; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 102; (void)__pyx_lineno; __pyx_clineno = 6509; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else goto __pyx_L5_argtuple_error;
       }
       if (__builtin_expect(!!(kw_args > 0), 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda2") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 92; (void)__pyx_lineno; __pyx_clineno = 5887; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda2") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 102; (void)__pyx_lineno; __pyx_clineno = 6514; (void)__pyx_clineno; } goto __pyx_L3_error; }
       }
     } else if (__builtin_expect(!!(__pyx_nargs != 1), 0)) {
       goto __pyx_L5_argtuple_error;
@@ -20813,7 +21225,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("lambda2", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 92; (void)__pyx_lineno; __pyx_clineno = 5898; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __Pyx_RaiseArgtupleInvalid("lambda2", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 102; (void)__pyx_lineno; __pyx_clineno = 6525; (void)__pyx_clineno; } goto __pyx_L3_error; }
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -20845,38 +21257,14 @@ static PyObject *__pyx_lambda_funcdef_lambda2([[maybe_unused]] PyObject *__pyx_s
 
   PyObject *__pyx_t_1 = __null;
   PyObject *__pyx_t_2 = __null;
-  PyObject *__pyx_t_3 = __null;
-  unsigned int __pyx_t_4;
   int __pyx_lineno = 0;
   const char *__pyx_filename = __null;
   int __pyx_clineno = 0;
                                           ;
   Py_XDECREF(((PyObject*)((__pyx_r))));
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_mstate_global->__pyx_n_s_split); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 92; (void)__pyx_lineno; __pyx_clineno = 5937; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 102; (void)__pyx_lineno; __pyx_clineno = 6562; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_3 = __null;
-  __pyx_t_4 = 0;
-
-  if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyMethod_Type))), 1)) {
-    __pyx_t_3 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_2))));
-    if (__builtin_expect(!!(__pyx_t_3), 1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_2))));
-      Py_INCREF(((PyObject*)((__pyx_t_3))));
-      Py_INCREF(((PyObject*)((function))));
-      do { PyObject *tmp = (PyObject *) __pyx_t_2; __pyx_t_2 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-      __pyx_t_4 = 1;
-    }
-  }
-
-  {
-    PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_n_s__18};
-    __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, (size_t)(1+__pyx_t_4), __null);
-    Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 92; (void)__pyx_lineno; __pyx_clineno = 5957; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  }
-  __pyx_t_2 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(1 > (long)(-9223372036854775807L -1) || 1 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_t_1, (Py_ssize_t)1, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_t_1, __Pyx_PyInt_From_long(1)))); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 92; (void)__pyx_lineno; __pyx_clineno = 5961; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_mstate_global->__pyx_tuple__20, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 102; (void)__pyx_lineno; __pyx_clineno = 6564; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_2;
@@ -20887,7 +21275,6 @@ static PyObject *__pyx_lambda_funcdef_lambda2([[maybe_unused]] PyObject *__pyx_s
   __pyx_L1_error:;
   Py_XDECREF(((PyObject*)((__pyx_t_1))));
   Py_XDECREF(((PyObject*)((__pyx_t_2))));
-  Py_XDECREF(((PyObject*)((__pyx_t_3))));
   __Pyx_AddTraceback("data.UserAgent.ua_instagram.lambda2", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = __null;
   __pyx_L0:;
@@ -20895,16 +21282,178 @@ static PyObject *__pyx_lambda_funcdef_lambda2([[maybe_unused]] PyObject *__pyx_s
                                ;
   return __pyx_r;
 }
-# 5990 "bluid/data.cpp"
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_3lambda3(PyObject *__pyx_self,
+# 6592 "bluid/data.cpp"
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_2lambda3(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 
 
 
 );
-static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_3lambda3 = {"lambda3", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_3lambda3, 0x0080|0x0002, 0};
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_3lambda3(PyObject *__pyx_self,
+static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_2lambda3 = {"lambda3", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_2lambda3, 0x0080|0x0002, 0};
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_2lambda3(PyObject *__pyx_self,
+
+PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
+
+
+
+) {
+  PyObject *__pyx_v_x = 0;
+
+
+
+  [[maybe_unused]] PyObject *const *__pyx_kwvalues;
+  PyObject* values[1] = {0};
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = __null;
+  int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+
+                                                    ;
+
+
+
+
+
+
+
+  __pyx_kwvalues = ((__pyx_args) + (__pyx_nargs));
+  {
+    PyObject **__pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_s_x,0};
+    if (__pyx_kwds) {
+      Py_ssize_t kw_args;
+      switch (__pyx_nargs) {
+        case 1: values[0] = __pyx_args[0];
+        [[fallthrough]];
+        case 0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyTuple_GET_SIZE(((PyObject*)((__pyx_kwds))));
+      switch (__pyx_nargs) {
+        case 0:
+        if (__builtin_expect(!!((values[0] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_mstate_global->__pyx_n_s_x)) != 0), 1)) {
+          (void)values[0];
+          kw_args--;
+        }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 6644; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else goto __pyx_L5_argtuple_error;
+      }
+      if (__builtin_expect(!!(kw_args > 0), 0)) {
+        const Py_ssize_t kwd_pos_args = __pyx_nargs;
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda3") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 6649; (void)__pyx_clineno; } goto __pyx_L3_error; }
+      }
+    } else if (__builtin_expect(!!(__pyx_nargs != 1), 0)) {
+      goto __pyx_L5_argtuple_error;
+    } else {
+      values[0] = __pyx_args[0];
+    }
+    __pyx_v_x = values[0];
+  }
+  goto __pyx_L6_skip;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("lambda3", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 6660; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __pyx_L6_skip:;
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L3_error:;
+  {
+    Py_ssize_t __pyx_temp;
+    for (__pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+                                                    ;
+    }
+  }
+  __Pyx_AddTraceback("data.UserAgent.ua_instagram.lambda3", __pyx_clineno, __pyx_lineno, __pyx_filename);
+                               ;
+  return __null;
+  __pyx_L4_argument_unpacking_done:;
+  __pyx_r = __pyx_lambda_funcdef_lambda3(__pyx_self, __pyx_v_x);
+
+
+  {
+    Py_ssize_t __pyx_temp;
+    for (__pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+                                                    ;
+    }
+  }
+                               ;
+  return __pyx_r;
+}
+
+static PyObject *__pyx_lambda_funcdef_lambda3([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_x) {
+  PyObject *__pyx_r = __null;
+
+  PyObject *__pyx_t_1 = __null;
+  int __pyx_t_2;
+  PyObject *__pyx_t_3 = __null;
+  PyObject *__pyx_t_4 = __null;
+  PyObject *__pyx_t_5 = __null;
+  unsigned int __pyx_t_6;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = __null;
+  int __pyx_clineno = 0;
+                                          ;
+  Py_XDECREF(((PyObject*)((__pyx_r))));
+  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s__19, __pyx_v_x, 2)); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 6701; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__pyx_t_2) {
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_mstate_global->__pyx_n_s_split); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 6703; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    __pyx_t_5 = __null;
+    __pyx_t_6 = 0;
+
+    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 1)) {
+      __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
+      if (__builtin_expect(!!(__pyx_t_5), 1)) {
+        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
+        Py_INCREF(((PyObject*)((__pyx_t_5))));
+        Py_INCREF(((PyObject*)((function))));
+        do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+        __pyx_t_6 = 1;
+      }
+    }
+
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_mstate_global->__pyx_n_s__19};
+      __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+      Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 6723; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+    }
+    __pyx_t_4 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(1 > (long)(-9223372036854775807L -1) || 1 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_t_3, (Py_ssize_t)1, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_t_3, __Pyx_PyInt_From_long(1)))); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 6727; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+    __pyx_t_1 = __pyx_t_4;
+    __pyx_t_4 = 0;
+  } else {
+    Py_INCREF(((PyObject*)((__pyx_v_x))));
+    __pyx_t_1 = __pyx_v_x;
+  }
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+
+  __pyx_L1_error:;
+  Py_XDECREF(((PyObject*)((__pyx_t_1))));
+  Py_XDECREF(((PyObject*)((__pyx_t_3))));
+  Py_XDECREF(((PyObject*)((__pyx_t_4))));
+  Py_XDECREF(((PyObject*)((__pyx_t_5))));
+  __Pyx_AddTraceback("data.UserAgent.ua_instagram.lambda3", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = __null;
+  __pyx_L0:;
+                         ;
+                               ;
+  return __pyx_r;
+}
+# 6763 "bluid/data.cpp"
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_3lambda4(PyObject *__pyx_self,
+
+PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
+
+
+
+);
+static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_3lambda4 = {"lambda4", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_3lambda4, 0x0080|0x0002, 0};
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_3lambda4(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 
@@ -20948,12 +21497,12 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[0];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 93; (void)__pyx_lineno; __pyx_clineno = 6042; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 104; (void)__pyx_lineno; __pyx_clineno = 6815; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else goto __pyx_L5_argtuple_error;
       }
       if (__builtin_expect(!!(kw_args > 0), 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda3") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 93; (void)__pyx_lineno; __pyx_clineno = 6047; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda4") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 104; (void)__pyx_lineno; __pyx_clineno = 6820; (void)__pyx_clineno; } goto __pyx_L3_error; }
       }
     } else if (__builtin_expect(!!(__pyx_nargs != 1), 0)) {
       goto __pyx_L5_argtuple_error;
@@ -20964,118 +21513,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("lambda3", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 93; (void)__pyx_lineno; __pyx_clineno = 6058; (void)__pyx_clineno; } goto __pyx_L3_error; }
-  __pyx_L6_skip:;
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L3_error:;
-  {
-    Py_ssize_t __pyx_temp;
-    for (__pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-                                                    ;
-    }
-  }
-  __Pyx_AddTraceback("data.UserAgent.ua_instagram.lambda3", __pyx_clineno, __pyx_lineno, __pyx_filename);
-                               ;
-  return __null;
-  __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_lambda_funcdef_lambda3(__pyx_self, __pyx_v_x);
-
-
-  {
-    Py_ssize_t __pyx_temp;
-    for (__pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-                                                    ;
-    }
-  }
-                               ;
-  return __pyx_r;
-}
-
-static PyObject *__pyx_lambda_funcdef_lambda3([[maybe_unused]] PyObject *__pyx_self, [[maybe_unused]] PyObject *__pyx_v_x) {
-  PyObject *__pyx_r = __null;
-
-                                          ;
-  Py_XDECREF(((PyObject*)((__pyx_r))));
-  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_tensor))));
-  __pyx_r = __pyx_mstate_global->__pyx_n_s_tensor;
-  goto __pyx_L0;
-
-
-  __pyx_L0:;
-                         ;
-                               ;
-  return __pyx_r;
-}
-# 6110 "bluid/data.cpp"
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_4lambda4(PyObject *__pyx_self,
-
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-
-
-
-);
-static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_4lambda4 = {"lambda4", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_4lambda4, 0x0080|0x0002, 0};
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_4lambda4(PyObject *__pyx_self,
-
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-
-
-
-) {
-  PyObject *__pyx_v_x = 0;
-
-
-
-  [[maybe_unused]] PyObject *const *__pyx_kwvalues;
-  PyObject* values[1] = {0};
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = __null;
-  int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-
-                                                    ;
-
-
-
-
-
-
-
-  __pyx_kwvalues = ((__pyx_args) + (__pyx_nargs));
-  {
-    PyObject **__pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_s_x,0};
-    if (__pyx_kwds) {
-      Py_ssize_t kw_args;
-      switch (__pyx_nargs) {
-        case 1: values[0] = __pyx_args[0];
-        [[fallthrough]];
-        case 0: break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-      kw_args = PyTuple_GET_SIZE(((PyObject*)((__pyx_kwds))));
-      switch (__pyx_nargs) {
-        case 0:
-        if (__builtin_expect(!!((values[0] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_mstate_global->__pyx_n_s_x)) != 0), 1)) {
-          (void)values[0];
-          kw_args--;
-        }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 94; (void)__pyx_lineno; __pyx_clineno = 6162; (void)__pyx_clineno; } goto __pyx_L3_error; }
-        else goto __pyx_L5_argtuple_error;
-      }
-      if (__builtin_expect(!!(kw_args > 0), 0)) {
-        const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda4") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 94; (void)__pyx_lineno; __pyx_clineno = 6167; (void)__pyx_clineno; } goto __pyx_L3_error; }
-      }
-    } else if (__builtin_expect(!!(__pyx_nargs != 1), 0)) {
-      goto __pyx_L5_argtuple_error;
-    } else {
-      values[0] = __pyx_args[0];
-    }
-    __pyx_v_x = values[0];
-  }
-  goto __pyx_L6_skip;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("lambda4", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 94; (void)__pyx_lineno; __pyx_clineno = 6178; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __Pyx_RaiseArgtupleInvalid("lambda4", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 104; (void)__pyx_lineno; __pyx_clineno = 6831; (void)__pyx_clineno; } goto __pyx_L3_error; }
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -21102,71 +21540,31 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_lambda_funcdef_lambda4([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_lambda_funcdef_lambda4([[maybe_unused]] PyObject *__pyx_self, [[maybe_unused]] PyObject *__pyx_v_x) {
   PyObject *__pyx_r = __null;
 
-  PyObject *__pyx_t_1 = __null;
-  PyObject *__pyx_t_2 = __null;
-  PyObject *__pyx_t_3 = __null;
-  unsigned int __pyx_t_4;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = __null;
-  int __pyx_clineno = 0;
                                           ;
   Py_XDECREF(((PyObject*)((__pyx_r))));
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_mstate_global->__pyx_n_s_split); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 94; (void)__pyx_lineno; __pyx_clineno = 6217; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_3 = __null;
-  __pyx_t_4 = 0;
-
-  if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyMethod_Type))), 1)) {
-    __pyx_t_3 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_2))));
-    if (__builtin_expect(!!(__pyx_t_3), 1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_2))));
-      Py_INCREF(((PyObject*)((__pyx_t_3))));
-      Py_INCREF(((PyObject*)((function))));
-      do { PyObject *tmp = (PyObject *) __pyx_t_2; __pyx_t_2 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-      __pyx_t_4 = 1;
-    }
-  }
-
-  {
-    PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_n_s__18};
-    __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, (size_t)(1+__pyx_t_4), __null);
-    Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 94; (void)__pyx_lineno; __pyx_clineno = 6237; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  }
-  __pyx_t_2 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(1 > (long)(-9223372036854775807L -1) || 1 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_t_1, (Py_ssize_t)1, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_t_1, __Pyx_PyInt_From_long(1)))); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 94; (void)__pyx_lineno; __pyx_clineno = 6241; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  __pyx_r = __pyx_t_2;
-  __pyx_t_2 = 0;
+  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_tensor))));
+  __pyx_r = __pyx_mstate_global->__pyx_n_s_tensor;
   goto __pyx_L0;
 
 
-  __pyx_L1_error:;
-  Py_XDECREF(((PyObject*)((__pyx_t_1))));
-  Py_XDECREF(((PyObject*)((__pyx_t_2))));
-  Py_XDECREF(((PyObject*)((__pyx_t_3))));
-  __Pyx_AddTraceback("data.UserAgent.ua_instagram.lambda4", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = __null;
   __pyx_L0:;
                          ;
                                ;
   return __pyx_r;
 }
-# 6270 "bluid/data.cpp"
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_5lambda5(PyObject *__pyx_self,
+# 6883 "bluid/data.cpp"
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_4lambda5(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 
 
 
 );
-static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_5lambda5 = {"lambda5", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_5lambda5, 0x0080|0x0002, 0};
-static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_5lambda5(PyObject *__pyx_self,
+static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_4lambda5 = {"lambda5", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_4lambda5, 0x0080|0x0002, 0};
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_4lambda5(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 
@@ -21210,12 +21608,12 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[0];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 95; (void)__pyx_lineno; __pyx_clineno = 6322; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6935; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else goto __pyx_L5_argtuple_error;
       }
       if (__builtin_expect(!!(kw_args > 0), 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda5") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 95; (void)__pyx_lineno; __pyx_clineno = 6327; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda5") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6940; (void)__pyx_clineno; } goto __pyx_L3_error; }
       }
     } else if (__builtin_expect(!!(__pyx_nargs != 1), 0)) {
       goto __pyx_L5_argtuple_error;
@@ -21226,7 +21624,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("lambda5", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 95; (void)__pyx_lineno; __pyx_clineno = 6338; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __Pyx_RaiseArgtupleInvalid("lambda5", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6951; (void)__pyx_clineno; } goto __pyx_L3_error; }
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -21257,50 +21655,61 @@ static PyObject *__pyx_lambda_funcdef_lambda5([[maybe_unused]] PyObject *__pyx_s
   PyObject *__pyx_r = __null;
 
   PyObject *__pyx_t_1 = __null;
-  PyObject *__pyx_t_2 = __null;
+  int __pyx_t_2;
   PyObject *__pyx_t_3 = __null;
-  unsigned int __pyx_t_4;
+  PyObject *__pyx_t_4 = __null;
+  PyObject *__pyx_t_5 = __null;
+  unsigned int __pyx_t_6;
   int __pyx_lineno = 0;
   const char *__pyx_filename = __null;
   int __pyx_clineno = 0;
                                           ;
   Py_XDECREF(((PyObject*)((__pyx_r))));
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_mstate_global->__pyx_n_s_split); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 95; (void)__pyx_lineno; __pyx_clineno = 6377; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_3 = __null;
-  __pyx_t_4 = 0;
-
-  if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyMethod_Type))), 1)) {
-    __pyx_t_3 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_2))));
-    if (__builtin_expect(!!(__pyx_t_3), 1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_2))));
-      Py_INCREF(((PyObject*)((__pyx_t_3))));
-      Py_INCREF(((PyObject*)((function))));
-      do { PyObject *tmp = (PyObject *) __pyx_t_2; __pyx_t_2 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-      __pyx_t_4 = 1;
-    }
-  }
-
-  {
-    PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_n_s__18};
-    __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, (size_t)(1+__pyx_t_4), __null);
-    Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 95; (void)__pyx_lineno; __pyx_clineno = 6397; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s__19, __pyx_v_x, 2)); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6992; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__pyx_t_2) {
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_mstate_global->__pyx_n_s_split); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6994; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
+    __pyx_t_5 = __null;
+    __pyx_t_6 = 0;
+
+    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 1)) {
+      __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
+      if (__builtin_expect(!!(__pyx_t_5), 1)) {
+        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
+        Py_INCREF(((PyObject*)((__pyx_t_5))));
+        Py_INCREF(((PyObject*)((function))));
+        do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+        __pyx_t_6 = 1;
+      }
+    }
+
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_mstate_global->__pyx_n_s__19};
+      __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+      Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 7014; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+    }
+    __pyx_t_4 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(1 > (long)(-9223372036854775807L -1) || 1 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_t_3, (Py_ssize_t)1, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_t_3, __Pyx_PyInt_From_long(1)))); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 7018; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+    __pyx_t_1 = __pyx_t_4;
+    __pyx_t_4 = 0;
+  } else {
+    Py_INCREF(((PyObject*)((__pyx_v_x))));
+    __pyx_t_1 = __pyx_v_x;
   }
-  __pyx_t_2 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(1 > (long)(-9223372036854775807L -1) || 1 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_t_1, (Py_ssize_t)1, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_t_1, __Pyx_PyInt_From_long(1)))); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 95; (void)__pyx_lineno; __pyx_clineno = 6401; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  __pyx_r = __pyx_t_2;
-  __pyx_t_2 = 0;
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
   goto __pyx_L0;
 
 
   __pyx_L1_error:;
   Py_XDECREF(((PyObject*)((__pyx_t_1))));
-  Py_XDECREF(((PyObject*)((__pyx_t_2))));
   Py_XDECREF(((PyObject*)((__pyx_t_3))));
+  Py_XDECREF(((PyObject*)((__pyx_t_4))));
+  Py_XDECREF(((PyObject*)((__pyx_t_5))));
   __Pyx_AddTraceback("data.UserAgent.ua_instagram.lambda5", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = __null;
   __pyx_L0:;
@@ -21308,24 +21717,103 @@ static PyObject *__pyx_lambda_funcdef_lambda5([[maybe_unused]] PyObject *__pyx_s
                                ;
   return __pyx_r;
 }
-# 6429 "bluid/data.cpp"
-static PyObject *__pyx_pf_4data_9UserAgent_4ua_instagram([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_barcelona) {
-  PyObject *__pyx_v_version = __null;
-  PyObject *__pyx_v_version_code = __null;
-  PyObject *__pyx_v_device = __null;
-  PyObject *__pyx_v_android_versions = __null;
-  PyObject *__pyx_v_android_ver = __null;
-  PyObject *__pyx_v_dpi = __null;
-  PyObject *__pyx_v_chipset_mapping = __null;
-  PyObject *__pyx_v_chipset = __null;
-  PyObject *__pyx_v_key = __null;
-  PyObject *__pyx_v_processed_chipset = __null;
-  PyObject *__pyx_v_model_prefix = __null;
-  PyObject *__pyx_v_model_number = __null;
-  PyObject *__pyx_v_short_model = __null;
-  PyObject *__pyx_v_ua = __null;
-  PyObject *__pyx_8genexpr2__pyx_v_c = __null;
-  PyObject *__pyx_8genexpr3__pyx_v_c = __null;
+# 7054 "bluid/data.cpp"
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_5lambda6(PyObject *__pyx_self,
+
+PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
+
+
+
+);
+static PyMethodDef __pyx_mdef_4data_9UserAgent_12ua_instagram_5lambda6 = {"lambda6", (PyCFunction)(void*)(_PyCFunctionFastWithKeywords)__pyx_pw_4data_9UserAgent_12ua_instagram_5lambda6, 0x0080|0x0002, 0};
+static PyObject *__pyx_pw_4data_9UserAgent_12ua_instagram_5lambda6(PyObject *__pyx_self,
+
+PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
+
+
+
+) {
+  PyObject *__pyx_v_x = 0;
+
+
+
+  [[maybe_unused]] PyObject *const *__pyx_kwvalues;
+  PyObject* values[1] = {0};
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = __null;
+  int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+
+                                                    ;
+
+
+
+
+
+
+
+  __pyx_kwvalues = ((__pyx_args) + (__pyx_nargs));
+  {
+    PyObject **__pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_s_x,0};
+    if (__pyx_kwds) {
+      Py_ssize_t kw_args;
+      switch (__pyx_nargs) {
+        case 1: values[0] = __pyx_args[0];
+        [[fallthrough]];
+        case 0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyTuple_GET_SIZE(((PyObject*)((__pyx_kwds))));
+      switch (__pyx_nargs) {
+        case 0:
+        if (__builtin_expect(!!((values[0] = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_mstate_global->__pyx_n_s_x)) != 0), 1)) {
+          (void)values[0];
+          kw_args--;
+        }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7106; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else goto __pyx_L5_argtuple_error;
+      }
+      if (__builtin_expect(!!(kw_args > 0), 0)) {
+        const Py_ssize_t kwd_pos_args = __pyx_nargs;
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "lambda6") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7111; (void)__pyx_clineno; } goto __pyx_L3_error; }
+      }
+    } else if (__builtin_expect(!!(__pyx_nargs != 1), 0)) {
+      goto __pyx_L5_argtuple_error;
+    } else {
+      values[0] = __pyx_args[0];
+    }
+    __pyx_v_x = values[0];
+  }
+  goto __pyx_L6_skip;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("lambda6", 1, 1, 1, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7122; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __pyx_L6_skip:;
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L3_error:;
+  {
+    Py_ssize_t __pyx_temp;
+    for (__pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+                                                    ;
+    }
+  }
+  __Pyx_AddTraceback("data.UserAgent.ua_instagram.lambda6", __pyx_clineno, __pyx_lineno, __pyx_filename);
+                               ;
+  return __null;
+  __pyx_L4_argument_unpacking_done:;
+  __pyx_r = __pyx_lambda_funcdef_lambda6(__pyx_self, __pyx_v_x);
+
+
+  {
+    Py_ssize_t __pyx_temp;
+    for (__pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+                                                    ;
+    }
+  }
+                               ;
+  return __pyx_r;
+}
+
+static PyObject *__pyx_lambda_funcdef_lambda6([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = __null;
 
   PyObject *__pyx_t_1 = __null;
@@ -21334,11 +21822,94 @@ static PyObject *__pyx_pf_4data_9UserAgent_4ua_instagram([[maybe_unused]] PyObje
   PyObject *__pyx_t_4 = __null;
   PyObject *__pyx_t_5 = __null;
   unsigned int __pyx_t_6;
-  double __pyx_t_7;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = __null;
+  int __pyx_clineno = 0;
+                                          ;
+  Py_XDECREF(((PyObject*)((__pyx_r))));
+  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s__19, __pyx_v_x, 2)); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7163; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__pyx_t_2) {
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_x, __pyx_mstate_global->__pyx_n_s_split); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7165; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    __pyx_t_5 = __null;
+    __pyx_t_6 = 0;
+
+    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 1)) {
+      __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
+      if (__builtin_expect(!!(__pyx_t_5), 1)) {
+        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
+        Py_INCREF(((PyObject*)((__pyx_t_5))));
+        Py_INCREF(((PyObject*)((function))));
+        do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+        __pyx_t_6 = 1;
+      }
+    }
+
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_mstate_global->__pyx_n_s__19};
+      __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+      Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+      if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7185; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                             ;
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+    }
+    __pyx_t_4 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(1 > (long)(-9223372036854775807L -1) || 1 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_t_3, (Py_ssize_t)1, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_t_3, __Pyx_PyInt_From_long(1)))); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7189; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+    __pyx_t_1 = __pyx_t_4;
+    __pyx_t_4 = 0;
+  } else {
+    Py_INCREF(((PyObject*)((__pyx_v_x))));
+    __pyx_t_1 = __pyx_v_x;
+  }
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+
+  __pyx_L1_error:;
+  Py_XDECREF(((PyObject*)((__pyx_t_1))));
+  Py_XDECREF(((PyObject*)((__pyx_t_3))));
+  Py_XDECREF(((PyObject*)((__pyx_t_4))));
+  Py_XDECREF(((PyObject*)((__pyx_t_5))));
+  __Pyx_AddTraceback("data.UserAgent.ua_instagram.lambda6", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = __null;
+  __pyx_L0:;
+                         ;
+                               ;
+  return __pyx_r;
+}
+# 7224 "bluid/data.cpp"
+static PyObject *__pyx_pf_4data_9UserAgent_6ua_instagram([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_barcelona) {
+  PyObject *__pyx_v_version = __null;
+  PyObject *__pyx_v_version_code = __null;
+  PyObject *__pyx_v_device = __null;
+  PyObject *__pyx_v_android_versions = __null;
+  PyObject *__pyx_v_android_ver = __null;
+  PyObject *__pyx_v_dpi = __null;
+  PyObject *__pyx_v_chipset_mapping = __null;
+  PyObject *__pyx_v_chipset = __null;
+  PyObject *__pyx_v_processed_chipset = __null;
+  PyObject *__pyx_v_key = __null;
+  PyObject *__pyx_v_model_prefix = __null;
+  PyObject *__pyx_v_model_number = __null;
+  PyObject *__pyx_v_short_model = __null;
+  PyObject *__pyx_v_ua = __null;
+  PyObject *__pyx_8genexpr3__pyx_v_c = __null;
+  PyObject *__pyx_8genexpr4__pyx_v_c = __null;
+  PyObject *__pyx_r = __null;
+
+  PyObject *__pyx_t_1 = __null;
+  int __pyx_t_2;
+  PyObject *__pyx_t_3 = __null;
+  PyObject *__pyx_t_4 = __null;
+  unsigned int __pyx_t_5;
+  double __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
   Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
+  int __pyx_t_9;
   int __pyx_t_10;
-  int __pyx_t_11;
+  PyObject *__pyx_t_11 = __null;
   PyObject *(*__pyx_t_12)(PyObject *);
   PyObject *__pyx_t_13 = __null;
   Py_UCS4 __pyx_t_14;
@@ -21346,8 +21917,8 @@ static PyObject *__pyx_pf_4data_9UserAgent_4ua_instagram([[maybe_unused]] PyObje
   const char *__pyx_filename = __null;
   int __pyx_clineno = 0;
                                                ;
-# 6474 "bluid/data.cpp"
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_barcelona); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 76; (void)__pyx_lineno; __pyx_clineno = 6474; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7269 "bluid/data.cpp"
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_barcelona); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 87; (void)__pyx_lineno; __pyx_clineno = 7269; (void)__pyx_clineno; } goto __pyx_L1_error; }
   if (__pyx_t_2) {
     Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_364_0_0_35_110))));
     __pyx_t_1 = __pyx_mstate_global->__pyx_kp_s_364_0_0_35_110;
@@ -21357,8 +21928,8 @@ static PyObject *__pyx_pf_4data_9UserAgent_4ua_instagram([[maybe_unused]] PyObje
   }
   __pyx_v_version = __pyx_t_1;
   __pyx_t_1 = 0;
-# 6492 "bluid/data.cpp"
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_barcelona); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 77; (void)__pyx_lineno; __pyx_clineno = 6492; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7287 "bluid/data.cpp"
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_barcelona); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 88; (void)__pyx_lineno; __pyx_clineno = 7287; (void)__pyx_clineno; } goto __pyx_L1_error; }
   if (__pyx_t_2) {
     Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_687078620))));
     __pyx_t_1 = __pyx_mstate_global->__pyx_kp_s_687078620;
@@ -21368,380 +21939,268 @@ static PyObject *__pyx_pf_4data_9UserAgent_4ua_instagram([[maybe_unused]] PyObje
   }
   __pyx_v_version_code = __pyx_t_1;
   __pyx_t_1 = 0;
-# 6510 "bluid/data.cpp"
-  (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 78; (void)__pyx_lineno; __pyx_clineno = 6510; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7305 "bluid/data.cpp"
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_get_valid_device); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 89; (void)__pyx_lineno; __pyx_clineno = 7305; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 78; (void)__pyx_lineno; __pyx_clineno = 6512; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_devices_data); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 78; (void)__pyx_lineno; __pyx_clineno = 6515; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_5 = __null;
-  __pyx_t_6 = 0;
-
-  if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 0)) {
-    __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
-    if (__builtin_expect(!!(__pyx_t_5), 1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
-      Py_INCREF(((PyObject*)((__pyx_t_5))));
-      Py_INCREF(((PyObject*)((function))));
-      do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-      __pyx_t_6 = 1;
-    }
-  }
-
-  {
-    PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_t_3};
-    __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
-    Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 78; (void)__pyx_lineno; __pyx_clineno = 6536; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-  }
-  __pyx_v_device = __pyx_t_1;
-  __pyx_t_1 = 0;
-# 6550 "bluid/data.cpp"
-  __pyx_t_1 = PyList_New(7); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 80; (void)__pyx_lineno; __pyx_clineno = 6550; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__21))));
-                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__21)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 80; (void)__pyx_lineno; __pyx_clineno = 6554; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__22))));
-                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__22)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 80; (void)__pyx_lineno; __pyx_clineno = 6557; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__23))));
-                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__23)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 80; (void)__pyx_lineno; __pyx_clineno = 6560; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__24))));
-                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__24)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 80; (void)__pyx_lineno; __pyx_clineno = 6563; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__25))));
-                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__25)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 80; (void)__pyx_lineno; __pyx_clineno = 6566; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__26))));
-                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (5), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__26)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 80; (void)__pyx_lineno; __pyx_clineno = 6569; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__27))));
-                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__27)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 80; (void)__pyx_lineno; __pyx_clineno = 6572; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  __pyx_v_android_versions = ((PyObject*)__pyx_t_1);
-  __pyx_t_1 = 0;
-# 6583 "bluid/data.cpp"
-  (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 6583; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 6585; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
   __pyx_t_4 = __null;
-  __pyx_t_6 = 0;
+  __pyx_t_5 = 0;
 
-  if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyMethod_Type))), 0)) {
+  if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyMethod_Type))), 1)) {
     __pyx_t_4 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_3))));
     if (__builtin_expect(!!(__pyx_t_4), 1)) {
       PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_3))));
       Py_INCREF(((PyObject*)((__pyx_t_4))));
       Py_INCREF(((PyObject*)((function))));
       do { PyObject *tmp = (PyObject *) __pyx_t_3; __pyx_t_3 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-      __pyx_t_6 = 1;
+      __pyx_t_5 = 1;
     }
   }
 
   {
-    PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_android_versions};
-    __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
+    PyObject *__pyx_callargs[2] = {__pyx_t_4, __null};
+    __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_5, (size_t)(0+__pyx_t_5), __null);
     Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 6606; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 89; (void)__pyx_lineno; __pyx_clineno = 7325; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
   }
-  __pyx_v_android_ver = __pyx_t_1;
+  __pyx_v_device = __pyx_t_1;
   __pyx_t_1 = 0;
-# 6620 "bluid/data.cpp"
-  __pyx_t_1 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_density) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_density)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 88; (void)__pyx_lineno; __pyx_clineno = 6620; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7339 "bluid/data.cpp"
+  __pyx_t_1 = PyList_New(7); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 7339; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_7 = ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyFloat_Type))), 1)) ? PyFloat_AS_DOUBLE(((PyObject*)((__pyx_t_1)))) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyLong_Type))), 1) ? PyLong_AsDouble(__pyx_t_1) : __Pyx__PyObject_AsDouble(__pyx_t_1)); if (__builtin_expect(!!(__pyx_t_7 == ((double)((double)-1)) && PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 88; (void)__pyx_lineno; __pyx_clineno = 6622; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  __pyx_t_1 = PyFloat_FromDouble((__pyx_t_7 * 160.0)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 88; (void)__pyx_lineno; __pyx_clineno = 6624; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__21))));
+                                ;
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__21)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 7343; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__22))));
+                                ;
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__22)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 7346; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__23))));
+                                ;
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__23)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 7349; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__24))));
+                                ;
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__24)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 7352; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__25))));
+                                ;
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__25)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 7355; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__26))));
+                                ;
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (5), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__26)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 7358; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_tuple__27))));
+                                ;
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_tuple__27)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 7361; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  __pyx_v_android_versions = ((PyObject*)__pyx_t_1);
+  __pyx_t_1 = 0;
+# 7372 "bluid/data.cpp"
+  (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 97; (void)__pyx_lineno; __pyx_clineno = 7372; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_round, __pyx_t_1); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 88; (void)__pyx_lineno; __pyx_clineno = 6626; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  __pyx_t_1 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 88; (void)__pyx_lineno; __pyx_clineno = 6629; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_choice); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 97; (void)__pyx_lineno; __pyx_clineno = 7374; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyUnicode_ConcatInPlaceImpl(&__pyx_t_1, __pyx_mstate_global->__pyx_n_u_dpi); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 88; (void)__pyx_lineno; __pyx_clineno = 6632; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_3 = __null;
+  __pyx_t_5 = 0;
+
+  if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 0)) {
+    __pyx_t_3 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
+    if (__builtin_expect(!!(__pyx_t_3), 1)) {
+      PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
+      Py_INCREF(((PyObject*)((__pyx_t_3))));
+      Py_INCREF(((PyObject*)((function))));
+      do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+      __pyx_t_5 = 1;
+    }
+  }
+
+  {
+    PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_v_android_versions};
+    __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_5, (size_t)(1+__pyx_t_5), __null);
+    Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 97; (void)__pyx_lineno; __pyx_clineno = 7395; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+  }
+  __pyx_v_android_ver = __pyx_t_1;
+  __pyx_t_1 = 0;
+# 7409 "bluid/data.cpp"
+  __pyx_t_1 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_density) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_density)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 99; (void)__pyx_lineno; __pyx_clineno = 7409; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  __pyx_t_6 = ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyFloat_Type))), 1)) ? PyFloat_AS_DOUBLE(((PyObject*)((__pyx_t_1)))) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyLong_Type))), 1) ? PyLong_AsDouble(__pyx_t_1) : __Pyx__PyObject_AsDouble(__pyx_t_1)); if (__builtin_expect(!!(__pyx_t_6 == ((double)((double)-1)) && PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 99; (void)__pyx_lineno; __pyx_clineno = 7411; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+  __pyx_t_1 = PyFloat_FromDouble((__pyx_t_6 * 160.0)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 99; (void)__pyx_lineno; __pyx_clineno = 7413; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_round, __pyx_t_1); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 99; (void)__pyx_lineno; __pyx_clineno = 7415; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  __pyx_v_dpi = ((PyObject*)__pyx_t_3);
-  __pyx_t_3 = 0;
-# 6645 "bluid/data.cpp"
-  __pyx_t_3 = ((6 <= 8) ? PyDict_New() : _PyDict_NewPresized(6)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 6645; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_1 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 99; (void)__pyx_lineno; __pyx_clineno = 7418; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_lambda, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 6647; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+  __pyx_t_4 = __Pyx_PyUnicode_ConcatInPlaceImpl(&__pyx_t_1, __pyx_mstate_global->__pyx_n_u_dpi); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 99; (void)__pyx_lineno; __pyx_clineno = 7421; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_qualcomm, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 6649; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-# 6659 "bluid/data.cpp"
-  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_1lambda1, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 6659; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_v_dpi = ((PyObject*)__pyx_t_4);
+  __pyx_t_4 = 0;
+# 7434 "bluid/data.cpp"
+  __pyx_t_4 = ((6 <= 8) ? PyDict_New() : _PyDict_NewPresized(6)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 7434; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_exynos, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 6661; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_lambda1, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 7436; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_qualcomm, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 7438; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-# 6671 "bluid/data.cpp"
-  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_2lambda2, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 92; (void)__pyx_lineno; __pyx_clineno = 6671; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7448 "bluid/data.cpp"
+  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_1lambda2, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 102; (void)__pyx_lineno; __pyx_clineno = 7448; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_mediatek, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 6673; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_exynos, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 7450; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-# 6683 "bluid/data.cpp"
-  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_3lambda3, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 93; (void)__pyx_lineno; __pyx_clineno = 6683; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7460 "bluid/data.cpp"
+  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_2lambda3, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 7460; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_tensor, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 6685; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_mediatek, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 7462; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-# 6695 "bluid/data.cpp"
-  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_4lambda4, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 94; (void)__pyx_lineno; __pyx_clineno = 6695; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7472 "bluid/data.cpp"
+  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_3lambda4, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 104; (void)__pyx_lineno; __pyx_clineno = 7472; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_dimensity, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 6697; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_tensor, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 7474; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-# 6707 "bluid/data.cpp"
-  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_5lambda5, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 95; (void)__pyx_lineno; __pyx_clineno = 6707; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7484 "bluid/data.cpp"
+  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_4lambda5, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 7484; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_helio, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 90; (void)__pyx_lineno; __pyx_clineno = 6709; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_dimensity, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 7486; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  __pyx_v_chipset_mapping = ((PyObject*)__pyx_t_3);
-  __pyx_t_3 = 0;
-# 6721 "bluid/data.cpp"
-  __pyx_t_1 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model_chipset) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model_chipset)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 97; (void)__pyx_lineno; __pyx_clineno = 6721; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7496 "bluid/data.cpp"
+  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_12ua_instagram_5lambda6, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, __null); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7496; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 97; (void)__pyx_lineno; __pyx_clineno = 6723; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_helio, __pyx_t_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 101; (void)__pyx_lineno; __pyx_clineno = 7498; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+  __pyx_v_chipset_mapping = ((PyObject*)__pyx_t_4);
+  __pyx_t_4 = 0;
+# 7510 "bluid/data.cpp"
+  __pyx_t_1 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model_chipset) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model_chipset)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 109; (void)__pyx_lineno; __pyx_clineno = 7510; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 109; (void)__pyx_lineno; __pyx_clineno = 7512; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
   __pyx_t_1 = __null;
-  __pyx_t_6 = 0;
+  __pyx_t_5 = 0;
 
-  if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyMethod_Type))), 1)) {
-    __pyx_t_1 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_4))));
+  if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyMethod_Type))), 1)) {
+    __pyx_t_1 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_3))));
     if (__builtin_expect(!!(__pyx_t_1), 1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_4))));
+      PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_3))));
       Py_INCREF(((PyObject*)((__pyx_t_1))));
       Py_INCREF(((PyObject*)((function))));
-      do { PyObject *tmp = (PyObject *) __pyx_t_4; __pyx_t_4 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-      __pyx_t_6 = 1;
+      do { PyObject *tmp = (PyObject *) __pyx_t_3; __pyx_t_3 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+      __pyx_t_5 = 1;
     }
   }
 
   {
     PyObject *__pyx_callargs[2] = {__pyx_t_1, __null};
-    __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_6, (size_t)(0+__pyx_t_6), __null);
+    __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_5, (size_t)(0+__pyx_t_5), __null);
     Py_XDECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-    if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 97; (void)__pyx_lineno; __pyx_clineno = 6744; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 109; (void)__pyx_lineno; __pyx_clineno = 7533; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
   }
-  __pyx_v_chipset = __pyx_t_3;
+  __pyx_v_chipset = __pyx_t_4;
+  __pyx_t_4 = 0;
+# 7547 "bluid/data.cpp"
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_chipset, __pyx_mstate_global->__pyx_n_s_split); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 110; (void)__pyx_lineno; __pyx_clineno = 7547; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  __pyx_t_1 = __null;
+  __pyx_t_5 = 0;
+
+  if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyMethod_Type))), 1)) {
+    __pyx_t_1 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_3))));
+    if (__builtin_expect(!!(__pyx_t_1), 1)) {
+      PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_3))));
+      Py_INCREF(((PyObject*)((__pyx_t_1))));
+      Py_INCREF(((PyObject*)((function))));
+      do { PyObject *tmp = (PyObject *) __pyx_t_3; __pyx_t_3 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+      __pyx_t_5 = 1;
+    }
+  }
+
+  {
+    PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_mstate_global->__pyx_n_s__19};
+    __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_5, (size_t)(1+__pyx_t_5), __null);
+    Py_XDECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+    if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 110; (void)__pyx_lineno; __pyx_clineno = 7567; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                           ;
+    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+  }
+  __pyx_t_3 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(0 > (long)(-9223372036854775807L -1) || 0 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_t_4, (Py_ssize_t)0, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_t_4, __Pyx_PyInt_From_long(0)))); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 110; (void)__pyx_lineno; __pyx_clineno = 7571; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+  __pyx_v_processed_chipset = __pyx_t_3;
   __pyx_t_3 = 0;
-# 6758 "bluid/data.cpp"
-  __pyx_t_8 = 0;
-  __pyx_t_4 = __Pyx_dict_iterator(__pyx_v_chipset_mapping, 1, ((PyObject *)__null), (&__pyx_t_9), (&__pyx_t_10)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 98; (void)__pyx_lineno; __pyx_clineno = 6759; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7584 "bluid/data.cpp"
+  __pyx_t_7 = 0;
+  __pyx_t_4 = __Pyx_dict_iterator(__pyx_v_chipset_mapping, 1, ((PyObject *)__null), (&__pyx_t_8), (&__pyx_t_9)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 111; (void)__pyx_lineno; __pyx_clineno = 7585; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_XDECREF(((PyObject*)((__pyx_t_3))));
   __pyx_t_3 = __pyx_t_4;
   __pyx_t_4 = 0;
   while (1) {
-    __pyx_t_11 = __Pyx_dict_iter_next(__pyx_t_3, __pyx_t_9, &__pyx_t_8, &__pyx_t_4, __null, __null, __pyx_t_10);
-    if (__builtin_expect(!!(__pyx_t_11 == 0), 0)) break;
-    if (__builtin_expect(!!(__pyx_t_11 == -1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 98; (void)__pyx_lineno; __pyx_clineno = 6767; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_10 = __Pyx_dict_iter_next(__pyx_t_3, __pyx_t_8, &__pyx_t_7, &__pyx_t_4, __null, __null, __pyx_t_9);
+    if (__builtin_expect(!!(__pyx_t_10 == 0), 0)) break;
+    if (__builtin_expect(!!(__pyx_t_10 == -1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 111; (void)__pyx_lineno; __pyx_clineno = 7593; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     do { PyObject *tmp = (PyObject *) __pyx_v_key; __pyx_v_key = __pyx_t_4; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
     __pyx_t_4 = 0;
-# 6779 "bluid/data.cpp"
-    __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_v_key, __pyx_v_chipset, 2)); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 99; (void)__pyx_lineno; __pyx_clineno = 6779; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7605 "bluid/data.cpp"
+    __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_v_key, __pyx_v_chipset, 2)); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 112; (void)__pyx_lineno; __pyx_clineno = 7605; (void)__pyx_clineno; } goto __pyx_L1_error; }
     if (__pyx_t_2) {
-# 6789 "bluid/data.cpp"
-      __pyx_t_1 = __Pyx_PyDict_GetItem(__pyx_v_chipset_mapping, __pyx_v_key); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 100; (void)__pyx_lineno; __pyx_clineno = 6789; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 7615 "bluid/data.cpp"
+      __pyx_t_1 = __Pyx_PyDict_GetItem(__pyx_v_chipset_mapping, __pyx_v_key); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 113; (void)__pyx_lineno; __pyx_clineno = 7615; (void)__pyx_clineno; } goto __pyx_L1_error; }
                              ;
-      __pyx_t_5 = __null;
-      __pyx_t_6 = 0;
+      __pyx_t_11 = __null;
+      __pyx_t_5 = 0;
 
       if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyMethod_Type))), 0)) {
-        __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_1))));
-        if (__builtin_expect(!!(__pyx_t_5), 1)) {
+        __pyx_t_11 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_1))));
+        if (__builtin_expect(!!(__pyx_t_11), 1)) {
           PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_1))));
-          Py_INCREF(((PyObject*)((__pyx_t_5))));
+          Py_INCREF(((PyObject*)((__pyx_t_11))));
           Py_INCREF(((PyObject*)((function))));
           do { PyObject *tmp = (PyObject *) __pyx_t_1; __pyx_t_1 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-          __pyx_t_6 = 1;
+          __pyx_t_5 = 1;
         }
       }
 
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_v_chipset};
-        __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_1, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
-        Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-        if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 100; (void)__pyx_lineno; __pyx_clineno = 6809; (void)__pyx_clineno; } goto __pyx_L1_error; }
+        PyObject *__pyx_callargs[2] = {__pyx_t_11, __pyx_v_chipset};
+        __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_1, __pyx_callargs+1-__pyx_t_5, (size_t)(1+__pyx_t_5), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
+        if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 113; (void)__pyx_lineno; __pyx_clineno = 7635; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
       }
-      __pyx_v_processed_chipset = __pyx_t_4;
+      do { PyObject *tmp = (PyObject *) __pyx_v_processed_chipset; __pyx_v_processed_chipset = __pyx_t_4; Py_DECREF(((PyObject*)((tmp)))); } while (0);
       __pyx_t_4 = 0;
-# 6823 "bluid/data.cpp"
+# 7649 "bluid/data.cpp"
       goto __pyx_L4_break;
-# 6832 "bluid/data.cpp"
+# 7658 "bluid/data.cpp"
     }
-  }
-# 6842 "bluid/data.cpp"
-           {
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_chipset, __pyx_mstate_global->__pyx_n_s_split); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 6843; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    __pyx_t_5 = __null;
-    __pyx_t_6 = 0;
-
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyMethod_Type))), 1)) {
-      __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_1))));
-      if (__builtin_expect(!!(__pyx_t_5), 1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_1))));
-        Py_INCREF(((PyObject*)((__pyx_t_5))));
-        Py_INCREF(((PyObject*)((function))));
-        do { PyObject *tmp = (PyObject *) __pyx_t_1; __pyx_t_1 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_6 = 1;
-      }
-    }
-
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_mstate_global->__pyx_n_s__18};
-      __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_1, __pyx_callargs+1-__pyx_t_6, (size_t)(1+__pyx_t_6), __null);
-      Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-      if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 6863; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                             ;
-      Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-    }
-    __pyx_t_1 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(0 > (long)(-9223372036854775807L -1) || 0 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_t_4, (Py_ssize_t)0, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_t_4, __Pyx_PyInt_From_long(0)))); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 103; (void)__pyx_lineno; __pyx_clineno = 6867; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_v_processed_chipset = __pyx_t_1;
-    __pyx_t_1 = 0;
   }
   __pyx_L4_break:;
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 6883 "bluid/data.cpp"
+# 7670 "bluid/data.cpp"
   {
-    __pyx_t_3 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6884; (void)__pyx_clineno; } goto __pyx_L8_error; }
+    __pyx_t_3 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7671; (void)__pyx_clineno; } goto __pyx_L8_error; }
                            ;
-    __pyx_t_1 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6886; (void)__pyx_clineno; } goto __pyx_L8_error; }
+    __pyx_t_4 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7673; (void)__pyx_clineno; } goto __pyx_L8_error; }
                            ;
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyList_Type))), 1) || Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyTuple_Type))) {
-      __pyx_t_4 = __pyx_t_1; Py_INCREF(((PyObject*)((__pyx_t_4))));
-      __pyx_t_9 = 0;
+    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyList_Type))), 1) || Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyTuple_Type))) {
+      __pyx_t_1 = __pyx_t_4; Py_INCREF(((PyObject*)((__pyx_t_1))));
+      __pyx_t_8 = 0;
       __pyx_t_12 = __null;
     } else {
-      __pyx_t_9 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_1); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6893; (void)__pyx_clineno; } goto __pyx_L8_error; }
+      __pyx_t_8 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_t_4); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7680; (void)__pyx_clineno; } goto __pyx_L8_error; }
                              ;
-      __pyx_t_12 = (Py_TYPE(((PyObject*)((__pyx_t_4))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6895; (void)__pyx_clineno; } goto __pyx_L8_error; }
-    }
-    Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-    for (;;) {
-      if (__builtin_expect(!!(!__pyx_t_12), 1)) {
-        if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyList_Type))), 1)) {
-          {
-            Py_ssize_t __pyx_temp = PyList_GET_SIZE(((PyObject*)((__pyx_t_4))));
-
-
-
-            if (__pyx_t_9 >= __pyx_temp) break;
-          }
-
-          __pyx_t_1 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_4))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 6909, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_4)")), ((PyListObject*)((__pyx_t_4))))->ob_item[(__pyx_t_9)]); Py_INCREF(((PyObject*)((__pyx_t_1)))); __pyx_t_9++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6909; (void)__pyx_clineno; } goto __pyx_L8_error; }
-
-
-
-
-        } else {
-          {
-            Py_ssize_t __pyx_temp = PyTuple_GET_SIZE(((PyObject*)((__pyx_t_4))));
-
-
-
-            if (__pyx_t_9 >= __pyx_temp) break;
-          }
-
-          __pyx_t_1 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_4))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 6923, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_4)")), ((PyTupleObject*)((__pyx_t_4))))->ob_item[(__pyx_t_9)]); Py_INCREF(((PyObject*)((__pyx_t_1)))); __pyx_t_9++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6923; (void)__pyx_clineno; } goto __pyx_L8_error; }
-
-
-
-
-        }
-      } else {
-        __pyx_t_1 = __pyx_t_12(__pyx_t_4);
-        if (__builtin_expect(!!(!__pyx_t_1), 0)) {
-          PyObject* exc_type = PyErr_Occurred();
-          if (exc_type) {
-            if (__builtin_expect(!!(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration)), 1)) PyErr_Clear();
-            else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6935; (void)__pyx_clineno; } goto __pyx_L8_error; }
-          }
-          break;
-        }
-                               ;
-      }
-      do { PyObject *tmp = (PyObject *) __pyx_8genexpr2__pyx_v_c; __pyx_8genexpr2__pyx_v_c = __pyx_t_1; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
-      __pyx_t_1 = 0;
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_8genexpr2__pyx_v_c, __pyx_mstate_global->__pyx_n_s_isalpha); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6943; (void)__pyx_clineno; } goto __pyx_L8_error; }
-                             ;
-      __pyx_t_13 = __null;
-      __pyx_t_6 = 0;
-
-      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyMethod_Type))), 1)) {
-        __pyx_t_13 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_5))));
-        if (__builtin_expect(!!(__pyx_t_13), 1)) {
-          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_5))));
-          Py_INCREF(((PyObject*)((__pyx_t_13))));
-          Py_INCREF(((PyObject*)((function))));
-          do { PyObject *tmp = (PyObject *) __pyx_t_5; __pyx_t_5 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-          __pyx_t_6 = 1;
-        }
-      }
-
-      {
-        PyObject *__pyx_callargs[2] = {__pyx_t_13, __null};
-        __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_5, __pyx_callargs+1-__pyx_t_6, (size_t)(0+__pyx_t_6), __null);
-        Py_XDECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-        if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6963; (void)__pyx_clineno; } goto __pyx_L8_error; }
-                               ;
-        Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-      }
-      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6967; (void)__pyx_clineno; } goto __pyx_L8_error; }
-      Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-      if (__pyx_t_2) {
-        if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_3, (PyObject*)__pyx_8genexpr2__pyx_v_c)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6970; (void)__pyx_clineno; } goto __pyx_L8_error; }
-      }
+      __pyx_t_12 = (Py_TYPE(((PyObject*)((__pyx_t_1))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7682; (void)__pyx_clineno; } goto __pyx_L8_error; }
     }
     Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    Py_XDECREF(((PyObject*)((__pyx_8genexpr2__pyx_v_c)))); __pyx_8genexpr2__pyx_v_c = 0;
-    goto __pyx_L13_exit_scope;
-    __pyx_L8_error:;
-    Py_XDECREF(((PyObject*)((__pyx_8genexpr2__pyx_v_c)))); __pyx_8genexpr2__pyx_v_c = 0;
-    goto __pyx_L1_error;
-    __pyx_L13_exit_scope:;
-  }
-  __pyx_t_4 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__19, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 105; (void)__pyx_lineno; __pyx_clineno = 6981; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-  __pyx_v_model_prefix = ((PyObject*)__pyx_t_4);
-  __pyx_t_4 = 0;
-# 6994 "bluid/data.cpp"
-  {
-    __pyx_t_4 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 6995; (void)__pyx_clineno; } goto __pyx_L16_error; }
-                           ;
-    __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 6997; (void)__pyx_clineno; } goto __pyx_L16_error; }
-                           ;
-    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyList_Type))), 1) || Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyTuple_Type))) {
-      __pyx_t_1 = __pyx_t_3; Py_INCREF(((PyObject*)((__pyx_t_1))));
-      __pyx_t_9 = 0;
-      __pyx_t_12 = __null;
-    } else {
-      __pyx_t_9 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_t_3); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7004; (void)__pyx_clineno; } goto __pyx_L16_error; }
-                             ;
-      __pyx_t_12 = (Py_TYPE(((PyObject*)((__pyx_t_1))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7006; (void)__pyx_clineno; } goto __pyx_L16_error; }
-    }
-    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
     for (;;) {
       if (__builtin_expect(!!(!__pyx_t_12), 1)) {
         if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyList_Type))), 1)) {
@@ -21750,10 +22209,10 @@ static PyObject *__pyx_pf_4data_9UserAgent_4ua_instagram([[maybe_unused]] PyObje
 
 
 
-            if (__pyx_t_9 >= __pyx_temp) break;
+            if (__pyx_t_8 >= __pyx_temp) break;
           }
 
-          __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 7020, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_1)")), ((PyListObject*)((__pyx_t_1))))->ob_item[(__pyx_t_9)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_9++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7020; (void)__pyx_clineno; } goto __pyx_L16_error; }
+          __pyx_t_4 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 7696, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_1)")), ((PyListObject*)((__pyx_t_1))))->ob_item[(__pyx_t_8)]); Py_INCREF(((PyObject*)((__pyx_t_4)))); __pyx_t_8++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7696; (void)__pyx_clineno; } goto __pyx_L8_error; }
 
 
 
@@ -21764,326 +22223,430 @@ static PyObject *__pyx_pf_4data_9UserAgent_4ua_instagram([[maybe_unused]] PyObje
 
 
 
-            if (__pyx_t_9 >= __pyx_temp) break;
+            if (__pyx_t_8 >= __pyx_temp) break;
           }
 
-          __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 7034, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_1)")), ((PyTupleObject*)((__pyx_t_1))))->ob_item[(__pyx_t_9)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_9++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7034; (void)__pyx_clineno; } goto __pyx_L16_error; }
+          __pyx_t_4 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 7710, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_1)")), ((PyTupleObject*)((__pyx_t_1))))->ob_item[(__pyx_t_8)]); Py_INCREF(((PyObject*)((__pyx_t_4)))); __pyx_t_8++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7710; (void)__pyx_clineno; } goto __pyx_L8_error; }
 
 
 
 
         }
       } else {
-        __pyx_t_3 = __pyx_t_12(__pyx_t_1);
-        if (__builtin_expect(!!(!__pyx_t_3), 0)) {
+        __pyx_t_4 = __pyx_t_12(__pyx_t_1);
+        if (__builtin_expect(!!(!__pyx_t_4), 0)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (__builtin_expect(!!(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration)), 1)) PyErr_Clear();
-            else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7046; (void)__pyx_clineno; } goto __pyx_L16_error; }
+            else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7722; (void)__pyx_clineno; } goto __pyx_L8_error; }
           }
           break;
         }
                                ;
       }
-      do { PyObject *tmp = (PyObject *) __pyx_8genexpr3__pyx_v_c; __pyx_8genexpr3__pyx_v_c = __pyx_t_3; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
-      __pyx_t_3 = 0;
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_8genexpr3__pyx_v_c, __pyx_mstate_global->__pyx_n_s_isdigit); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7054; (void)__pyx_clineno; } goto __pyx_L16_error; }
-                             ;
+      do { PyObject *tmp = (PyObject *) __pyx_8genexpr3__pyx_v_c; __pyx_8genexpr3__pyx_v_c = __pyx_t_4; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
+      __pyx_t_4 = 0;
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_8genexpr3__pyx_v_c, __pyx_mstate_global->__pyx_n_s_isalpha); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7730; (void)__pyx_clineno; } goto __pyx_L8_error; }
+                              ;
       __pyx_t_13 = __null;
-      __pyx_t_6 = 0;
+      __pyx_t_5 = 0;
 
-      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyMethod_Type))), 1)) {
-        __pyx_t_13 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_5))));
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyMethod_Type))), 1)) {
+        __pyx_t_13 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_11))));
         if (__builtin_expect(!!(__pyx_t_13), 1)) {
-          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_5))));
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_11))));
           Py_INCREF(((PyObject*)((__pyx_t_13))));
           Py_INCREF(((PyObject*)((function))));
-          do { PyObject *tmp = (PyObject *) __pyx_t_5; __pyx_t_5 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-          __pyx_t_6 = 1;
+          do { PyObject *tmp = (PyObject *) __pyx_t_11; __pyx_t_11 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_5 = 1;
         }
       }
 
       {
         PyObject *__pyx_callargs[2] = {__pyx_t_13, __null};
-        __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_5, __pyx_callargs+1-__pyx_t_6, (size_t)(0+__pyx_t_6), __null);
+        __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_5, (size_t)(0+__pyx_t_5), __null);
         Py_XDECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-        if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7074; (void)__pyx_clineno; } goto __pyx_L16_error; }
+        if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7750; (void)__pyx_clineno; } goto __pyx_L8_error; }
                                ;
-        Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+        Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
       }
-      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7078; (void)__pyx_clineno; } goto __pyx_L16_error; }
-      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7754; (void)__pyx_clineno; } goto __pyx_L8_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
       if (__pyx_t_2) {
-        if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_4, (PyObject*)__pyx_8genexpr3__pyx_v_c)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7081; (void)__pyx_clineno; } goto __pyx_L16_error; }
+        if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_3, (PyObject*)__pyx_8genexpr3__pyx_v_c)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7757; (void)__pyx_clineno; } goto __pyx_L8_error; }
       }
     }
     Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
     Py_XDECREF(((PyObject*)((__pyx_8genexpr3__pyx_v_c)))); __pyx_8genexpr3__pyx_v_c = 0;
+    goto __pyx_L13_exit_scope;
+    __pyx_L8_error:;
+    Py_XDECREF(((PyObject*)((__pyx_8genexpr3__pyx_v_c)))); __pyx_8genexpr3__pyx_v_c = 0;
+    goto __pyx_L1_error;
+    __pyx_L13_exit_scope:;
+  }
+  __pyx_t_1 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__18, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7768; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+  __pyx_v_model_prefix = ((PyObject*)__pyx_t_1);
+  __pyx_t_1 = 0;
+# 7781 "bluid/data.cpp"
+  {
+    __pyx_t_1 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7782; (void)__pyx_clineno; } goto __pyx_L16_error; }
+                           ;
+    __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7784; (void)__pyx_clineno; } goto __pyx_L16_error; }
+                           ;
+    if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyList_Type))), 1) || Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyTuple_Type))) {
+      __pyx_t_4 = __pyx_t_3; Py_INCREF(((PyObject*)((__pyx_t_4))));
+      __pyx_t_8 = 0;
+      __pyx_t_12 = __null;
+    } else {
+      __pyx_t_8 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_3); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7791; (void)__pyx_clineno; } goto __pyx_L16_error; }
+                             ;
+      __pyx_t_12 = (Py_TYPE(((PyObject*)((__pyx_t_4))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7793; (void)__pyx_clineno; } goto __pyx_L16_error; }
+    }
+    Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+    for (;;) {
+      if (__builtin_expect(!!(!__pyx_t_12), 1)) {
+        if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyList_Type))), 1)) {
+          {
+            Py_ssize_t __pyx_temp = PyList_GET_SIZE(((PyObject*)((__pyx_t_4))));
+
+
+
+            if (__pyx_t_8 >= __pyx_temp) break;
+          }
+
+          __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_4))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 7807, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_4)")), ((PyListObject*)((__pyx_t_4))))->ob_item[(__pyx_t_8)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_8++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7807; (void)__pyx_clineno; } goto __pyx_L16_error; }
+
+
+
+
+        } else {
+          {
+            Py_ssize_t __pyx_temp = PyTuple_GET_SIZE(((PyObject*)((__pyx_t_4))));
+
+
+
+            if (__pyx_t_8 >= __pyx_temp) break;
+          }
+
+          __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_4))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 7821, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_4)")), ((PyTupleObject*)((__pyx_t_4))))->ob_item[(__pyx_t_8)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_8++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7821; (void)__pyx_clineno; } goto __pyx_L16_error; }
+
+
+
+
+        }
+      } else {
+        __pyx_t_3 = __pyx_t_12(__pyx_t_4);
+        if (__builtin_expect(!!(!__pyx_t_3), 0)) {
+          PyObject* exc_type = PyErr_Occurred();
+          if (exc_type) {
+            if (__builtin_expect(!!(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration)), 1)) PyErr_Clear();
+            else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7833; (void)__pyx_clineno; } goto __pyx_L16_error; }
+          }
+          break;
+        }
+                               ;
+      }
+      do { PyObject *tmp = (PyObject *) __pyx_8genexpr4__pyx_v_c; __pyx_8genexpr4__pyx_v_c = __pyx_t_3; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
+      __pyx_t_3 = 0;
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_8genexpr4__pyx_v_c, __pyx_mstate_global->__pyx_n_s_isdigit); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7841; (void)__pyx_clineno; } goto __pyx_L16_error; }
+                              ;
+      __pyx_t_13 = __null;
+      __pyx_t_5 = 0;
+
+      if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyMethod_Type))), 1)) {
+        __pyx_t_13 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_11))));
+        if (__builtin_expect(!!(__pyx_t_13), 1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_11))));
+          Py_INCREF(((PyObject*)((__pyx_t_13))));
+          Py_INCREF(((PyObject*)((function))));
+          do { PyObject *tmp = (PyObject *) __pyx_t_11; __pyx_t_11 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
+          __pyx_t_5 = 1;
+        }
+      }
+
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_13, __null};
+        __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_5, (size_t)(0+__pyx_t_5), __null);
+        Py_XDECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
+        if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7861; (void)__pyx_clineno; } goto __pyx_L16_error; }
+                               ;
+        Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
+      }
+      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7865; (void)__pyx_clineno; } goto __pyx_L16_error; }
+      Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+      if (__pyx_t_2) {
+        if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_8genexpr4__pyx_v_c)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7868; (void)__pyx_clineno; } goto __pyx_L16_error; }
+      }
+    }
+    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+    Py_XDECREF(((PyObject*)((__pyx_8genexpr4__pyx_v_c)))); __pyx_8genexpr4__pyx_v_c = 0;
     goto __pyx_L21_exit_scope;
     __pyx_L16_error:;
-    Py_XDECREF(((PyObject*)((__pyx_8genexpr3__pyx_v_c)))); __pyx_8genexpr3__pyx_v_c = 0;
+    Py_XDECREF(((PyObject*)((__pyx_8genexpr4__pyx_v_c)))); __pyx_8genexpr4__pyx_v_c = 0;
     goto __pyx_L1_error;
     __pyx_L21_exit_scope:;
   }
-  __pyx_t_1 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__19, __pyx_t_4); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 106; (void)__pyx_lineno; __pyx_clineno = 7092; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_4 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__18, __pyx_t_1); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 117; (void)__pyx_lineno; __pyx_clineno = 7879; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-  __pyx_v_model_number = ((PyObject*)__pyx_t_1);
-  __pyx_t_1 = 0;
-# 7105 "bluid/data.cpp"
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_model_prefix); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7105; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+  __pyx_v_model_number = ((PyObject*)__pyx_t_4);
+  __pyx_t_4 = 0;
+# 7892 "bluid/data.cpp"
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_model_prefix); if (__builtin_expect(!!((__pyx_t_2 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7892; (void)__pyx_clineno; } goto __pyx_L1_error; }
   if (__pyx_t_2) {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_model_prefix, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7107; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_model_prefix, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7894; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_5 = __null;
-    __pyx_t_6 = 0;
+    __pyx_t_11 = __null;
+    __pyx_t_5 = 0;
 
     if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyMethod_Type))), 1)) {
-      __pyx_t_5 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_3))));
-      if (__builtin_expect(!!(__pyx_t_5), 1)) {
+      __pyx_t_11 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_3))));
+      if (__builtin_expect(!!(__pyx_t_11), 1)) {
         PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_3))));
-        Py_INCREF(((PyObject*)((__pyx_t_5))));
+        Py_INCREF(((PyObject*)((__pyx_t_11))));
         Py_INCREF(((PyObject*)((function))));
         do { PyObject *tmp = (PyObject *) __pyx_t_3; __pyx_t_3 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-        __pyx_t_6 = 1;
+        __pyx_t_5 = 1;
       }
     }
 
     {
-      PyObject *__pyx_callargs[2] = {__pyx_t_5, __null};
-      __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_6, (size_t)(0+__pyx_t_6), __null);
-      Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-      if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7127; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      PyObject *__pyx_callargs[2] = {__pyx_t_11, __null};
+      __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_5, (size_t)(0+__pyx_t_5), __null);
+      Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
+      if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7914; (void)__pyx_clineno; } goto __pyx_L1_error; }
                              ;
       Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
     }
-    __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7131; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_1)))), __pyx_t_1) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_1) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_1) : PyObject_Format(__pyx_t_1, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7918; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+    Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
     if (__builtin_expect(!!(__pyx_v_model_number == (&_Py_NoneStruct)), 0)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-      { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7136; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7923; (void)__pyx_clineno; } goto __pyx_L1_error; }
     }
-    __pyx_t_4 = PySequence_GetSlice(__pyx_v_model_number, 0, 2); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7138; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_1 = PySequence_GetSlice(__pyx_v_model_number, 0, 2); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7925; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7140; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyUnicode_ConcatInPlaceImpl(&__pyx_t_3, __pyx_t_5); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7143; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_1)))), __pyx_t_1) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_1) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_1) : PyObject_Format(__pyx_t_1, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7927; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                            ;
+    Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+    __pyx_t_1 = __Pyx_PyUnicode_ConcatInPlaceImpl(&__pyx_t_3, __pyx_t_11); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7930; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-    __pyx_t_1 = __pyx_t_4;
-    __pyx_t_4 = 0;
+    Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
+    __pyx_t_4 = __pyx_t_1;
+    __pyx_t_1 = 0;
   } else {
-    __pyx_t_4 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7150; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_1 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7937; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_5 = __Pyx_PyObject_GetSlice(__pyx_t_4, 0, 4, __null, __null, &__pyx_mstate_global->__pyx_slice__28, 0, 1, 1); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7152; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
-    Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_1 = __pyx_t_5;
-    __pyx_t_5 = 0;
+    __pyx_t_11 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, 4, __null, __null, &__pyx_mstate_global->__pyx_slice__28, 0, 1, 1); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7939; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                            ;
+    Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+    __pyx_t_4 = __pyx_t_11;
+    __pyx_t_11 = 0;
   }
-  __pyx_v_short_model = __pyx_t_1;
-  __pyx_t_1 = 0;
-# 7168 "bluid/data.cpp"
-  __pyx_t_1 = PyTuple_New(23); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 109; (void)__pyx_lineno; __pyx_clineno = 7168; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_v_short_model = __pyx_t_4;
+  __pyx_t_4 = 0;
+# 7955 "bluid/data.cpp"
+  __pyx_t_4 = PyTuple_New(23); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 121; (void)__pyx_lineno; __pyx_clineno = 7955; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_9 = 0;
+  __pyx_t_8 = 0;
   __pyx_t_14 = 127;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Instagram))));
-  __pyx_t_9 += 10;
+  __pyx_t_8 += 10;
                                      ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Instagram))));
-  __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_version)))), __pyx_v_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_version) : PyObject_Format(__pyx_v_version, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 109; (void)__pyx_lineno; __pyx_clineno = 7176; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Instagram))));
+  __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_version)))), __pyx_v_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_version) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_version) : PyObject_Format(__pyx_v_version, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 121; (void)__pyx_lineno; __pyx_clineno = 7963; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (1), ((PyObject*)((__pyx_t_5))));
-  __pyx_t_5 = 0;
+  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
+                           ;
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (1), ((PyObject*)((__pyx_t_11))));
+  __pyx_t_11 = 0;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Android))));
-  __pyx_t_9 += 10;
+  __pyx_t_8 += 10;
                                    ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Android))));
-# 7195 "bluid/data.cpp"
-  __pyx_t_5 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(0 > (long)(-9223372036854775807L -1) || 0 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_v_android_ver, (Py_ssize_t)0, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_v_android_ver, __Pyx_PyInt_From_long(0)))); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 110; (void)__pyx_lineno; __pyx_clineno = 7195; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 110; (void)__pyx_lineno; __pyx_clineno = 7197; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Android))));
+# 7982 "bluid/data.cpp"
+  __pyx_t_11 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(0 > (long)(-9223372036854775807L -1) || 0 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_v_android_ver, (Py_ssize_t)0, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_v_android_ver, __Pyx_PyInt_From_long(0)))); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 122; (void)__pyx_lineno; __pyx_clineno = 7982; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (3), ((PyObject*)((__pyx_t_4))));
-  __pyx_t_4 = 0;
+  __pyx_t_1 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 122; (void)__pyx_lineno; __pyx_clineno = 7984; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
+  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_1)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_1)))) : __pyx_t_14;
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_1))));
+                          ;
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (3), ((PyObject*)((__pyx_t_1))));
+  __pyx_t_1 = 0;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
-  __pyx_t_9 += 1;
+  __pyx_t_8 += 1;
                               ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
-  __pyx_t_4 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(1 > (long)(-9223372036854775807L -1) || 1 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_v_android_ver, (Py_ssize_t)1, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_v_android_ver, __Pyx_PyInt_From_long(1)))); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 110; (void)__pyx_lineno; __pyx_clineno = 7209; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__5))));
+  __pyx_t_1 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(1 > (long)(-9223372036854775807L -1) || 1 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_v_android_ver, (Py_ssize_t)1, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_v_android_ver, __Pyx_PyInt_From_long(1)))); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 122; (void)__pyx_lineno; __pyx_clineno = 7996; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 110; (void)__pyx_lineno; __pyx_clineno = 7211; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+  __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_1)))), __pyx_t_1) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_1) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_1) : PyObject_Format(__pyx_t_1, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 122; (void)__pyx_lineno; __pyx_clineno = 7998; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (5), ((PyObject*)((__pyx_t_5))));
-  __pyx_t_5 = 0;
+  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
+                           ;
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (5), ((PyObject*)((__pyx_t_11))));
+  __pyx_t_11 = 0;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-  __pyx_t_9 += 2;
+  __pyx_t_8 += 2;
                                ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-# 7231 "bluid/data.cpp"
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
+# 8018 "bluid/data.cpp"
   Py_INCREF(((PyObject*)((__pyx_v_dpi))));
   __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_v_dpi)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_v_dpi)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_v_dpi))));
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_v_dpi))));
                             ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (7), ((PyObject*)((__pyx_v_dpi))));
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (7), ((PyObject*)((__pyx_v_dpi))));
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-  __pyx_t_9 += 2;
+  __pyx_t_8 += 2;
                                ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-# 7248 "bluid/data.cpp"
-  __pyx_t_5 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_width_2) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_width_2)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 112; (void)__pyx_lineno; __pyx_clineno = 7248; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 112; (void)__pyx_lineno; __pyx_clineno = 7250; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
-  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
+# 8035 "bluid/data.cpp"
+  __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_width_2) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_width_2)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 124; (void)__pyx_lineno; __pyx_clineno = 8035; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (9), ((PyObject*)((__pyx_t_4))));
-  __pyx_t_4 = 0;
+  __pyx_t_1 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 124; (void)__pyx_lineno; __pyx_clineno = 8037; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
+  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_1)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_1)))) : __pyx_t_14;
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_1))));
+                          ;
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (9), ((PyObject*)((__pyx_t_1))));
+  __pyx_t_1 = 0;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_u_x))));
-  __pyx_t_9 += 1;
+  __pyx_t_8 += 1;
                             ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (10), ((PyObject*)((__pyx_mstate_global->__pyx_n_u_x))));
-  __pyx_t_4 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_height_2) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_height_2)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 112; (void)__pyx_lineno; __pyx_clineno = 7262; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (10), ((PyObject*)((__pyx_mstate_global->__pyx_n_u_x))));
+  __pyx_t_1 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_height_2) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_height_2)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 124; (void)__pyx_lineno; __pyx_clineno = 8049; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 112; (void)__pyx_lineno; __pyx_clineno = 7264; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+  __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_1)))), __pyx_t_1) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_1) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_1) : PyObject_Format(__pyx_t_1, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 124; (void)__pyx_lineno; __pyx_clineno = 8051; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (11), ((PyObject*)((__pyx_t_5))));
-  __pyx_t_5 = 0;
+  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
+                           ;
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (11), ((PyObject*)((__pyx_t_11))));
+  __pyx_t_11 = 0;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-  __pyx_t_9 += 2;
+  __pyx_t_8 += 2;
                                ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (12), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-# 7284 "bluid/data.cpp"
-  __pyx_t_4 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 113; (void)__pyx_lineno; __pyx_clineno = 7284; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (12), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
+# 8071 "bluid/data.cpp"
+  __pyx_t_1 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_brand)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 125; (void)__pyx_lineno; __pyx_clineno = 8071; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 113; (void)__pyx_lineno; __pyx_clineno = 7286; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 125; (void)__pyx_lineno; __pyx_clineno = 8073; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-  __pyx_t_4 = __null;
-  __pyx_t_6 = 0;
+  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+  __pyx_t_1 = __null;
+  __pyx_t_5 = 0;
 
   if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyMethod_Type))), 1)) {
-    __pyx_t_4 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_3))));
-    if (__builtin_expect(!!(__pyx_t_4), 1)) {
+    __pyx_t_1 = PyMethod_GET_SELF(((PyObject*)((__pyx_t_3))));
+    if (__builtin_expect(!!(__pyx_t_1), 1)) {
       PyObject* function = PyMethod_GET_FUNCTION(((PyObject*)((__pyx_t_3))));
-      Py_INCREF(((PyObject*)((__pyx_t_4))));
+      Py_INCREF(((PyObject*)((__pyx_t_1))));
       Py_INCREF(((PyObject*)((function))));
       do { PyObject *tmp = (PyObject *) __pyx_t_3; __pyx_t_3 = function; Py_DECREF(((PyObject*)((tmp)))); } while (0);
-      __pyx_t_6 = 1;
+      __pyx_t_5 = 1;
     }
   }
 
   {
-    PyObject *__pyx_callargs[2] = {__pyx_t_4, __null};
-    __pyx_t_5 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_6, (size_t)(0+__pyx_t_6), __null);
-    Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 113; (void)__pyx_lineno; __pyx_clineno = 7307; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                           ;
+    PyObject *__pyx_callargs[2] = {__pyx_t_1, __null};
+    __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_5, (size_t)(0+__pyx_t_5), __null);
+    Py_XDECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
+    if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 125; (void)__pyx_lineno; __pyx_clineno = 8094; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                            ;
     Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
   }
-  __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_5)))), __pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_5) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_5)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_5) : PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 113; (void)__pyx_lineno; __pyx_clineno = 7311; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 125; (void)__pyx_lineno; __pyx_clineno = 8098; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
+  Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
   __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
                           ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (13), ((PyObject*)((__pyx_t_3))));
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (13), ((PyObject*)((__pyx_t_3))));
   __pyx_t_3 = 0;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-  __pyx_t_9 += 2;
+  __pyx_t_8 += 2;
                                ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (14), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-# 7331 "bluid/data.cpp"
-  __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 114; (void)__pyx_lineno; __pyx_clineno = 7331; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (14), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
+# 8118 "bluid/data.cpp"
+  __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_device)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model) : PyObject_GetItem(__pyx_v_device, __pyx_mstate_global->__pyx_n_s_model)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 126; (void)__pyx_lineno; __pyx_clineno = 8118; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 114; (void)__pyx_lineno; __pyx_clineno = 7333; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
+  __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 126; (void)__pyx_lineno; __pyx_clineno = 8120; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                          ;
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
-                          ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (15), ((PyObject*)((__pyx_t_5))));
-  __pyx_t_5 = 0;
+  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
+                           ;
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (15), ((PyObject*)((__pyx_t_11))));
+  __pyx_t_11 = 0;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-  __pyx_t_9 += 2;
+  __pyx_t_8 += 2;
                                ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (16), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-# 7353 "bluid/data.cpp"
-  __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_short_model)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_short_model)))), __pyx_v_short_model) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_short_model)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_short_model) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_short_model)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_short_model) : PyObject_Format(__pyx_v_short_model, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 115; (void)__pyx_lineno; __pyx_clineno = 7353; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (16), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
+# 8140 "bluid/data.cpp"
+  __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_short_model)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_short_model)))), __pyx_v_short_model) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_short_model)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_short_model) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_short_model)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_short_model) : PyObject_Format(__pyx_v_short_model, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 127; (void)__pyx_lineno; __pyx_clineno = 8140; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (17), ((PyObject*)((__pyx_t_5))));
-  __pyx_t_5 = 0;
+  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
+                           ;
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (17), ((PyObject*)((__pyx_t_11))));
+  __pyx_t_11 = 0;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-  __pyx_t_9 += 2;
+  __pyx_t_8 += 2;
                                ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (18), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
-# 7372 "bluid/data.cpp"
-  __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_processed_chipset)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_processed_chipset)))), __pyx_v_processed_chipset) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_processed_chipset)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_processed_chipset) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_processed_chipset)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_processed_chipset) : PyObject_Format(__pyx_v_processed_chipset, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 116; (void)__pyx_lineno; __pyx_clineno = 7372; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (18), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__17))));
+# 8159 "bluid/data.cpp"
+  __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_processed_chipset)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_processed_chipset)))), __pyx_v_processed_chipset) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_processed_chipset)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_processed_chipset) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_processed_chipset)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_processed_chipset) : PyObject_Format(__pyx_v_processed_chipset, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 128; (void)__pyx_lineno; __pyx_clineno = 8159; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (19), ((PyObject*)((__pyx_t_5))));
-  __pyx_t_5 = 0;
+  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
+                           ;
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (19), ((PyObject*)((__pyx_t_11))));
+  __pyx_t_11 = 0;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_in_ID))));
-  __pyx_t_9 += 9;
+  __pyx_t_8 += 9;
                                  ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (20), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_in_ID))));
-# 7391 "bluid/data.cpp"
-  __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version_code)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_version_code)))), __pyx_v_version_code) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version_code)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_version_code) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version_code)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_version_code) : PyObject_Format(__pyx_v_version_code, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 7391; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_14;
-  __pyx_t_9 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (20), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_in_ID))));
+# 8178 "bluid/data.cpp"
+  __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version_code)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_version_code)))), __pyx_v_version_code) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version_code)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_version_code) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_version_code)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_version_code) : PyObject_Format(__pyx_v_version_code, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 130; (void)__pyx_lineno; __pyx_clineno = 8178; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (21), ((PyObject*)((__pyx_t_5))));
-  __pyx_t_5 = 0;
+  __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
+  __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
+                           ;
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (21), ((PyObject*)((__pyx_t_11))));
+  __pyx_t_11 = 0;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u__29))));
-  __pyx_t_9 += 1;
+  __pyx_t_8 += 1;
                                ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_1))), (22), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__29))));
-# 7410 "bluid/data.cpp"
-  __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_1, 23, __pyx_t_9, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 109; (void)__pyx_lineno; __pyx_clineno = 7410; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  __pyx_v_ua = ((PyObject*)__pyx_t_5);
-  __pyx_t_5 = 0;
-# 7423 "bluid/data.cpp"
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (22), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__29))));
+# 8197 "bluid/data.cpp"
+  __pyx_t_11 = __Pyx_PyUnicode_Join(__pyx_t_4, 23, __pyx_t_8, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 121; (void)__pyx_lineno; __pyx_clineno = 8197; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                          ;
+  Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
+  __pyx_v_ua = ((PyObject*)__pyx_t_11);
+  __pyx_t_11 = 0;
+# 8210 "bluid/data.cpp"
   Py_XDECREF(((PyObject*)((__pyx_r))));
-  __pyx_t_5 = PyUnicode_Replace(__pyx_v_ua, __pyx_mstate_global->__pyx_kp_s__9, __pyx_mstate_global->__pyx_kp_s__10, -1L); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 121; (void)__pyx_lineno; __pyx_clineno = 7424; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  __pyx_r = __pyx_t_5;
-  __pyx_t_5 = 0;
+  __pyx_t_11 = PyUnicode_Replace(__pyx_v_ua, __pyx_mstate_global->__pyx_kp_s__9, __pyx_mstate_global->__pyx_kp_s__10, -1L); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 133; (void)__pyx_lineno; __pyx_clineno = 8211; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                          ;
+  __pyx_r = __pyx_t_11;
+  __pyx_t_11 = 0;
   goto __pyx_L0;
-# 7439 "bluid/data.cpp"
+# 8226 "bluid/data.cpp"
   __pyx_L1_error:;
   Py_XDECREF(((PyObject*)((__pyx_t_1))));
   Py_XDECREF(((PyObject*)((__pyx_t_3))));
   Py_XDECREF(((PyObject*)((__pyx_t_4))));
-  Py_XDECREF(((PyObject*)((__pyx_t_5))));
+  Py_XDECREF(((PyObject*)((__pyx_t_11))));
   Py_XDECREF(((PyObject*)((__pyx_t_13))));
   __Pyx_AddTraceback("data.UserAgent.ua_instagram", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = __null;
@@ -22096,23 +22659,184 @@ static PyObject *__pyx_pf_4data_9UserAgent_4ua_instagram([[maybe_unused]] PyObje
   Py_XDECREF(((PyObject*)((__pyx_v_dpi))));
   Py_XDECREF(((PyObject*)((__pyx_v_chipset_mapping))));
   Py_XDECREF(((PyObject*)((__pyx_v_chipset))));
-  Py_XDECREF(((PyObject*)((__pyx_v_key))));
   Py_XDECREF(((PyObject*)((__pyx_v_processed_chipset))));
+  Py_XDECREF(((PyObject*)((__pyx_v_key))));
   Py_XDECREF(((PyObject*)((__pyx_v_model_prefix))));
   Py_XDECREF(((PyObject*)((__pyx_v_model_number))));
   Py_XDECREF(((PyObject*)((__pyx_v_short_model))));
   Py_XDECREF(((PyObject*)((__pyx_v_ua))));
-  Py_XDECREF(((PyObject*)((__pyx_8genexpr2__pyx_v_c))));
   Py_XDECREF(((PyObject*)((__pyx_8genexpr3__pyx_v_c))));
+  Py_XDECREF(((PyObject*)((__pyx_8genexpr4__pyx_v_c))));
                          ;
                                ;
   return __pyx_r;
 }
 
+
+static struct __pyx_obj_4data___pyx_scope_struct__genexpr *__pyx_freelist_4data___pyx_scope_struct__genexpr[8];
+static int __pyx_freecount_4data___pyx_scope_struct__genexpr = 0;
+
+
+static PyObject *__pyx_tp_new_4data___pyx_scope_struct__genexpr(PyTypeObject *t, [[maybe_unused]] PyObject *a, [[maybe_unused]] PyObject *k) {
+  PyObject *o;
+
+
+
+
+
+  if (__builtin_expect(!!((int)(__pyx_freecount_4data___pyx_scope_struct__genexpr > 0) & (int)(t->tp_basicsize == sizeof(struct __pyx_obj_4data___pyx_scope_struct__genexpr))), 1)) {
+    o = (PyObject*)__pyx_freelist_4data___pyx_scope_struct__genexpr[--__pyx_freecount_4data___pyx_scope_struct__genexpr];
+    memset(o, 0, sizeof(struct __pyx_obj_4data___pyx_scope_struct__genexpr));
+    (void) PyObject_Init(((PyObject*)((o))), (t));
+    PyObject_GC_Track(o);
+  } else
+
+  {
+    o = (*t->tp_alloc)(t, 0);
+    if (__builtin_expect(!!(!o), 0)) return 0;
+  }
+
+  return o;
+}
+
+static void __pyx_tp_dealloc_4data___pyx_scope_struct__genexpr(PyObject *o) {
+  struct __pyx_obj_4data___pyx_scope_struct__genexpr *p = (struct __pyx_obj_4data___pyx_scope_struct__genexpr *)o;
+
+  if (__builtin_expect(!!((((3 << 24) | (12 << 16) | (9 << 8) | (0xF << 4) | (0 << 0)) >= 0x03080000 || (((((PyTypeObject *)Py_TYPE(((PyObject*)((o)))))->tp_flags) & ((1UL << 0))) != 0)) && ((Py_TYPE(((PyObject*)((o)))))->tp_finalize)), 0) && !PyObject_GC_IsFinalized(o)) {
+    if (((Py_TYPE(((PyObject*)((o)))))->tp_dealloc) == __pyx_tp_dealloc_4data___pyx_scope_struct__genexpr) {
+      if (PyObject_CallFinalizerFromDealloc(o)) return;
+    }
+  }
+
+  PyObject_GC_UnTrack(o);
+  do { __typeof__(p->__pyx_genexpr_arg_0)* _tmp_op_ptr = &(p->__pyx_genexpr_arg_0); __typeof__(p->__pyx_genexpr_arg_0) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+  do { __typeof__(p->__pyx_genexpr_arg_1)* _tmp_op_ptr = &(p->__pyx_genexpr_arg_1); __typeof__(p->__pyx_genexpr_arg_1) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+  do { __typeof__(p->__pyx_genexpr_arg_2)* _tmp_op_ptr = &(p->__pyx_genexpr_arg_2); __typeof__(p->__pyx_genexpr_arg_2) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+  do { __typeof__(p->__pyx_v_val)* _tmp_op_ptr = &(p->__pyx_v_val); __typeof__(p->__pyx_v_val) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+
+  if (((int)(__pyx_freecount_4data___pyx_scope_struct__genexpr < 8) & (int)(Py_TYPE(((PyObject*)((o))))->tp_basicsize == sizeof(struct __pyx_obj_4data___pyx_scope_struct__genexpr)))) {
+    __pyx_freelist_4data___pyx_scope_struct__genexpr[__pyx_freecount_4data___pyx_scope_struct__genexpr++] = ((struct __pyx_obj_4data___pyx_scope_struct__genexpr *)o);
+  } else
+
+  {
+
+    (*Py_TYPE(((PyObject*)((o))))->tp_free)(o);
+
+
+
+
+
+
+  }
+}
+
+static int __pyx_tp_traverse_4data___pyx_scope_struct__genexpr(PyObject *o, visitproc v, void *a) {
+  int e;
+  struct __pyx_obj_4data___pyx_scope_struct__genexpr *p = (struct __pyx_obj_4data___pyx_scope_struct__genexpr *)o;
+  if (p->__pyx_genexpr_arg_0) {
+    e = (*v)(p->__pyx_genexpr_arg_0, a); if (e) return e;
+  }
+  if (p->__pyx_genexpr_arg_1) {
+    e = (*v)(p->__pyx_genexpr_arg_1, a); if (e) return e;
+  }
+  if (p->__pyx_genexpr_arg_2) {
+    e = (*v)(p->__pyx_genexpr_arg_2, a); if (e) return e;
+  }
+  if (p->__pyx_v_val) {
+    e = (*v)(p->__pyx_v_val, a); if (e) return e;
+  }
+  return 0;
+}
+# 8347 "bluid/data.cpp"
+static PyTypeObject __pyx_type_4data___pyx_scope_struct__genexpr = {
+  { { { 1 }, (0) }, (0) },
+  "data.""__pyx_scope_struct__genexpr",
+  sizeof(struct __pyx_obj_4data___pyx_scope_struct__genexpr),
+  0,
+  __pyx_tp_dealloc_4data___pyx_scope_struct__genexpr,
+
+
+
+
+  0,
+
+  0,
+  0,
+
+
+
+
+  0,
+
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  ( 0 | 0)|(1UL << 18)|0|0|(1UL << 14)|(1UL << 0),
+  0,
+  __pyx_tp_traverse_4data___pyx_scope_struct__genexpr,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+
+  0,
+
+  0,
+  0,
+  __pyx_tp_new_4data___pyx_scope_struct__genexpr,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+
+
+  0,
+
+
+
+
+
+  0,
+
+
+
+
+
+  0,
+
+
+
+
+
+
+
+};
+
+
 static PyMethodDef __pyx_methods[] = {
   {0, 0, 0, 0}
 };
-# 7483 "bluid/data.cpp"
+# 8446 "bluid/data.cpp"
 static int __Pyx_CreateStringTabAndInitStrings(void) {
   __Pyx_StringTabEntry __pyx_string_tab[] = {
     {&__pyx_mstate_global->__pyx_kp_u_0, __pyx_k_0, sizeof(__pyx_k_0), 0, 1, 0, 0},
@@ -22176,8 +22900,11 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_kp_u_SP1A, __pyx_k_SP1A, sizeof(__pyx_k_SP1A), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_kp_u_TP1A, __pyx_k_TP1A, sizeof(__pyx_k_TP1A), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_n_s_Ultra, __pyx_k_Ultra, sizeof(__pyx_k_Ultra), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_n_s_Unknown, __pyx_k_Unknown, sizeof(__pyx_k_Unknown), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_UserAgent, __pyx_k_UserAgent, sizeof(__pyx_k_UserAgent), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_UserAgent___init, __pyx_k_UserAgent___init, sizeof(__pyx_k_UserAgent___init), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_n_s_UserAgent_get_valid_device, __pyx_k_UserAgent_get_valid_device, sizeof(__pyx_k_UserAgent_get_valid_device), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_n_s_UserAgent_get_valid_device_local, __pyx_k_UserAgent_get_valid_device_local, sizeof(__pyx_k_UserAgent_get_valid_device_local), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_UserAgent_ua_facebook, __pyx_k_UserAgent_ua_facebook, sizeof(__pyx_k_UserAgent_ua_facebook), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram, __pyx_k_UserAgent_ua_instagram, sizeof(__pyx_k_UserAgent_ua_instagram), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram_locals_la, __pyx_k_UserAgent_ua_instagram_locals_la, sizeof(__pyx_k_UserAgent_ua_instagram_locals_la), 0, 0, 1, 1},
@@ -22185,12 +22912,12 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_kp_s__10, __pyx_k__10, sizeof(__pyx_k__10), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_kp_u__14, __pyx_k__14, sizeof(__pyx_k__14), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_kp_u__17, __pyx_k__17, sizeof(__pyx_k__17), 0, 1, 0, 0},
-    {&__pyx_mstate_global->__pyx_n_s__18, __pyx_k__18, sizeof(__pyx_k__18), 0, 0, 1, 1},
-    {&__pyx_mstate_global->__pyx_kp_s__19, __pyx_k__19, sizeof(__pyx_k__19), 0, 0, 1, 0},
+    {&__pyx_mstate_global->__pyx_kp_s__18, __pyx_k__18, sizeof(__pyx_k__18), 0, 0, 1, 0},
+    {&__pyx_mstate_global->__pyx_n_s__19, __pyx_k__19, sizeof(__pyx_k__19), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_kp_u__29, __pyx_k__29, sizeof(__pyx_k__29), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_kp_s__3, __pyx_k__3, sizeof(__pyx_k__3), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_n_s__30, __pyx_k__30, sizeof(__pyx_k__30), 0, 0, 1, 1},
-    {&__pyx_mstate_global->__pyx_n_s__37, __pyx_k__37, sizeof(__pyx_k__37), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_n_s__39, __pyx_k__39, sizeof(__pyx_k__39), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_kp_u__4, __pyx_k__4, sizeof(__pyx_k__4), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_kp_u__5, __pyx_k__5, sizeof(__pyx_k__5), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_kp_u__6, __pyx_k__6, sizeof(__pyx_k__6), 0, 1, 0, 0},
@@ -22203,6 +22930,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_n_s_api, __pyx_k_api, sizeof(__pyx_k_api), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_api_devices, __pyx_k_api_devices, sizeof(__pyx_k_api_devices), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_api_mode, __pyx_k_api_mode, sizeof(__pyx_k_api_mode), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_n_s_args, __pyx_k_args, sizeof(__pyx_k_args), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_kp_s_arm64_v8a_null, __pyx_k_arm64_v8a_null, sizeof(__pyx_k_arm64_v8a_null), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_n_s_asyncio_coroutines, __pyx_k_asyncio_coroutines, sizeof(__pyx_k_asyncio_coroutines), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_barcelona, __pyx_k_barcelona, sizeof(__pyx_k_barcelona), 0, 0, 1, 1},
@@ -22219,6 +22947,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_n_s_chipset_mapping, __pyx_k_chipset_mapping, sizeof(__pyx_k_chipset_mapping), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_choice, __pyx_k_choice, sizeof(__pyx_k_choice), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_n_s_close, __pyx_k_close, sizeof(__pyx_k_close), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_kp_s_com_facebook_mahos, __pyx_k_com_facebook_mahos, sizeof(__pyx_k_com_facebook_mahos), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_n_s_components, __pyx_k_components, sizeof(__pyx_k_components), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_d, __pyx_k_d, sizeof(__pyx_k_d), 0, 0, 1, 1},
@@ -22230,15 +22959,20 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_n_s_devices_data, __pyx_k_devices_data, sizeof(__pyx_k_devices_data), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_dict, __pyx_k_dict, sizeof(__pyx_k_dict), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_dimensity, __pyx_k_dimensity, sizeof(__pyx_k_dimensity), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_kp_u_disable, __pyx_k_disable, sizeof(__pyx_k_disable), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_n_s_doc, __pyx_k_doc, sizeof(__pyx_k_doc), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_dpi, __pyx_k_dpi, sizeof(__pyx_k_dpi), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_u_dpi, __pyx_k_dpi, sizeof(__pyx_k_dpi), 0, 1, 0, 1},
     {&__pyx_mstate_global->__pyx_n_s_en_US, __pyx_k_en_US, sizeof(__pyx_k_en_US), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_kp_u_enable, __pyx_k_enable, sizeof(__pyx_k_enable), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_n_s_enter, __pyx_k_enter, sizeof(__pyx_k_enter), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_exit, __pyx_k_exit, sizeof(__pyx_k_exit), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_exynos, __pyx_k_exynos, sizeof(__pyx_k_exynos), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_f, __pyx_k_f, sizeof(__pyx_k_f), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_kp_u_gc, __pyx_k_gc, sizeof(__pyx_k_gc), 0, 1, 0, 0},
+    {&__pyx_mstate_global->__pyx_n_s_genexpr, __pyx_k_genexpr, sizeof(__pyx_k_genexpr), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_get, __pyx_k_get, sizeof(__pyx_k_get), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_n_s_get_valid_device, __pyx_k_get_valid_device, sizeof(__pyx_k_get_valid_device), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_kp_u_height, __pyx_k_height, sizeof(__pyx_k_height), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_n_s_height_2, __pyx_k_height_2, sizeof(__pyx_k_height_2), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_helio, __pyx_k_helio, sizeof(__pyx_k_helio), 0, 0, 1, 1},
@@ -22250,6 +22984,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_n_s_is_coroutine, __pyx_k_is_coroutine, sizeof(__pyx_k_is_coroutine), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_isalpha, __pyx_k_isalpha, sizeof(__pyx_k_isalpha), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_isdigit, __pyx_k_isdigit, sizeof(__pyx_k_isdigit), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_kp_u_isenabled, __pyx_k_isenabled, sizeof(__pyx_k_isenabled), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_n_s_items, __pyx_k_items, sizeof(__pyx_k_items), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_join, __pyx_k_join, sizeof(__pyx_k_join), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_json, __pyx_k_json, sizeof(__pyx_k_json), 0, 0, 1, 1},
@@ -22280,6 +23015,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_n_s_round, __pyx_k_round, sizeof(__pyx_k_round), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_samsung, __pyx_k_samsung, sizeof(__pyx_k_samsung), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_self, __pyx_k_self, sizeof(__pyx_k_self), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_n_s_send, __pyx_k_send, sizeof(__pyx_k_send), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_set_name, __pyx_k_set_name, sizeof(__pyx_k_set_name), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_short_model, __pyx_k_short_model, sizeof(__pyx_k_short_model), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
@@ -22287,10 +23023,12 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_n_s_super, __pyx_k_super, sizeof(__pyx_k_super), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_tensor, __pyx_k_tensor, sizeof(__pyx_k_tensor), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_n_s_throw, __pyx_k_throw, sizeof(__pyx_k_throw), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_ua, __pyx_k_ua, sizeof(__pyx_k_ua), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_ua_facebook, __pyx_k_ua_facebook, sizeof(__pyx_k_ua_facebook), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_ua_instagram, __pyx_k_ua_instagram, sizeof(__pyx_k_ua_instagram), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_ua_parts, __pyx_k_ua_parts, sizeof(__pyx_k_ua_parts), 0, 0, 1, 1},
+    {&__pyx_mstate_global->__pyx_n_s_unknown, __pyx_k_unknown, sizeof(__pyx_k_unknown), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_user_agent, __pyx_k_user_agent, sizeof(__pyx_k_user_agent), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_v, __pyx_k_v, sizeof(__pyx_k_v), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_version, __pyx_k_version, sizeof(__pyx_k_version), 0, 0, 1, 1},
@@ -22305,8 +23043,8 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
 }
 
 static int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_open); if (!__pyx_builtin_open) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 7675; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_builtin_round = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_round); if (!__pyx_builtin_round) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 7676; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_open); if (!__pyx_builtin_open) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 8652; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_builtin_round = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_round); if (!__pyx_builtin_round) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 8653; (void)__pyx_clineno; } goto __pyx_L1_error; }
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -22316,79 +23054,84 @@ static int __Pyx_InitCachedBuiltins(void) {
 static int __Pyx_InitCachedConstants(void) {
 
                                                             ;
-# 7694 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple_ = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_data_cache_ua_json, __pyx_mstate_global->__pyx_n_s_r); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple_), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 7694; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8671 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple_ = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_data_cache_ua_json, __pyx_mstate_global->__pyx_n_s_r); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple_), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 8671; (void)__pyx_clineno; } goto __pyx_L1_error; }
                             ;
                              ;
-  __pyx_mstate_global->__pyx_tuple__2 = PyTuple_Pack(3, (&_Py_NoneStruct), (&_Py_NoneStruct), (&_Py_NoneStruct)); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 7697; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__2 = PyTuple_Pack(3, (&_Py_NoneStruct), (&_Py_NoneStruct), (&_Py_NoneStruct)); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 8674; (void)__pyx_clineno; } goto __pyx_L1_error; }
                               ;
                                ;
-# 7708 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__11 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_100000, __pyx_mstate_global->__pyx_int_999999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 7708; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8685 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__11 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_100000, __pyx_mstate_global->__pyx_int_999999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 51; (void)__pyx_lineno; __pyx_clineno = 8685; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 7719 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__12 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_90, __pyx_mstate_global->__pyx_int_115); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 7719; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8696 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__12 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_90, __pyx_mstate_global->__pyx_int_115); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 8696; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__13 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_0, __pyx_mstate_global->__pyx_int_9999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 7722; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__13 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_0, __pyx_mstate_global->__pyx_int_9999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 8699; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__15 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_0, __pyx_mstate_global->__pyx_int_999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__15), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 53; (void)__pyx_lineno; __pyx_clineno = 7725; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__15 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_0, __pyx_mstate_global->__pyx_int_999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__15), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 57; (void)__pyx_lineno; __pyx_clineno = 8702; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 7736 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__16 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_20, __pyx_mstate_global->__pyx_int_24); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__16), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 54; (void)__pyx_lineno; __pyx_clineno = 7736; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8713 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__16 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_20, __pyx_mstate_global->__pyx_int_24); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__16), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 58; (void)__pyx_lineno; __pyx_clineno = 8713; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 7747 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__20 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_n_s__18, __pyx_mstate_global->__pyx_kp_s__19); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__20), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 91; (void)__pyx_lineno; __pyx_clineno = 7747; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8724 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__20 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_n_s__19, __pyx_mstate_global->__pyx_kp_s__18); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__20), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 102; (void)__pyx_lineno; __pyx_clineno = 8724; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 7758 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__21 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_34, __pyx_mstate_global->__pyx_kp_s_12); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__21), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 81; (void)__pyx_lineno; __pyx_clineno = 7758; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8735 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__21 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_34, __pyx_mstate_global->__pyx_kp_s_12); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__21), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 92; (void)__pyx_lineno; __pyx_clineno = 8735; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__22 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_33, __pyx_mstate_global->__pyx_kp_s_11); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__22), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 81; (void)__pyx_lineno; __pyx_clineno = 7761; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__22 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_33, __pyx_mstate_global->__pyx_kp_s_11); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__22), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 92; (void)__pyx_lineno; __pyx_clineno = 8738; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 7772 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__23 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_32, __pyx_mstate_global->__pyx_kp_s_10); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__23), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 7772; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8749 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__23 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_32, __pyx_mstate_global->__pyx_kp_s_10); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__23), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 93; (void)__pyx_lineno; __pyx_clineno = 8749; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__24 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_31, __pyx_mstate_global->__pyx_kp_s_10); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__24), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 7775; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__24 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_31, __pyx_mstate_global->__pyx_kp_s_10); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__24), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 93; (void)__pyx_lineno; __pyx_clineno = 8752; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 7786 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__25 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_30, __pyx_mstate_global->__pyx_kp_s_11); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__25), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 83; (void)__pyx_lineno; __pyx_clineno = 7786; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8763 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__25 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_30, __pyx_mstate_global->__pyx_kp_s_11); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__25), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 94; (void)__pyx_lineno; __pyx_clineno = 8763; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__26 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_29, __pyx_mstate_global->__pyx_kp_s_10); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__26), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 83; (void)__pyx_lineno; __pyx_clineno = 7789; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__26 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_29, __pyx_mstate_global->__pyx_kp_s_10); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__26), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 94; (void)__pyx_lineno; __pyx_clineno = 8766; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 7800 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__27 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_28, __pyx_mstate_global->__pyx_kp_s_9); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__27), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 84; (void)__pyx_lineno; __pyx_clineno = 7800; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8777 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__27 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s_28, __pyx_mstate_global->__pyx_kp_s_9); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__27), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 95; (void)__pyx_lineno; __pyx_clineno = 8777; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 7811 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_slice__28 = PySlice_New((&_Py_NoneStruct), __pyx_mstate_global->__pyx_int_4, (&_Py_NoneStruct)); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_slice__28), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 107; (void)__pyx_lineno; __pyx_clineno = 7811; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8788 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_slice__28 = PySlice_New((&_Py_NoneStruct), __pyx_mstate_global->__pyx_int_4, (&_Py_NoneStruct)); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_slice__28), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 118; (void)__pyx_lineno; __pyx_clineno = 8788; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 7822 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__31 = PyTuple_Pack(3, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_f, __pyx_mstate_global->__pyx_n_s_d); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__31), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 7822; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8799 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__31 = PyTuple_Pack(3, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_f, __pyx_mstate_global->__pyx_n_s_d); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__31), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 8799; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__31, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_bluid_data_py, __pyx_mstate_global->__pyx_n_s_init, 6, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__32), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 7825; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 7834 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__33 = PyTuple_Pack(16, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_api_mode, __pyx_mstate_global->__pyx_n_s_device, __pyx_mstate_global->__pyx_n_s_dpi, __pyx_mstate_global->__pyx_n_s_components, __pyx_mstate_global->__pyx_n_s_ua_parts, __pyx_mstate_global->__pyx_n_s_build_numbers, __pyx_mstate_global->__pyx_n_s_browser_variants, __pyx_mstate_global->__pyx_n_s_browser_versions, __pyx_mstate_global->__pyx_n_s_android_version, __pyx_mstate_global->__pyx_n_s_build_number, __pyx_mstate_global->__pyx_n_s_browser_variant, __pyx_mstate_global->__pyx_n_s_browser_version, __pyx_mstate_global->__pyx_n_s_user_agent, __pyx_mstate_global->__pyx_n_s_k, __pyx_mstate_global->__pyx_n_s_v); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__33), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 7834; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__31, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_bluid_data_py, __pyx_mstate_global->__pyx_n_s_init, 6, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__32), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 8802; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8811 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__33 = PyTuple_Pack(16, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_api_mode, __pyx_mstate_global->__pyx_n_s_device, __pyx_mstate_global->__pyx_n_s_dpi, __pyx_mstate_global->__pyx_n_s_components, __pyx_mstate_global->__pyx_n_s_ua_parts, __pyx_mstate_global->__pyx_n_s_build_numbers, __pyx_mstate_global->__pyx_n_s_browser_variants, __pyx_mstate_global->__pyx_n_s_browser_versions, __pyx_mstate_global->__pyx_n_s_build_number, __pyx_mstate_global->__pyx_n_s_browser_variant, __pyx_mstate_global->__pyx_n_s_browser_version, __pyx_mstate_global->__pyx_n_s_android_version, __pyx_mstate_global->__pyx_n_s_user_agent, __pyx_mstate_global->__pyx_n_s_k, __pyx_mstate_global->__pyx_n_s_v); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__33), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 8811; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 16, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__33, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_bluid_data_py, __pyx_mstate_global->__pyx_n_s_ua_facebook, 17, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__34), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 7837; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 7846 "bluid/data.cpp"
-  __pyx_mstate_global->__pyx_tuple__35 = PyTuple_Pack(18, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_barcelona, __pyx_mstate_global->__pyx_n_s_version, __pyx_mstate_global->__pyx_n_s_version_code, __pyx_mstate_global->__pyx_n_s_device, __pyx_mstate_global->__pyx_n_s_android_versions, __pyx_mstate_global->__pyx_n_s_android_ver, __pyx_mstate_global->__pyx_n_s_dpi, __pyx_mstate_global->__pyx_n_s_chipset_mapping, __pyx_mstate_global->__pyx_n_s_chipset, __pyx_mstate_global->__pyx_n_s_key, __pyx_mstate_global->__pyx_n_s_processed_chipset, __pyx_mstate_global->__pyx_n_s_model_prefix, __pyx_mstate_global->__pyx_n_s_model_number, __pyx_mstate_global->__pyx_n_s_short_model, __pyx_mstate_global->__pyx_n_s_ua, __pyx_mstate_global->__pyx_n_s_c, __pyx_mstate_global->__pyx_n_s_c); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__35), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 7846; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 16, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__33, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_bluid_data_py, __pyx_mstate_global->__pyx_n_s_ua_facebook, 16, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__34), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 8814; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8823 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__35 = PyTuple_Pack(4, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_device, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_genexpr); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__35), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 79; (void)__pyx_lineno; __pyx_clineno = 8823; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 18, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__35, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_bluid_data_py, __pyx_mstate_global->__pyx_n_s_ua_instagram, 75, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__36), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 7849; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 4, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__35, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_bluid_data_py, __pyx_mstate_global->__pyx_n_s_get_valid_device, 79, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__36), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 79; (void)__pyx_lineno; __pyx_clineno = 8826; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 8835 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_tuple__37 = PyTuple_Pack(18, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_barcelona, __pyx_mstate_global->__pyx_n_s_version, __pyx_mstate_global->__pyx_n_s_version_code, __pyx_mstate_global->__pyx_n_s_device, __pyx_mstate_global->__pyx_n_s_android_versions, __pyx_mstate_global->__pyx_n_s_android_ver, __pyx_mstate_global->__pyx_n_s_dpi, __pyx_mstate_global->__pyx_n_s_chipset_mapping, __pyx_mstate_global->__pyx_n_s_chipset, __pyx_mstate_global->__pyx_n_s_processed_chipset, __pyx_mstate_global->__pyx_n_s_key, __pyx_mstate_global->__pyx_n_s_model_prefix, __pyx_mstate_global->__pyx_n_s_model_number, __pyx_mstate_global->__pyx_n_s_short_model, __pyx_mstate_global->__pyx_n_s_ua, __pyx_mstate_global->__pyx_n_s_c, __pyx_mstate_global->__pyx_n_s_c); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__37), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 8835; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+                                ;
+  __pyx_mstate_global->__pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 18, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__37, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_bluid_data_py, __pyx_mstate_global->__pyx_n_s_ua_instagram, 86, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__38), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 8838; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
   return 0;
   __pyx_L1_error:;
@@ -22398,17 +23141,17 @@ static int __Pyx_InitCachedConstants(void) {
 
 
 static int __Pyx_InitConstants(void) {
-  if (__Pyx_CreateStringTabAndInitStrings() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7859; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  __pyx_mstate_global->__pyx_int_0 = PyLong_FromLong(0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7860; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_4 = PyLong_FromLong(4); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7861; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_20 = PyLong_FromLong(20); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_20), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7862; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_24 = PyLong_FromLong(24); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_24), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7863; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_90 = PyLong_FromLong(90); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_90), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7864; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_115 = PyLong_FromLong(115); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_115), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7865; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_999 = PyLong_FromLong(999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_999), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7866; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_9999 = PyLong_FromLong(9999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_9999), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7867; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_100000 = PyLong_FromLong(100000L); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_100000), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7868; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_999999 = PyLong_FromLong(999999L); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_999999), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 7869; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_CreateStringTabAndInitStrings() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8848; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  __pyx_mstate_global->__pyx_int_0 = PyLong_FromLong(0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8849; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_4 = PyLong_FromLong(4); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8850; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_20 = PyLong_FromLong(20); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_20), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8851; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_24 = PyLong_FromLong(24); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_24), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8852; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_90 = PyLong_FromLong(90); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_90), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8853; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_115 = PyLong_FromLong(115); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_115), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8854; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_999 = PyLong_FromLong(999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_999), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8855; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_9999 = PyLong_FromLong(9999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_9999), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8856; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_100000 = PyLong_FromLong(100000L); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_100000), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8857; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_999999 = PyLong_FromLong(999999L); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_999999), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8858; (void)__pyx_clineno; } goto __pyx_L1_error; }
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -22454,10 +23197,35 @@ static int __Pyx_modinit_function_export_code(void) {
 
 static int __Pyx_modinit_type_init_code(void) {
 
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = __null;
+  int __pyx_clineno = 0;
                                                                ;
+
+
+
+
+
+  __pyx_mstate_global->__pyx_ptype_4data___pyx_scope_struct__genexpr = &__pyx_type_4data___pyx_scope_struct__genexpr;
+
+
+
+
+  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_4data___pyx_scope_struct__genexpr) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 82; (void)__pyx_lineno; __pyx_clineno = 8918; (void)__pyx_clineno; } goto __pyx_L1_error; }
+
+
+
+
+
+  if ((1 && 1) && __builtin_expect(!!(!__pyx_mstate_global->__pyx_ptype_4data___pyx_scope_struct__genexpr->tp_dictoffset && __pyx_mstate_global->__pyx_ptype_4data___pyx_scope_struct__genexpr->tp_getattro == PyObject_GenericGetAttr), 1)) {
+    __pyx_mstate_global->__pyx_ptype_4data___pyx_scope_struct__genexpr->tp_getattro = PyObject_GenericGetAttr;
+  }
 
                                ;
   return 0;
+  __pyx_L1_error:;
+                               ;
+  return -1;
 }
 
 static int __Pyx_modinit_type_import_code(void) {
@@ -22516,7 +23284,7 @@ namespace {
       __pyx_methods ,
 
       __pyx_moduledef_slots,
-# 7985 "bluid/data.cpp"
+# 8999 "bluid/data.cpp"
       __null,
       __null,
       __null
@@ -22524,7 +23292,7 @@ namespace {
   };
 
 }
-# 8016 "bluid/data.cpp"
+# 9030 "bluid/data.cpp"
 extern "C" __attribute__ ((visibility ("default"))) PyObject* PyInit_data(void) ;
 extern "C" __attribute__ ((visibility ("default"))) PyObject* PyInit_data(void)
 
@@ -22635,58 +23403,69 @@ static int __pyx_pymod_exec_data(PyObject *__pyx_pyinit_module)
 
   __pyx_m = __pyx_pyinit_module;
   Py_INCREF(((PyObject*)((__pyx_m))));
-# 8143 "bluid/data.cpp"
+# 9157 "bluid/data.cpp"
   CYTHON_UNUSED_VAR(__pyx_t_1);
-  __pyx_mstate_global->__pyx_d = PyModule_GetDict(__pyx_m); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_d), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8144; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_d = PyModule_GetDict(__pyx_m); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_d), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9158; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_d))));
-  __pyx_mstate_global->__pyx_b = __Pyx_PyImport_AddModuleRef("builtins"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_b), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8146; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_cython_runtime = __Pyx_PyImport_AddModuleRef((const char *) "cython_runtime"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_cython_runtime), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8147; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  if (PyObject_SetAttrString(__pyx_m, "__builtins__", __pyx_mstate_global->__pyx_b) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8148; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 8158 "bluid/data.cpp"
+  __pyx_mstate_global->__pyx_b = __Pyx_PyImport_AddModuleRef("builtins"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_b), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9160; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_cython_runtime = __Pyx_PyImport_AddModuleRef((const char *) "cython_runtime"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_cython_runtime), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9161; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyObject_SetAttrString(__pyx_m, "__builtins__", __pyx_mstate_global->__pyx_b) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9162; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 9172 "bluid/data.cpp"
                                                                          ;
-  if (__Pyx_check_binary_version(((3 << 24) | (12 << 16) | (9 << 8) | (0xF << 4) | (0 << 0)), __Pyx_get_runtime_version(), 0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8159; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_check_binary_version(((3 << 24) | (12 << 16) | (9 << 8) | (0xF << 4) | (0 << 0)), __Pyx_get_runtime_version(), 0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9173; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
-  __pyx_mstate_global->__pyx_empty_tuple = PyTuple_New(0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_tuple), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8163; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_bytes), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8164; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_empty_unicode = PyUnicode_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_unicode), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8165; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_empty_tuple = PyTuple_New(0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_tuple), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9177; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_bytes), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9178; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_empty_unicode = PyUnicode_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_unicode), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9179; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
-  if (__pyx_CyFunction_init(__pyx_m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8167; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 8190 "bluid/data.cpp"
-  if (__Pyx_InitConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8190; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__pyx_CyFunction_init(__pyx_m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9181; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 9190 "bluid/data.cpp"
+  if (__pyx_Generator_init(__pyx_m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9190; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 9204 "bluid/data.cpp"
+  if (__Pyx_InitConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9204; (void)__pyx_clineno; } goto __pyx_L1_error; }
   stringtab_initialized = 1;
-  if (__Pyx_InitGlobals() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8192; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_InitGlobals() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9206; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
   if (__pyx_module_is_main_data) {
-    if (PyObject_SetAttr(__pyx_m, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_main) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8197; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (PyObject_SetAttr(__pyx_m, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_main) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9211; (void)__pyx_clineno; } goto __pyx_L1_error; }
   }
 
   {
-    PyObject *modules = PyImport_GetModuleDict(); if (__builtin_expect(!!(!modules), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8201; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    PyObject *modules = PyImport_GetModuleDict(); if (__builtin_expect(!!(!modules), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9215; (void)__pyx_clineno; } goto __pyx_L1_error; }
     if (!PyDict_GetItemString(modules, "data")) {
-      if (__builtin_expect(!!((PyDict_SetItemString(modules, "data", __pyx_m) < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8203; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      if (__builtin_expect(!!((PyDict_SetItemString(modules, "data", __pyx_m) < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9217; (void)__pyx_clineno; } goto __pyx_L1_error; }
     }
   }
 
 
-  if (__Pyx_InitCachedBuiltins() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8208; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_InitCachedBuiltins() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9222; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
-  if (__Pyx_InitCachedConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8210; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_InitCachedConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9224; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
   (void)__Pyx_modinit_global_init_code();
   (void)__Pyx_modinit_variable_export_code();
   (void)__Pyx_modinit_function_export_code();
-  (void)__Pyx_modinit_type_init_code();
+  if (__builtin_expect(!!((__Pyx_modinit_type_init_code() < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9229; (void)__pyx_clineno; } goto __pyx_L1_error; }
   (void)__Pyx_modinit_type_import_code();
   (void)__Pyx_modinit_variable_import_code();
   (void)__Pyx_modinit_function_import_code();
-# 8229 "bluid/data.cpp"
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_json, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8229; (void)__pyx_clineno; } goto __pyx_L1_error; }
+
+
+  if (__Pyx_patch_abc() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9235; (void)__pyx_clineno; } goto __pyx_L1_error; }
+
+
+
+
+
+
+
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_json, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9243; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_json, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8231; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_json, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9245; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
 
 
@@ -22695,32 +23474,37 @@ static int __pyx_pymod_exec_data(PyObject *__pyx_pyinit_module)
 
 
 
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_random, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 2; (void)__pyx_lineno; __pyx_clineno = 8240; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_random, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 2; (void)__pyx_lineno; __pyx_clineno = 9254; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_random, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 2; (void)__pyx_lineno; __pyx_clineno = 8242; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_random, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 2; (void)__pyx_lineno; __pyx_clineno = 9256; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-# 8252 "bluid/data.cpp"
-  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) __null, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_s_UserAgent, __pyx_mstate_global->__pyx_n_s_UserAgent, (PyObject *) __null, __pyx_mstate_global->__pyx_n_s_data, (PyObject *) __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 8252; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 9266 "bluid/data.cpp"
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) __null, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_s_UserAgent, __pyx_mstate_global->__pyx_n_s_UserAgent, (PyObject *) __null, __pyx_mstate_global->__pyx_n_s_data, (PyObject *) __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 9266; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-# 8262 "bluid/data.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_1__init__, 0, __pyx_mstate_global->__pyx_n_s_UserAgent___init, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__32)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 8262; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 9276 "bluid/data.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_1__init__, 0, __pyx_mstate_global->__pyx_n_s_UserAgent___init, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__32)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 9276; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_init, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_init)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_init, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 8264; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_init, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_init)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_init, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 9278; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 8274 "bluid/data.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_3ua_facebook, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_facebook, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__34)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 8274; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 9288 "bluid/data.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_3ua_facebook, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_facebook, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__34)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 9288; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_ua_facebook, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_ua_facebook)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_ua_facebook, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 8276; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_ua_facebook, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_ua_facebook)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_ua_facebook, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 9290; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 8286 "bluid/data.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_5ua_instagram, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__36)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 8286; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 9300 "bluid/data.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_5get_valid_device, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_get_valid_device, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__36)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 79; (void)__pyx_lineno; __pyx_clineno = 9300; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_ua_instagram, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_ua_instagram)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_ua_instagram, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 8288; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_get_valid_device, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_get_valid_device)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_get_valid_device, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 79; (void)__pyx_lineno; __pyx_clineno = 9302; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 8298 "bluid/data.cpp"
-  __pyx_t_3 = __Pyx_Py3ClassCreate(((PyObject*)&PyType_Type), __pyx_mstate_global->__pyx_n_s_UserAgent, __pyx_mstate_global->__pyx_empty_tuple, __pyx_t_2, __null, 0, 0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 8298; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 9312 "bluid/data.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4data_9UserAgent_7ua_instagram, 0, __pyx_mstate_global->__pyx_n_s_UserAgent_ua_instagram, __null, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__38)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 9312; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_UserAgent, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 8300; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_ua_instagram, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_ua_instagram)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_ua_instagram, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 86; (void)__pyx_lineno; __pyx_clineno = 9314; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
+# 9324 "bluid/data.cpp"
+  __pyx_t_3 = __Pyx_Py3ClassCreate(((PyObject*)&PyType_Type), __pyx_mstate_global->__pyx_n_s_UserAgent, __pyx_mstate_global->__pyx_empty_tuple, __pyx_t_2, __null, 0, 0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 9324; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_UserAgent, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 9326; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
 
@@ -22729,9 +23513,9 @@ static int __pyx_pymod_exec_data(PyObject *__pyx_pyinit_module)
 
 
 
-  __pyx_t_2 = ((0 <= 8) ? PyDict_New() : _PyDict_NewPresized(0)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8309; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = ((0 <= 8) ? PyDict_New() : _PyDict_NewPresized(0)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9335; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_test, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 8311; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_test, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 9337; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
 
 
@@ -22746,7 +23530,7 @@ static int __pyx_pymod_exec_data(PyObject *__pyx_pyinit_module)
     }
 
     do { __typeof__(__pyx_m)* _tmp_op_ptr = &(__pyx_m); __typeof__(__pyx_m) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
-# 8335 "bluid/data.cpp"
+# 9361 "bluid/data.cpp"
   } else if (!PyErr_Occurred()) {
     PyErr_SetString(PyExc_ImportError, "init data");
   }
@@ -22760,17 +23544,17 @@ static int __pyx_pymod_exec_data(PyObject *__pyx_pyinit_module)
 
 
 }
-# 8385 "bluid/data.cpp"
+# 9411 "bluid/data.cpp"
 static int __Pyx_PyErr_ExceptionMatchesTuple(PyObject *exc_type, PyObject *tuple) {
     Py_ssize_t i, n;
     n = PyTuple_GET_SIZE(((PyObject*)((tuple))));
 
     for (i=0; i<n; i++) {
-        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 8390, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
+        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9416, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
     }
 
     for (i=0; i<n; i++) {
-        if (__Pyx_PyErr_GivenExceptionMatches(exc_type, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 8394, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]))) return 1;
+        if (__Pyx_PyErr_GivenExceptionMatches(exc_type, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9420, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]))) return 1;
     }
     return 0;
 }
@@ -22782,7 +23566,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_ExceptionMatchesI
     if (__builtin_expect(!!(!current_exception), 0)) return 0;
     exc_type = (PyObject*) Py_TYPE(((PyObject*)((current_exception))));
     if (exc_type == err) return 1;
-# 8414 "bluid/data.cpp"
+# 9440 "bluid/data.cpp"
     if (__builtin_expect(!!(PyType_HasFeature((Py_TYPE(((PyObject*)((err))))), ((1UL << 26)))), 0)) {
         result = __Pyx_PyErr_ExceptionMatchesTuple(exc_type, err);
     } else {
@@ -22800,7 +23584,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_ExceptionMatchesI
 static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {
 
     PyObject *tmp_value;
-    ((type == __null || (value != __null && type == (PyObject*) Py_TYPE(((PyObject*)((value)))))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 8431, __PRETTY_FUNCTION__, "type == NULL || (value != NULL && type == (PyObject*) Py_TYPE(value))"));
+    ((type == __null || (value != __null && type == (PyObject*) Py_TYPE(((PyObject*)((value)))))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9457, __PRETTY_FUNCTION__, "type == NULL || (value != NULL && type == (PyObject*) Py_TYPE(value))"));
     if (value) {
 
         if (__builtin_expect(!!(((PyBaseExceptionObject*) value)->traceback != tb), 0))
@@ -22812,7 +23596,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrRestoreInState(PyTh
     Py_XDECREF(((PyObject*)((tmp_value))));
     Py_XDECREF(((PyObject*)((type))));
     Py_XDECREF(((PyObject*)((tb))));
-# 8455 "bluid/data.cpp"
+# 9481 "bluid/data.cpp"
 }
 static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb) {
 
@@ -22832,7 +23616,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrFetchInState(PyThre
 
 
     }
-# 8482 "bluid/data.cpp"
+# 9508 "bluid/data.cpp"
 }
 
 
@@ -22950,7 +23734,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyBytes_Equals(PyObject
             return (equals == 2);
         } else {
             int result;
-# 8607 "bluid/data.cpp"
+# 9633 "bluid/data.cpp"
             result = memcmp(ps1, ps2, (size_t)length);
             return (equals == 2) ? (result == 0) : (result != 0);
         }
@@ -22984,7 +23768,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyUnicode_Equals(PyObje
     }
     s1_is_unicode = Py_IS_TYPE(((PyObject*)(((s1)))), (&PyUnicode_Type));
     s2_is_unicode = Py_IS_TYPE(((PyObject*)(((s2)))), (&PyUnicode_Type));
-# 8657 "bluid/data.cpp"
+# 9683 "bluid/data.cpp"
     if (s1_is_unicode & s2_is_unicode) {
         Py_ssize_t length;
         int kind;
@@ -23010,8 +23794,8 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyUnicode_Equals(PyObje
             }
         }
 
-        kind = ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s1))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 8682, __PRETTY_FUNCTION__, "PyUnicode_Check(s1)")), ((PyASCIIObject*)((s1))))->state.kind)));
-        if (kind != ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s2))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 8683, __PRETTY_FUNCTION__, "PyUnicode_Check(s2)")), ((PyASCIIObject*)((s2))))->state.kind)))) {
+        kind = ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s1))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9708, __PRETTY_FUNCTION__, "PyUnicode_Check(s1)")), ((PyASCIIObject*)((s1))))->state.kind)));
+        if (kind != ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s2))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9709, __PRETTY_FUNCTION__, "PyUnicode_Check(s2)")), ((PyASCIIObject*)((s2))))->state.kind)))) {
             goto return_ne;
         }
         data1 = PyUnicode_DATA(((PyObject*)((s1))));
@@ -23063,11 +23847,11 @@ static __inline__ __attribute__ ((__unused__)) PyObject * __Pyx_GetKwValue_FASTC
     Py_ssize_t i, n = PyTuple_GET_SIZE(((PyObject*)((kwnames))));
     for (i = 0; i < n; i++)
     {
-        if (s == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 8735, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)])) return kwvalues[i];
+        if (s == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9761, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)])) return kwvalues[i];
     }
     for (i = 0; i < n; i++)
     {
-        int eq = __Pyx_PyUnicode_Equals(s, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 8739, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)]), 2);
+        int eq = __Pyx_PyUnicode_Equals(s, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9765, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)]), 2);
         if (__builtin_expect(!!(eq != 0), 0)) {
             if (__builtin_expect(!!(eq < 0), 0)) return __null;
             return kwvalues[i];
@@ -23075,7 +23859,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject * __Pyx_GetKwValue_FASTC
     }
     return __null;
 }
-# 8768 "bluid/data.cpp"
+# 9794 "bluid/data.cpp"
 static void __Pyx_RaiseDoubleKeywordsError(
     const char* func_name,
     PyObject* kw_name)
@@ -23120,7 +23904,7 @@ static int __Pyx_ParseOptionalKeywords(
 
 
 
-            key = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwds))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 8812, __PRETTY_FUNCTION__, "PyTuple_Check(kwds)")), ((PyTupleObject*)((kwds))))->ob_item[(pos)]);
+            key = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwds))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9838, __PRETTY_FUNCTION__, "PyTuple_Check(kwds)")), ((PyTupleObject*)((kwds))))->ob_item[(pos)]);
 
 
 
@@ -23152,7 +23936,7 @@ static int __Pyx_ParseOptionalKeywords(
 
         Py_INCREF(((PyObject*)((value))));
         name = first_kw_arg;
-# 8871 "bluid/data.cpp"
+# 9897 "bluid/data.cpp"
         if (__builtin_expect(!!(PyType_HasFeature((Py_TYPE(((PyObject*)((key))))), ((1UL << 28)))), 1)) {
             while (*name) {
                 int cmp = (
@@ -23292,7 +24076,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx__PyObject_LookupS
     }
     return res;
 }
-# 9137 "bluid/data.cpp"
+# 10163 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject *arg) {
     PyObject *self, *result;
     PyCFunction cfunc;
@@ -23314,7 +24098,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_CallMeth
     }
     return result;
 }
-# 9178 "bluid/data.cpp"
+# 10204 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_FastCallDict(PyObject *func, PyObject **args, size_t _nargs, PyObject *kwargs) {
     Py_ssize_t nargs = _PyVectorcall_NARGS((size_t)(_nargs));
 
@@ -23326,7 +24110,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_FastCall
         if (__Pyx_IsAnySubtype2(Py_TYPE(((PyObject*)((func)))), (PyTypeObject *)__pyx_mstate_global->__pyx_CyFunctionType, (PyTypeObject *)&PyCFunction_Type) && __builtin_expect(!!((((PyCFunctionObject*)(func))->m_ml->ml_flags) & 0x0008), 1))
             return __Pyx_PyObject_CallMethO(func, args[0]);
     }
-# 9211 "bluid/data.cpp"
+# 10237 "bluid/data.cpp"
     if (kwargs == __null) {
 
 
@@ -23353,7 +24137,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_FastCall
 
 
 }
-# 9268 "bluid/data.cpp"
+# 10294 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx__GetModuleGlobalName(PyObject *name)
 
 {
@@ -23367,7 +24151,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx__GetModuleGlobalN
     } else if (__builtin_expect(!!(PyErr_Occurred()), 0)) {
         return __null;
     }
-# 9304 "bluid/data.cpp"
+# 10330 "bluid/data.cpp"
     return __Pyx_GetBuiltinName(name);
 }
 
@@ -23417,7 +24201,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionSave(PyThrea
         Py_INCREF(((PyObject*)((*type))));
         *tb = PyException_GetTraceback(exc_value);
     }
-# 9369 "bluid/data.cpp"
+# 10395 "bluid/data.cpp"
 }
 static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionReset(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {
 
@@ -23427,7 +24211,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionReset(PyThre
     Py_XDECREF(((PyObject*)((tmp_value))));
     Py_XDECREF(((PyObject*)((type))));
     Py_XDECREF(((PyObject*)((tb))));
-# 9400 "bluid/data.cpp"
+# 10426 "bluid/data.cpp"
 }
 
 
@@ -23449,7 +24233,7 @@ static int __Pyx__GetException(PyThreadState *tstate, PyObject **type, PyObject 
         Py_INCREF(((PyObject*)((local_type))));
         local_tb = PyException_GetTraceback(local_value);
     }
-# 9432 "bluid/data.cpp"
+# 10458 "bluid/data.cpp"
     PyErr_NormalizeException(&local_type, &local_value, &local_tb);
 
     if (__builtin_expect(!!(tstate->current_exception), 0))
@@ -23482,9 +24266,9 @@ static int __Pyx__GetException(PyThreadState *tstate, PyObject **type, PyObject 
         tmp_tb = __null;
         Py_XDECREF(((PyObject*)((local_type))));
         Py_XDECREF(((PyObject*)((local_tb))));
-# 9472 "bluid/data.cpp"
+# 10498 "bluid/data.cpp"
     }
-# 9481 "bluid/data.cpp"
+# 10507 "bluid/data.cpp"
     Py_XDECREF(((PyObject*)((tmp_type))));
     Py_XDECREF(((PyObject*)((tmp_value))));
     Py_XDECREF(((PyObject*)((tmp_tb))));
@@ -23714,13 +24498,13 @@ static PyObject* __Pyx_PyUnicode_Join(PyObject* value_tuple, Py_ssize_t value_co
 
 
 
-    ((kind_shift == 2 || kind_shift == 1 || kind_shift == 0) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9710, __PRETTY_FUNCTION__, "kind_shift == 2 || kind_shift == 1 || kind_shift == 0"));
+    ((kind_shift == 2 || kind_shift == 1 || kind_shift == 0) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10736, __PRETTY_FUNCTION__, "kind_shift == 2 || kind_shift == 1 || kind_shift == 0"));
     char_pos = 0;
     for (i=0; i < value_count; i++) {
         int ukind;
         Py_ssize_t ulength;
         void *udata;
-        PyObject *uval = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((value_tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9716, __PRETTY_FUNCTION__, "PyTuple_Check(value_tuple)")), ((PyTupleObject*)((value_tuple))))->ob_item[(i)]);
+        PyObject *uval = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((value_tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10742, __PRETTY_FUNCTION__, "PyTuple_Check(value_tuple)")), ((PyTupleObject*)((value_tuple))))->ob_item[(i)]);
         if (__builtin_expect(!!((0)), 0))
             goto bad;
         ulength = PyUnicode_GET_LENGTH(((PyObject*)((uval))));
@@ -23728,7 +24512,7 @@ static PyObject* __Pyx_PyUnicode_Join(PyObject* value_tuple, Py_ssize_t value_co
             continue;
         if (__builtin_expect(!!((9223372036854775807L >> kind_shift) - ulength < char_pos), 0))
             goto overflow;
-        ukind = ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((uval))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9724, __PRETTY_FUNCTION__, "PyUnicode_Check(uval)")), ((PyASCIIObject*)((uval))))->state.kind)));
+        ukind = ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((uval))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10750, __PRETTY_FUNCTION__, "PyUnicode_Check(uval)")), ((PyASCIIObject*)((uval))))->state.kind)));
         udata = PyUnicode_DATA(((PyObject*)((uval))));
         if (!1 || ukind == result_ukind) {
             memcpy((char *)result_udata + (char_pos << kind_shift), udata, (size_t) (ulength << kind_shift));
@@ -23792,7 +24576,7 @@ static int __Pyx_PyObject_GetMethod(PyObject *obj, PyObject *name, PyObject **me
     descrgetfunc f = __null;
     PyObject **dictptr, *dict;
     int meth_found = 0;
-    ((*method == __null) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9788, __PRETTY_FUNCTION__, "*method == NULL"));
+    ((*method == __null) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10814, __PRETTY_FUNCTION__, "*method == NULL"));
     if (__builtin_expect(!!(tp->tp_getattro != PyObject_GenericGetAttr), 0)) {
         attr = __Pyx_PyObject_GetAttrStr(obj, name);
         goto try_unpack;
@@ -23805,7 +24589,7 @@ static int __Pyx_PyObject_GetMethod(PyObject *obj, PyObject *name, PyObject **me
         Py_INCREF(((PyObject*)((descr))));
 
         if ((((((PyTypeObject *)Py_TYPE(((PyObject*)((descr)))))->tp_flags) & ((1UL << 17))) != 0))
-# 9814 "bluid/data.cpp"
+# 10840 "bluid/data.cpp"
         {
             meth_found = 1;
         } else {
@@ -23934,8 +24718,8 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_unpack_tuple2_exact(
 
 
 
-    value1 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9942, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(0)]); Py_INCREF(((PyObject*)((value1))));
-    value2 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 9943, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(1)]); Py_INCREF(((PyObject*)((value2))));
+    value1 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10968, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(0)]); Py_INCREF(((PyObject*)((value1))));
+    value2 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10969, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(1)]); Py_INCREF(((PyObject*)((value2))));
 
     if (decref_tuple) {
         Py_DECREF(((PyObject*)((tuple))));
@@ -23991,7 +24775,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_dict_iterator(PyO
         *p_orig_length = PyDict_Size(iterable);
         Py_INCREF(((PyObject*)((iterable))));
         return iterable;
-# 10017 "bluid/data.cpp"
+# 11043 "bluid/data.cpp"
     }
     *p_orig_length = 0;
     if (method_name) {
@@ -24048,13 +24832,13 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_dict_iter_next(
         Py_ssize_t pos = *ppos;
         if (__builtin_expect(!!(pos >= PyTuple_GET_SIZE(((PyObject*)((iter_obj))))), 0)) return 0;
         *ppos = pos + 1;
-        next_item = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((iter_obj))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10073, __PRETTY_FUNCTION__, "PyTuple_Check(iter_obj)")), ((PyTupleObject*)((iter_obj))))->ob_item[(pos)]);
+        next_item = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((iter_obj))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11099, __PRETTY_FUNCTION__, "PyTuple_Check(iter_obj)")), ((PyTupleObject*)((iter_obj))))->ob_item[(pos)]);
         Py_INCREF(((PyObject*)((next_item))));
     } else if (Py_IS_TYPE(((PyObject*)(((iter_obj)))), (&PyList_Type))) {
         Py_ssize_t pos = *ppos;
         if (__builtin_expect(!!(pos >= PyList_GET_SIZE(((PyObject*)((iter_obj))))), 0)) return 0;
         *ppos = pos + 1;
-        next_item = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((iter_obj))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10079, __PRETTY_FUNCTION__, "PyList_Check(iter_obj)")), ((PyListObject*)((iter_obj))))->ob_item[(pos)]);
+        next_item = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((iter_obj))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11105, __PRETTY_FUNCTION__, "PyList_Check(iter_obj)")), ((PyListObject*)((iter_obj))))->ob_item[(pos)]);
         Py_INCREF(((PyObject*)((next_item))));
     } else
 
@@ -24082,7 +24866,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_Call2Arg
     PyObject *args[3] = {__null, arg1, arg2};
     return __Pyx_PyObject_FastCallDict(function, args+1, (size_t)(2 | (static_cast<size_t>(1) << (8 * sizeof(size_t) - 1))), __null);
 }
-# 10116 "bluid/data.cpp"
+# 11142 "bluid/data.cpp"
 static PyObject* __Pyx_PyObject_CallMethod1(PyObject* obj, PyObject* method_name, PyObject* arg) {
 
     PyObject *args[2] = {obj, arg};
@@ -24090,7 +24874,7 @@ static PyObject* __Pyx_PyObject_CallMethod1(PyObject* obj, PyObject* method_name
     (void) __Pyx_PyObject_CallOneArg;
     (void) __Pyx_PyObject_Call2Args;
     return PyObject_VectorcallMethod(method_name, args, 2 | (static_cast<size_t>(1) << (8 * sizeof(size_t) - 1)), __null);
-# 10134 "bluid/data.cpp"
+# 11160 "bluid/data.cpp"
 }
 
 
@@ -24103,6 +24887,41 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyBytes_Join(PyOb
 
 
 
+}
+
+
+static __inline__ __attribute__ ((__unused__)) void __Pyx_RaiseUnboundLocalError(const char *varname) {
+    PyErr_Format(PyExc_UnboundLocalError, "local variable '%s' referenced before assignment", varname);
+}
+
+
+static void __Pyx_Generator_Replace_StopIteration(int in_async_gen) {
+    PyObject *exc, *val, *tb, *cur_exc;
+    PyThreadState *__pyx_tstate;
+
+
+
+    CYTHON_UNUSED_VAR(in_async_gen);
+    cur_exc = PyErr_Occurred();
+    if (__builtin_expect(!!(!__Pyx_PyErr_GivenExceptionMatches(cur_exc, PyExc_StopIteration)), 1)) {
+
+
+
+
+
+            return;
+    }
+    __pyx_tstate = _PyThreadState_UncheckedGet();
+    __Pyx__GetException(__pyx_tstate, &exc, &val, &tb);
+    Py_XDECREF(((PyObject*)((exc))));
+    Py_XDECREF(((PyObject*)((val))));
+    Py_XDECREF(((PyObject*)((tb))));
+    PyErr_SetString(PyExc_RuntimeError,
+
+
+
+
+        "generator raised StopIteration");
 }
 
 
@@ -24122,7 +24941,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_List_F
         wrapped_i += PyList_GET_SIZE(((PyObject*)((o))));
     }
     if ((!boundscheck) || __builtin_expect(!!(__Pyx_is_valid_index(wrapped_i, PyList_GET_SIZE(((PyObject*)((o)))))), 1)) {
-        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10165, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(wrapped_i)]);
+        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11226, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(wrapped_i)]);
         Py_INCREF(((PyObject*)((r))));
         return r;
     }
@@ -24140,7 +24959,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Tuple_
         wrapped_i += PyTuple_GET_SIZE(((PyObject*)((o))));
     }
     if ((!boundscheck) || __builtin_expect(!!(__Pyx_is_valid_index(wrapped_i, PyTuple_GET_SIZE(((PyObject*)((o)))))), 1)) {
-        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10183, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(wrapped_i)]);
+        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11244, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(wrapped_i)]);
         Py_INCREF(((PyObject*)((r))));
         return r;
     }
@@ -24156,7 +24975,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Fast(P
     if (is_list || Py_IS_TYPE(((PyObject*)(((o)))), (&PyList_Type))) {
         Py_ssize_t n = ((!wraparound) | __builtin_expect(!!(i >= 0), 1)) ? i : i + PyList_GET_SIZE(((PyObject*)((o))));
         if ((!boundscheck) || (__builtin_expect(!!(__Pyx_is_valid_index(n, PyList_GET_SIZE(((PyObject*)((o)))))), 1))) {
-            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10199, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(n)]);
+            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11260, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(n)]);
             Py_INCREF(((PyObject*)((r))));
             return r;
         }
@@ -24164,7 +24983,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Fast(P
     else if (Py_IS_TYPE(((PyObject*)(((o)))), (&PyTuple_Type))) {
         Py_ssize_t n = ((!wraparound) | __builtin_expect(!!(i >= 0), 1)) ? i : i + PyTuple_GET_SIZE(((PyObject*)((o))));
         if ((!boundscheck) || __builtin_expect(!!(__Pyx_is_valid_index(n, PyTuple_GET_SIZE(((PyObject*)((o)))))), 1)) {
-            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10207, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(n)]);
+            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11268, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(n)]);
             Py_INCREF(((PyObject*)((r))));
             return r;
         }
@@ -24242,7 +25061,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_PyUnicode_ConcatI
     new_len = left_len + right_len;
     if (__Pyx_unicode_modifiable(left)
             && Py_IS_TYPE(((PyObject*)(((right)))), (&PyUnicode_Type))
-            && ((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((right))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10285, __PRETTY_FUNCTION__, "PyUnicode_Check(right)")), ((PyASCIIObject*)((right))))->state.kind)) <= ((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((left))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10285, __PRETTY_FUNCTION__, "PyUnicode_Check(left)")), ((PyASCIIObject*)((left))))->state.kind))
+            && ((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((right))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11346, __PRETTY_FUNCTION__, "PyUnicode_Check(right)")), ((PyASCIIObject*)((right))))->state.kind)) <= ((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((left))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11346, __PRETTY_FUNCTION__, "PyUnicode_Check(left)")), ((PyASCIIObject*)((left))))->state.kind))
             && !(PyUnicode_IS_ASCII(((PyObject*)((left)))) && !PyUnicode_IS_ASCII(((PyObject*)((right)))))) {
         int ret;
                               ;
@@ -24262,7 +25081,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_PyUnicode_ConcatI
         return PyUnicode_Concat(left, right);
     }
   }
-# 10381 "bluid/data.cpp"
+# 11442 "bluid/data.cpp"
 static PyObject *__Pyx_FetchSharedCythonABIModule(void) {
     return __Pyx_PyImport_AddModuleRef((char*) "_cython_" "3_0_12" "");
 }
@@ -24320,7 +25139,7 @@ bad:
     cached_type = __null;
     goto done;
 }
-# 10488 "bluid/data.cpp"
+# 11549 "bluid/data.cpp"
 static PyObject *__Pyx_PyVectorcall_FastCallDict_kw(PyObject *func, vectorcallfunc vc, PyObject *const *args, size_t nargs, PyObject *kw)
 {
     PyObject *res = __null;
@@ -24373,7 +25192,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_PyVectorcall_Fast
     }
     return __Pyx_PyVectorcall_FastCallDict_kw(func, vc, args, nargs, kw);
 }
-# 10553 "bluid/data.cpp"
+# 11614 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) int __Pyx__IsSameCyOrCFunction(PyObject *func, void *cfunc) {
     return __Pyx_IsAnySubtype2(Py_TYPE(((PyObject*)((func)))), (PyTypeObject *)__pyx_mstate_global->__pyx_CyFunctionType, (PyTypeObject *)&PyCFunction_Type) && (((PyCFunctionObject*)(func))->m_ml->ml_meth) == (PyCFunction) cfunc;
 }
@@ -24547,11 +25366,11 @@ __Pyx_CyFunction_init_defaults(__pyx_CyFunctionObject *op) {
     if (__builtin_expect(!!(!res), 0))
         return -1;
 
-    op->defaults_tuple = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10726, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(0)]);
+    op->defaults_tuple = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11787, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(0)]);
     Py_INCREF(((PyObject*)((op->defaults_tuple))));
-    op->defaults_kwdict = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 10728, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(1)]);
+    op->defaults_kwdict = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11789, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(1)]);
     Py_INCREF(((PyObject*)((op->defaults_kwdict))));
-# 10738 "bluid/data.cpp"
+# 11799 "bluid/data.cpp"
     Py_DECREF(((PyObject*)((res))));
     return result;
 }
@@ -24681,7 +25500,7 @@ ignore:
     op->func_is_coroutine = __Pyx_PyBool_FromLong(is_coroutine);
     return (Py_INCREF(((PyObject*)((op->func_is_coroutine)))), op->func_is_coroutine);
 }
-# 10879 "bluid/data.cpp"
+# 11940 "bluid/data.cpp"
 static PyGetSetDef __pyx_CyFunction_getsets[] = {
     {(char *) "func_doc", (getter)__Pyx_CyFunction_get_doc, (setter)__Pyx_CyFunction_set_doc, 0, 0},
     {(char *) "__doc__", (getter)__Pyx_CyFunction_get_doc, (setter)__Pyx_CyFunction_set_doc, 0, 0},
@@ -24709,7 +25528,7 @@ static PyGetSetDef __pyx_CyFunction_getsets[] = {
 static PyMemberDef __pyx_CyFunction_members[] = {
 
     {(char *) "__module__", 6, __builtin_offsetof(PyCFunctionObject, m_module), 0, 0},
-# 10924 "bluid/data.cpp"
+# 11985 "bluid/data.cpp"
     {0, 0, 0, 0, 0}
 };
 static PyObject *
@@ -24894,7 +25713,7 @@ __Pyx_CyFunction_repr(__pyx_CyFunctionObject *op)
 
 }
 static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, PyObject *arg, PyObject *kw) {
-# 11118 "bluid/data.cpp"
+# 12179 "bluid/data.cpp"
     PyCFunctionObject* f = (PyCFunctionObject*)func;
     PyCFunction meth = f->m_ml->ml_meth;
     int flags = f->m_ml->ml_flags;
@@ -24917,7 +25736,7 @@ static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, Py
 
             if (__builtin_expect(!!(size == 0), 1))
                 return (*meth)(self, __null);
-# 11148 "bluid/data.cpp"
+# 12209 "bluid/data.cpp"
             PyErr_Format(PyExc_TypeError,
                 "%.200s() takes no arguments (%" "z" "d given)",
                 f->m_ml->ml_name, size);
@@ -24936,7 +25755,7 @@ static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, Py
             if (__builtin_expect(!!(size == 1), 1)) {
                 PyObject *result, *arg0;
 
-                arg0 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((arg))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11166, __PRETTY_FUNCTION__, "PyTuple_Check(arg)")), ((PyTupleObject*)((arg))))->ob_item[(0)]);
+                arg0 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((arg))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 12227, __PRETTY_FUNCTION__, "PyTuple_Check(arg)")), ((PyTupleObject*)((arg))))->ob_item[(0)]);
 
 
 
@@ -24946,7 +25765,7 @@ static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, Py
 
                 return result;
             }
-# 11184 "bluid/data.cpp"
+# 12245 "bluid/data.cpp"
             PyErr_Format(PyExc_TypeError,
                 "%.200s() takes exactly one argument (%" "z" "d given)",
                 f->m_ml->ml_name, size);
@@ -24988,7 +25807,7 @@ static PyObject *__Pyx_CyFunction_CallAsMethod(PyObject *func, PyObject *args, P
      vectorcallfunc vc = (((PyCFunctionObject*)cyfunc)->vectorcall);
     if (vc) {
 
-        return __Pyx_PyVectorcall_FastCallDict(func, vc, &((((PyType_HasFeature((Py_TYPE(((PyObject*)((args))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11225, __PRETTY_FUNCTION__, "PyTuple_Check(args)")), ((PyTupleObject*)((args))))->ob_item[(0)]), (size_t)PyTuple_GET_SIZE(((PyObject*)((args)))), kw);
+        return __Pyx_PyVectorcall_FastCallDict(func, vc, &((((PyType_HasFeature((Py_TYPE(((PyObject*)((args))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 12286, __PRETTY_FUNCTION__, "PyTuple_Check(args)")), ((PyTupleObject*)((args))))->ob_item[(0)]), (size_t)PyTuple_GET_SIZE(((PyObject*)((args)))), kw);
 
 
 
@@ -25156,7 +25975,7 @@ static PyObject * __Pyx_CyFunction_Vectorcall_FASTCALL_KEYWORDS_METHOD(PyObject 
     }
     return ((PyCMethod)(void(*)(void))def->ml_meth)(self, cls, args, (size_t)nargs, kwnames);
 }
-# 11421 "bluid/data.cpp"
+# 12482 "bluid/data.cpp"
 static PyTypeObject __pyx_CyFunctionType_type = {
     { { { 1 }, (0) }, (0) },
     "_cython_" "3_0_12" "" "." "cython_function_or_method",
@@ -25304,7 +26123,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_GetSlice
     __Pyx_TypeName obj_type_name;
 
     PyMappingMethods* mp;
-# 11605 "bluid/data.cpp"
+# 12666 "bluid/data.cpp"
     CYTHON_UNUSED_VAR(wraparound);
 
     mp = Py_TYPE(((PyObject*)((obj))))->tp_as_mapping;
@@ -25365,11 +26184,125 @@ bad:
 }
 
 
+
+static int __Pyx_validate_bases_tuple(const char *type_name, Py_ssize_t dictoffset, PyObject *bases) {
+    Py_ssize_t i, n;
+
+    n = PyTuple_GET_SIZE(((PyObject*)((bases))));
+
+
+
+
+    for (i = 1; i < n; i++)
+    {
+
+
+
+
+        PyObject *b0 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((bases))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 12741, __PRETTY_FUNCTION__, "PyTuple_Check(bases)")), ((PyTupleObject*)((bases))))->ob_item[(i)]);
+
+
+
+
+        PyTypeObject *b;
+# 12758 "bluid/data.cpp"
+        b = (PyTypeObject*) b0;
+        if (!(((((PyTypeObject *)b)->tp_flags) & ((1UL << 9))) != 0))
+        {
+            __Pyx_TypeName b_name = ((b)->tp_name);
+            PyErr_Format(PyExc_TypeError,
+                "base class '" "%.200s" "' is not a heap type", b_name);
+                                         ;
+
+
+
+            return -1;
+        }
+        if (dictoffset == 0)
+        {
+            Py_ssize_t b_dictoffset = 0;
+
+            b_dictoffset = b->tp_dictoffset;
+
+
+
+
+
+
+
+            if (b_dictoffset) {
+                {
+                    __Pyx_TypeName b_name = ((b)->tp_name);
+                    PyErr_Format(PyExc_TypeError,
+                        "extension type '%.200s' has no __dict__ slot, "
+                        "but base type '" "%.200s" "' has: "
+                        "either add 'cdef dict __dict__' to the extension type "
+                        "or add '__slots__ = [...]' to the base type",
+                        type_name, b_name);
+                                                 ;
+                }
+
+
+
+
+
+
+                return -1;
+            }
+        }
+
+
+
+    }
+    return 0;
+}
+
+
+
+static int __Pyx_PyType_Ready(PyTypeObject *t) {
+
+
+
+
+
+
+
+    int r;
+    PyObject *bases = ((t)->tp_bases);
+    if (bases && __builtin_expect(!!(__Pyx_validate_bases_tuple(t->tp_name, t->tp_dictoffset, bases) == -1), 0))
+        return -1;
+
+    {
+        int gc_was_enabled;
+
+        gc_was_enabled = PyGC_Disable();
+        (void)__Pyx_PyObject_CallMethod0;
+# 12856 "bluid/data.cpp"
+        t->tp_flags |= (1UL << 9);
+
+        t->tp_flags |= (1UL << 8);
+
+
+
+
+    r = PyType_Ready(t);
+
+        t->tp_flags &= ~(1UL << 9);
+
+        if (gc_was_enabled)
+            PyGC_Enable();
+# 12886 "bluid/data.cpp"
+    }
+
+    return r;
+
+}
+# 12935 "bluid/data.cpp"
 static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {
     PyObject *module = 0;
     PyObject *empty_dict = 0;
     PyObject *empty_list = 0;
-# 11681 "bluid/data.cpp"
+# 12951 "bluid/data.cpp"
     empty_dict = PyDict_New();
     if (__builtin_expect(!!(!empty_dict), 0))
         goto bad;
@@ -25389,7 +26322,7 @@ static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {
         }
 
         if (!module) {
-# 11708 "bluid/data.cpp"
+# 12978 "bluid/data.cpp"
             module = PyImport_ImportModuleLevelObject(
                 name, __pyx_mstate_global->__pyx_d, empty_dict, from_list, level);
 
@@ -25463,7 +26396,7 @@ static PyObject *__Pyx_ImportDottedModule_WalkParts(PyObject *module, PyObject *
     for (i=1; i < nparts && module; i++) {
         PyObject *part, *submodule;
 
-        part = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((parts_tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11781, __PRETTY_FUNCTION__, "PyTuple_Check(parts_tuple)")), ((PyTupleObject*)((parts_tuple))))->ob_item[(i)]);
+        part = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((parts_tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13051, __PRETTY_FUNCTION__, "PyTuple_Check(parts_tuple)")), ((PyTupleObject*)((parts_tuple))))->ob_item[(i)]);
 
 
 
@@ -25481,7 +26414,7 @@ static PyObject *__Pyx_ImportDottedModule_WalkParts(PyObject *module, PyObject *
 }
 
 static PyObject *__Pyx__ImportDottedModule(PyObject *name, PyObject *parts_tuple) {
-# 11811 "bluid/data.cpp"
+# 13081 "bluid/data.cpp"
     PyObject *imported_module;
     PyObject *module = __Pyx_Import(name, __null, 0);
     if (!parts_tuple || __builtin_expect(!!(!module), 0))
@@ -25533,7 +26466,7 @@ static PyObject *__Pyx_CalculateMetaclass(PyTypeObject *metaclass, PyObject *bas
     for (i=0; i < nbases; i++) {
         PyTypeObject *tmptype;
 
-        PyObject *tmp = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((bases))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 11862, __PRETTY_FUNCTION__, "PyTuple_Check(bases)")), ((PyTupleObject*)((bases))))->ob_item[(i)]);
+        PyObject *tmp = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((bases))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13132, __PRETTY_FUNCTION__, "PyTuple_Check(bases)")), ((PyTupleObject*)((bases))))->ob_item[(i)]);
 
 
 
@@ -25603,7 +26536,7 @@ bad:
     Py_DECREF(((PyObject*)((ns))));
     return __null;
 }
-# 12062 "bluid/data.cpp"
+# 13332 "bluid/data.cpp"
 static PyObject *__Pyx_Py3ClassCreate(PyObject *metaclass, PyObject *name, PyObject *bases,
                                       PyObject *dict, PyObject *mkw,
                                       int calculate_metaclass, int allow_py2_metaclass) {
@@ -25635,7 +26568,7 @@ static PyObject *__Pyx_Py3ClassCreate(PyObject *metaclass, PyObject *name, PyObj
 
     );
     Py_XDECREF(((PyObject*)((owned_metaclass))));
-# 12102 "bluid/data.cpp"
+# 13372 "bluid/data.cpp"
     (void) &__Pyx_GetBuiltinName;
 
     return result;
@@ -25809,7 +26742,7 @@ __attribute__ ((visibility ("default"))) void PyFrame_FastToLocals(PyFrameObject
 
 
 }
-# 12235 "bluid/data.cpp" 2
+# 13505 "bluid/data.cpp" 2
 
 
 
@@ -26443,8 +27376,8 @@ PyGenObject *_PyFrame_GetGenerator(_PyInterpreterFrame *frame)
 
 
 }
-# 12241 "bluid/data.cpp" 2
-# 12325 "bluid/data.cpp"
+# 13511 "bluid/data.cpp" 2
+# 13595 "bluid/data.cpp"
 static PyCodeObject* __Pyx_CreateCodeObjectForTraceback(
             const char *funcname, int c_line,
             int py_line, const char *filename) {
@@ -26472,7 +27405,7 @@ static PyCodeObject* __Pyx_CreateCodeObjectForTraceback(
 
 
     }
-# 12373 "bluid/data.cpp"
+# 13643 "bluid/data.cpp"
     py_code = PyCode_NewEmpty(filename, funcname, py_line);
 
     Py_XDECREF(((PyObject*)((py_funcname))));
@@ -26566,10 +27499,10 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyInt_From_long(l
         int one = 1; int little = (int)*(unsigned char *)&one;
         return _PyLong_FromByteArray(bytes, sizeof(long),
                                      little, !is_unsigned);
-# 12492 "bluid/data.cpp"
+# 13762 "bluid/data.cpp"
     }
 }
-# 12534 "bluid/data.cpp"
+# 13804 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject *x) {
 
 
@@ -26580,7 +27513,7 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
 
 
     const int is_unsigned = neg_one > const_zero;
-# 12557 "bluid/data.cpp"
+# 13827 "bluid/data.cpp"
     if (__builtin_expect(!!(!PyType_HasFeature((Py_TYPE(((PyObject*)((x))))), ((1UL << 24)))), 0)) {
         long val;
         PyObject *tmp = __Pyx_PyNumber_IntOrLong(x);
@@ -26597,7 +27530,7 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
             { __Pyx_compact_upylong value = ((((PyLongObject*)x)->long_value.ob_digit)[0]); if (sizeof(long) < sizeof(__Pyx_compact_upylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_upylong) (long) value), 0)) { __Pyx_compact_upylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_upylong)-1 && PyErr_Occurred()), 0)) return (long) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (long) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 12573, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13843, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3))) {
                 case 2:
                     if ((8 * sizeof(long) > 1 * 30)) {
@@ -26655,7 +27588,7 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
             { __Pyx_compact_pylong value = _PyLong_CompactValue((PyLongObject*) x); if (sizeof(long) < sizeof(__Pyx_compact_pylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_pylong) (long) value), 0)) { __Pyx_compact_pylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_pylong)-1 && PyErr_Occurred()), 0)) return (long) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (long) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 12631, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13901, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((1 - (Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag & 3)) * ((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)))) {
                 case -2:
                     if ((8 * sizeof(long) - 1 > 1 * 30)) {
@@ -26725,13 +27658,13 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
     {
         long val;
         int ret = -1;
-# 12711 "bluid/data.cpp"
+# 13981 "bluid/data.cpp"
         int one = 1; int is_little = (int)*(unsigned char *)&one;
         unsigned char *bytes = (unsigned char *)&val;
         ret = _PyLong_AsByteArray((PyLongObject *)x,
                                     bytes, sizeof(val),
                                     is_little, !is_unsigned);
-# 12786 "bluid/data.cpp"
+# 14056 "bluid/data.cpp"
         if (__builtin_expect(!!(ret), 0))
             return (long) -1;
         return val;
@@ -26757,7 +27690,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
 
 
     const int is_unsigned = neg_one > const_zero;
-# 12824 "bluid/data.cpp"
+# 14094 "bluid/data.cpp"
     if (__builtin_expect(!!(!PyType_HasFeature((Py_TYPE(((PyObject*)((x))))), ((1UL << 24)))), 0)) {
         int val;
         PyObject *tmp = __Pyx_PyNumber_IntOrLong(x);
@@ -26774,7 +27707,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
             { __Pyx_compact_upylong value = ((((PyLongObject*)x)->long_value.ob_digit)[0]); if (sizeof(int) < sizeof(__Pyx_compact_upylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_upylong) (int) value), 0)) { __Pyx_compact_upylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_upylong)-1 && PyErr_Occurred()), 0)) return (int) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (int) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 12840, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14110, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3))) {
                 case 2:
                     if ((8 * sizeof(int) > 1 * 30)) {
@@ -26832,7 +27765,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
             { __Pyx_compact_pylong value = _PyLong_CompactValue((PyLongObject*) x); if (sizeof(int) < sizeof(__Pyx_compact_pylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_pylong) (int) value), 0)) { __Pyx_compact_pylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_pylong)-1 && PyErr_Occurred()), 0)) return (int) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (int) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 12898, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14168, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((1 - (Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag & 3)) * ((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)))) {
                 case -2:
                     if ((8 * sizeof(int) - 1 > 1 * 30)) {
@@ -26902,13 +27835,13 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
     {
         int val;
         int ret = -1;
-# 12978 "bluid/data.cpp"
+# 14248 "bluid/data.cpp"
         int one = 1; int is_little = (int)*(unsigned char *)&one;
         unsigned char *bytes = (unsigned char *)&val;
         ret = _PyLong_AsByteArray((PyLongObject *)x,
                                     bytes, sizeof(val),
                                     is_little, !is_unsigned);
-# 13053 "bluid/data.cpp"
+# 14323 "bluid/data.cpp"
         if (__builtin_expect(!!(ret), 0))
             return (int) -1;
         return val;
@@ -26941,7 +27874,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_IsSubtype(PyTypeObject 
         Py_ssize_t i, n;
         n = PyTuple_GET_SIZE(((PyObject*)((mro))));
         for (i = 0; i < n; i++) {
-            if (((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13085, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]) == (PyObject *)b)
+            if (((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14355, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]) == (PyObject *)b)
                 return 1;
         }
         return 0;
@@ -26956,7 +27889,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_IsAnySubtype2(PyTypeObj
         Py_ssize_t i, n;
         n = PyTuple_GET_SIZE(((PyObject*)((mro))));
         for (i = 0; i < n; i++) {
-            PyObject *base = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13100, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]);
+            PyObject *base = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14370, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]);
             if (base == (PyObject *)a || base == (PyObject *)b)
                 return 1;
         }
@@ -26964,7 +27897,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_IsAnySubtype2(PyTypeObj
     }
     return __Pyx_InBases(cls, a) || __Pyx_InBases(cls, b);
 }
-# 13131 "bluid/data.cpp"
+# 14401 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) int __Pyx_inner_PyErr_GivenExceptionMatches2(PyObject *err, PyObject* exc_type1, PyObject *exc_type2) {
     if (exc_type1) {
         return __Pyx_IsAnySubtype2((PyTypeObject*)err, (PyTypeObject*)exc_type1, (PyTypeObject*)exc_type2);
@@ -26975,15 +27908,15 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_inner_PyErr_GivenExcept
 
 static int __Pyx_PyErr_GivenExceptionMatchesTuple(PyObject *exc_type, PyObject *tuple) {
     Py_ssize_t i, n;
-    (((PyType_Check(((PyObject*)(((exc_type))))) && PyType_HasFeature(((PyTypeObject*)(exc_type)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13141, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type)"));
+    (((PyType_Check(((PyObject*)(((exc_type))))) && PyType_HasFeature(((PyTypeObject*)(exc_type)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14411, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type)"));
     n = PyTuple_GET_SIZE(((PyObject*)((tuple))));
 
     for (i=0; i<n; i++) {
-        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13145, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
+        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14415, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
     }
 
     for (i=0; i<n; i++) {
-        PyObject *t = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13149, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]);
+        PyObject *t = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14419, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]);
 
 
 
@@ -27007,21 +27940,1022 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_GivenExceptionMat
     return PyErr_GivenExceptionMatches(err, exc_type);
 }
 static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_GivenExceptionMatches2(PyObject *err, PyObject *exc_type1, PyObject *exc_type2) {
-    (((PyType_Check(((PyObject*)(((exc_type1))))) && PyType_HasFeature(((PyTypeObject*)(exc_type1)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13173, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type1)"));
-    (((PyType_Check(((PyObject*)(((exc_type2))))) && PyType_HasFeature(((PyTypeObject*)(exc_type2)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 13174, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type2)"));
+    (((PyType_Check(((PyObject*)(((exc_type1))))) && PyType_HasFeature(((PyTypeObject*)(exc_type1)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14443, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type1)"));
+    (((PyType_Check(((PyObject*)(((exc_type2))))) && PyType_HasFeature(((PyTypeObject*)(exc_type2)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14444, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type2)"));
     if (__builtin_expect(!!(err == exc_type1 || err == exc_type2), 1)) return 1;
     if (__builtin_expect(!!((PyType_Check(((PyObject*)(((err))))) && PyType_HasFeature(((PyTypeObject*)(err)), ((1UL << 30))))), 1)) {
         return __Pyx_inner_PyErr_GivenExceptionMatches2(err, exc_type1, exc_type2);
     }
     return (PyErr_GivenExceptionMatches(err, exc_type1) || PyErr_GivenExceptionMatches(err, exc_type2));
 }
+# 14506 "bluid/data.cpp"
+static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject *cause) {
+    PyObject* owned_instance = __null;
+    if (tb == (&_Py_NoneStruct)) {
+        tb = 0;
+    } else if (tb && !Py_IS_TYPE(((PyObject*)(((tb)))), (&PyTraceBack_Type))) {
+        PyErr_SetString(PyExc_TypeError,
+            "raise: arg 3 must be a traceback or None");
+        goto bad;
+    }
+    if (value == (&_Py_NoneStruct))
+        value = 0;
+    if (PyType_HasFeature((Py_TYPE(((PyObject*)((type))))), ((1UL << 30)))) {
+        if (value) {
+            PyErr_SetString(PyExc_TypeError,
+                "instance exception may not have a separate value");
+            goto bad;
+        }
+        value = type;
+        type = (PyObject*) Py_TYPE(((PyObject*)((value))));
+    } else if ((PyType_Check(((PyObject*)(((type))))) && PyType_HasFeature(((PyTypeObject*)(type)), ((1UL << 30))))) {
+        PyObject *instance_class = __null;
+        if (value && PyType_HasFeature((Py_TYPE(((PyObject*)((value))))), ((1UL << 30)))) {
+            instance_class = (PyObject*) Py_TYPE(((PyObject*)((value))));
+            if (instance_class != type) {
+                int is_subclass = PyObject_IsSubclass(instance_class, type);
+                if (!is_subclass) {
+                    instance_class = __null;
+                } else if (__builtin_expect(!!(is_subclass == -1), 0)) {
+                    goto bad;
+                } else {
+                    type = instance_class;
+                }
+            }
+        }
+        if (!instance_class) {
+            PyObject *args;
+            if (!value)
+                args = PyTuple_New(0);
+            else if (PyType_HasFeature((Py_TYPE(((PyObject*)((value))))), ((1UL << 26)))) {
+                Py_INCREF(((PyObject*)((value))));
+                args = value;
+            } else
+                args = PyTuple_Pack(1, value);
+            if (!args)
+                goto bad;
+            owned_instance = PyObject_Call(type, args, __null);
+            Py_DECREF(((PyObject*)((args))));
+            if (!owned_instance)
+                goto bad;
+            value = owned_instance;
+            if (!PyType_HasFeature((Py_TYPE(((PyObject*)((value))))), ((1UL << 30)))) {
+                PyErr_Format(PyExc_TypeError,
+                             "calling %R should have returned an instance of "
+                             "BaseException, not %R",
+                             type, Py_TYPE(((PyObject*)((value)))));
+                goto bad;
+            }
+        }
+    } else {
+        PyErr_SetString(PyExc_TypeError,
+            "raise: exception class must be a subclass of BaseException");
+        goto bad;
+    }
+    if (cause) {
+        PyObject *fixed_cause;
+        if (cause == (&_Py_NoneStruct)) {
+            fixed_cause = __null;
+        } else if ((PyType_Check(((PyObject*)(((cause))))) && PyType_HasFeature(((PyTypeObject*)(cause)), ((1UL << 30))))) {
+            fixed_cause = PyObject_CallObject(cause, __null);
+            if (fixed_cause == __null)
+                goto bad;
+        } else if (PyType_HasFeature((Py_TYPE(((PyObject*)((cause))))), ((1UL << 30)))) {
+            fixed_cause = cause;
+            Py_INCREF(((PyObject*)((fixed_cause))));
+        } else {
+            PyErr_SetString(PyExc_TypeError,
+                            "exception causes must derive from "
+                            "BaseException");
+            goto bad;
+        }
+        PyException_SetCause(value, fixed_cause);
+    }
+    PyErr_SetObject(type, value);
+    if (tb) {
 
+        PyException_SetTraceback(value, tb);
+# 14607 "bluid/data.cpp"
+    }
+bad:
+    Py_XDECREF(((PyObject*)((owned_instance))));
+    return;
+}
+
+
+
+
+static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionSwap(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb) {
+    PyObject *tmp_type, *tmp_value, *tmp_tb;
+
+    _PyErr_StackItem *exc_info = tstate->exc_info;
+    tmp_value = exc_info->exc_value;
+    exc_info->exc_value = *value;
+    if (tmp_value == __null || tmp_value == (&_Py_NoneStruct)) {
+        Py_XDECREF(((PyObject*)((tmp_value))));
+        tmp_value = __null;
+        tmp_type = __null;
+        tmp_tb = __null;
+    } else {
+        tmp_type = (PyObject*) Py_TYPE(((PyObject*)((tmp_value))));
+        Py_INCREF(((PyObject*)((tmp_type))));
+
+        tmp_tb = ((PyBaseExceptionObject*) tmp_value)->traceback;
+        Py_XINCREF(((PyObject*)((tmp_tb))));
+
+
+
+    }
+# 14653 "bluid/data.cpp"
+    *type = tmp_type;
+    *value = tmp_value;
+    *tb = tmp_tb;
+}
+# 14677 "bluid/data.cpp"
+static int __Pyx_PyGen__FetchStopIterationValue(PyThreadState *__pyx_tstate, PyObject **pvalue) {
+    PyObject *et, *ev, *tb;
+    PyObject *value = __null;
+    CYTHON_UNUSED_VAR(__pyx_tstate);
+    __Pyx_ErrFetchInState(__pyx_tstate, &et, &ev, &tb);
+    if (!et) {
+        Py_XDECREF(((PyObject*)((tb))));
+        Py_XDECREF(((PyObject*)((ev))));
+        Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
+        *pvalue = (&_Py_NoneStruct);
+        return 0;
+    }
+    if (__builtin_expect(!!(et == PyExc_StopIteration), 1)) {
+        if (!ev) {
+            Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
+            value = (&_Py_NoneStruct);
+        }
+
+        else if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)((ev))), ((PyTypeObject*)PyExc_StopIteration))), 1)) {
+            value = ((PyStopIterationObject *)ev)->value;
+            Py_INCREF(((PyObject*)((value))));
+            Py_DECREF(((PyObject*)((ev))));
+        }
+
+        else if (__builtin_expect(!!(PyType_HasFeature((Py_TYPE(((PyObject*)((ev))))), ((1UL << 26)))), 0)) {
+            if (PyTuple_GET_SIZE(((PyObject*)((ev)))) >= 1) {
+
+                value = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((ev))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14704, __PRETTY_FUNCTION__, "PyTuple_Check(ev)")), ((PyTupleObject*)((ev))))->ob_item[(0)]);
+                Py_INCREF(((PyObject*)((value))));
+
+
+
+            } else {
+                Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
+                value = (&_Py_NoneStruct);
+            }
+            Py_DECREF(((PyObject*)((ev))));
+        }
+        else if (!__Pyx_IsSubtype(Py_TYPE(((PyObject*)((ev)))), (PyTypeObject *)(PyTypeObject*)PyExc_StopIteration)) {
+            value = ev;
+        }
+        if (__builtin_expect(!!(value), 1)) {
+            Py_XDECREF(((PyObject*)((tb))));
+            Py_DECREF(((PyObject*)((et))));
+            *pvalue = value;
+            return 0;
+        }
+    } else if (!__Pyx_PyErr_GivenExceptionMatches(et, PyExc_StopIteration)) {
+        __Pyx_ErrRestoreInState(__pyx_tstate, et, ev, tb);
+        return -1;
+    }
+    PyErr_NormalizeException(&et, &ev, &tb);
+    if (__builtin_expect(!!(!PyObject_TypeCheck(((PyObject*)((ev))), ((PyTypeObject*)PyExc_StopIteration))), 0)) {
+        __Pyx_ErrRestoreInState(__pyx_tstate, et, ev, tb);
+        return -1;
+    }
+    Py_XDECREF(((PyObject*)((tb))));
+    Py_DECREF(((PyObject*)((et))));
+
+    value = ((PyStopIterationObject *)ev)->value;
+    Py_INCREF(((PyObject*)((value))));
+    Py_DECREF(((PyObject*)((ev))));
+# 14754 "bluid/data.cpp"
+    *pvalue = value;
+    return 0;
+}
+static __inline__ __attribute__ ((__unused__))
+void __Pyx_Coroutine_ExceptionClear(_PyErr_StackItem *exc_state) {
+
+    do { __typeof__(exc_state->exc_value)* _tmp_op_ptr = &(exc_state->exc_value); __typeof__(exc_state->exc_value) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+# 14773 "bluid/data.cpp"
+}
+
+static void __Pyx__Coroutine_AlreadyRunningError(__pyx_CoroutineObject *gen) {
+    const char *msg;
+    CYTHON_UNUSED_VAR(gen);
+    if ((0)) {
+# 14787 "bluid/data.cpp"
+    } else {
+        msg = "generator already executing";
+    }
+    PyErr_SetString(PyExc_ValueError, msg);
+}
+
+static void __Pyx__Coroutine_NotStartedError(PyObject *gen) {
+    const char *msg;
+    CYTHON_UNUSED_VAR(gen);
+    if ((0)) {
+# 14805 "bluid/data.cpp"
+    } else {
+        msg = "can't send non-None value to a just-started generator";
+    }
+    PyErr_SetString(PyExc_TypeError, msg);
+}
+
+static void __Pyx__Coroutine_AlreadyTerminatedError(PyObject *gen, PyObject *value, int closing) {
+    CYTHON_UNUSED_VAR(gen);
+    CYTHON_UNUSED_VAR(closing);
+
+
+
+
+
+    if (value) {
+
+
+
+
+
+        PyErr_SetNone(PyExc_StopIteration);
+    }
+}
+static
+PyObject *__Pyx_Coroutine_SendEx(__pyx_CoroutineObject *self, PyObject *value, int closing) {
+    PyThreadState *__pyx_tstate;
+    PyThreadState *tstate;
+    _PyErr_StackItem *exc_state;
+    PyObject *retval;
+    ((!self->is_running) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14834, __PRETTY_FUNCTION__, "!self->is_running"));
+    if (__builtin_expect(!!(self->resume_label == 0), 0)) {
+        if (__builtin_expect(!!(value && value != (&_Py_NoneStruct)), 0)) {
+            return (__Pyx__Coroutine_NotStartedError((PyObject*)self), (PyObject*)__null);
+        }
+    }
+    if (__builtin_expect(!!(self->resume_label == -1), 0)) {
+        return (__Pyx__Coroutine_AlreadyTerminatedError((PyObject*)self, value, closing), (PyObject*)__null);
+    }
+
+    __pyx_tstate = _PyThreadState_UncheckedGet();
+    tstate = __pyx_tstate;
+
+
+
+    exc_state = &self->gi_exc_state;
+    if (exc_state->exc_value) {
+
+
+        PyObject *exc_tb;
+
+
+
+        exc_tb = ((PyBaseExceptionObject*) exc_state->exc_value)->traceback;
+
+
+
+        if (exc_tb) {
+            PyTracebackObject *tb = (PyTracebackObject *) exc_tb;
+            PyFrameObject *f = tb->tb_frame;
+            ((f->f_back == __null) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14864, __PRETTY_FUNCTION__, "f->f_back == NULL"));
+
+            f->f_back = PyThreadState_GetFrame(tstate);
+
+
+
+
+
+
+
+        }
+
+    }
+
+    exc_state->previous_item = tstate->exc_info;
+    tstate->exc_info = exc_state;
+# 14888 "bluid/data.cpp"
+    self->is_running = 1;
+    retval = self->body(self, tstate, value);
+    self->is_running = 0;
+
+    exc_state = &self->gi_exc_state;
+    tstate->exc_info = exc_state->previous_item;
+    exc_state->previous_item = __null;
+    __Pyx_Coroutine_ResetFrameBackpointer(exc_state);
+
+    return retval;
+}
+static __inline__ __attribute__ ((__unused__)) void __Pyx_Coroutine_ResetFrameBackpointer(_PyErr_StackItem *exc_state) {
+
+
+
+    PyObject *exc_tb;
+
+    if (!exc_state->exc_value) return;
+    exc_tb = PyException_GetTraceback(exc_state->exc_value);
+
+
+
+    if (__builtin_expect(!!(exc_tb), 1)) {
+        PyTracebackObject *tb = (PyTracebackObject *) exc_tb;
+        PyFrameObject *f = tb->tb_frame;
+        do { __typeof__(f->f_back)* _tmp_op_ptr = &(f->f_back); __typeof__(f->f_back) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+
+        Py_DECREF(((PyObject*)((exc_tb))));
+
+    }
+
+}
+static __inline__ __attribute__ ((__unused__))
+PyObject *__Pyx_Coroutine_MethodReturn(PyObject* gen, PyObject *retval) {
+    CYTHON_UNUSED_VAR(gen);
+    if (__builtin_expect(!!(!retval), 0)) {
+        PyThreadState *__pyx_tstate;
+        __pyx_tstate = _PyThreadState_UncheckedGet();
+        if (!(__pyx_tstate->current_exception != __null)) {
+            PyObject *exc = PyExc_StopIteration;
+
+
+
+
+            PyErr_SetNone(exc);
+        }
+    }
+    return retval;
+}
+
+static __inline__ __attribute__ ((__unused__))
+PyObject *__Pyx_PyGen_Send(PyGenObject *gen, PyObject *arg) {
+
+
+
+    PyObject *result;
+    if (PyIter_Send((PyObject*)gen, arg ? arg : (&_Py_NoneStruct), &result) == PYGEN_RETURN) {
+        if (Py_IS_TYPE(((PyObject*)(((gen)))), (&PyAsyncGen_Type))) {
+            ((result == (&_Py_NoneStruct)) ? (static_cast<void>(0)) : __assert2("bluid/data.cpp", 14946, __PRETTY_FUNCTION__, "result == Py_None"));
+            PyErr_SetNone(PyExc_StopAsyncIteration);
+        }
+        else if (result == (&_Py_NoneStruct)) {
+            PyErr_SetNone(PyExc_StopIteration);
+        }
+        else {
+
+            _PyGen_SetStopIterationValue(result);
+# 14966 "bluid/data.cpp"
+        }
+        Py_DECREF(((PyObject*)((result))));
+        result = __null;
+    }
+    return result;
+
+}
+
+static __inline__ __attribute__ ((__unused__))
+PyObject *__Pyx_Coroutine_FinishDelegation(__pyx_CoroutineObject *gen) {
+    PyObject *ret;
+    PyObject *val = __null;
+    do { __typeof__((gen)->yieldfrom)* _tmp_op_ptr = &((gen)->yieldfrom); __typeof__((gen)->yieldfrom) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+    __Pyx_PyGen__FetchStopIterationValue(_PyThreadState_UncheckedGet(), &val);
+    ret = __Pyx_Coroutine_SendEx(gen, val, 0);
+    Py_XDECREF(((PyObject*)((val))));
+    return ret;
+}
+static PyObject *__Pyx_Coroutine_Send(PyObject *self, PyObject *value) {
+    PyObject *retval;
+    __pyx_CoroutineObject *gen = (__pyx_CoroutineObject*) self;
+    PyObject *yf = gen->yieldfrom;
+    if (__builtin_expect(!!(gen->is_running), 0))
+        return (__Pyx__Coroutine_AlreadyRunningError(gen), (PyObject*)__null);
+    if (yf) {
+        PyObject *ret;
+        gen->is_running = 1;
+
+        if (Py_IS_TYPE(((PyObject*)((yf))), (__pyx_mstate_global->__pyx_GeneratorType))) {
+            ret = __Pyx_Coroutine_Send(yf, value);
+        } else
+# 15009 "bluid/data.cpp"
+        if (Py_IS_TYPE(((PyObject*)(((yf)))), (&PyGen_Type))) {
+            ret = __Pyx_PyGen_Send((PyGenObject*)yf, value == (&_Py_NoneStruct) ? __null : value);
+        } else
+
+
+        if (Py_IS_TYPE(((PyObject*)(((yf)))), (&PyCoro_Type))) {
+            ret = __Pyx_PyGen_Send((PyGenObject*)yf, value == (&_Py_NoneStruct) ? __null : value);
+        } else
+
+        {
+            if (value == (&_Py_NoneStruct))
+                ret = (Py_TYPE(((PyObject*)((yf))))->tp_iternext)(yf);
+            else
+                ret = __Pyx_PyObject_CallMethod1(yf, __pyx_mstate_global->__pyx_n_s_send, value);
+        }
+        gen->is_running = 0;
+        if (__builtin_expect(!!(ret), 1)) {
+            return ret;
+        }
+        retval = __Pyx_Coroutine_FinishDelegation(gen);
+    } else {
+        retval = __Pyx_Coroutine_SendEx(gen, value, 0);
+    }
+    return __Pyx_Coroutine_MethodReturn(self, retval);
+}
+static int __Pyx_Coroutine_CloseIter(__pyx_CoroutineObject *gen, PyObject *yf) {
+    PyObject *retval = __null;
+    int err = 0;
+
+    if (Py_IS_TYPE(((PyObject*)((yf))), (__pyx_mstate_global->__pyx_GeneratorType))) {
+        retval = __Pyx_Coroutine_Close(yf);
+        if (!retval)
+            return -1;
+    } else
+# 15064 "bluid/data.cpp"
+    {
+        PyObject *meth;
+        gen->is_running = 1;
+        meth = __Pyx_PyObject_GetAttrStrNoError(yf, __pyx_mstate_global->__pyx_n_s_close);
+        if (__builtin_expect(!!(!meth), 0)) {
+            if (__builtin_expect(!!(PyErr_Occurred()), 0)) {
+                PyErr_WriteUnraisable(yf);
+            }
+        } else {
+            retval = __Pyx_PyObject_CallNoArg(meth);
+            Py_DECREF(((PyObject*)((meth))));
+            if (__builtin_expect(!!(!retval), 0))
+                err = -1;
+        }
+        gen->is_running = 0;
+    }
+    Py_XDECREF(((PyObject*)((retval))));
+    return err;
+}
+static PyObject *__Pyx_Generator_Next(PyObject *self) {
+    __pyx_CoroutineObject *gen = (__pyx_CoroutineObject*) self;
+    PyObject *yf = gen->yieldfrom;
+    if (__builtin_expect(!!(gen->is_running), 0))
+        return (__Pyx__Coroutine_AlreadyRunningError(gen), (PyObject*)__null);
+    if (yf) {
+        PyObject *ret;
+        gen->is_running = 1;
+
+        if (Py_IS_TYPE(((PyObject*)((yf))), (__pyx_mstate_global->__pyx_GeneratorType))) {
+            ret = __Pyx_Generator_Next(yf);
+        } else
+
+
+        if (Py_IS_TYPE(((PyObject*)(((yf)))), (&PyGen_Type))) {
+            ret = __Pyx_PyGen_Send((PyGenObject*)yf, __null);
+        } else
+
+
+
+
+
+
+            ret = (Py_TYPE(((PyObject*)((yf))))->tp_iternext)(yf);
+        gen->is_running = 0;
+        if (__builtin_expect(!!(ret), 1)) {
+            return ret;
+        }
+        return __Pyx_Coroutine_FinishDelegation(gen);
+    }
+    return __Pyx_Coroutine_SendEx(gen, (&_Py_NoneStruct), 0);
+}
+static PyObject *__Pyx_Coroutine_Close_Method(PyObject *self, PyObject *arg) {
+    CYTHON_UNUSED_VAR(arg);
+    return __Pyx_Coroutine_Close(self);
+}
+static PyObject *__Pyx_Coroutine_Close(PyObject *self) {
+    __pyx_CoroutineObject *gen = (__pyx_CoroutineObject *) self;
+    PyObject *retval, *raised_exception;
+    PyObject *yf = gen->yieldfrom;
+    int err = 0;
+    if (__builtin_expect(!!(gen->is_running), 0))
+        return (__Pyx__Coroutine_AlreadyRunningError(gen), (PyObject*)__null);
+    if (yf) {
+        Py_INCREF(((PyObject*)((yf))));
+        err = __Pyx_Coroutine_CloseIter(gen, yf);
+        do { __typeof__((gen)->yieldfrom)* _tmp_op_ptr = &((gen)->yieldfrom); __typeof__((gen)->yieldfrom) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+        Py_DECREF(((PyObject*)((yf))));
+    }
+    if (err == 0)
+        PyErr_SetNone(PyExc_GeneratorExit);
+    retval = __Pyx_Coroutine_SendEx(gen, __null, 1);
+    if (__builtin_expect(!!(retval), 0)) {
+        const char *msg;
+        Py_DECREF(((PyObject*)((retval))));
+        if ((0)) {
+# 15151 "bluid/data.cpp"
+        } else {
+            msg = "generator ignored GeneratorExit";
+        }
+        PyErr_SetString(PyExc_RuntimeError, msg);
+        return __null;
+    }
+    raised_exception = PyErr_Occurred();
+    if (__builtin_expect(!!(!raised_exception || __Pyx_PyErr_GivenExceptionMatches2(raised_exception, PyExc_GeneratorExit, PyExc_StopIteration)), 1)) {
+        if (raised_exception) PyErr_Clear();
+        Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
+        return (&_Py_NoneStruct);
+    }
+    return __null;
+}
+static PyObject *__Pyx__Coroutine_Throw(PyObject *self, PyObject *typ, PyObject *val, PyObject *tb,
+                                        PyObject *args, int close_on_genexit) {
+    __pyx_CoroutineObject *gen = (__pyx_CoroutineObject *) self;
+    PyObject *yf = gen->yieldfrom;
+    if (__builtin_expect(!!(gen->is_running), 0))
+        return (__Pyx__Coroutine_AlreadyRunningError(gen), (PyObject*)__null);
+    if (yf) {
+        PyObject *ret;
+        Py_INCREF(((PyObject*)((yf))));
+        if (__Pyx_PyErr_GivenExceptionMatches(typ, PyExc_GeneratorExit) && close_on_genexit) {
+            int err = __Pyx_Coroutine_CloseIter(gen, yf);
+            Py_DECREF(((PyObject*)((yf))));
+            do { __typeof__((gen)->yieldfrom)* _tmp_op_ptr = &((gen)->yieldfrom); __typeof__((gen)->yieldfrom) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+            if (err < 0)
+                return __Pyx_Coroutine_MethodReturn(self, __Pyx_Coroutine_SendEx(gen, __null, 0));
+            goto throw_here;
+        }
+        gen->is_running = 1;
+        if (0
+
+            || Py_IS_TYPE(((PyObject*)((yf))), (__pyx_mstate_global->__pyx_GeneratorType))
+
+
+
+
+            ) {
+            ret = __Pyx__Coroutine_Throw(yf, typ, val, tb, args, close_on_genexit);
+
+
+
+
+        } else {
+            PyObject *meth = __Pyx_PyObject_GetAttrStrNoError(yf, __pyx_mstate_global->__pyx_n_s_throw);
+            if (__builtin_expect(!!(!meth), 0)) {
+                Py_DECREF(((PyObject*)((yf))));
+                if (__builtin_expect(!!(PyErr_Occurred()), 0)) {
+                    gen->is_running = 0;
+                    return __null;
+                }
+                do { __typeof__((gen)->yieldfrom)* _tmp_op_ptr = &((gen)->yieldfrom); __typeof__((gen)->yieldfrom) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+                gen->is_running = 0;
+                goto throw_here;
+            }
+            if (__builtin_expect(!!(args), 1)) {
+                ret = __Pyx_PyObject_Call(meth, args, __null);
+            } else {
+                PyObject *cargs[4] = {__null, typ, val, tb};
+                ret = __Pyx_PyObject_FastCallDict(meth, cargs+1, (size_t)(3 | (static_cast<size_t>(1) << (8 * sizeof(size_t) - 1))), __null);
+            }
+            Py_DECREF(((PyObject*)((meth))));
+        }
+        gen->is_running = 0;
+        Py_DECREF(((PyObject*)((yf))));
+        if (!ret) {
+            ret = __Pyx_Coroutine_FinishDelegation(gen);
+        }
+        return __Pyx_Coroutine_MethodReturn(self, ret);
+    }
+throw_here:
+    __Pyx_Raise(typ, val, tb, __null);
+    return __Pyx_Coroutine_MethodReturn(self, __Pyx_Coroutine_SendEx(gen, __null, 0));
+}
+static PyObject *__Pyx_Coroutine_Throw(PyObject *self, PyObject *args) {
+    PyObject *typ;
+    PyObject *val = __null;
+    PyObject *tb = __null;
+    if (__builtin_expect(!!(!PyArg_UnpackTuple(args, (char *)"throw", 1, 3, &typ, &val, &tb)), 0))
+        return __null;
+    return __Pyx__Coroutine_Throw(self, typ, val, tb, args, 1);
+}
+static __inline__ __attribute__ ((__unused__)) int __Pyx_Coroutine_traverse_excstate(_PyErr_StackItem *exc_state, visitproc visit, void *arg) {
+
+    do { if (exc_state->exc_value) { int vret = visit(((PyObject*)((exc_state->exc_value))), arg); if (vret) return vret; } } while (0);
+
+
+
+
+
+    return 0;
+}
+static int __Pyx_Coroutine_traverse(__pyx_CoroutineObject *gen, visitproc visit, void *arg) {
+    do { if (gen->closure) { int vret = visit(((PyObject*)((gen->closure))), arg); if (vret) return vret; } } while (0);
+    do { if (gen->classobj) { int vret = visit(((PyObject*)((gen->classobj))), arg); if (vret) return vret; } } while (0);
+    do { if (gen->yieldfrom) { int vret = visit(((PyObject*)((gen->yieldfrom))), arg); if (vret) return vret; } } while (0);
+    return __Pyx_Coroutine_traverse_excstate(&gen->gi_exc_state, visit, arg);
+}
+static int __Pyx_Coroutine_clear(PyObject *self) {
+    __pyx_CoroutineObject *gen = (__pyx_CoroutineObject *) self;
+    do { __typeof__(gen->closure)* _tmp_op_ptr = &(gen->closure); __typeof__(gen->closure) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+    do { __typeof__(gen->classobj)* _tmp_op_ptr = &(gen->classobj); __typeof__(gen->classobj) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+    do { __typeof__(gen->yieldfrom)* _tmp_op_ptr = &(gen->yieldfrom); __typeof__(gen->yieldfrom) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+    __Pyx_Coroutine_ExceptionClear(&gen->gi_exc_state);
+
+
+
+
+
+    do { __typeof__(gen->gi_code)* _tmp_op_ptr = &(gen->gi_code); __typeof__(gen->gi_code) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+    do { __typeof__(gen->gi_frame)* _tmp_op_ptr = &(gen->gi_frame); __typeof__(gen->gi_frame) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+    do { __typeof__(gen->gi_name)* _tmp_op_ptr = &(gen->gi_name); __typeof__(gen->gi_name) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+    do { __typeof__(gen->gi_qualname)* _tmp_op_ptr = &(gen->gi_qualname); __typeof__(gen->gi_qualname) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+    do { __typeof__(gen->gi_modulename)* _tmp_op_ptr = &(gen->gi_modulename); __typeof__(gen->gi_modulename) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
+    return 0;
+}
+static void __Pyx_Coroutine_dealloc(PyObject *self) {
+    __pyx_CoroutineObject *gen = (__pyx_CoroutineObject *) self;
+    PyObject_GC_UnTrack(gen);
+    if (gen->gi_weakreflist != __null)
+        PyObject_ClearWeakRefs(self);
+    if (gen->resume_label >= 0) {
+        PyObject_GC_Track(self);
+
+        if (__builtin_expect(!!(PyObject_CallFinalizerFromDealloc(self)), 0))
+
+
+
+
+        {
+            return;
+        }
+        PyObject_GC_UnTrack(self);
+    }
+# 15295 "bluid/data.cpp"
+    __Pyx_Coroutine_clear(self);
+    PyObject_GC_Del(gen);
+}
+static void __Pyx_Coroutine_del(PyObject *self) {
+    PyObject *error_type, *error_value, *error_traceback;
+    __pyx_CoroutineObject *gen = (__pyx_CoroutineObject *) self;
+    PyThreadState *__pyx_tstate;
+    if (gen->resume_label < 0) {
+        return;
+    }
+
+
+
+
+    __pyx_tstate = _PyThreadState_UncheckedGet();
+    __Pyx_ErrFetchInState(__pyx_tstate, &error_type, &error_value, &error_traceback);
+# 15327 "bluid/data.cpp"
+    if (__builtin_expect(!!(gen->resume_label == 0 && !error_value), 0)) {
+# 15363 "bluid/data.cpp"
+    } else {
+        PyObject *res = __Pyx_Coroutine_Close(self);
+        if (__builtin_expect(!!(!res), 0)) {
+            if (PyErr_Occurred())
+                PyErr_WriteUnraisable(self);
+        } else {
+            Py_DECREF(((PyObject*)((res))));
+        }
+    }
+    __Pyx_ErrRestoreInState(__pyx_tstate, error_type, error_value, error_traceback);
+# 15393 "bluid/data.cpp"
+}
+static PyObject *
+__Pyx_Coroutine_get_name(__pyx_CoroutineObject *self, void *context)
+{
+    PyObject *name = self->gi_name;
+    CYTHON_UNUSED_VAR(context);
+    if (__builtin_expect(!!(!name), 0)) name = (&_Py_NoneStruct);
+    Py_INCREF(((PyObject*)((name))));
+    return name;
+}
+static int
+__Pyx_Coroutine_set_name(__pyx_CoroutineObject *self, PyObject *value, void *context)
+{
+    CYTHON_UNUSED_VAR(context);
+
+    if (__builtin_expect(!!(value == __null || !PyType_HasFeature((Py_TYPE(((PyObject*)((value))))), ((1UL << 28)))), 0))
+
+
+
+    {
+        PyErr_SetString(PyExc_TypeError,
+                        "__name__ must be set to a string object");
+        return -1;
+    }
+    Py_INCREF(((PyObject*)((value))));
+    do { PyObject *tmp = (PyObject *) self->gi_name; self->gi_name = value; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
+    return 0;
+}
+static PyObject *
+__Pyx_Coroutine_get_qualname(__pyx_CoroutineObject *self, void *context)
+{
+    PyObject *name = self->gi_qualname;
+    CYTHON_UNUSED_VAR(context);
+    if (__builtin_expect(!!(!name), 0)) name = (&_Py_NoneStruct);
+    Py_INCREF(((PyObject*)((name))));
+    return name;
+}
+static int
+__Pyx_Coroutine_set_qualname(__pyx_CoroutineObject *self, PyObject *value, void *context)
+{
+    CYTHON_UNUSED_VAR(context);
+
+    if (__builtin_expect(!!(value == __null || !PyType_HasFeature((Py_TYPE(((PyObject*)((value))))), ((1UL << 28)))), 0))
+
+
+
+    {
+        PyErr_SetString(PyExc_TypeError,
+                        "__qualname__ must be set to a string object");
+        return -1;
+    }
+    Py_INCREF(((PyObject*)((value))));
+    do { PyObject *tmp = (PyObject *) self->gi_qualname; self->gi_qualname = value; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
+    return 0;
+}
+static PyObject *
+__Pyx_Coroutine_get_frame(__pyx_CoroutineObject *self, void *context)
+{
+    PyObject *frame = self->gi_frame;
+    CYTHON_UNUSED_VAR(context);
+    if (!frame) {
+        if (__builtin_expect(!!(!self->gi_code), 0)) {
+            return (&_Py_NoneStruct);
+        }
+        frame = (PyObject *) PyFrame_New(
+            PyThreadState_Get(),
+            (PyCodeObject*) self->gi_code,
+            __pyx_mstate_global->__pyx_d,
+            0
+        );
+        if (__builtin_expect(!!(!frame), 0))
+            return __null;
+        self->gi_frame = frame;
+    }
+    Py_INCREF(((PyObject*)((frame))));
+    return frame;
+}
+static __pyx_CoroutineObject *__Pyx__Coroutine_New(
+            PyTypeObject* type, __pyx_coroutine_body_t body, PyObject *code, PyObject *closure,
+            PyObject *name, PyObject *qualname, PyObject *module_name) {
+    __pyx_CoroutineObject *gen = ((__pyx_CoroutineObject*)(_PyObject_GC_New(type)));
+    if (__builtin_expect(!!(!gen), 0))
+        return __null;
+    return __Pyx__Coroutine_NewInit(gen, body, code, closure, name, qualname, module_name);
+}
+static __pyx_CoroutineObject *__Pyx__Coroutine_NewInit(
+            __pyx_CoroutineObject *gen, __pyx_coroutine_body_t body, PyObject *code, PyObject *closure,
+            PyObject *name, PyObject *qualname, PyObject *module_name) {
+    gen->body = body;
+    gen->closure = closure;
+    Py_XINCREF(((PyObject*)((closure))));
+    gen->is_running = 0;
+    gen->resume_label = 0;
+    gen->classobj = __null;
+    gen->yieldfrom = __null;
+
+    gen->gi_exc_state.exc_value = __null;
+
+
+
+
+
+
+    gen->gi_exc_state.previous_item = __null;
+
+    gen->gi_weakreflist = __null;
+    Py_XINCREF(((PyObject*)((qualname))));
+    gen->gi_qualname = qualname;
+    Py_XINCREF(((PyObject*)((name))));
+    gen->gi_name = name;
+    Py_XINCREF(((PyObject*)((module_name))));
+    gen->gi_modulename = module_name;
+    Py_XINCREF(((PyObject*)((code))));
+    gen->gi_code = code;
+    gen->gi_frame = __null;
+    PyObject_GC_Track(gen);
+    return gen;
+}
+
+
+static PyObject* __Pyx_Coroutine_patch_module(PyObject* module, const char* py_code) {
+
+    int result;
+    PyObject *globals, *result_obj;
+    globals = PyDict_New(); if (__builtin_expect(!!(!globals), 0)) goto ignore;
+    result = PyDict_SetItemString(globals, "_cython_coroutine_type",
+
+
+
+        (&_Py_NoneStruct));
+
+    if (__builtin_expect(!!(result < 0), 0)) goto ignore;
+    result = PyDict_SetItemString(globals, "_cython_generator_type",
+
+        (PyObject*)__pyx_mstate_global->__pyx_GeneratorType);
+
+
+
+    if (__builtin_expect(!!(result < 0), 0)) goto ignore;
+    if (__builtin_expect(!!(PyDict_SetItemString(globals, "_module", module) < 0), 0)) goto ignore;
+    if (__builtin_expect(!!(PyDict_SetItemString(globals, "__builtins__", __pyx_mstate_global->__pyx_b) < 0), 0)) goto ignore;
+    result_obj = PyRun_StringFlags((py_code), (257), (globals), (globals), __null);
+    if (__builtin_expect(!!(!result_obj), 0)) goto ignore;
+    Py_DECREF(((PyObject*)((result_obj))));
+    Py_DECREF(((PyObject*)((globals))));
+    return module;
+ignore:
+    Py_XDECREF(((PyObject*)((globals))));
+    PyErr_WriteUnraisable(module);
+    if (__builtin_expect(!!(PyErr_WarnEx(PyExc_RuntimeWarning, "Cython module failed to patch module with custom type", 1) < 0), 0)) {
+        Py_DECREF(((PyObject*)((module))));
+        module = __null;
+    }
+
+
+
+    return module;
+}
+
+
+
+
+
+
+static PyObject* __Pyx_patch_abc_module(PyObject *module);
+static PyObject* __Pyx_patch_abc_module(PyObject *module) {
+    module = __Pyx_Coroutine_patch_module(
+        module, ""
+"if _cython_generator_type is not None:\n"
+"    try: Generator = _module.Generator\n"
+"    except AttributeError: pass\n"
+"    else: Generator.register(_cython_generator_type)\n"
+"if _cython_coroutine_type is not None:\n"
+"    try: Coroutine = _module.Coroutine\n"
+"    except AttributeError: pass\n"
+"    else: Coroutine.register(_cython_coroutine_type)\n"
+    );
+    return module;
+}
+
+static int __Pyx_patch_abc(void) {
+
+    static int abc_patched = 0;
+    if (1 && !abc_patched) {
+        PyObject *module;
+        module = PyImport_ImportModule((3 >= 3) ? "collections.abc" : "collections");
+        if (__builtin_expect(!!(!module), 0)) {
+            PyErr_WriteUnraisable(__null);
+            if (__builtin_expect(!!(PyErr_WarnEx(PyExc_RuntimeWarning, ((3 >= 3) ? "Cython module failed to register with collections.abc module" : "Cython module failed to register with collections module"), 1) < 0), 0)) {
+
+
+
+                return -1;
+            }
+        } else {
+            module = __Pyx_patch_abc_module(module);
+            abc_patched = 1;
+            if (__builtin_expect(!!(!module), 0))
+                return -1;
+            Py_DECREF(((PyObject*)((module))));
+        }
+        module = PyImport_ImportModule("backports_abc");
+        if (module) {
+            module = __Pyx_patch_abc_module(module);
+            Py_XDECREF(((PyObject*)((module))));
+        }
+        if (!module) {
+            PyErr_Clear();
+        }
+    }
+
+
+
+    return 0;
+}
+
+
+static PyMethodDef __pyx_Generator_methods[] = {
+    {"send", (PyCFunction) __Pyx_Coroutine_Send, 0x0008,
+     (char*) "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."},
+    {"throw", (PyCFunction) __Pyx_Coroutine_Throw, 0x0001,
+     (char*) "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."},
+    {"close", (PyCFunction) __Pyx_Coroutine_Close_Method, 0x0004,
+     (char*) "close() -> raise GeneratorExit inside generator."},
+    {0, 0, 0, 0}
+};
+static PyMemberDef __pyx_Generator_memberlist[] = {
+    {(char *) "gi_running", 14, __builtin_offsetof(__pyx_CoroutineObject, is_running), 1, __null},
+    {(char*) "gi_yieldfrom", 6, __builtin_offsetof(__pyx_CoroutineObject, yieldfrom), 1,
+     (char*) "object being iterated by 'yield from', or None"},
+    {(char*) "gi_code", 6, __builtin_offsetof(__pyx_CoroutineObject, gi_code), 1, __null},
+    {(char *) "__module__", 6, __builtin_offsetof(__pyx_CoroutineObject, gi_modulename), 0, 0},
+
+
+
+    {0, 0, 0, 0, 0}
+};
+static PyGetSetDef __pyx_Generator_getsets[] = {
+    {(char *) "__name__", (getter)__Pyx_Coroutine_get_name, (setter)__Pyx_Coroutine_set_name,
+     (char*) "name of the generator", 0},
+    {(char *) "__qualname__", (getter)__Pyx_Coroutine_get_qualname, (setter)__Pyx_Coroutine_set_qualname,
+     (char*) "qualified name of the generator", 0},
+    {(char *) "gi_frame", (getter)__Pyx_Coroutine_get_frame, __null,
+     (char*) "Frame of the generator", 0},
+    {0, 0, 0, 0, 0}
+};
+# 15662 "bluid/data.cpp"
+static PyTypeObject __pyx_GeneratorType_type = {
+    { { { 1 }, (0) }, (0) },
+    "_cython_" "3_0_12" "" "." "generator",
+    sizeof(__pyx_CoroutineObject),
+    0,
+    (destructor) __Pyx_Coroutine_dealloc,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    ( 0 | 0) | (1UL << 14) | (1UL << 0),
+    0,
+    (traverseproc) __Pyx_Coroutine_traverse,
+    0,
+    0,
+    __builtin_offsetof(__pyx_CoroutineObject, gi_weakreflist),
+    0,
+    (iternextfunc) __Pyx_Generator_Next,
+    __pyx_Generator_methods,
+    __pyx_Generator_memberlist,
+    __pyx_Generator_getsets,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+
+    0,
+
+
+
+    0,
+
+    __Pyx_Coroutine_del,
+
+
+
+
+    0,
+
+
+
+
+
+    0,
+
+
+
+
+
+
+
+};
+
+static int __pyx_Generator_init(PyObject *module) {
+
+
+
+    CYTHON_UNUSED_VAR(module);
+    __pyx_GeneratorType_type.tp_getattro = PyObject_GenericGetAttr;
+    __pyx_GeneratorType_type.tp_iter = PyObject_SelfIter;
+    __pyx_mstate_global->__pyx_GeneratorType = __Pyx_FetchCommonType(&__pyx_GeneratorType_type);
+
+    if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_GeneratorType), 0)) {
+        return -1;
+    }
+    return 0;
+}
 
 
 static unsigned long __Pyx_get_runtime_version(void) {
 
     return Py_Version & ~0xFFUL;
-# 13207 "bluid/data.cpp"
+# 15775 "bluid/data.cpp"
 }
 static int __Pyx_check_binary_version(unsigned long ct_version, unsigned long rt_version, int allow_newer) {
     const unsigned long MAJOR_MINOR = 0xFFFF0000UL;
@@ -27070,7 +29004,7 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t) {
     while (t->p) {
 
         __Pyx_InitString(*t, t->p);
-# 13268 "bluid/data.cpp"
+# 15836 "bluid/data.cpp"
         ++t;
     }
     return 0;
@@ -27099,9 +29033,9 @@ static __inline__ __attribute__ ((__unused__)) const char* __Pyx_PyObject_AsStri
     Py_ssize_t ignore;
     return __Pyx_PyObject_AsStringAndSize(o, &ignore);
 }
-# 13335 "bluid/data.cpp"
+# 15903 "bluid/data.cpp"
 static __inline__ __attribute__ ((__unused__)) const char* __Pyx_PyObject_AsStringAndSize(PyObject* o, Py_ssize_t *length) {
-# 13346 "bluid/data.cpp"
+# 15914 "bluid/data.cpp"
     if (PyObject_TypeCheck(((PyObject*)(((o)))), (&PyByteArray_Type))) {
         *length = PyByteArray_GET_SIZE(((PyObject*)((o))));
         return PyByteArray_AS_STRING(((PyObject*)((o))));
@@ -27167,7 +29101,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyNumber_IntOrLon
     return (Py_INCREF(((PyObject*)((x)))), x);
 
   m = Py_TYPE(((PyObject*)((x))))->tp_as_number;
-# 13421 "bluid/data.cpp"
+# 15989 "bluid/data.cpp"
   if (__builtin_expect(!!(m && m->nb_int), 1)) {
     name = "int";
     res = m->nb_int(x);
@@ -27196,7 +29130,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyNumber_IntOrLon
 static __inline__ __attribute__ ((__unused__)) Py_ssize_t __Pyx_PyIndex_AsSsize_t(PyObject* b) {
   Py_ssize_t ival;
   PyObject *x;
-# 13457 "bluid/data.cpp"
+# 16025 "bluid/data.cpp"
   if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((b)))), (&PyLong_Type))), 1)) {
 
     if (__builtin_expect(!!(_PyLong_IsCompact((PyLongObject*) b)), 1)) {
