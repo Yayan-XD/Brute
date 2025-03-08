@@ -1,0 +1,362 @@
+[
+    {
+      "brand": "Google",
+      "density": 3.0,
+      "device": "Pixel 4 XL",
+      "height": "3040",
+      "model": "G020P",
+      "model_chipset": "qualcomm_sm8150",
+      "operators": "Telkomsel",
+      "width": "1440"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 4",
+      "height": "2280",
+      "model": "G020M",
+      "model_chipset": "qualcomm_sm8150",
+      "operators": "Smartfren",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 5a 5G",
+      "height": "2400",
+      "model": "G1F8F",
+      "model_chipset": "qualcomm_sm7250",
+      "operators": "Tri",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 2",
+      "height": "1920",
+      "model": "G011A",
+      "model_chipset": "qualcomm_unknown",
+      "operators": "Telkomsel",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 3.0,
+      "device": "Pixel 8 Pro",
+      "height": "2992",
+      "model": "GC3VE",
+      "model_chipset": "google_tensor_g3",
+      "operators": "XL",
+      "width": "1344"
+    },
+    {
+      "brand": "Google",
+      "density": 1.5,
+      "device": "Pixel Tablet",
+      "height": "2560",
+      "model": "Unknown",
+      "model_chipset": "google_tensor_g2",
+      "operators": "Telkomsel",
+      "width": "1600"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 7a",
+      "height": "2400",
+      "model": "GWKK3",
+      "model_chipset": "google_tensor_g2",
+      "operators": "Tri",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 6",
+      "height": "2400",
+      "model": "GB7N6",
+      "model_chipset": "google_tensor",
+      "operators": "Tri",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 1.5,
+      "device": "Pixel C",
+      "height": "1800",
+      "model": "Unknown",
+      "model_chipset": "nvidia_tegra_x1",
+      "operators": "Telkomsel",
+      "width": "2560"
+    },
+    {
+      "brand": "Google",
+      "density": 3.0,
+      "device": "Pixel 3 XL",
+      "height": "2960",
+      "model": "G013C",
+      "model_chipset": "qualcomm_snapdragon_845_845",
+      "operators": "XL",
+      "width": "1440"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 4a 5G",
+      "height": "2340",
+      "model": "GD1YQ",
+      "model_chipset": "qualcomm_sm7250",
+      "operators": "Telkomsel",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 4a",
+      "height": "2340",
+      "model": "G025J",
+      "model_chipset": "qualcomm_snapdragon_730_730",
+      "operators": "Telkomsel",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel Watch",
+      "height": "450",
+      "model": "GQF4C",
+      "model_chipset": "exynos_9110",
+      "operators": "XL",
+      "width": "450"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 3",
+      "height": "2160",
+      "model": "G013A",
+      "model_chipset": "qualcomm_snapdragon_845_845",
+      "operators": "XL",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel",
+      "height": "1920",
+      "model": "Unknown",
+      "model_chipset": "qualcomm_unknown",
+      "operators": "XL",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel Fold",
+      "height": "2208",
+      "model": "G9FPL",
+      "model_chipset": "google_tensor_g2",
+      "operators": "Indosat",
+      "width": "1840"
+    },
+    {
+      "brand": "Google",
+      "density": 3.0,
+      "device": "Pixel 6 Pro",
+      "height": "3120",
+      "model": "GLUOG",
+      "model_chipset": "google_tensor",
+      "operators": "XL",
+      "width": "1440"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 6a",
+      "height": "2400",
+      "model": "GX7AS",
+      "model_chipset": "google_tensor",
+      "operators": "Tri",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 8a",
+      "height": "2400",
+      "model": "GKV4X",
+      "model_chipset": "google_tensor_g3",
+      "operators": "Smartfren",
+      "width": "1080"
+    },
+    {
+      "brand": "Xiaomi",
+      "density": 2.0,
+      "device": "15",
+      "height": "2670",
+      "model": "24129PN74G",
+      "model_chipset": "qualcomm_sm8750-ab",
+      "operators": "Tri",
+      "width": "1200"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 5",
+      "height": "2340",
+      "model": "GD1YQ",
+      "model_chipset": "qualcomm_sm7250",
+      "operators": "Tri",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 7",
+      "height": "2400",
+      "model": "GVU6C",
+      "model_chipset": "google_tensor_g2",
+      "operators": "XL",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 3.0,
+      "device": "Pixel 9 Pro XL",
+      "height": "2992",
+      "model": "GGX8B",
+      "model_chipset": "google_tensor_g4",
+      "operators": "Smartfren",
+      "width": "1344"
+    },
+    {
+      "brand": "Google",
+      "density": 3.0,
+      "device": "Pixel 7 Pro",
+      "height": "3120",
+      "model": "GP4BC",
+      "model_chipset": "google_tensor_g2",
+      "operators": "Telkomsel",
+      "width": "1440"
+    },
+    {
+      "brand": "Google",
+      "density": 3.0,
+      "device": "Pixel 2 XL",
+      "height": "2880",
+      "model": "G011C",
+      "model_chipset": "qualcomm_unknown",
+      "operators": "XL",
+      "width": "1440"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 3a",
+      "height": "2220",
+      "model": "G020A",
+      "model_chipset": "qualcomm_snapdragon_670_670",
+      "operators": "Telkomsel",
+      "width": "1080"
+    },
+    {
+      "brand": "Xiaomi",
+      "density": 3.0,
+      "device": "15 Ultra",
+      "height": "3200",
+      "model": "2272T291",
+      "model_chipset": "qualcomm_sm8750-ab",
+      "operators": "Tri",
+      "width": "1440"
+    },
+    {
+      "brand": "Google",
+      "density": 3.0,
+      "device": "Pixel 9 Pro",
+      "height": "2856",
+      "model": "GR83Y",
+      "model_chipset": "google_tensor_g4",
+      "operators": "Indosat",
+      "width": "1280"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 9",
+      "height": "2424",
+      "model": "G2YBB",
+      "model_chipset": "google_tensor_g4",
+      "operators": "Tri",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel Watch 3",
+      "height": "456",
+      "model": "Unknown",
+      "model_chipset": "qualcomm_sw5100",
+      "operators": "Indosat",
+      "width": "456"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 8",
+      "height": "2400",
+      "model": "GKWS6",
+      "model_chipset": "google_tensor_g3",
+      "operators": "Telkomsel",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 3a XL",
+      "height": "2160",
+      "model": "G020C",
+      "model_chipset": "qualcomm_snapdragon_670_670",
+      "operators": "Tri",
+      "width": "1080"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel 9 Pro Fold",
+      "height": "2152",
+      "model": "GGH2X",
+      "model_chipset": "google_tensor_g4",
+      "operators": "Indosat",
+      "width": "2076"
+    },
+    {
+      "brand": "Xiaomi",
+      "density": 1.5,
+      "device": "Poco M7",
+      "height": "1640",
+      "model": "24108PCE2I",
+      "model_chipset": "qualcomm_sm4450",
+      "operators": "Smartfren",
+      "width": "720"
+    },
+    {
+      "brand": "Google",
+      "density": 2.0,
+      "device": "Pixel Watch 2",
+      "height": "450",
+      "model": "G4TSL",
+      "model_chipset": "qualcomm_5100",
+      "operators": "Telkomsel",
+      "width": "450"
+    },
+    {
+      "brand": "Google",
+      "density": 3.0,
+      "device": "Pixel XL",
+      "height": "2560",
+      "model": "Unknown",
+      "model_chipset": "qualcomm_unknown",
+      "operators": "XL",
+      "width": "1440"
+    }
+  ]
