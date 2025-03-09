@@ -3,7 +3,7 @@
 
 
 #### CARA INSTALL SCRIPT:
- download aplikasi termux android di [sini!](https://f-droid.org/repo/com.termux_117.apk), lalu buka aplikasinya ketikan perintah dibawah ini.
+ download aplikasi termux android di [sini!](https://f-droid.org/repo/com.termux_1000.apk), lalu buka aplikasinya ketikan perintah dibawah ini.
  ```
  $ pkg update && pkg upgrade
  $ pkg install python git
