@@ -18404,7 +18404,7 @@ static const char __pyx_k_Jalankan_ulang_perintah_dengan[] = "] Jalankan ulang p
 static const char __pyx_k_sys_devices_virtual_dmi_id_sys[] = "/sys/devices/virtual/dmi/id/sys_vendor";
 static const char __pyx_k_API_key_Anda_masih_berlaku_samp[] = " API key Anda masih berlaku sampai tanggal: ";
 static const char __pyx_k_Gagal_menghubungkan_ke_server_s[] = "] Gagal menghubungkan ke server, silahkan cek koneksi Anda dan aktifkan mode pesawat 5 detik.";
-static const char __pyx_k_Hai_Selamat_datang_di_script_Br[] = "\nHai! Selamat datang di script Brute Fb, jika ingin mendapatkan api key\n    silahkan daftar ke situs ini: ";
+static const char __pyx_k_Hai_Selamat_datang_di_script_Ya[] = "\nHai! Selamat datang di script Yayan XD Brute, jika ingin mendapatkan api key\n    silahkan daftar ke situs ini: ";
 static const char __pyx_k_Silakan_gunakan_dengan_bijak_ya[] = "\nSilakan gunakan dengan bijak ya \360\237\230\212\360\237\230\212\360\237\230\212";
 static const char __pyx_k_data_data_com_termux_files_home[] = "/data/data/com.termux/files/home/.lisen.txt";
 static const char __pyx_k_gagal_menghubungkan_ke_server_s[] = "] gagal menghubungkan ke server, silahkan cek koneksi anda dan mainkan mode pesawat 5 detik.";
@@ -18446,7 +18446,7 @@ typedef struct {
   PyObject *__pyx_n_s_FileNotFoundError;
   PyObject *__pyx_kp_u_Gagal_menghubungkan_ke_server_s;
   PyObject *__pyx_n_s_H;
-  PyObject *__pyx_kp_u_Hai_Selamat_datang_di_script_Br;
+  PyObject *__pyx_kp_u_Hai_Selamat_datang_di_script_Ya;
   PyObject *__pyx_kp_u_Hallo;
   PyObject *__pyx_n_s_JSONDecodeError;
   PyObject *__pyx_kp_u_Jalankan_ulang_perintah_dengan;
@@ -20957,10 +20957,10 @@ static PyObject *__pyx_pf_5akses_9Cek_lisen_6login_key([[maybe_unused]] PyObject
                          ;
   __pyx_t_6 = 0;
   __pyx_t_7 = 127;
-  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Hai_Selamat_datang_di_script_Br))));
-  __pyx_t_6 += 106;
+  Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Hai_Selamat_datang_di_script_Ya))));
+  __pyx_t_6 += 112;
                                                            ;
-  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_2))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Hai_Selamat_datang_di_script_Br))));
+  PyTuple_SET_ITEM(((PyObject*)((__pyx_t_2))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Hai_Selamat_datang_di_script_Ya))));
   (__pyx_t_1) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 74; (void)__pyx_lineno; __pyx_clineno = 5971; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_1)))), __pyx_t_1) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_1) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_1)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_1) : PyObject_Format(__pyx_t_1, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 74; (void)__pyx_lineno; __pyx_clineno = 5973; (void)__pyx_clineno; } goto __pyx_L1_error; }
@@ -21800,7 +21800,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_n_s_FileNotFoundError, __pyx_k_FileNotFoundError, sizeof(__pyx_k_FileNotFoundError), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_kp_u_Gagal_menghubungkan_ke_server_s, __pyx_k_Gagal_menghubungkan_ke_server_s, sizeof(__pyx_k_Gagal_menghubungkan_ke_server_s), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_n_s_H, __pyx_k_H, sizeof(__pyx_k_H), 0, 0, 1, 1},
-    {&__pyx_mstate_global->__pyx_kp_u_Hai_Selamat_datang_di_script_Br, __pyx_k_Hai_Selamat_datang_di_script_Br, sizeof(__pyx_k_Hai_Selamat_datang_di_script_Br), 0, 1, 0, 0},
+    {&__pyx_mstate_global->__pyx_kp_u_Hai_Selamat_datang_di_script_Ya, __pyx_k_Hai_Selamat_datang_di_script_Ya, sizeof(__pyx_k_Hai_Selamat_datang_di_script_Ya), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_kp_u_Hallo, __pyx_k_Hallo, sizeof(__pyx_k_Hallo), 0, 1, 0, 0},
     {&__pyx_mstate_global->__pyx_n_s_JSONDecodeError, __pyx_k_JSONDecodeError, sizeof(__pyx_k_JSONDecodeError), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_kp_u_Jalankan_ulang_perintah_dengan, __pyx_k_Jalankan_ulang_perintah_dengan, sizeof(__pyx_k_Jalankan_ulang_perintah_dengan), 0, 1, 0, 0},
