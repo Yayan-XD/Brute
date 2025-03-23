@@ -18765,8 +18765,8 @@ static const char __pyx_k_model_chipset[] = "model_chipset";
 static const char __pyx_k_114_0_5735_196[] = "114.0.5735.196";
 static const char __pyx_k_115_0_5790_186[] = "115.0.5790.186";
 static const char __pyx_k_360_0_0_52_192[] = "360.0.0.52.192";
+static const char __pyx_k_364_0_0_24_132[] = "364.0.0.24.132";
 static const char __pyx_k_364_0_0_35_110[] = "364.0.0.35.110";
-static const char __pyx_k_450_0_0_45_120[] = "450.0.0.45.120";
 static const char __pyx_k_sett_uafb_path[] = "sett_uafb_path";
 static const char __pyx_k_sett_uaig_path[] = "sett_uaig_path";
 static const char __pyx_k_android_version[] = "android_version";
@@ -18857,8 +18857,8 @@ typedef struct {
   PyObject *__pyx_kp_s_33;
   PyObject *__pyx_kp_s_34;
   PyObject *__pyx_kp_s_360_0_0_52_192;
+  PyObject *__pyx_kp_s_364_0_0_24_132;
   PyObject *__pyx_kp_s_364_0_0_35_110;
-  PyObject *__pyx_kp_s_450_0_0_45_120;
   PyObject *__pyx_kp_s_672535977;
   PyObject *__pyx_kp_s_687078620;
   PyObject *__pyx_kp_s_9;
@@ -19934,7 +19934,7 @@ static PyObject *__pyx_pf_4data_9UserAgent_2ua_fb_api([[maybe_unused]] PyObject 
     __pyx_t_1 = ((14 <= 8) ? PyDict_New() : _PyDict_NewPresized(14)); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 37; (void)__pyx_lineno; __pyx_clineno = 5040; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     if (PyDict_SetItem(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_FBAN, __pyx_mstate_global->__pyx_n_s_FB4A) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 37; (void)__pyx_lineno; __pyx_clineno = 5042; (void)__pyx_clineno; } goto __pyx_L1_error; }
-    if (PyDict_SetItem(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_FBAV, __pyx_mstate_global->__pyx_kp_s_450_0_0_45_120) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 37; (void)__pyx_lineno; __pyx_clineno = 5043; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (PyDict_SetItem(__pyx_t_1, __pyx_mstate_global->__pyx_n_s_FBAV, __pyx_mstate_global->__pyx_kp_s_364_0_0_24_132) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 37; (void)__pyx_lineno; __pyx_clineno = 5043; (void)__pyx_clineno; } goto __pyx_L1_error; }
 # 5052 "bluid/data.cpp"
     (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 39; (void)__pyx_lineno; __pyx_clineno = 5052; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
@@ -23713,8 +23713,8 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_kp_s_33, __pyx_k_33, sizeof(__pyx_k_33), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_kp_s_34, __pyx_k_34, sizeof(__pyx_k_34), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_kp_s_360_0_0_52_192, __pyx_k_360_0_0_52_192, sizeof(__pyx_k_360_0_0_52_192), 0, 0, 1, 0},
+    {&__pyx_mstate_global->__pyx_kp_s_364_0_0_24_132, __pyx_k_364_0_0_24_132, sizeof(__pyx_k_364_0_0_24_132), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_kp_s_364_0_0_35_110, __pyx_k_364_0_0_35_110, sizeof(__pyx_k_364_0_0_35_110), 0, 0, 1, 0},
-    {&__pyx_mstate_global->__pyx_kp_s_450_0_0_45_120, __pyx_k_450_0_0_45_120, sizeof(__pyx_k_450_0_0_45_120), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_kp_s_672535977, __pyx_k_672535977, sizeof(__pyx_k_672535977), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_kp_s_687078620, __pyx_k_687078620, sizeof(__pyx_k_687078620), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_kp_s_9, __pyx_k_9, sizeof(__pyx_k_9), 0, 0, 1, 0},
