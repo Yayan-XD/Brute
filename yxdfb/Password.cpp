@@ -18284,6 +18284,7 @@ static const char __pyx_k_[] = "";
 static const char __pyx_k_p[] = "p";
 static const char __pyx_k__4[] = "?";
 static const char __pyx_k_123[] = "123";
+static const char __pyx_k_321[] = "321";
 static const char __pyx_k_Pws[] = "Pws";
 static const char __pyx_k_doc[] = "__doc__";
 static const char __pyx_k_2023[] = "2023";
@@ -18333,12 +18334,13 @@ typedef struct {
   PyObject *__pyx_empty_unicode;
 
   PyTypeObject *__pyx_CyFunctionType;
-# 2213 "yxdfb/Password.cpp"
+# 2214 "yxdfb/Password.cpp"
   PyObject *__pyx_kp_s_;
   PyObject *__pyx_kp_s_123;
   PyObject *__pyx_kp_s_12345;
   PyObject *__pyx_kp_s_2023;
   PyObject *__pyx_kp_s_2024;
+  PyObject *__pyx_kp_s_321;
   PyObject *__pyx_n_s_Password;
   PyObject *__pyx_n_s_Pws;
   PyObject *__pyx_n_s_Pws_generate_passwords;
@@ -18376,7 +18378,7 @@ typedef struct {
   PyObject *__pyx_tuple__2;
   PyObject *__pyx_codeobj__3;
 } __pyx_mstate;
-# 2271 "yxdfb/Password.cpp"
+# 2273 "yxdfb/Password.cpp"
 static __pyx_mstate __pyx_mstate_global_static =
 
     {};
@@ -18384,7 +18386,7 @@ static __pyx_mstate __pyx_mstate_global_static =
 
 
 static __pyx_mstate *__pyx_mstate_global = &__pyx_mstate_global_static;
-# 2480 "yxdfb/Password.cpp"
+# 2485 "yxdfb/Password.cpp"
 static PyObject *__pyx_pw_8Password_3Pws_1generate_passwords(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
@@ -18446,7 +18448,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[0];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2541; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2546; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else goto __pyx_L5_argtuple_error;
         [[fallthrough]];
         case 1:
@@ -18454,9 +18456,9 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[1];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2549; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2554; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("generate_passwords", 1, 4, 4, 1); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2551; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("generate_passwords", 1, 4, 4, 1); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2556; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
         [[fallthrough]];
         case 2:
@@ -18464,9 +18466,9 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[2];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2559; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2564; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("generate_passwords", 1, 4, 4, 2); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2561; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("generate_passwords", 1, 4, 4, 2); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2566; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
         [[fallthrough]];
         case 3:
@@ -18474,14 +18476,14 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[3];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2569; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2574; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("generate_passwords", 1, 4, 4, 3); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2571; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("generate_passwords", 1, 4, 4, 3); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2576; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
       }
       if (__builtin_expect(!!(kw_args > 0), 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "generate_passwords") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2576; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "generate_passwords") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2581; (void)__pyx_clineno; } goto __pyx_L3_error; }
       }
     } else if (__builtin_expect(!!(__pyx_nargs != 4), 0)) {
       goto __pyx_L5_argtuple_error;
@@ -18498,7 +18500,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("generate_passwords", 1, 4, 4, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2593; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __Pyx_RaiseArgtupleInvalid("generate_passwords", 1, 4, 4, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 2598; (void)__pyx_clineno; } goto __pyx_L3_error; }
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -18554,8 +18556,8 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
                                                      ;
   Py_INCREF(((PyObject*)((__pyx_v_nama))));
   Py_INCREF(((PyObject*)((__pyx_v_asal))));
-# 2657 "yxdfb/Password.cpp"
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_nama, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 2657; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2662 "yxdfb/Password.cpp"
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_nama, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 2662; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   __pyx_t_3 = __null;
   __pyx_t_4 = 0;
@@ -18575,16 +18577,16 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
     PyObject *__pyx_callargs[2] = {__pyx_t_3, __null};
     __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
     Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 2677; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 2682; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
   }
   do { PyObject *tmp = (PyObject *) __pyx_v_nama; __pyx_v_nama = __pyx_t_1; Py_DECREF(((PyObject*)((tmp)))); } while (0);
   __pyx_t_1 = 0;
-# 2691 "yxdfb/Password.cpp"
-  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_asal); if (__builtin_expect(!!((__pyx_t_5 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 2691; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2696 "yxdfb/Password.cpp"
+  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_asal); if (__builtin_expect(!!((__pyx_t_5 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 2696; (void)__pyx_clineno; } goto __pyx_L1_error; }
   if (__pyx_t_5) {
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_asal, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 2693; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_asal, __pyx_mstate_global->__pyx_n_s_lower); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 2698; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     __pyx_t_6 = __null;
     __pyx_t_4 = 0;
@@ -18604,7 +18606,7 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
       PyObject *__pyx_callargs[2] = {__pyx_t_6, __null};
       __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
       Py_XDECREF(((PyObject*)((__pyx_t_6)))); __pyx_t_6 = 0;
-      if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 2713; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 2718; (void)__pyx_clineno; } goto __pyx_L1_error; }
                              ;
       Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
     }
@@ -18616,8 +18618,8 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
   }
   do { PyObject *tmp = (PyObject *) __pyx_v_asal; __pyx_v_asal = __pyx_t_1; Py_DECREF(((PyObject*)((tmp)))); } while (0);
   __pyx_t_1 = 0;
-# 2733 "yxdfb/Password.cpp"
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_nama, __pyx_mstate_global->__pyx_n_s_split); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 2733; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2738 "yxdfb/Password.cpp"
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_nama, __pyx_mstate_global->__pyx_n_s_split); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 2738; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   __pyx_t_3 = __null;
   __pyx_t_4 = 0;
@@ -18637,17 +18639,17 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
     PyObject *__pyx_callargs[2] = {__pyx_t_3, __null};
     __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
     Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 2753; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 2758; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
   }
   __pyx_v_nama_split = __pyx_t_1;
   __pyx_t_1 = 0;
-# 2767 "yxdfb/Password.cpp"
-  __pyx_t_7 = PyObject_Size(__pyx_v_nama_split); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 2767; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2772 "yxdfb/Password.cpp"
+  __pyx_t_7 = PyObject_Size(__pyx_v_nama_split); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 2772; (void)__pyx_clineno; } goto __pyx_L1_error; }
   __pyx_t_5 = (__pyx_t_7 > 0);
   if (__pyx_t_5) {
-    __pyx_t_2 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(0 > (long)(-9223372036854775807L -1) || 0 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_v_nama_split, (Py_ssize_t)0, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_v_nama_split, __Pyx_PyInt_From_long(0)))); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 2770; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_2 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(0 > (long)(-9223372036854775807L -1) || 0 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(0 < (long)9223372036854775807L || 0 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_v_nama_split, (Py_ssize_t)0, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_v_nama_split, __Pyx_PyInt_From_long(0)))); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 2775; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     __pyx_t_1 = __pyx_t_2;
     __pyx_t_2 = 0;
@@ -18657,11 +18659,11 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
   }
   __pyx_v_nama_depan = __pyx_t_1;
   __pyx_t_1 = 0;
-# 2788 "yxdfb/Password.cpp"
-  __pyx_t_7 = PyObject_Size(__pyx_v_nama_split); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 2788; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2793 "yxdfb/Password.cpp"
+  __pyx_t_7 = PyObject_Size(__pyx_v_nama_split); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 2793; (void)__pyx_clineno; } goto __pyx_L1_error; }
   __pyx_t_5 = (__pyx_t_7 > 1);
   if (__pyx_t_5) {
-    __pyx_t_2 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(1 > (long)(-9223372036854775807L -1) || 1 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_v_nama_split, (Py_ssize_t)1, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_v_nama_split, __Pyx_PyInt_From_long(1)))); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 2791; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_2 = (( (sizeof(long) < sizeof(Py_ssize_t)) || (sizeof(long) > sizeof(Py_ssize_t) && __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1) && (!1 || __builtin_expect(!!(1 > (long)(-9223372036854775807L -1) || 1 == (long)(-9223372036854775807L -1)), 1))) || (sizeof(long) == sizeof(Py_ssize_t) && (1 || __builtin_expect(!!(1 < (long)9223372036854775807L || 1 == (long)9223372036854775807L), 1))) ) ? __Pyx_GetItemInt_Fast(__pyx_v_nama_split, (Py_ssize_t)1, 0, 0, 1) : (0 ? (PyErr_SetString(PyExc_IndexError, "list index out of range"), (PyObject*)__null) : __Pyx_GetItemInt_Generic(__pyx_v_nama_split, __Pyx_PyInt_From_long(1)))); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 2796; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     __pyx_t_1 = __pyx_t_2;
     __pyx_t_2 = 0;
@@ -18671,155 +18673,155 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
   }
   __pyx_v_nama_belakang = __pyx_t_1;
   __pyx_t_1 = 0;
-# 2809 "yxdfb/Password.cpp"
-  __pyx_t_1 = PySet_New(0); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 9; (void)__pyx_lineno; __pyx_clineno = 2809; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2814 "yxdfb/Password.cpp"
+  __pyx_t_1 = PySet_New(0); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 9; (void)__pyx_lineno; __pyx_clineno = 2814; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   __pyx_v_pasw = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
-# 2821 "yxdfb/Password.cpp"
-  __pyx_t_7 = PyObject_Size(__pyx_v_nama_depan); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 12; (void)__pyx_lineno; __pyx_clineno = 2821; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2826 "yxdfb/Password.cpp"
+  __pyx_t_7 = PyObject_Size(__pyx_v_nama_depan); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 11; (void)__pyx_lineno; __pyx_clineno = 2826; (void)__pyx_clineno; } goto __pyx_L1_error; }
   __pyx_t_5 = (__pyx_t_7 >= 3);
   if (__pyx_t_5) {
-# 2832 "yxdfb/Password.cpp"
-    __pyx_t_1 = PyNumber_Add(__pyx_v_nama_depan, __pyx_mstate_global->__pyx_kp_s_123); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 14; (void)__pyx_lineno; __pyx_clineno = 2832; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2837 "yxdfb/Password.cpp"
+    __pyx_t_1 = PyNumber_Add(__pyx_v_nama_depan, __pyx_mstate_global->__pyx_kp_s_321); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 2837; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 2842 "yxdfb/Password.cpp"
-    __pyx_t_2 = PyNumber_Add(__pyx_v_nama_depan, __pyx_mstate_global->__pyx_kp_s_12345); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 15; (void)__pyx_lineno; __pyx_clineno = 2842; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2847 "yxdfb/Password.cpp"
+    __pyx_t_2 = PyNumber_Add(__pyx_v_nama_depan, __pyx_mstate_global->__pyx_kp_s_12345); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 14; (void)__pyx_lineno; __pyx_clineno = 2847; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 2852 "yxdfb/Password.cpp"
-    __pyx_t_3 = PyNumber_Add(__pyx_v_nama_depan, __pyx_mstate_global->__pyx_kp_s_2023); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 2852; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2857 "yxdfb/Password.cpp"
+    __pyx_t_3 = PyNumber_Add(__pyx_v_nama_depan, __pyx_mstate_global->__pyx_kp_s_2023); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 15; (void)__pyx_lineno; __pyx_clineno = 2857; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 2862 "yxdfb/Password.cpp"
-    __pyx_t_6 = PyNumber_Add(__pyx_v_nama_depan, __pyx_mstate_global->__pyx_kp_s_2024); if (__builtin_expect(!!(!__pyx_t_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 2862; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2867 "yxdfb/Password.cpp"
+    __pyx_t_6 = PyNumber_Add(__pyx_v_nama_depan, __pyx_mstate_global->__pyx_kp_s_2024); if (__builtin_expect(!!(!__pyx_t_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 16; (void)__pyx_lineno; __pyx_clineno = 2867; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 2872 "yxdfb/Password.cpp"
-    __pyx_t_8 = PyNumber_Add(__pyx_v_nama_depan, __pyx_v_nama_depan); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 18; (void)__pyx_lineno; __pyx_clineno = 2872; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2877 "yxdfb/Password.cpp"
+    __pyx_t_8 = PyNumber_Add(__pyx_v_nama_depan, __pyx_v_nama_depan); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 2877; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 2882 "yxdfb/Password.cpp"
-    __pyx_t_9 = PyList_New(5); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 2882; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2887 "yxdfb/Password.cpp"
+    __pyx_t_9 = PyList_New(5); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 12; (void)__pyx_lineno; __pyx_clineno = 2887; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_9))), (0), ((PyObject*)((__pyx_t_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 2885; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_9))), (0), ((PyObject*)((__pyx_t_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 12; (void)__pyx_lineno; __pyx_clineno = 2890; (void)__pyx_clineno; } goto __pyx_L1_error; };
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_9))), (1), ((PyObject*)((__pyx_t_2)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 2887; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_9))), (1), ((PyObject*)((__pyx_t_2)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 12; (void)__pyx_lineno; __pyx_clineno = 2892; (void)__pyx_clineno; } goto __pyx_L1_error; };
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_9))), (2), ((PyObject*)((__pyx_t_3)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 2889; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_9))), (2), ((PyObject*)((__pyx_t_3)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 12; (void)__pyx_lineno; __pyx_clineno = 2894; (void)__pyx_clineno; } goto __pyx_L1_error; };
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_9))), (3), ((PyObject*)((__pyx_t_6)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 2891; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_9))), (3), ((PyObject*)((__pyx_t_6)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 12; (void)__pyx_lineno; __pyx_clineno = 2896; (void)__pyx_clineno; } goto __pyx_L1_error; };
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_9))), (4), ((PyObject*)((__pyx_t_8)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 2893; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_9))), (4), ((PyObject*)((__pyx_t_8)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 12; (void)__pyx_lineno; __pyx_clineno = 2898; (void)__pyx_clineno; } goto __pyx_L1_error; };
     __pyx_t_1 = 0;
     __pyx_t_2 = 0;
     __pyx_t_3 = 0;
     __pyx_t_6 = 0;
     __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_CallUnboundCMethod1(&__pyx_umethod_PySet_Type_update, __pyx_v_pasw, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 2899; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_8 = __Pyx_CallUnboundCMethod1(&__pyx_umethod_PySet_Type_update, __pyx_v_pasw, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 12; (void)__pyx_lineno; __pyx_clineno = 2904; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
     Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-# 2911 "yxdfb/Password.cpp"
+# 2916 "yxdfb/Password.cpp"
   }
-# 2920 "yxdfb/Password.cpp"
-  __pyx_t_7 = PyObject_Size(__pyx_v_nama_belakang); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 2920; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2925 "yxdfb/Password.cpp"
+  __pyx_t_7 = PyObject_Size(__pyx_v_nama_belakang); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 20; (void)__pyx_lineno; __pyx_clineno = 2925; (void)__pyx_clineno; } goto __pyx_L1_error; }
   __pyx_t_5 = (__pyx_t_7 >= 3);
   if (__pyx_t_5) {
-# 2931 "yxdfb/Password.cpp"
-    __pyx_t_8 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_mstate_global->__pyx_kp_s_123); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 24; (void)__pyx_lineno; __pyx_clineno = 2931; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2936 "yxdfb/Password.cpp"
+    __pyx_t_8 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_mstate_global->__pyx_kp_s_321); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 22; (void)__pyx_lineno; __pyx_clineno = 2936; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 2941 "yxdfb/Password.cpp"
-    __pyx_t_9 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_mstate_global->__pyx_kp_s_12345); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 2941; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2946 "yxdfb/Password.cpp"
+    __pyx_t_9 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_mstate_global->__pyx_kp_s_12345); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 2946; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 2951 "yxdfb/Password.cpp"
-    __pyx_t_6 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_mstate_global->__pyx_kp_s_2023); if (__builtin_expect(!!(!__pyx_t_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 26; (void)__pyx_lineno; __pyx_clineno = 2951; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2956 "yxdfb/Password.cpp"
+    __pyx_t_6 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_mstate_global->__pyx_kp_s_2023); if (__builtin_expect(!!(!__pyx_t_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 24; (void)__pyx_lineno; __pyx_clineno = 2956; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 2961 "yxdfb/Password.cpp"
-    __pyx_t_3 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_mstate_global->__pyx_kp_s_2024); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 27; (void)__pyx_lineno; __pyx_clineno = 2961; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2966 "yxdfb/Password.cpp"
+    __pyx_t_3 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_mstate_global->__pyx_kp_s_2024); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 2966; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 2971 "yxdfb/Password.cpp"
-    __pyx_t_2 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_v_nama_belakang); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 28; (void)__pyx_lineno; __pyx_clineno = 2971; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2976 "yxdfb/Password.cpp"
+    __pyx_t_2 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_v_nama_belakang); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 26; (void)__pyx_lineno; __pyx_clineno = 2976; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 2981 "yxdfb/Password.cpp"
-    __pyx_t_1 = PyList_New(5); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 2981; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 2986 "yxdfb/Password.cpp"
+    __pyx_t_1 = PyList_New(5); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 21; (void)__pyx_lineno; __pyx_clineno = 2986; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (0), ((PyObject*)((__pyx_t_8)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 2984; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (0), ((PyObject*)((__pyx_t_8)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 21; (void)__pyx_lineno; __pyx_clineno = 2989; (void)__pyx_clineno; } goto __pyx_L1_error; };
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (1), ((PyObject*)((__pyx_t_9)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 2986; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (1), ((PyObject*)((__pyx_t_9)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 21; (void)__pyx_lineno; __pyx_clineno = 2991; (void)__pyx_clineno; } goto __pyx_L1_error; };
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (2), ((PyObject*)((__pyx_t_6)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 2988; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (2), ((PyObject*)((__pyx_t_6)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 21; (void)__pyx_lineno; __pyx_clineno = 2993; (void)__pyx_clineno; } goto __pyx_L1_error; };
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (3), ((PyObject*)((__pyx_t_3)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 2990; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (3), ((PyObject*)((__pyx_t_3)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 21; (void)__pyx_lineno; __pyx_clineno = 2995; (void)__pyx_clineno; } goto __pyx_L1_error; };
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (4), ((PyObject*)((__pyx_t_2)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 2992; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_1))), (4), ((PyObject*)((__pyx_t_2)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 21; (void)__pyx_lineno; __pyx_clineno = 2997; (void)__pyx_clineno; } goto __pyx_L1_error; };
     __pyx_t_8 = 0;
     __pyx_t_9 = 0;
     __pyx_t_6 = 0;
     __pyx_t_3 = 0;
     __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_CallUnboundCMethod1(&__pyx_umethod_PySet_Type_update, __pyx_v_pasw, __pyx_t_1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 23; (void)__pyx_lineno; __pyx_clineno = 2998; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_2 = __Pyx_CallUnboundCMethod1(&__pyx_umethod_PySet_Type_update, __pyx_v_pasw, __pyx_t_1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 21; (void)__pyx_lineno; __pyx_clineno = 3003; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
     Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-# 3010 "yxdfb/Password.cpp"
+# 3015 "yxdfb/Password.cpp"
   }
-# 3019 "yxdfb/Password.cpp"
-  __pyx_t_7 = PyObject_Size(__pyx_v_nama_depan); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 32; (void)__pyx_lineno; __pyx_clineno = 3019; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3024 "yxdfb/Password.cpp"
+  __pyx_t_7 = PyObject_Size(__pyx_v_nama_depan); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 3024; (void)__pyx_clineno; } goto __pyx_L1_error; }
   __pyx_t_10 = (__pyx_t_7 >= 3);
   if (__pyx_t_10) {
   } else {
     __pyx_t_5 = __pyx_t_10;
     goto __pyx_L6_bool_binop_done;
   }
-  __pyx_t_7 = PyObject_Size(__pyx_v_nama_belakang); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 32; (void)__pyx_lineno; __pyx_clineno = 3026; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_7 = PyObject_Size(__pyx_v_nama_belakang); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 3031; (void)__pyx_clineno; } goto __pyx_L1_error; }
   __pyx_t_10 = (__pyx_t_7 >= 3);
   __pyx_t_5 = __pyx_t_10;
   __pyx_L6_bool_binop_done:;
   if (__pyx_t_5) {
-# 3039 "yxdfb/Password.cpp"
-    __pyx_t_2 = PyNumber_Add(__pyx_v_nama_depan, __pyx_v_nama_belakang); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 34; (void)__pyx_lineno; __pyx_clineno = 3039; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3044 "yxdfb/Password.cpp"
+    __pyx_t_2 = PyNumber_Add(__pyx_v_nama_depan, __pyx_v_nama_belakang); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 31; (void)__pyx_lineno; __pyx_clineno = 3044; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 3049 "yxdfb/Password.cpp"
-    __pyx_t_1 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_v_nama_depan); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 35; (void)__pyx_lineno; __pyx_clineno = 3049; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3054 "yxdfb/Password.cpp"
+    __pyx_t_1 = PyNumber_Add(__pyx_v_nama_belakang, __pyx_v_nama_depan); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 32; (void)__pyx_lineno; __pyx_clineno = 3054; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 3059 "yxdfb/Password.cpp"
-    __pyx_t_3 = PyList_New(2); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 3059; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3064 "yxdfb/Password.cpp"
+    __pyx_t_3 = PyList_New(2); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 30; (void)__pyx_lineno; __pyx_clineno = 3064; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_t_2)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 3062; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_t_2)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 30; (void)__pyx_lineno; __pyx_clineno = 3067; (void)__pyx_clineno; } goto __pyx_L1_error; };
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (1), ((PyObject*)((__pyx_t_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 3064; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (1), ((PyObject*)((__pyx_t_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 30; (void)__pyx_lineno; __pyx_clineno = 3069; (void)__pyx_clineno; } goto __pyx_L1_error; };
     __pyx_t_2 = 0;
     __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_CallUnboundCMethod1(&__pyx_umethod_PySet_Type_update, __pyx_v_pasw, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 33; (void)__pyx_lineno; __pyx_clineno = 3067; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_1 = __Pyx_CallUnboundCMethod1(&__pyx_umethod_PySet_Type_update, __pyx_v_pasw, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 30; (void)__pyx_lineno; __pyx_clineno = 3072; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
     Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-# 3079 "yxdfb/Password.cpp"
+# 3084 "yxdfb/Password.cpp"
   }
-# 3088 "yxdfb/Password.cpp"
-  __pyx_t_7 = PyObject_Size(__pyx_v_asal); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 39; (void)__pyx_lineno; __pyx_clineno = 3088; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3093 "yxdfb/Password.cpp"
+  __pyx_t_7 = PyObject_Size(__pyx_v_asal); if (__builtin_expect(!!(__pyx_t_7 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 35; (void)__pyx_lineno; __pyx_clineno = 3093; (void)__pyx_clineno; } goto __pyx_L1_error; }
   __pyx_t_5 = (__pyx_t_7 >= 3);
   if (__pyx_t_5) {
-# 3099 "yxdfb/Password.cpp"
-    __pyx_t_1 = PyNumber_Add(__pyx_v_asal, __pyx_mstate_global->__pyx_kp_s_123); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 42; (void)__pyx_lineno; __pyx_clineno = 3099; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3104 "yxdfb/Password.cpp"
+    __pyx_t_1 = PyNumber_Add(__pyx_v_asal, __pyx_mstate_global->__pyx_kp_s_123); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 38; (void)__pyx_lineno; __pyx_clineno = 3104; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-# 3109 "yxdfb/Password.cpp"
-    __pyx_t_3 = PyList_New(2); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 40; (void)__pyx_lineno; __pyx_clineno = 3109; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3114 "yxdfb/Password.cpp"
+    __pyx_t_3 = PyList_New(2); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 36; (void)__pyx_lineno; __pyx_clineno = 3114; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_INCREF(((PyObject*)((__pyx_v_asal))));
                                ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_v_asal)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 40; (void)__pyx_lineno; __pyx_clineno = 3113; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_v_asal)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 36; (void)__pyx_lineno; __pyx_clineno = 3118; (void)__pyx_clineno; } goto __pyx_L1_error; };
                             ;
-    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (1), ((PyObject*)((__pyx_t_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 40; (void)__pyx_lineno; __pyx_clineno = 3115; (void)__pyx_clineno; } goto __pyx_L1_error; };
+    if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (1), ((PyObject*)((__pyx_t_1)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 36; (void)__pyx_lineno; __pyx_clineno = 3120; (void)__pyx_clineno; } goto __pyx_L1_error; };
     __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_CallUnboundCMethod1(&__pyx_umethod_PySet_Type_update, __pyx_v_pasw, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 40; (void)__pyx_lineno; __pyx_clineno = 3117; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_1 = __Pyx_CallUnboundCMethod1(&__pyx_umethod_PySet_Type_update, __pyx_v_pasw, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 36; (void)__pyx_lineno; __pyx_clineno = 3122; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
     Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-# 3129 "yxdfb/Password.cpp"
+# 3134 "yxdfb/Password.cpp"
   }
-# 3138 "yxdfb/Password.cpp"
-  __pyx_t_1 = __Pyx_CallUnboundCMethod1(&__pyx_umethod_PySet_Type_update, __pyx_v_pasw, __pyx_v_pw_tambahan); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 46; (void)__pyx_lineno; __pyx_clineno = 3138; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3143 "yxdfb/Password.cpp"
+  __pyx_t_1 = __Pyx_CallUnboundCMethod1(&__pyx_umethod_PySet_Type_update, __pyx_v_pasw, __pyx_v_pw_tambahan); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 41; (void)__pyx_lineno; __pyx_clineno = 3143; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
 
@@ -18830,10 +18832,10 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
 
 
   {
-    __pyx_t_1 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 3149; (void)__pyx_clineno; } goto __pyx_L11_error; }
+    __pyx_t_1 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 43; (void)__pyx_lineno; __pyx_clineno = 3154; (void)__pyx_clineno; } goto __pyx_L11_error; }
                            ;
     __pyx_t_7 = 0;
-    __pyx_t_2 = __Pyx_set_iterator(__pyx_v_pasw, 1, (&__pyx_t_11), (&__pyx_t_12)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 3152; (void)__pyx_clineno; } goto __pyx_L11_error; }
+    __pyx_t_2 = __Pyx_set_iterator(__pyx_v_pasw, 1, (&__pyx_t_11), (&__pyx_t_12)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 43; (void)__pyx_lineno; __pyx_clineno = 3157; (void)__pyx_clineno; } goto __pyx_L11_error; }
                            ;
     Py_XDECREF(((PyObject*)((__pyx_t_3))));
     __pyx_t_3 = __pyx_t_2;
@@ -18841,14 +18843,14 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
     while (1) {
       __pyx_t_13 = __Pyx_set_iter_next(__pyx_t_3, __pyx_t_11, &__pyx_t_7, &__pyx_t_2, __pyx_t_12);
       if (__builtin_expect(!!(__pyx_t_13 == 0), 0)) break;
-      if (__builtin_expect(!!(__pyx_t_13 == -1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 3160; (void)__pyx_clineno; } goto __pyx_L11_error; }
+      if (__builtin_expect(!!(__pyx_t_13 == -1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 43; (void)__pyx_lineno; __pyx_clineno = 3165; (void)__pyx_clineno; } goto __pyx_L11_error; }
                              ;
       do { PyObject *tmp = (PyObject *) __pyx_7genexpr__pyx_v_p; __pyx_7genexpr__pyx_v_p = __pyx_t_2; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
       __pyx_t_2 = 0;
-      __pyx_t_14 = PyObject_Size(__pyx_7genexpr__pyx_v_p); if (__builtin_expect(!!(__pyx_t_14 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 3164; (void)__pyx_clineno; } goto __pyx_L11_error; }
+      __pyx_t_14 = PyObject_Size(__pyx_7genexpr__pyx_v_p); if (__builtin_expect(!!(__pyx_t_14 == ((Py_ssize_t)-1)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 43; (void)__pyx_lineno; __pyx_clineno = 3169; (void)__pyx_clineno; } goto __pyx_L11_error; }
       __pyx_t_5 = (__pyx_t_14 > 6);
       if (__pyx_t_5) {
-        if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_7genexpr__pyx_v_p)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 3167; (void)__pyx_clineno; } goto __pyx_L11_error; }
+        if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_7genexpr__pyx_v_p)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 43; (void)__pyx_lineno; __pyx_clineno = 3172; (void)__pyx_clineno; } goto __pyx_L11_error; }
       }
     }
     Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
@@ -18868,12 +18870,12 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
 
 
   Py_XDECREF(((PyObject*)((__pyx_r))));
-  __pyx_t_1 = __Pyx_PyList_GetSlice(__pyx_v_hasil, 0, 8); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 50; (void)__pyx_lineno; __pyx_clineno = 3187; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_1 = __Pyx_PyList_GetSlice(__pyx_v_hasil, 0, 8); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 44; (void)__pyx_lineno; __pyx_clineno = 3192; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
-# 3202 "yxdfb/Password.cpp"
+# 3207 "yxdfb/Password.cpp"
   __pyx_L1_error:;
   Py_XDECREF(((PyObject*)((__pyx_t_1))));
   Py_XDECREF(((PyObject*)((__pyx_t_2))));
@@ -18900,7 +18902,7 @@ static PyObject *__pyx_pf_8Password_3Pws_generate_passwords([[maybe_unused]] PyO
 static PyMethodDef __pyx_methods[] = {
   {0, 0, 0, 0}
 };
-# 3239 "yxdfb/Password.cpp"
+# 3244 "yxdfb/Password.cpp"
 static int __Pyx_CreateStringTabAndInitStrings(void) {
   __Pyx_StringTabEntry __pyx_string_tab[] = {
     {&__pyx_mstate_global->__pyx_kp_s_, __pyx_k_, sizeof(__pyx_k_), 0, 0, 1, 0},
@@ -18908,6 +18910,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_mstate_global->__pyx_kp_s_12345, __pyx_k_12345, sizeof(__pyx_k_12345), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_kp_s_2023, __pyx_k_2023, sizeof(__pyx_k_2023), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_kp_s_2024, __pyx_k_2024, sizeof(__pyx_k_2024), 0, 0, 1, 0},
+    {&__pyx_mstate_global->__pyx_kp_s_321, __pyx_k_321, sizeof(__pyx_k_321), 0, 0, 1, 0},
     {&__pyx_mstate_global->__pyx_n_s_Password, __pyx_k_Password, sizeof(__pyx_k_Password), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_Pws, __pyx_k_Pws, sizeof(__pyx_k_Pws), 0, 0, 1, 1},
     {&__pyx_mstate_global->__pyx_n_s_Pws_generate_passwords, __pyx_k_Pws_generate_passwords, sizeof(__pyx_k_Pws_generate_passwords), 0, 0, 1, 1},
@@ -18955,11 +18958,11 @@ static int __Pyx_InitCachedBuiltins(void) {
 static int __Pyx_InitCachedConstants(void) {
 
                                                             ;
-# 3301 "yxdfb/Password.cpp"
-  __pyx_mstate_global->__pyx_tuple__2 = PyTuple_Pack(10, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_nama, __pyx_mstate_global->__pyx_n_s_asal, __pyx_mstate_global->__pyx_n_s_pw_tambahan, __pyx_mstate_global->__pyx_n_s_nama_split, __pyx_mstate_global->__pyx_n_s_nama_depan, __pyx_mstate_global->__pyx_n_s_nama_belakang, __pyx_mstate_global->__pyx_n_s_pasw, __pyx_mstate_global->__pyx_n_s_hasil, __pyx_mstate_global->__pyx_n_s_p); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 3301; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3307 "yxdfb/Password.cpp"
+  __pyx_mstate_global->__pyx_tuple__2 = PyTuple_Pack(10, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_nama, __pyx_mstate_global->__pyx_n_s_asal, __pyx_mstate_global->__pyx_n_s_pw_tambahan, __pyx_mstate_global->__pyx_n_s_nama_split, __pyx_mstate_global->__pyx_n_s_nama_depan, __pyx_mstate_global->__pyx_n_s_nama_belakang, __pyx_mstate_global->__pyx_n_s_pasw, __pyx_mstate_global->__pyx_n_s_hasil, __pyx_mstate_global->__pyx_n_s_p); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 3307; (void)__pyx_clineno; } goto __pyx_L1_error; }
                               ;
                                ;
-  __pyx_mstate_global->__pyx_codeobj__3 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 10, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__2, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Password_py, __pyx_mstate_global->__pyx_n_s_generate_passwords, 3, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 3304; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__3 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 10, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__2, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Password_py, __pyx_mstate_global->__pyx_n_s_generate_passwords, 3, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 3310; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
   return 0;
   __pyx_L1_error:;
@@ -18971,7 +18974,7 @@ static int __Pyx_InitCachedConstants(void) {
 static int __Pyx_InitConstants(void) {
   __pyx_umethod_PySet_Type_update.type = (PyObject*)&PySet_Type;
   __pyx_umethod_PySet_Type_update.method_name = &__pyx_mstate_global->__pyx_n_s_update;
-  if (__Pyx_CreateStringTabAndInitStrings() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3316; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  if (__Pyx_CreateStringTabAndInitStrings() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3322; (void)__pyx_clineno; } goto __pyx_L1_error; };
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -19079,7 +19082,7 @@ namespace {
       __pyx_methods ,
 
       __pyx_moduledef_slots,
-# 3432 "yxdfb/Password.cpp"
+# 3438 "yxdfb/Password.cpp"
       __null,
       __null,
       __null
@@ -19087,7 +19090,7 @@ namespace {
   };
 
 }
-# 3463 "yxdfb/Password.cpp"
+# 3469 "yxdfb/Password.cpp"
 extern "C" __attribute__ ((visibility ("default"))) PyObject* PyInit_Password(void) ;
 extern "C" __attribute__ ((visibility ("default"))) PyObject* PyInit_Password(void)
 
@@ -19198,46 +19201,46 @@ static int __pyx_pymod_exec_Password(PyObject *__pyx_pyinit_module)
 
   __pyx_m = __pyx_pyinit_module;
   Py_INCREF(((PyObject*)((__pyx_m))));
-# 3590 "yxdfb/Password.cpp"
+# 3596 "yxdfb/Password.cpp"
   CYTHON_UNUSED_VAR(__pyx_t_1);
-  __pyx_mstate_global->__pyx_d = PyModule_GetDict(__pyx_m); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_d), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3591; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_d = PyModule_GetDict(__pyx_m); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_d), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3597; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_d))));
-  __pyx_mstate_global->__pyx_b = __Pyx_PyImport_AddModuleRef("builtins"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_b), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3593; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_cython_runtime = __Pyx_PyImport_AddModuleRef((const char *) "cython_runtime"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_cython_runtime), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3594; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  if (PyObject_SetAttrString(__pyx_m, "__builtins__", __pyx_mstate_global->__pyx_b) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3595; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 3605 "yxdfb/Password.cpp"
+  __pyx_mstate_global->__pyx_b = __Pyx_PyImport_AddModuleRef("builtins"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_b), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3599; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_cython_runtime = __Pyx_PyImport_AddModuleRef((const char *) "cython_runtime"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_cython_runtime), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3600; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyObject_SetAttrString(__pyx_m, "__builtins__", __pyx_mstate_global->__pyx_b) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3601; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3611 "yxdfb/Password.cpp"
                                                                              ;
-  if (__Pyx_check_binary_version(((3 << 24) | (12 << 16) | (9 << 8) | (0xF << 4) | (0 << 0)), __Pyx_get_runtime_version(), 0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3606; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_check_binary_version(((3 << 24) | (12 << 16) | (9 << 8) | (0xF << 4) | (0 << 0)), __Pyx_get_runtime_version(), 0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3612; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
-  __pyx_mstate_global->__pyx_empty_tuple = PyTuple_New(0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_tuple), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3610; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_bytes), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3611; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_empty_unicode = PyUnicode_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_unicode), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3612; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_empty_tuple = PyTuple_New(0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_tuple), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3616; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_bytes), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3617; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_empty_unicode = PyUnicode_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_unicode), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3618; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
-  if (__pyx_CyFunction_init(__pyx_m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3614; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 3637 "yxdfb/Password.cpp"
-  if (__Pyx_InitConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3637; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__pyx_CyFunction_init(__pyx_m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3620; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3643 "yxdfb/Password.cpp"
+  if (__Pyx_InitConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3643; (void)__pyx_clineno; } goto __pyx_L1_error; }
   stringtab_initialized = 1;
-  if (__Pyx_InitGlobals() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3639; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_InitGlobals() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3645; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
   if (__pyx_module_is_main_Password) {
-    if (PyObject_SetAttr(__pyx_m, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_main) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3644; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (PyObject_SetAttr(__pyx_m, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_main) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3650; (void)__pyx_clineno; } goto __pyx_L1_error; }
   }
 
   {
-    PyObject *modules = PyImport_GetModuleDict(); if (__builtin_expect(!!(!modules), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3648; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    PyObject *modules = PyImport_GetModuleDict(); if (__builtin_expect(!!(!modules), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3654; (void)__pyx_clineno; } goto __pyx_L1_error; }
     if (!PyDict_GetItemString(modules, "Password")) {
-      if (__builtin_expect(!!((PyDict_SetItemString(modules, "Password", __pyx_m) < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3650; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      if (__builtin_expect(!!((PyDict_SetItemString(modules, "Password", __pyx_m) < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3656; (void)__pyx_clineno; } goto __pyx_L1_error; }
     }
   }
 
 
-  if (__Pyx_InitCachedBuiltins() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3655; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_InitCachedBuiltins() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3661; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
-  if (__Pyx_InitCachedConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3657; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_InitCachedConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3663; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
   (void)__Pyx_modinit_global_init_code();
   (void)__Pyx_modinit_variable_export_code();
@@ -19246,13 +19249,13 @@ static int __pyx_pymod_exec_Password(PyObject *__pyx_pyinit_module)
   (void)__Pyx_modinit_type_import_code();
   (void)__Pyx_modinit_variable_import_code();
   (void)__Pyx_modinit_function_import_code();
-# 3676 "yxdfb/Password.cpp"
-  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) __null, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_s_Pws, __pyx_mstate_global->__pyx_n_s_Pws, (PyObject *) __null, __pyx_mstate_global->__pyx_n_s_Password, (PyObject *) __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3676; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3682 "yxdfb/Password.cpp"
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) __null, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_s_Pws, __pyx_mstate_global->__pyx_n_s_Pws, (PyObject *) __null, __pyx_mstate_global->__pyx_n_s_Password, (PyObject *) __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3682; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-# 3686 "yxdfb/Password.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_8Password_3Pws_1generate_passwords, 0, __pyx_mstate_global->__pyx_n_s_Pws_generate_passwords, __null, __pyx_mstate_global->__pyx_n_s_Password, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__3)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 3686; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 3692 "yxdfb/Password.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_8Password_3Pws_1generate_passwords, 0, __pyx_mstate_global->__pyx_n_s_Pws_generate_passwords, __null, __pyx_mstate_global->__pyx_n_s_Password, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__3)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 3692; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_generate_passwords, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_generate_passwords)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_generate_passwords, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 3688; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_generate_passwords, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_generate_passwords)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_generate_passwords, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 3694; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
 
 
@@ -19260,14 +19263,14 @@ static int __pyx_pymod_exec_Password(PyObject *__pyx_pyinit_module)
 
 
 
-  __pyx_t_3 = __Pyx_Py3ClassCreate(((PyObject*)&PyType_Type), __pyx_mstate_global->__pyx_n_s_Pws, __pyx_mstate_global->__pyx_empty_tuple, __pyx_t_2, __null, 0, 0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3696; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_3 = __Pyx_Py3ClassCreate(((PyObject*)&PyType_Type), __pyx_mstate_global->__pyx_n_s_Pws, __pyx_mstate_global->__pyx_empty_tuple, __pyx_t_2, __null, 0, 0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3702; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_Pws, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3698; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_Pws, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3704; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = ((0 <= 8) ? PyDict_New() : _PyDict_NewPresized(0)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3701; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = ((0 <= 8) ? PyDict_New() : _PyDict_NewPresized(0)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3707; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_test, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3703; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_test, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 3709; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
 
 
@@ -19282,7 +19285,7 @@ static int __pyx_pymod_exec_Password(PyObject *__pyx_pyinit_module)
     }
 
     do { __typeof__(__pyx_m)* _tmp_op_ptr = &(__pyx_m); __typeof__(__pyx_m) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
-# 3727 "yxdfb/Password.cpp"
+# 3733 "yxdfb/Password.cpp"
   } else if (!PyErr_Occurred()) {
     PyErr_SetString(PyExc_ImportError, "init Password");
   }
@@ -19296,7 +19299,7 @@ static int __pyx_pymod_exec_Password(PyObject *__pyx_pyinit_module)
 
 
 }
-# 3777 "yxdfb/Password.cpp"
+# 3783 "yxdfb/Password.cpp"
 static __inline__ __attribute__ ((__unused__)) void __Pyx_copy_object_array(PyObject *const *__restrict__ src, PyObject** __restrict__ dest, Py_ssize_t length) {
     PyObject *v;
     Py_ssize_t i;
@@ -19352,7 +19355,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyBytes_Equals(PyObject
             return (equals == 2);
         } else {
             int result;
-# 3840 "yxdfb/Password.cpp"
+# 3846 "yxdfb/Password.cpp"
             result = memcmp(ps1, ps2, (size_t)length);
             return (equals == 2) ? (result == 0) : (result != 0);
         }
@@ -19386,7 +19389,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyUnicode_Equals(PyObje
     }
     s1_is_unicode = Py_IS_TYPE(((PyObject*)(((s1)))), (&PyUnicode_Type));
     s2_is_unicode = Py_IS_TYPE(((PyObject*)(((s2)))), (&PyUnicode_Type));
-# 3890 "yxdfb/Password.cpp"
+# 3896 "yxdfb/Password.cpp"
     if (s1_is_unicode & s2_is_unicode) {
         Py_ssize_t length;
         int kind;
@@ -19412,8 +19415,8 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyUnicode_Equals(PyObje
             }
         }
 
-        kind = ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s1))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 3915, __PRETTY_FUNCTION__, "PyUnicode_Check(s1)")), ((PyASCIIObject*)((s1))))->state.kind)));
-        if (kind != ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s2))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 3916, __PRETTY_FUNCTION__, "PyUnicode_Check(s2)")), ((PyASCIIObject*)((s2))))->state.kind)))) {
+        kind = ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s1))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 3921, __PRETTY_FUNCTION__, "PyUnicode_Check(s1)")), ((PyASCIIObject*)((s1))))->state.kind)));
+        if (kind != ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s2))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 3922, __PRETTY_FUNCTION__, "PyUnicode_Check(s2)")), ((PyASCIIObject*)((s2))))->state.kind)))) {
             goto return_ne;
         }
         data1 = PyUnicode_DATA(((PyObject*)((s1))));
@@ -19465,11 +19468,11 @@ static __inline__ __attribute__ ((__unused__)) PyObject * __Pyx_GetKwValue_FASTC
     Py_ssize_t i, n = PyTuple_GET_SIZE(((PyObject*)((kwnames))));
     for (i = 0; i < n; i++)
     {
-        if (s == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 3968, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)])) return kwvalues[i];
+        if (s == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 3974, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)])) return kwvalues[i];
     }
     for (i = 0; i < n; i++)
     {
-        int eq = __Pyx_PyUnicode_Equals(s, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 3972, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)]), 2);
+        int eq = __Pyx_PyUnicode_Equals(s, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 3978, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)]), 2);
         if (__builtin_expect(!!(eq != 0), 0)) {
             if (__builtin_expect(!!(eq < 0), 0)) return __null;
             return kwvalues[i];
@@ -19477,7 +19480,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject * __Pyx_GetKwValue_FASTC
     }
     return __null;
 }
-# 4001 "yxdfb/Password.cpp"
+# 4007 "yxdfb/Password.cpp"
 static void __Pyx_RaiseArgtupleInvalid(
     const char* func_name,
     int exact,
@@ -19548,7 +19551,7 @@ static int __Pyx_ParseOptionalKeywords(
 
 
 
-            key = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwds))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4071, __PRETTY_FUNCTION__, "PyTuple_Check(kwds)")), ((PyTupleObject*)((kwds))))->ob_item[(pos)]);
+            key = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwds))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4077, __PRETTY_FUNCTION__, "PyTuple_Check(kwds)")), ((PyTupleObject*)((kwds))))->ob_item[(pos)]);
 
 
 
@@ -19580,7 +19583,7 @@ static int __Pyx_ParseOptionalKeywords(
 
         Py_INCREF(((PyObject*)((value))));
         name = first_kw_arg;
-# 4130 "yxdfb/Password.cpp"
+# 4136 "yxdfb/Password.cpp"
         if (__builtin_expect(!!(PyType_HasFeature((Py_TYPE(((PyObject*)((key))))), ((1UL << 28)))), 1)) {
             while (*name) {
                 int cmp = (
@@ -19659,7 +19662,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_GetAttrS
 
     return PyObject_GetAttr(obj, attr_name);
 }
-# 4335 "yxdfb/Password.cpp"
+# 4341 "yxdfb/Password.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw) {
     PyObject *result;
     ternaryfunc call = Py_TYPE(((PyObject*)((func))))->tp_call;
@@ -19706,7 +19709,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_CallMeth
     }
     return result;
 }
-# 4401 "yxdfb/Password.cpp"
+# 4407 "yxdfb/Password.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_FastCallDict(PyObject *func, PyObject **args, size_t _nargs, PyObject *kwargs) {
     Py_ssize_t nargs = _PyVectorcall_NARGS((size_t)(_nargs));
 
@@ -19718,7 +19721,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_FastCall
         if (__Pyx_IsAnySubtype2(Py_TYPE(((PyObject*)((func)))), (PyTypeObject *)__pyx_mstate_global->__pyx_CyFunctionType, (PyTypeObject *)&PyCFunction_Type) && __builtin_expect(!!((((PyCFunctionObject*)(func))->m_ml->ml_flags) & 0x0008), 1))
             return __Pyx_PyObject_CallMethO(func, args[0]);
     }
-# 4434 "yxdfb/Password.cpp"
+# 4440 "yxdfb/Password.cpp"
     if (kwargs == __null) {
 
 
@@ -19763,7 +19766,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_List_F
         wrapped_i += PyList_GET_SIZE(((PyObject*)((o))));
     }
     if ((!boundscheck) || __builtin_expect(!!(__Pyx_is_valid_index(wrapped_i, PyList_GET_SIZE(((PyObject*)((o)))))), 1)) {
-        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4478, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(wrapped_i)]);
+        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4484, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(wrapped_i)]);
         Py_INCREF(((PyObject*)((r))));
         return r;
     }
@@ -19781,7 +19784,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Tuple_
         wrapped_i += PyTuple_GET_SIZE(((PyObject*)((o))));
     }
     if ((!boundscheck) || __builtin_expect(!!(__Pyx_is_valid_index(wrapped_i, PyTuple_GET_SIZE(((PyObject*)((o)))))), 1)) {
-        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4496, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(wrapped_i)]);
+        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4502, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(wrapped_i)]);
         Py_INCREF(((PyObject*)((r))));
         return r;
     }
@@ -19797,7 +19800,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Fast(P
     if (is_list || Py_IS_TYPE(((PyObject*)(((o)))), (&PyList_Type))) {
         Py_ssize_t n = ((!wraparound) | __builtin_expect(!!(i >= 0), 1)) ? i : i + PyList_GET_SIZE(((PyObject*)((o))));
         if ((!boundscheck) || (__builtin_expect(!!(__Pyx_is_valid_index(n, PyList_GET_SIZE(((PyObject*)((o)))))), 1))) {
-            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4512, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(n)]);
+            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4518, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(n)]);
             Py_INCREF(((PyObject*)((r))));
             return r;
         }
@@ -19805,7 +19808,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Fast(P
     else if (Py_IS_TYPE(((PyObject*)(((o)))), (&PyTuple_Type))) {
         Py_ssize_t n = ((!wraparound) | __builtin_expect(!!(i >= 0), 1)) ? i : i + PyTuple_GET_SIZE(((PyObject*)((o))));
         if ((!boundscheck) || __builtin_expect(!!(__Pyx_is_valid_index(n, PyTuple_GET_SIZE(((PyObject*)((o)))))), 1)) {
-            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4520, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(n)]);
+            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4526, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(n)]);
             Py_INCREF(((PyObject*)((r))));
             return r;
         }
@@ -19960,7 +19963,7 @@ bad:
 static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {
 
     PyObject *tmp_value;
-    ((type == __null || (value != __null && type == (PyObject*) Py_TYPE(((PyObject*)((value)))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4675, __PRETTY_FUNCTION__, "type == NULL || (value != NULL && type == (PyObject*) Py_TYPE(value))"));
+    ((type == __null || (value != __null && type == (PyObject*) Py_TYPE(((PyObject*)((value)))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4681, __PRETTY_FUNCTION__, "type == NULL || (value != NULL && type == (PyObject*) Py_TYPE(value))"));
     if (value) {
 
         if (__builtin_expect(!!(((PyBaseExceptionObject*) value)->traceback != tb), 0))
@@ -19972,7 +19975,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrRestoreInState(PyTh
     Py_XDECREF(((PyObject*)((tmp_value))));
     Py_XDECREF(((PyObject*)((type))));
     Py_XDECREF(((PyObject*)((tb))));
-# 4699 "yxdfb/Password.cpp"
+# 4705 "yxdfb/Password.cpp"
 }
 static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb) {
 
@@ -19992,7 +19995,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrFetchInState(PyThre
 
 
     }
-# 4726 "yxdfb/Password.cpp"
+# 4732 "yxdfb/Password.cpp"
 }
 
 
@@ -20052,7 +20055,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_set_iter_next(
     {
         Py_hash_t hash;
         int ret = _PySet_NextEntry(iter_obj, ppos, value, &hash);
-        ((ret != -1) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4785, __PRETTY_FUNCTION__, "ret != -1"));
+        ((ret != -1) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 4791, __PRETTY_FUNCTION__, "ret != -1"));
         if (__builtin_expect(!!(ret), 1)) {
             Py_INCREF(((PyObject*)((*value))));
             return 1;
@@ -20094,7 +20097,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyTuple_GetSlice(
     __Pyx_crop_slice(&start, &stop, &length);
     return __Pyx_PyTuple_FromArray(((PyTupleObject*)src)->ob_item + start, length);
 }
-# 4903 "yxdfb/Password.cpp"
+# 4909 "yxdfb/Password.cpp"
 static PyObject *__Pyx_FetchSharedCythonABIModule(void) {
     return __Pyx_PyImport_AddModuleRef((char*) "_cython_" "3_0_12" "");
 }
@@ -20152,7 +20155,7 @@ bad:
     cached_type = __null;
     goto done;
 }
-# 5010 "yxdfb/Password.cpp"
+# 5016 "yxdfb/Password.cpp"
 static PyObject *__Pyx_PyVectorcall_FastCallDict_kw(PyObject *func, vectorcallfunc vc, PyObject *const *args, size_t nargs, PyObject *kw)
 {
     PyObject *res = __null;
@@ -20205,7 +20208,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_PyVectorcall_Fast
     }
     return __Pyx_PyVectorcall_FastCallDict_kw(func, vc, args, nargs, kw);
 }
-# 5075 "yxdfb/Password.cpp"
+# 5081 "yxdfb/Password.cpp"
 static __inline__ __attribute__ ((__unused__)) int __Pyx__IsSameCyOrCFunction(PyObject *func, void *cfunc) {
     return __Pyx_IsAnySubtype2(Py_TYPE(((PyObject*)((func)))), (PyTypeObject *)__pyx_mstate_global->__pyx_CyFunctionType, (PyTypeObject *)&PyCFunction_Type) && (((PyCFunctionObject*)(func))->m_ml->ml_meth) == (PyCFunction) cfunc;
 }
@@ -20379,11 +20382,11 @@ __Pyx_CyFunction_init_defaults(__pyx_CyFunctionObject *op) {
     if (__builtin_expect(!!(!res), 0))
         return -1;
 
-    op->defaults_tuple = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 5248, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(0)]);
+    op->defaults_tuple = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 5254, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(0)]);
     Py_INCREF(((PyObject*)((op->defaults_tuple))));
-    op->defaults_kwdict = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 5250, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(1)]);
+    op->defaults_kwdict = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 5256, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(1)]);
     Py_INCREF(((PyObject*)((op->defaults_kwdict))));
-# 5260 "yxdfb/Password.cpp"
+# 5266 "yxdfb/Password.cpp"
     Py_DECREF(((PyObject*)((res))));
     return result;
 }
@@ -20513,7 +20516,7 @@ ignore:
     op->func_is_coroutine = __Pyx_PyBool_FromLong(is_coroutine);
     return (Py_INCREF(((PyObject*)((op->func_is_coroutine)))), op->func_is_coroutine);
 }
-# 5401 "yxdfb/Password.cpp"
+# 5407 "yxdfb/Password.cpp"
 static PyGetSetDef __pyx_CyFunction_getsets[] = {
     {(char *) "func_doc", (getter)__Pyx_CyFunction_get_doc, (setter)__Pyx_CyFunction_set_doc, 0, 0},
     {(char *) "__doc__", (getter)__Pyx_CyFunction_get_doc, (setter)__Pyx_CyFunction_set_doc, 0, 0},
@@ -20541,7 +20544,7 @@ static PyGetSetDef __pyx_CyFunction_getsets[] = {
 static PyMemberDef __pyx_CyFunction_members[] = {
 
     {(char *) "__module__", 6, __builtin_offsetof(PyCFunctionObject, m_module), 0, 0},
-# 5446 "yxdfb/Password.cpp"
+# 5452 "yxdfb/Password.cpp"
     {0, 0, 0, 0, 0}
 };
 static PyObject *
@@ -20726,7 +20729,7 @@ __Pyx_CyFunction_repr(__pyx_CyFunctionObject *op)
 
 }
 static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, PyObject *arg, PyObject *kw) {
-# 5640 "yxdfb/Password.cpp"
+# 5646 "yxdfb/Password.cpp"
     PyCFunctionObject* f = (PyCFunctionObject*)func;
     PyCFunction meth = f->m_ml->ml_meth;
     int flags = f->m_ml->ml_flags;
@@ -20749,7 +20752,7 @@ static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, Py
 
             if (__builtin_expect(!!(size == 0), 1))
                 return (*meth)(self, __null);
-# 5670 "yxdfb/Password.cpp"
+# 5676 "yxdfb/Password.cpp"
             PyErr_Format(PyExc_TypeError,
                 "%.200s() takes no arguments (%" "z" "d given)",
                 f->m_ml->ml_name, size);
@@ -20768,7 +20771,7 @@ static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, Py
             if (__builtin_expect(!!(size == 1), 1)) {
                 PyObject *result, *arg0;
 
-                arg0 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((arg))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 5688, __PRETTY_FUNCTION__, "PyTuple_Check(arg)")), ((PyTupleObject*)((arg))))->ob_item[(0)]);
+                arg0 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((arg))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 5694, __PRETTY_FUNCTION__, "PyTuple_Check(arg)")), ((PyTupleObject*)((arg))))->ob_item[(0)]);
 
 
 
@@ -20778,7 +20781,7 @@ static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, Py
 
                 return result;
             }
-# 5706 "yxdfb/Password.cpp"
+# 5712 "yxdfb/Password.cpp"
             PyErr_Format(PyExc_TypeError,
                 "%.200s() takes exactly one argument (%" "z" "d given)",
                 f->m_ml->ml_name, size);
@@ -20820,7 +20823,7 @@ static PyObject *__Pyx_CyFunction_CallAsMethod(PyObject *func, PyObject *args, P
      vectorcallfunc vc = (((PyCFunctionObject*)cyfunc)->vectorcall);
     if (vc) {
 
-        return __Pyx_PyVectorcall_FastCallDict(func, vc, &((((PyType_HasFeature((Py_TYPE(((PyObject*)((args))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 5747, __PRETTY_FUNCTION__, "PyTuple_Check(args)")), ((PyTupleObject*)((args))))->ob_item[(0)]), (size_t)PyTuple_GET_SIZE(((PyObject*)((args)))), kw);
+        return __Pyx_PyVectorcall_FastCallDict(func, vc, &((((PyType_HasFeature((Py_TYPE(((PyObject*)((args))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 5753, __PRETTY_FUNCTION__, "PyTuple_Check(args)")), ((PyTupleObject*)((args))))->ob_item[(0)]), (size_t)PyTuple_GET_SIZE(((PyObject*)((args)))), kw);
 
 
 
@@ -20988,7 +20991,7 @@ static PyObject * __Pyx_CyFunction_Vectorcall_FASTCALL_KEYWORDS_METHOD(PyObject 
     }
     return ((PyCMethod)(void(*)(void))def->ml_meth)(self, cls, args, (size_t)nargs, kwnames);
 }
-# 5943 "yxdfb/Password.cpp"
+# 5949 "yxdfb/Password.cpp"
 static PyTypeObject __pyx_CyFunctionType_type = {
     { { { 1 }, (0) }, (0) },
     "_cython_" "3_0_12" "" "." "cython_function_or_method",
@@ -21140,7 +21143,7 @@ static PyObject *__Pyx_CalculateMetaclass(PyTypeObject *metaclass, PyObject *bas
     for (i=0; i < nbases; i++) {
         PyTypeObject *tmptype;
 
-        PyObject *tmp = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((bases))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 6094, __PRETTY_FUNCTION__, "PyTuple_Check(bases)")), ((PyTupleObject*)((bases))))->ob_item[(i)]);
+        PyObject *tmp = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((bases))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 6100, __PRETTY_FUNCTION__, "PyTuple_Check(bases)")), ((PyTupleObject*)((bases))))->ob_item[(i)]);
 
 
 
@@ -21185,11 +21188,11 @@ static int __Pyx_PyErr_ExceptionMatchesTuple(PyObject *exc_type, PyObject *tuple
     n = PyTuple_GET_SIZE(((PyObject*)((tuple))));
 
     for (i=0; i<n; i++) {
-        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 6139, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
+        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 6145, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
     }
 
     for (i=0; i<n; i++) {
-        if (__Pyx_PyErr_GivenExceptionMatches(exc_type, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 6143, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]))) return 1;
+        if (__Pyx_PyErr_GivenExceptionMatches(exc_type, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 6149, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]))) return 1;
     }
     return 0;
 }
@@ -21201,7 +21204,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_ExceptionMatchesI
     if (__builtin_expect(!!(!current_exception), 0)) return 0;
     exc_type = (PyObject*) Py_TYPE(((PyObject*)((current_exception))));
     if (exc_type == err) return 1;
-# 6163 "yxdfb/Password.cpp"
+# 6169 "yxdfb/Password.cpp"
     if (__builtin_expect(!!(PyType_HasFeature((Py_TYPE(((PyObject*)((err))))), ((1UL << 26)))), 0)) {
         result = __Pyx_PyErr_ExceptionMatchesTuple(exc_type, err);
     } else {
@@ -21319,7 +21322,7 @@ bad:
     Py_DECREF(((PyObject*)((ns))));
     return __null;
 }
-# 6410 "yxdfb/Password.cpp"
+# 6416 "yxdfb/Password.cpp"
 static PyObject *__Pyx_Py3ClassCreate(PyObject *metaclass, PyObject *name, PyObject *bases,
                                       PyObject *dict, PyObject *mkw,
                                       int calculate_metaclass, int allow_py2_metaclass) {
@@ -21351,12 +21354,12 @@ static PyObject *__Pyx_Py3ClassCreate(PyObject *metaclass, PyObject *name, PyObj
 
     );
     Py_XDECREF(((PyObject*)((owned_metaclass))));
-# 6450 "yxdfb/Password.cpp"
+# 6456 "yxdfb/Password.cpp"
     (void) &__Pyx_GetBuiltinName;
 
     return result;
 }
-# 6483 "yxdfb/Password.cpp"
+# 6489 "yxdfb/Password.cpp"
 static int __Pyx_CLineForTraceback(PyThreadState *tstate, int c_line) {
     PyObject *use_cline;
     PyObject *ptype, *pvalue, *ptraceback;
@@ -21523,7 +21526,7 @@ __attribute__ ((visibility ("default"))) void PyFrame_FastToLocals(PyFrameObject
 
 
 }
-# 6609 "yxdfb/Password.cpp" 2
+# 6615 "yxdfb/Password.cpp" 2
 
 
 
@@ -22157,8 +22160,8 @@ PyGenObject *_PyFrame_GetGenerator(_PyInterpreterFrame *frame)
 
 
 }
-# 6615 "yxdfb/Password.cpp" 2
-# 6699 "yxdfb/Password.cpp"
+# 6621 "yxdfb/Password.cpp" 2
+# 6705 "yxdfb/Password.cpp"
 static PyCodeObject* __Pyx_CreateCodeObjectForTraceback(
             const char *funcname, int c_line,
             int py_line, const char *filename) {
@@ -22186,7 +22189,7 @@ static PyCodeObject* __Pyx_CreateCodeObjectForTraceback(
 
 
     }
-# 6747 "yxdfb/Password.cpp"
+# 6753 "yxdfb/Password.cpp"
     py_code = PyCode_NewEmpty(filename, funcname, py_line);
 
     Py_XDECREF(((PyObject*)((py_funcname))));
@@ -22280,10 +22283,10 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyInt_From_long(l
         int one = 1; int little = (int)*(unsigned char *)&one;
         return _PyLong_FromByteArray(bytes, sizeof(long),
                                      little, !is_unsigned);
-# 6866 "yxdfb/Password.cpp"
+# 6872 "yxdfb/Password.cpp"
     }
 }
-# 6908 "yxdfb/Password.cpp"
+# 6914 "yxdfb/Password.cpp"
 static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject *x) {
 
 
@@ -22294,7 +22297,7 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
 
 
     const int is_unsigned = neg_one > const_zero;
-# 6931 "yxdfb/Password.cpp"
+# 6937 "yxdfb/Password.cpp"
     if (__builtin_expect(!!(!PyType_HasFeature((Py_TYPE(((PyObject*)((x))))), ((1UL << 24)))), 0)) {
         long val;
         PyObject *tmp = __Pyx_PyNumber_IntOrLong(x);
@@ -22311,7 +22314,7 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
             { __Pyx_compact_upylong value = ((((PyLongObject*)x)->long_value.ob_digit)[0]); if (sizeof(long) < sizeof(__Pyx_compact_upylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_upylong) (long) value), 0)) { __Pyx_compact_upylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_upylong)-1 && PyErr_Occurred()), 0)) return (long) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (long) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 6947, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 6953, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3))) {
                 case 2:
                     if ((8 * sizeof(long) > 1 * 30)) {
@@ -22369,7 +22372,7 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
             { __Pyx_compact_pylong value = _PyLong_CompactValue((PyLongObject*) x); if (sizeof(long) < sizeof(__Pyx_compact_pylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_pylong) (long) value), 0)) { __Pyx_compact_pylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_pylong)-1 && PyErr_Occurred()), 0)) return (long) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (long) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7005, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7011, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((1 - (Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag & 3)) * ((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)))) {
                 case -2:
                     if ((8 * sizeof(long) - 1 > 1 * 30)) {
@@ -22439,13 +22442,13 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
     {
         long val;
         int ret = -1;
-# 7085 "yxdfb/Password.cpp"
+# 7091 "yxdfb/Password.cpp"
         int one = 1; int is_little = (int)*(unsigned char *)&one;
         unsigned char *bytes = (unsigned char *)&val;
         ret = _PyLong_AsByteArray((PyLongObject *)x,
                                     bytes, sizeof(val),
                                     is_little, !is_unsigned);
-# 7160 "yxdfb/Password.cpp"
+# 7166 "yxdfb/Password.cpp"
         if (__builtin_expect(!!(ret), 0))
             return (long) -1;
         return val;
@@ -22471,7 +22474,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
 
 
     const int is_unsigned = neg_one > const_zero;
-# 7198 "yxdfb/Password.cpp"
+# 7204 "yxdfb/Password.cpp"
     if (__builtin_expect(!!(!PyType_HasFeature((Py_TYPE(((PyObject*)((x))))), ((1UL << 24)))), 0)) {
         int val;
         PyObject *tmp = __Pyx_PyNumber_IntOrLong(x);
@@ -22488,7 +22491,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
             { __Pyx_compact_upylong value = ((((PyLongObject*)x)->long_value.ob_digit)[0]); if (sizeof(int) < sizeof(__Pyx_compact_upylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_upylong) (int) value), 0)) { __Pyx_compact_upylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_upylong)-1 && PyErr_Occurred()), 0)) return (int) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (int) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7214, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7220, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3))) {
                 case 2:
                     if ((8 * sizeof(int) > 1 * 30)) {
@@ -22546,7 +22549,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
             { __Pyx_compact_pylong value = _PyLong_CompactValue((PyLongObject*) x); if (sizeof(int) < sizeof(__Pyx_compact_pylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_pylong) (int) value), 0)) { __Pyx_compact_pylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_pylong)-1 && PyErr_Occurred()), 0)) return (int) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (int) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7272, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7278, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((1 - (Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag & 3)) * ((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)))) {
                 case -2:
                     if ((8 * sizeof(int) - 1 > 1 * 30)) {
@@ -22616,13 +22619,13 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
     {
         int val;
         int ret = -1;
-# 7352 "yxdfb/Password.cpp"
+# 7358 "yxdfb/Password.cpp"
         int one = 1; int is_little = (int)*(unsigned char *)&one;
         unsigned char *bytes = (unsigned char *)&val;
         ret = _PyLong_AsByteArray((PyLongObject *)x,
                                     bytes, sizeof(val),
                                     is_little, !is_unsigned);
-# 7427 "yxdfb/Password.cpp"
+# 7433 "yxdfb/Password.cpp"
         if (__builtin_expect(!!(ret), 0))
             return (int) -1;
         return val;
@@ -22655,7 +22658,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_IsSubtype(PyTypeObject 
         Py_ssize_t i, n;
         n = PyTuple_GET_SIZE(((PyObject*)((mro))));
         for (i = 0; i < n; i++) {
-            if (((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7459, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]) == (PyObject *)b)
+            if (((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7465, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]) == (PyObject *)b)
                 return 1;
         }
         return 0;
@@ -22670,7 +22673,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_IsAnySubtype2(PyTypeObj
         Py_ssize_t i, n;
         n = PyTuple_GET_SIZE(((PyObject*)((mro))));
         for (i = 0; i < n; i++) {
-            PyObject *base = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7474, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]);
+            PyObject *base = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7480, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]);
             if (base == (PyObject *)a || base == (PyObject *)b)
                 return 1;
         }
@@ -22678,7 +22681,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_IsAnySubtype2(PyTypeObj
     }
     return __Pyx_InBases(cls, a) || __Pyx_InBases(cls, b);
 }
-# 7505 "yxdfb/Password.cpp"
+# 7511 "yxdfb/Password.cpp"
 static __inline__ __attribute__ ((__unused__)) int __Pyx_inner_PyErr_GivenExceptionMatches2(PyObject *err, PyObject* exc_type1, PyObject *exc_type2) {
     if (exc_type1) {
         return __Pyx_IsAnySubtype2((PyTypeObject*)err, (PyTypeObject*)exc_type1, (PyTypeObject*)exc_type2);
@@ -22689,15 +22692,15 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_inner_PyErr_GivenExcept
 
 static int __Pyx_PyErr_GivenExceptionMatchesTuple(PyObject *exc_type, PyObject *tuple) {
     Py_ssize_t i, n;
-    (((PyType_Check(((PyObject*)(((exc_type))))) && PyType_HasFeature(((PyTypeObject*)(exc_type)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7515, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type)"));
+    (((PyType_Check(((PyObject*)(((exc_type))))) && PyType_HasFeature(((PyTypeObject*)(exc_type)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7521, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type)"));
     n = PyTuple_GET_SIZE(((PyObject*)((tuple))));
 
     for (i=0; i<n; i++) {
-        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7519, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
+        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7525, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
     }
 
     for (i=0; i<n; i++) {
-        PyObject *t = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7523, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]);
+        PyObject *t = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7529, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]);
 
 
 
@@ -22721,8 +22724,8 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_GivenExceptionMat
     return PyErr_GivenExceptionMatches(err, exc_type);
 }
 static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_GivenExceptionMatches2(PyObject *err, PyObject *exc_type1, PyObject *exc_type2) {
-    (((PyType_Check(((PyObject*)(((exc_type1))))) && PyType_HasFeature(((PyTypeObject*)(exc_type1)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7547, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type1)"));
-    (((PyType_Check(((PyObject*)(((exc_type2))))) && PyType_HasFeature(((PyTypeObject*)(exc_type2)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7548, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type2)"));
+    (((PyType_Check(((PyObject*)(((exc_type1))))) && PyType_HasFeature(((PyTypeObject*)(exc_type1)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7553, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type1)"));
+    (((PyType_Check(((PyObject*)(((exc_type2))))) && PyType_HasFeature(((PyTypeObject*)(exc_type2)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Password.cpp", 7554, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type2)"));
     if (__builtin_expect(!!(err == exc_type1 || err == exc_type2), 1)) return 1;
     if (__builtin_expect(!!((PyType_Check(((PyObject*)(((err))))) && PyType_HasFeature(((PyTypeObject*)(err)), ((1UL << 30))))), 1)) {
         return __Pyx_inner_PyErr_GivenExceptionMatches2(err, exc_type1, exc_type2);
@@ -22735,7 +22738,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_GivenExceptionMat
 static unsigned long __Pyx_get_runtime_version(void) {
 
     return Py_Version & ~0xFFUL;
-# 7581 "yxdfb/Password.cpp"
+# 7587 "yxdfb/Password.cpp"
 }
 static int __Pyx_check_binary_version(unsigned long ct_version, unsigned long rt_version, int allow_newer) {
     const unsigned long MAJOR_MINOR = 0xFFFF0000UL;
@@ -22784,7 +22787,7 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t) {
     while (t->p) {
 
         __Pyx_InitString(*t, t->p);
-# 7642 "yxdfb/Password.cpp"
+# 7648 "yxdfb/Password.cpp"
         ++t;
     }
     return 0;
@@ -22813,9 +22816,9 @@ static __inline__ __attribute__ ((__unused__)) const char* __Pyx_PyObject_AsStri
     Py_ssize_t ignore;
     return __Pyx_PyObject_AsStringAndSize(o, &ignore);
 }
-# 7709 "yxdfb/Password.cpp"
+# 7715 "yxdfb/Password.cpp"
 static __inline__ __attribute__ ((__unused__)) const char* __Pyx_PyObject_AsStringAndSize(PyObject* o, Py_ssize_t *length) {
-# 7720 "yxdfb/Password.cpp"
+# 7726 "yxdfb/Password.cpp"
     if (PyObject_TypeCheck(((PyObject*)(((o)))), (&PyByteArray_Type))) {
         *length = PyByteArray_GET_SIZE(((PyObject*)((o))));
         return PyByteArray_AS_STRING(((PyObject*)((o))));
@@ -22881,7 +22884,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyNumber_IntOrLon
     return (Py_INCREF(((PyObject*)((x)))), x);
 
   m = Py_TYPE(((PyObject*)((x))))->tp_as_number;
-# 7795 "yxdfb/Password.cpp"
+# 7801 "yxdfb/Password.cpp"
   if (__builtin_expect(!!(m && m->nb_int), 1)) {
     name = "int";
     res = m->nb_int(x);
@@ -22910,7 +22913,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyNumber_IntOrLon
 static __inline__ __attribute__ ((__unused__)) Py_ssize_t __Pyx_PyIndex_AsSsize_t(PyObject* b) {
   Py_ssize_t ival;
   PyObject *x;
-# 7831 "yxdfb/Password.cpp"
+# 7837 "yxdfb/Password.cpp"
   if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((b)))), (&PyLong_Type))), 1)) {
 
     if (__builtin_expect(!!(_PyLong_IsCompact((PyLongObject*) b)), 1)) {
