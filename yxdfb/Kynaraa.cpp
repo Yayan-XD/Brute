@@ -25133,7 +25133,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_8graph_v1_genexpr([[maybe_unused]] PyO
   if (__builtin_expect(!!(!__pyx_cur_scope), 0)) {
     __pyx_cur_scope = ((struct __pyx_obj_7Kynaraa___pyx_scope_struct_4_genexpr *)(&_Py_NoneStruct));
     Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
-    { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12693; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12693; (void)__pyx_clineno; } goto __pyx_L1_error; }
   } else {
                                              ;
   }
@@ -25141,7 +25141,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_8graph_v1_genexpr([[maybe_unused]] PyO
   Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_0))));
                                                      ;
   {
-    __pyx_CoroutineObject *gen = __Pyx__Coroutine_New(__pyx_mstate_global->__pyx_GeneratorType, (__pyx_coroutine_body_t) __pyx_gb_7Kynaraa_5Kynaa_8graph_v1_2generator2, __null, (PyObject *) __pyx_cur_scope, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_Kynaa_graph_v1_locals_genexpr, __pyx_mstate_global->__pyx_n_s_Kynaraa); if (__builtin_expect(!!(!gen), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12701; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_CoroutineObject *gen = __Pyx__Coroutine_New(__pyx_mstate_global->__pyx_GeneratorType, (__pyx_coroutine_body_t) __pyx_gb_7Kynaraa_5Kynaa_8graph_v1_2generator2, __null, (PyObject *) __pyx_cur_scope, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_Kynaa_graph_v1_locals_genexpr, __pyx_mstate_global->__pyx_n_s_Kynaraa); if (__builtin_expect(!!(!gen), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12701; (void)__pyx_clineno; } goto __pyx_L1_error; }
     Py_DECREF(((PyObject*)((__pyx_cur_scope))));
                                  ;
     return (PyObject *) gen;
@@ -25183,10 +25183,10 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v1_2generator2(__pyx_CoroutineO
     return __null;
   }
   __pyx_L3_first_run:;
-  if (__builtin_expect(!!(!__pyx_sent_value), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12743; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__builtin_expect(!!(!__pyx_sent_value), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12743; (void)__pyx_clineno; } goto __pyx_L1_error; }
   __pyx_t_2 = 0;
-  if (__builtin_expect(!!(!__pyx_cur_scope->__pyx_genexpr_arg_0), 0)) { __Pyx_RaiseUnboundLocalError(".0"); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12745; (void)__pyx_clineno; } goto __pyx_L1_error; } }
-  __pyx_t_5 = __Pyx_dict_iterator(__pyx_cur_scope->__pyx_genexpr_arg_0, 1, __pyx_mstate_global->__pyx_n_s_items, (&__pyx_t_3), (&__pyx_t_4)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12746; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__builtin_expect(!!(!__pyx_cur_scope->__pyx_genexpr_arg_0), 0)) { __Pyx_RaiseUnboundLocalError(".0"); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12745; (void)__pyx_clineno; } goto __pyx_L1_error; } }
+  __pyx_t_5 = __Pyx_dict_iterator(__pyx_cur_scope->__pyx_genexpr_arg_0, 1, __pyx_mstate_global->__pyx_n_s_items, (&__pyx_t_3), (&__pyx_t_4)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12746; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_XDECREF(((PyObject*)((__pyx_t_1))));
   __pyx_t_1 = __pyx_t_5;
@@ -25194,7 +25194,7 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v1_2generator2(__pyx_CoroutineO
   while (1) {
     __pyx_t_7 = __Pyx_dict_iter_next(__pyx_t_1, __pyx_t_3, &__pyx_t_2, &__pyx_t_5, &__pyx_t_6, __null, __pyx_t_4);
     if (__builtin_expect(!!(__pyx_t_7 == 0), 0)) break;
-    if (__builtin_expect(!!(__pyx_t_7 == -1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12754; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (__builtin_expect(!!(__pyx_t_7 == -1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12754; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
                            ;
                                                ;
@@ -25205,11 +25205,11 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v1_2generator2(__pyx_CoroutineO
     do { PyObject *tmp = (PyObject *) __pyx_cur_scope->__pyx_v_value; __pyx_cur_scope->__pyx_v_value = __pyx_t_6; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
                             ;
     __pyx_t_6 = 0;
-    __pyx_t_6 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12765; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_6 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12765; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     __pyx_t_8 = 0;
     __pyx_t_9 = 127;
-    __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_key)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_v_key)))), __pyx_cur_scope->__pyx_v_key) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_key)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_cur_scope->__pyx_v_key) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_key)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_cur_scope->__pyx_v_key) : PyObject_Format(__pyx_cur_scope->__pyx_v_key, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12769; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_key)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_v_key)))), __pyx_cur_scope->__pyx_v_key) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_key)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_cur_scope->__pyx_v_key) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_key)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_cur_scope->__pyx_v_key) : PyObject_Format(__pyx_cur_scope->__pyx_v_key, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12769; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_9;
     __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
@@ -25220,14 +25220,14 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v1_2generator2(__pyx_CoroutineO
     __pyx_t_8 += 1;
                                  ;
     PyTuple_SET_ITEM(((PyObject*)((__pyx_t_6))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__40))));
-    __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_value)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_v_value)))), __pyx_cur_scope->__pyx_v_value) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_value)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_cur_scope->__pyx_v_value) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_value)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_cur_scope->__pyx_v_value) : PyObject_Format(__pyx_cur_scope->__pyx_v_value, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12780; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_5 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_value)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_v_value)))), __pyx_cur_scope->__pyx_v_value) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_value)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_cur_scope->__pyx_v_value) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_value)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_cur_scope->__pyx_v_value) : PyObject_Format(__pyx_cur_scope->__pyx_v_value, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12780; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     __pyx_t_9 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) > __pyx_t_9) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_5)))) : __pyx_t_9;
     __pyx_t_8 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_5))));
                             ;
     PyTuple_SET_ITEM(((PyObject*)((__pyx_t_6))), (2), ((PyObject*)((__pyx_t_5))));
     __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_6, 3, __pyx_t_8, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12787; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_6, 3, __pyx_t_8, __pyx_t_9); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12787; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_6)))); __pyx_t_6 = 0;
     __pyx_r = __pyx_t_5;
@@ -25250,7 +25250,7 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v1_2generator2(__pyx_CoroutineO
     __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
     __pyx_t_3 = __pyx_cur_scope->__pyx_t_2;
     __pyx_t_4 = __pyx_cur_scope->__pyx_t_3;
-    if (__builtin_expect(!!(!__pyx_sent_value), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 12810; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (__builtin_expect(!!(!__pyx_sent_value), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 12810; (void)__pyx_clineno; } goto __pyx_L1_error; }
   }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
   CYTHON_UNUSED_VAR(__pyx_cur_scope);
@@ -25623,15 +25623,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
         do { PyObject *tmp = (PyObject *) __pyx_v_response_text; __pyx_v_response_text = __pyx_t_12; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_12 = 0;
 # 13289 "yxdfb/Kynaraa.cpp"
-        __pyx_t_12 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_v_ua); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 266; (void)__pyx_lineno; __pyx_clineno = 13289; (void)__pyx_clineno; } goto __pyx_L5_error; }
-                                ;
-        Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-# 13300 "yxdfb/Kynaraa.cpp"
-        __pyx_t_12 = __Pyx_PyObject_CallNoArg(__pyx_builtin_print); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 267; (void)__pyx_lineno; __pyx_clineno = 13300; (void)__pyx_clineno; } goto __pyx_L5_error; }
-                                ;
-        Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-# 13311 "yxdfb/Kynaraa.cpp"
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_print_proses_api); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 268; (void)__pyx_lineno; __pyx_clineno = 13311; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_print_proses_api); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 266; (void)__pyx_lineno; __pyx_clineno = 13289; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         __pyx_t_8 = __null;
         __pyx_t_10 = 0;
@@ -25651,56 +25643,56 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[3] = {__pyx_t_8, __pyx_v_response_text, __pyx_mstate_global->__pyx_kp_s_GRAPH_V1};
           __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_10, (size_t)(2+__pyx_t_10), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-          if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 268; (void)__pyx_lineno; __pyx_clineno = 13331; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 266; (void)__pyx_lineno; __pyx_clineno = 13309; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
         }
         Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-# 13344 "yxdfb/Kynaraa.cpp"
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 270; (void)__pyx_lineno; __pyx_clineno = 13344; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 13322 "yxdfb/Kynaraa.cpp"
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 268; (void)__pyx_lineno; __pyx_clineno = 13322; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 270; (void)__pyx_lineno; __pyx_clineno = 13346; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 268; (void)__pyx_lineno; __pyx_clineno = 13324; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-        __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_mstate_global->__pyx_tuple__43, __null); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 270; (void)__pyx_lineno; __pyx_clineno = 13349; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_mstate_global->__pyx_tuple__43, __null); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 268; (void)__pyx_lineno; __pyx_clineno = 13327; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-        __pyx_t_16 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_c_user, __pyx_t_12, 2)); if (__builtin_expect(!!((__pyx_t_16 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 270; (void)__pyx_lineno; __pyx_clineno = 13352; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_16 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_c_user, __pyx_t_12, 2)); if (__builtin_expect(!!((__pyx_t_16 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 268; (void)__pyx_lineno; __pyx_clineno = 13330; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
         if (__pyx_t_16) {
         } else {
           __pyx_t_15 = __pyx_t_16;
           goto __pyx_L14_bool_binop_done;
         }
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 270; (void)__pyx_lineno; __pyx_clineno = 13359; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 268; (void)__pyx_lineno; __pyx_clineno = 13337; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_16 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_access_token, __pyx_t_12, 2)); if (__builtin_expect(!!((__pyx_t_16 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 270; (void)__pyx_lineno; __pyx_clineno = 13361; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_16 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_access_token, __pyx_t_12, 2)); if (__builtin_expect(!!((__pyx_t_16 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 268; (void)__pyx_lineno; __pyx_clineno = 13339; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
         __pyx_t_15 = __pyx_t_16;
         __pyx_L14_bool_binop_done:;
         if (__pyx_t_15) {
-# 13374 "yxdfb/Kynaraa.cpp"
-          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13374; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 13352 "yxdfb/Kynaraa.cpp"
+          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 269; (void)__pyx_lineno; __pyx_clineno = 13352; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_t_12, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13376; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_t_12, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 269; (void)__pyx_lineno; __pyx_clineno = 13354; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok, __pyx_t_4) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13379; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok, __pyx_t_4) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 269; (void)__pyx_lineno; __pyx_clineno = 13357; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-# 13389 "yxdfb/Kynaraa.cpp"
-          __pyx_t_4 = ((5 <= 8) ? PyDict_New() : _PyDict_NewPresized(5)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13389; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 13367 "yxdfb/Kynaraa.cpp"
+          __pyx_t_4 = ((5 <= 8) ? PyDict_New() : _PyDict_NewPresized(5)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13367; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_re); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13391; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_re); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13369; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_search); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13393; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_search); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13371; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13396; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13374; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13398; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13376; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_mstate_global->__pyx_tuple__43, __null); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13401; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_mstate_global->__pyx_tuple__43, __null); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13379; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
           __pyx_t_14 = __null;
@@ -25722,11 +25714,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             __pyx_t_8 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_10, (size_t)(2+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-            if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13423; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13401; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           }
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_group); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13427; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_group); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13405; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           __pyx_t_8 = __null;
@@ -25747,21 +25739,21 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_mstate_global->__pyx_int_1};
             __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13448; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13426; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           }
-          if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_datr, __pyx_t_12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13452; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_datr, __pyx_t_12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13430; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-# 13462 "yxdfb/Kynaraa.cpp"
-          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_base64); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13462; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 13440 "yxdfb/Kynaraa.cpp"
+          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_base64); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13440; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_b64encode); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13464; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_b64encode); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13442; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-          (__pyx_t_14) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_os); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13467; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_14) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_os); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13445; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_s_urandom); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13469; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_s_urandom); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13447; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
           __pyx_t_14 = __null;
@@ -25782,7 +25774,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_14, __pyx_mstate_global->__pyx_int_18};
             __pyx_t_8 = __Pyx_PyObject_FastCallDict(__pyx_t_13, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
-            if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13490; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13468; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           }
@@ -25805,11 +25797,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_9, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-            if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13513; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13491; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           }
-          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_decode); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13517; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_decode); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13495; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_11 = __null;
@@ -25830,42 +25822,42 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_11, __null};
             __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_9, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13538; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13516; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           }
-          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13542; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13520; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-          __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_mstate_global->__pyx_tuple__44, __null); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13545; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_mstate_global->__pyx_tuple__44, __null); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13523; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13548; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13526; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-          __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_mstate_global->__pyx_tuple__47, __null); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13551; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_mstate_global->__pyx_tuple__47, __null); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13529; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13554; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13532; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-          __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_mstate_global->__pyx_tuple__49, __null); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13557; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_mstate_global->__pyx_tuple__49, __null); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 13535; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_sb, __pyx_t_12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13560; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_sb, __pyx_t_12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13538; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-# 13570 "yxdfb/Kynaraa.cpp"
-          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_re); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13570; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 13548 "yxdfb/Kynaraa.cpp"
+          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_re); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13548; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_search); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13572; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_search); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13550; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13575; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13553; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13577; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13555; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_mstate_global->__pyx_tuple__43, __null); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13580; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_mstate_global->__pyx_tuple__43, __null); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13558; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           __pyx_t_13 = __null;
@@ -25887,11 +25879,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             __pyx_t_9 = __Pyx_PyObject_FastCallDict(__pyx_t_8, __pyx_callargs+1-__pyx_t_10, (size_t)(2+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-            if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13602; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13580; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           }
-          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_group); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13606; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_group); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13584; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           __pyx_t_9 = __null;
@@ -25912,24 +25904,24 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_9, __pyx_mstate_global->__pyx_int_1};
             __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_8, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13627; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13605; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           }
-          if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_fr, __pyx_t_12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13631; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_fr, __pyx_t_12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13609; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-# 13641 "yxdfb/Kynaraa.cpp"
-          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_re); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 276; (void)__pyx_lineno; __pyx_clineno = 13641; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 13619 "yxdfb/Kynaraa.cpp"
+          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_re); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13619; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_search); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 276; (void)__pyx_lineno; __pyx_clineno = 13643; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_search); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13621; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 276; (void)__pyx_lineno; __pyx_clineno = 13646; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13624; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 276; (void)__pyx_lineno; __pyx_clineno = 13648; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13626; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_mstate_global->__pyx_tuple__43, __null); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 276; (void)__pyx_lineno; __pyx_clineno = 13651; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_mstate_global->__pyx_tuple__43, __null); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13629; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           __pyx_t_13 = __null;
@@ -25951,11 +25943,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             __pyx_t_8 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_10, (size_t)(2+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-            if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 276; (void)__pyx_lineno; __pyx_clineno = 13673; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13651; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           }
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_group); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 276; (void)__pyx_lineno; __pyx_clineno = 13677; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_group); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13655; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           __pyx_t_8 = __null;
@@ -25976,24 +25968,24 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_mstate_global->__pyx_int_1};
             __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 276; (void)__pyx_lineno; __pyx_clineno = 13698; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 13676; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           }
-          if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_c_user, __pyx_t_12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13702; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_c_user, __pyx_t_12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13680; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-# 13712 "yxdfb/Kynaraa.cpp"
-          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_re); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 13712; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 13690 "yxdfb/Kynaraa.cpp"
+          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_re); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13690; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_search); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 13714; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_search); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13692; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 13717; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13695; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 13719; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13697; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-          __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_mstate_global->__pyx_tuple__43, __null); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 13722; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_mstate_global->__pyx_tuple__43, __null); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13700; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           __pyx_t_13 = __null;
@@ -26015,11 +26007,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_9, __pyx_callargs+1-__pyx_t_10, (size_t)(2+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-            if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 13744; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13722; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           }
-          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_group); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 13748; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_group); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13726; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_11 = __null;
@@ -26040,24 +26032,24 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_11, __pyx_mstate_global->__pyx_int_1};
             __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_9, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 13769; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 275; (void)__pyx_lineno; __pyx_clineno = 13747; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           }
-          if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_xs, __pyx_t_12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 273; (void)__pyx_lineno; __pyx_clineno = 13773; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_xs, __pyx_t_12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 271; (void)__pyx_lineno; __pyx_clineno = 13751; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           do { PyObject *tmp = (PyObject *) __pyx_v_cokie; __pyx_v_cokie = ((PyObject*)__pyx_t_4); Py_XDECREF(((PyObject*)((tmp)))); } while (0);
           __pyx_t_4 = 0;
-# 13785 "yxdfb/Kynaraa.cpp"
-          __pyx_t_4 = __pyx_pf_7Kynaraa_5Kynaa_8graph_v1_genexpr(__null, __pyx_v_cokie); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13785; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 13763 "yxdfb/Kynaraa.cpp"
+          __pyx_t_4 = __pyx_pf_7Kynaraa_5Kynaa_8graph_v1_genexpr(__null, __pyx_v_cokie); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 13763; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_12 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__50, __pyx_t_4); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13787; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__50, __pyx_t_4); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 13765; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           do { PyObject *tmp = (PyObject *) __pyx_v_cookie; __pyx_v_cookie = ((PyObject*)__pyx_t_12); Py_XDECREF(((PyObject*)((tmp)))); } while (0);
           __pyx_t_12 = 0;
-# 13800 "yxdfb/Kynaraa.cpp"
-          __pyx_t_12 = PyTuple_New(13); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13800; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 13778 "yxdfb/Kynaraa.cpp"
+          __pyx_t_12 = PyTuple_New(13); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13778; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_17 = 0;
           __pyx_t_18 = 127;
@@ -26065,9 +26057,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 2;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__3))));
-          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13808; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13786; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13810; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13788; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) : __pyx_t_18;
@@ -26079,9 +26071,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 2;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_n_u_OK_2))));
-          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13822; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13800; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_9)))), __pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_9) : PyObject_Format(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13824; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_9)))), __pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_9) : PyObject_Format(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13802; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_18;
@@ -26093,9 +26085,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__51))));
-          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13836; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13814; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13838; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13816; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) : __pyx_t_18;
@@ -26107,7 +26099,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 1;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__7))));
-          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13850; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13828; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) : __pyx_t_18;
           __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_9))));
@@ -26118,7 +26110,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13861; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13839; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) : __pyx_t_18;
           __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_9))));
@@ -26129,16 +26121,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (10), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_cookie)))), __pyx_v_cookie) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_cookie) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_cookie) : PyObject_Format(__pyx_v_cookie, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13872; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_cookie)))), __pyx_v_cookie) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_cookie) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_cookie) : PyObject_Format(__pyx_v_cookie, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13850; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) : __pyx_t_18;
           __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_9))));
                                   ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (11), ((PyObject*)((__pyx_t_9))));
           __pyx_t_9 = 0;
-          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13879; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13857; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_9)))), __pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_9) : PyObject_Format(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13881; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_9)))), __pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_9) : PyObject_Format(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13859; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_18;
@@ -26146,17 +26138,17 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
                                   ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (12), ((PyObject*)((__pyx_t_4))));
           __pyx_t_4 = 0;
-          __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_12, 13, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13889; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_12, 13, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13867; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-          __pyx_t_12 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_4); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 280; (void)__pyx_lineno; __pyx_clineno = 13892; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_4); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 278; (void)__pyx_lineno; __pyx_clineno = 13870; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-# 13904 "yxdfb/Kynaraa.cpp"
-          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13904; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 13882 "yxdfb/Kynaraa.cpp"
+          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13882; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_9 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13906; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13884; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_17 = 0;
           __pyx_t_18 = 127;
@@ -26164,7 +26156,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 18;
                                                      ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_9))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_data_result_OK_OK))));
-          (__pyx_t_13) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13914; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_13) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13892; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_14 = __null;
           __pyx_t_10 = 0;
@@ -26184,11 +26176,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_14, __null};
             __pyx_t_8 = __Pyx_PyObject_FastCallDict(__pyx_t_13, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
-            if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13934; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13912; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           }
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13938; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13916; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           __pyx_t_8 = __null;
@@ -26209,11 +26201,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_8, __null};
             __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_13, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-            if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13959; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13937; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           }
-          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13963; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13941; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) : __pyx_t_18;
@@ -26225,14 +26217,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 4;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_9))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_txt))));
-          __pyx_t_13 = __Pyx_PyUnicode_Join(__pyx_t_9, 3, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13975; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyUnicode_Join(__pyx_t_9, 3, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13953; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          __pyx_t_9 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13978; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13956; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_17 = 0;
           __pyx_t_18 = 127;
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13982; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13960; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_18;
           __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
@@ -26243,7 +26235,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_9))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 13993; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13971; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_18;
           __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
@@ -26254,14 +26246,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_9))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_cookie)))), __pyx_v_cookie) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_cookie) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_cookie) : PyObject_Format(__pyx_v_cookie, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 14004; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_cookie)))), __pyx_v_cookie) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_cookie) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cookie)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_cookie) : PyObject_Format(__pyx_v_cookie, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13982; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_18;
           __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
                                    ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_9))), (4), ((PyObject*)((__pyx_t_11))));
           __pyx_t_11 = 0;
-          __pyx_t_11 = __Pyx_PyUnicode_Join(__pyx_t_9, 5, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 14011; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyUnicode_Join(__pyx_t_9, 5, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 13989; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           __pyx_t_9 = __null;
@@ -26284,31 +26276,31 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 14034; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 14012; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           }
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-# 14047 "yxdfb/Kynaraa.cpp"
+# 14025 "yxdfb/Kynaraa.cpp"
           goto __pyx_L10_try_break;
-# 14056 "yxdfb/Kynaraa.cpp"
+# 14034 "yxdfb/Kynaraa.cpp"
         }
-# 14065 "yxdfb/Kynaraa.cpp"
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14065; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 14043 "yxdfb/Kynaraa.cpp"
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 14043; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_15 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_kp_s_com_bloks_www_ap_two_step_verifi, __pyx_t_12, 2)); if (__builtin_expect(!!((__pyx_t_15 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14067; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_15 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_kp_s_com_bloks_www_ap_two_step_verifi, __pyx_t_12, 2)); if (__builtin_expect(!!((__pyx_t_15 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 281; (void)__pyx_lineno; __pyx_clineno = 14045; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
         if (__pyx_t_15) {
-# 14078 "yxdfb/Kynaraa.cpp"
-          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14078; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 14056 "yxdfb/Kynaraa.cpp"
+          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 282; (void)__pyx_lineno; __pyx_clineno = 14056; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_t_12, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14080; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_t_12, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 282; (void)__pyx_lineno; __pyx_clineno = 14058; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp, __pyx_t_4) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14083; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp, __pyx_t_4) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 282; (void)__pyx_lineno; __pyx_clineno = 14061; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-# 14093 "yxdfb/Kynaraa.cpp"
-          __pyx_t_4 = PyTuple_New(12); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14093; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 14071 "yxdfb/Kynaraa.cpp"
+          __pyx_t_4 = PyTuple_New(12); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14071; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_17 = 0;
           __pyx_t_18 = 127;
@@ -26316,9 +26308,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 2;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__3))));
-          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14101; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14079; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14103; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14081; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_18;
@@ -26330,9 +26322,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 2;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_n_u_CP_2))));
-          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14115; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14093; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14117; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14095; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) : __pyx_t_18;
@@ -26344,9 +26336,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__51))));
-          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14129; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14107; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14131; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14109; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_18;
@@ -26358,7 +26350,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 1;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__7))));
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14143; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14121; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_18;
           __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
@@ -26369,16 +26361,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14154; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14132; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_18;
           __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
                                    ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (9), ((PyObject*)((__pyx_t_11))));
           __pyx_t_11 = 0;
-          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14161; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14139; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14163; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14141; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) : __pyx_t_18;
@@ -26390,17 +26382,17 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 12;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (11), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__52))));
-          __pyx_t_12 = __Pyx_PyUnicode_Join(__pyx_t_4, 12, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14175; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = __Pyx_PyUnicode_Join(__pyx_t_4, 12, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14153; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-          __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_12); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 285; (void)__pyx_lineno; __pyx_clineno = 14178; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_12); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 283; (void)__pyx_lineno; __pyx_clineno = 14156; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-# 14190 "yxdfb/Kynaraa.cpp"
-          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14190; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 14168 "yxdfb/Kynaraa.cpp"
+          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14168; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_11 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14192; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14170; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_17 = 0;
           __pyx_t_18 = 127;
@@ -26408,7 +26400,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 18;
                                                      ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_data_result_CP_CP))));
-          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14200; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14178; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_14 = __null;
           __pyx_t_10 = 0;
@@ -26428,11 +26420,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_14, __null};
             __pyx_t_9 = __Pyx_PyObject_FastCallDict(__pyx_t_8, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
-            if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14220; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14198; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           }
-          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14224; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14202; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           __pyx_t_9 = __null;
@@ -26453,11 +26445,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_9, __null};
             __pyx_t_13 = __Pyx_PyObject_FastCallDict(__pyx_t_8, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-            if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14245; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14223; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           }
-          __pyx_t_8 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_13)))), __pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_13) : PyObject_Format(__pyx_t_13, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14249; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_13)))), __pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_13) : PyObject_Format(__pyx_t_13, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14227; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_8)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_8)))) : __pyx_t_18;
@@ -26469,14 +26461,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 4;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_txt))));
-          __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_11, 3, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14261; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_11, 3, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14239; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          __pyx_t_11 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14264; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14242; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_17 = 0;
           __pyx_t_18 = 127;
-          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14268; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14246; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) : __pyx_t_18;
           __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_13))));
@@ -26487,14 +26479,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14279; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14257; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) : __pyx_t_18;
           __pyx_t_17 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_13))));
                                    ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_t_13))));
           __pyx_t_13 = 0;
-          __pyx_t_13 = __Pyx_PyUnicode_Join(__pyx_t_11, 3, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14286; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyUnicode_Join(__pyx_t_11, 3, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14264; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_11 = __null;
@@ -26517,31 +26509,31 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-            if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14309; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 284; (void)__pyx_lineno; __pyx_clineno = 14287; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           }
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-# 14322 "yxdfb/Kynaraa.cpp"
+# 14300 "yxdfb/Kynaraa.cpp"
           goto __pyx_L10_try_break;
-# 14331 "yxdfb/Kynaraa.cpp"
+# 14309 "yxdfb/Kynaraa.cpp"
         }
-# 14340 "yxdfb/Kynaraa.cpp"
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14340; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 14318 "yxdfb/Kynaraa.cpp"
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14318; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_15 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_kp_s_com_bloks_www_two_step_verificat, __pyx_t_4, 2)); if (__builtin_expect(!!((__pyx_t_15 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14342; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_15 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_kp_s_com_bloks_www_two_step_verificat, __pyx_t_4, 2)); if (__builtin_expect(!!((__pyx_t_15 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 286; (void)__pyx_lineno; __pyx_clineno = 14320; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
         if (__pyx_t_15) {
-# 14353 "yxdfb/Kynaraa.cpp"
-          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_sys); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 289; (void)__pyx_lineno; __pyx_clineno = 14353; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 14331 "yxdfb/Kynaraa.cpp"
+          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_sys); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 287; (void)__pyx_lineno; __pyx_clineno = 14331; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_stdout); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 289; (void)__pyx_lineno; __pyx_clineno = 14355; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_stdout); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 287; (void)__pyx_lineno; __pyx_clineno = 14333; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_mstate_global->__pyx_n_s_write); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 289; (void)__pyx_lineno; __pyx_clineno = 14358; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_mstate_global->__pyx_n_s_write); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 287; (void)__pyx_lineno; __pyx_clineno = 14336; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-          __pyx_t_13 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_s__27, __pyx_mstate_global->__pyx_kp_s__53); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 289; (void)__pyx_lineno; __pyx_clineno = 14361; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_s__27, __pyx_mstate_global->__pyx_kp_s__53); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 287; (void)__pyx_lineno; __pyx_clineno = 14339; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_8 = __null;
           __pyx_t_10 = 0;
@@ -26562,13 +26554,13 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_12, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-            if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 289; (void)__pyx_lineno; __pyx_clineno = 14382; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 287; (void)__pyx_lineno; __pyx_clineno = 14360; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           }
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-# 14395 "yxdfb/Kynaraa.cpp"
-          __pyx_t_4 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14395; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 14373 "yxdfb/Kynaraa.cpp"
+          __pyx_t_4 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14373; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_17 = 0;
           __pyx_t_18 = 127;
@@ -26576,9 +26568,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 13;
                                               ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_GRAPH_V1_2))));
-          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_R); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14403; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_R); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14381; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14405; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14383; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) : __pyx_t_18;
@@ -26590,9 +26582,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 4;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_n_u_spam))));
-          (__pyx_t_13) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14417; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_13) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14395; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_13)))), __pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_13) : PyObject_Format(__pyx_t_13, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14419; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_13)))), __pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_13) : PyObject_Format(__pyx_t_13, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14397; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           __pyx_t_18 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) > __pyx_t_18) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) : __pyx_t_18;
@@ -26604,26 +26596,26 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           __pyx_t_17 += 24;
                                                         ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_mode_pesawat_5_detik))));
-          __pyx_t_12 = __Pyx_PyUnicode_Join(__pyx_t_4, 5, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14431; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = __Pyx_PyUnicode_Join(__pyx_t_4, 5, __pyx_t_17, __pyx_t_18); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14409; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-          __pyx_t_4 = PyTuple_New(1); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14434; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = PyTuple_New(1); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14412; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
                                    ;
-          if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (0), ((PyObject*)((__pyx_t_12)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14437; (void)__pyx_clineno; } goto __pyx_L5_error; };
+          if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (0), ((PyObject*)((__pyx_t_12)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14415; (void)__pyx_clineno; } goto __pyx_L5_error; };
           __pyx_t_12 = 0;
-          __pyx_t_12 = ((1 <= 8) ? PyDict_New() : _PyDict_NewPresized(1)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14439; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = ((1 <= 8) ? PyDict_New() : _PyDict_NewPresized(1)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14417; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          if (PyDict_SetItem(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_end, __pyx_mstate_global->__pyx_kp_s__8) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14441; (void)__pyx_clineno; } goto __pyx_L5_error; }
-          __pyx_t_13 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_t_4, __pyx_t_12); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14442; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (PyDict_SetItem(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_end, __pyx_mstate_global->__pyx_kp_s__8) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14419; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_t_4, __pyx_t_12); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 288; (void)__pyx_lineno; __pyx_clineno = 14420; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-# 14455 "yxdfb/Kynaraa.cpp"
-          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_time); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 291; (void)__pyx_lineno; __pyx_clineno = 14455; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 14433 "yxdfb/Kynaraa.cpp"
+          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_time); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 289; (void)__pyx_lineno; __pyx_clineno = 14433; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_sleep); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 291; (void)__pyx_lineno; __pyx_clineno = 14457; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_sleep); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 289; (void)__pyx_lineno; __pyx_clineno = 14435; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           __pyx_t_12 = __null;
@@ -26644,21 +26636,21 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_12, __pyx_mstate_global->__pyx_int_6};
             __pyx_t_13 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-            if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 291; (void)__pyx_lineno; __pyx_clineno = 14478; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 289; (void)__pyx_lineno; __pyx_clineno = 14456; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           }
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-# 14491 "yxdfb/Kynaraa.cpp"
-          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_sys); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 292; (void)__pyx_lineno; __pyx_clineno = 14491; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 14469 "yxdfb/Kynaraa.cpp"
+          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_sys); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14469; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_stdout); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 292; (void)__pyx_lineno; __pyx_clineno = 14493; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_stdout); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14471; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_write); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 292; (void)__pyx_lineno; __pyx_clineno = 14496; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_write); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14474; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-          __pyx_t_12 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_s__27, __pyx_mstate_global->__pyx_kp_s__53); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 292; (void)__pyx_lineno; __pyx_clineno = 14499; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_s__27, __pyx_mstate_global->__pyx_kp_s__53); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14477; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_8 = __null;
           __pyx_t_10 = 0;
@@ -26679,16 +26671,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
             __pyx_t_13 = __Pyx_PyObject_FastCallDict(__pyx_t_4, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-            if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 292; (void)__pyx_lineno; __pyx_clineno = 14520; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 290; (void)__pyx_lineno; __pyx_clineno = 14498; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           }
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-# 14533 "yxdfb/Kynaraa.cpp"
+# 14511 "yxdfb/Kynaraa.cpp"
           goto __pyx_L10_try_break;
-# 14542 "yxdfb/Kynaraa.cpp"
+# 14520 "yxdfb/Kynaraa.cpp"
         }
-# 14551 "yxdfb/Kynaraa.cpp"
+# 14529 "yxdfb/Kynaraa.cpp"
       }
       Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
       Py_XDECREF(((PyObject*)((__pyx_t_6)))); __pyx_t_6 = 0;
@@ -26702,14 +26694,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
       Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
       Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
       Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-# 14572 "yxdfb/Kynaraa.cpp"
+# 14550 "yxdfb/Kynaraa.cpp"
       __Pyx_ErrFetchInState(__pyx_tstate, &__pyx_t_13, &__pyx_t_4, &__pyx_t_12);
-      (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_requests); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 294; (void)__pyx_lineno; __pyx_clineno = 14573; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+      (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_requests); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 292; (void)__pyx_lineno; __pyx_clineno = 14551; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                              ;
-      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_exceptions); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 294; (void)__pyx_lineno; __pyx_clineno = 14575; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_exceptions); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 292; (void)__pyx_lineno; __pyx_clineno = 14553; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                               ;
       Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_ConnectionError); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 294; (void)__pyx_lineno; __pyx_clineno = 14578; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_ConnectionError); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 292; (void)__pyx_lineno; __pyx_clineno = 14556; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                              ;
       Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
       __pyx_t_19 = __Pyx_PyErr_GivenExceptionMatches(__pyx_t_13, __pyx_t_8);
@@ -26718,14 +26710,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
       __pyx_t_13 = 0; __pyx_t_4 = 0; __pyx_t_12 = 0;
       if (__pyx_t_19) {
         __Pyx_AddTraceback("Kynaraa.Kynaa.graph_v1", __pyx_clineno, __pyx_lineno, __pyx_filename);
-        if (__Pyx__GetException(__pyx_tstate, &__pyx_t_12, &__pyx_t_4, &__pyx_t_13) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 294; (void)__pyx_lineno; __pyx_clineno = 14587; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+        if (__Pyx__GetException(__pyx_tstate, &__pyx_t_12, &__pyx_t_4, &__pyx_t_13) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 292; (void)__pyx_lineno; __pyx_clineno = 14565; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                  ;
                                 ;
                                  ;
-# 14599 "yxdfb/Kynaraa.cpp"
-        (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_time); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 295; (void)__pyx_lineno; __pyx_clineno = 14599; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+# 14577 "yxdfb/Kynaraa.cpp"
+        (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_time); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 293; (void)__pyx_lineno; __pyx_clineno = 14577; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                 ;
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_sleep); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 295; (void)__pyx_lineno; __pyx_clineno = 14601; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_sleep); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 293; (void)__pyx_lineno; __pyx_clineno = 14579; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_11 = __null;
@@ -26746,7 +26738,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_11, __pyx_mstate_global->__pyx_int_15};
           __pyx_t_8 = __Pyx_PyObject_FastCallDict(__pyx_t_9, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 295; (void)__pyx_lineno; __pyx_clineno = 14622; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+          if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 293; (void)__pyx_lineno; __pyx_clineno = 14600; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
         }
@@ -26757,7 +26749,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
         goto __pyx_L6_exception_handled;
       }
       goto __pyx_L7_except_error;
-# 14641 "yxdfb/Kynaraa.cpp"
+# 14619 "yxdfb/Kynaraa.cpp"
       __pyx_L7_except_error:;
                                ;
                                ;
@@ -26777,7 +26769,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
       __Pyx__ExceptionReset(__pyx_tstate, __pyx_t_5, __pyx_t_6, __pyx_t_7);
       __pyx_L12_try_end:;
     }
-# 14668 "yxdfb/Kynaraa.cpp"
+# 14646 "yxdfb/Kynaraa.cpp"
   }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
   goto __pyx_L18_for_end;
@@ -26785,15 +26777,15 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
   goto __pyx_L18_for_end;
   __pyx_L18_for_end:;
-# 14683 "yxdfb/Kynaraa.cpp"
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 299; (void)__pyx_lineno; __pyx_clineno = 14683; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 14661 "yxdfb/Kynaraa.cpp"
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 297; (void)__pyx_lineno; __pyx_clineno = 14661; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_13 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 299; (void)__pyx_lineno; __pyx_clineno = 14685; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_13 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 297; (void)__pyx_lineno; __pyx_clineno = 14663; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop, __pyx_t_13) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 299; (void)__pyx_lineno; __pyx_clineno = 14688; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop, __pyx_t_13) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 297; (void)__pyx_lineno; __pyx_clineno = 14666; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-# 14700 "yxdfb/Kynaraa.cpp"
+# 14678 "yxdfb/Kynaraa.cpp"
   __pyx_r = (&_Py_NoneStruct); Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -26821,7 +26813,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_16graph_v1([[maybe_unused]] PyObject *
                                ;
   return __pyx_r;
 }
-# 14737 "yxdfb/Kynaraa.cpp"
+# 14715 "yxdfb/Kynaraa.cpp"
 static PyObject *__pyx_pw_7Kynaraa_5Kynaa_19graph_v2(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
@@ -26880,7 +26872,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[0];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 14795; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 14773; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else goto __pyx_L5_argtuple_error;
         [[fallthrough]];
         case 1:
@@ -26888,9 +26880,9 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[1];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 14803; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 14781; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("graph_v2", 1, 3, 3, 1); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 14805; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("graph_v2", 1, 3, 3, 1); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 14783; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
         [[fallthrough]];
         case 2:
@@ -26898,14 +26890,14 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[2];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 14813; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 14791; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("graph_v2", 1, 3, 3, 2); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 14815; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("graph_v2", 1, 3, 3, 2); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 14793; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
       }
       if (__builtin_expect(!!(kw_args > 0), 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "graph_v2") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 14820; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "graph_v2") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 14798; (void)__pyx_clineno; } goto __pyx_L3_error; }
       }
     } else if (__builtin_expect(!!(__pyx_nargs != 3), 0)) {
       goto __pyx_L5_argtuple_error;
@@ -26920,7 +26912,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("graph_v2", 1, 3, 3, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 14835; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __Pyx_RaiseArgtupleInvalid("graph_v2", 1, 3, 3, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 14813; (void)__pyx_clineno; } goto __pyx_L3_error; }
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -26947,7 +26939,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   return __pyx_r;
 }
 static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v2_2generator3(__pyx_CoroutineObject *__pyx_generator, [[maybe_unused]] PyThreadState *__pyx_tstate, PyObject *__pyx_sent_value);
-# 14871 "yxdfb/Kynaraa.cpp"
+# 14849 "yxdfb/Kynaraa.cpp"
 static PyObject *__pyx_pf_7Kynaraa_5Kynaa_8graph_v2_genexpr([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_genexpr_arg_0) {
   struct __pyx_obj_7Kynaraa___pyx_scope_struct_5_genexpr *__pyx_cur_scope;
   PyObject *__pyx_r = __null;
@@ -26960,7 +26952,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_8graph_v2_genexpr([[maybe_unused]] PyO
   if (__builtin_expect(!!(!__pyx_cur_scope), 0)) {
     __pyx_cur_scope = ((struct __pyx_obj_7Kynaraa___pyx_scope_struct_5_genexpr *)(&_Py_NoneStruct));
     Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
-    { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14883; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14861; (void)__pyx_clineno; } goto __pyx_L1_error; }
   } else {
                                              ;
   }
@@ -26968,7 +26960,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_8graph_v2_genexpr([[maybe_unused]] PyO
   Py_INCREF(((PyObject*)((__pyx_cur_scope->__pyx_genexpr_arg_0))));
                                                      ;
   {
-    __pyx_CoroutineObject *gen = __Pyx__Coroutine_New(__pyx_mstate_global->__pyx_GeneratorType, (__pyx_coroutine_body_t) __pyx_gb_7Kynaraa_5Kynaa_8graph_v2_2generator3, __null, (PyObject *) __pyx_cur_scope, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_Kynaa_graph_v2_locals_genexpr, __pyx_mstate_global->__pyx_n_s_Kynaraa); if (__builtin_expect(!!(!gen), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14891; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_CoroutineObject *gen = __Pyx__Coroutine_New(__pyx_mstate_global->__pyx_GeneratorType, (__pyx_coroutine_body_t) __pyx_gb_7Kynaraa_5Kynaa_8graph_v2_2generator3, __null, (PyObject *) __pyx_cur_scope, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_Kynaa_graph_v2_locals_genexpr, __pyx_mstate_global->__pyx_n_s_Kynaraa); if (__builtin_expect(!!(!gen), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14869; (void)__pyx_clineno; } goto __pyx_L1_error; }
     Py_DECREF(((PyObject*)((__pyx_cur_scope))));
                                  ;
     return (PyObject *) gen;
@@ -27007,16 +26999,16 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v2_2generator3(__pyx_CoroutineO
     return __null;
   }
   __pyx_L3_first_run:;
-  if (__builtin_expect(!!(!__pyx_sent_value), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14930; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  if (__builtin_expect(!!(!__pyx_cur_scope->__pyx_genexpr_arg_0), 0)) { __Pyx_RaiseUnboundLocalError(".0"); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14931; (void)__pyx_clineno; } goto __pyx_L1_error; } }
+  if (__builtin_expect(!!(!__pyx_sent_value), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14908; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__builtin_expect(!!(!__pyx_cur_scope->__pyx_genexpr_arg_0), 0)) { __Pyx_RaiseUnboundLocalError(".0"); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14909; (void)__pyx_clineno; } goto __pyx_L1_error; } }
   if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_genexpr_arg_0)))), (&PyList_Type))), 1) || Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_genexpr_arg_0)))), (&PyTuple_Type))) {
     __pyx_t_1 = __pyx_cur_scope->__pyx_genexpr_arg_0; Py_INCREF(((PyObject*)((__pyx_t_1))));
     __pyx_t_2 = 0;
     __pyx_t_3 = __null;
   } else {
-    __pyx_t_2 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_cur_scope->__pyx_genexpr_arg_0); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14937; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_2 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_cur_scope->__pyx_genexpr_arg_0); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14915; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_3 = (Py_TYPE(((PyObject*)((__pyx_t_1))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14939; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_3 = (Py_TYPE(((PyObject*)((__pyx_t_1))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14917; (void)__pyx_clineno; } goto __pyx_L1_error; }
   }
   for (;;) {
     if (__builtin_expect(!!(!__pyx_t_3), 1)) {
@@ -27029,7 +27021,7 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v2_2generator3(__pyx_CoroutineO
           if (__pyx_t_2 >= __pyx_temp) break;
         }
 
-        __pyx_t_4 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 14952, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_1)")), ((PyListObject*)((__pyx_t_1))))->ob_item[(__pyx_t_2)]); Py_INCREF(((PyObject*)((__pyx_t_4)))); __pyx_t_2++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14952; (void)__pyx_clineno; } goto __pyx_L1_error; }
+        __pyx_t_4 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 14930, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_1)")), ((PyListObject*)((__pyx_t_1))))->ob_item[(__pyx_t_2)]); Py_INCREF(((PyObject*)((__pyx_t_4)))); __pyx_t_2++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14930; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -27043,7 +27035,7 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v2_2generator3(__pyx_CoroutineO
           if (__pyx_t_2 >= __pyx_temp) break;
         }
 
-        __pyx_t_4 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 14966, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_1)")), ((PyTupleObject*)((__pyx_t_1))))->ob_item[(__pyx_t_2)]); Py_INCREF(((PyObject*)((__pyx_t_4)))); __pyx_t_2++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14966; (void)__pyx_clineno; } goto __pyx_L1_error; }
+        __pyx_t_4 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 14944, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_1)")), ((PyTupleObject*)((__pyx_t_1))))->ob_item[(__pyx_t_2)]); Py_INCREF(((PyObject*)((__pyx_t_4)))); __pyx_t_2++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14944; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -27055,7 +27047,7 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v2_2generator3(__pyx_CoroutineO
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (__builtin_expect(!!(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration)), 1)) PyErr_Clear();
-          else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14978; (void)__pyx_clineno; } goto __pyx_L1_error; }
+          else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14956; (void)__pyx_clineno; } goto __pyx_L1_error; }
         }
         break;
       }
@@ -27065,14 +27057,14 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v2_2generator3(__pyx_CoroutineO
     do { PyObject *tmp = (PyObject *) __pyx_cur_scope->__pyx_v_i; __pyx_cur_scope->__pyx_v_i = __pyx_t_4; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
                             ;
     __pyx_t_4 = 0;
-    __pyx_t_4 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_i)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_cur_scope->__pyx_v_i, __pyx_mstate_global->__pyx_n_s_name) : PyObject_GetItem(__pyx_cur_scope->__pyx_v_i, __pyx_mstate_global->__pyx_n_s_name)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14988; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_4 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_i)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_cur_scope->__pyx_v_i, __pyx_mstate_global->__pyx_n_s_name) : PyObject_GetItem(__pyx_cur_scope->__pyx_v_i, __pyx_mstate_global->__pyx_n_s_name)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14966; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_5 = PyNumber_Add(__pyx_t_4, __pyx_mstate_global->__pyx_kp_s__40); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14990; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_5 = PyNumber_Add(__pyx_t_4, __pyx_mstate_global->__pyx_kp_s__40); if (__builtin_expect(!!(!__pyx_t_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14968; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-    __pyx_t_4 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_i)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_cur_scope->__pyx_v_i, __pyx_mstate_global->__pyx_n_s_value) : PyObject_GetItem(__pyx_cur_scope->__pyx_v_i, __pyx_mstate_global->__pyx_n_s_value)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14993; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_4 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_cur_scope->__pyx_v_i)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_cur_scope->__pyx_v_i, __pyx_mstate_global->__pyx_n_s_value) : PyObject_GetItem(__pyx_cur_scope->__pyx_v_i, __pyx_mstate_global->__pyx_n_s_value)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14971; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_6 = PyNumber_Add(__pyx_t_5, __pyx_t_4); if (__builtin_expect(!!(!__pyx_t_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 14995; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_6 = PyNumber_Add(__pyx_t_5, __pyx_t_4); if (__builtin_expect(!!(!__pyx_t_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14973; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
     Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
@@ -27094,7 +27086,7 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v2_2generator3(__pyx_CoroutineO
                             ;
     __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
     __pyx_t_3 = __pyx_cur_scope->__pyx_t_2;
-    if (__builtin_expect(!!(!__pyx_sent_value), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15017; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (__builtin_expect(!!(!__pyx_sent_value), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 14995; (void)__pyx_clineno; } goto __pyx_L1_error; }
   }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
   CYTHON_UNUSED_VAR(__pyx_cur_scope);
@@ -27119,7 +27111,7 @@ static PyObject *__pyx_gb_7Kynaraa_5Kynaa_8graph_v2_2generator3(__pyx_CoroutineO
                                ;
   return __pyx_r;
 }
-# 15051 "yxdfb/Kynaraa.cpp"
+# 15029 "yxdfb/Kynaraa.cpp"
 static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_user, PyObject *__pyx_v_pasw) {
   PyObject *__pyx_v_pw = __null;
   PyObject *__pyx_v_ua = __null;
@@ -27156,15 +27148,15 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
   const char *__pyx_filename = __null;
   int __pyx_clineno = 0;
                                            ;
-# 15095 "yxdfb/Kynaraa.cpp"
+# 15073 "yxdfb/Kynaraa.cpp"
   if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pasw)))), (&PyList_Type))), 1) || Py_IS_TYPE(((PyObject*)(((__pyx_v_pasw)))), (&PyTuple_Type))) {
     __pyx_t_1 = __pyx_v_pasw; Py_INCREF(((PyObject*)((__pyx_t_1))));
     __pyx_t_2 = 0;
     __pyx_t_3 = __null;
   } else {
-    __pyx_t_2 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_v_pasw); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 304; (void)__pyx_lineno; __pyx_clineno = 15100; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_2 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_v_pasw); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 15078; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_3 = (Py_TYPE(((PyObject*)((__pyx_t_1))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 304; (void)__pyx_lineno; __pyx_clineno = 15102; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_3 = (Py_TYPE(((PyObject*)((__pyx_t_1))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 15080; (void)__pyx_clineno; } goto __pyx_L1_error; }
   }
   for (;;) {
     if (__builtin_expect(!!(!__pyx_t_3), 1)) {
@@ -27177,7 +27169,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           if (__pyx_t_2 >= __pyx_temp) break;
         }
 
-        __pyx_t_4 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 15115, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_1)")), ((PyListObject*)((__pyx_t_1))))->ob_item[(__pyx_t_2)]); Py_INCREF(((PyObject*)((__pyx_t_4)))); __pyx_t_2++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 304; (void)__pyx_lineno; __pyx_clineno = 15115; (void)__pyx_clineno; } goto __pyx_L1_error; }
+        __pyx_t_4 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 15093, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_1)")), ((PyListObject*)((__pyx_t_1))))->ob_item[(__pyx_t_2)]); Py_INCREF(((PyObject*)((__pyx_t_4)))); __pyx_t_2++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 15093; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -27191,7 +27183,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           if (__pyx_t_2 >= __pyx_temp) break;
         }
 
-        __pyx_t_4 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 15129, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_1)")), ((PyTupleObject*)((__pyx_t_1))))->ob_item[(__pyx_t_2)]); Py_INCREF(((PyObject*)((__pyx_t_4)))); __pyx_t_2++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 304; (void)__pyx_lineno; __pyx_clineno = 15129; (void)__pyx_clineno; } goto __pyx_L1_error; }
+        __pyx_t_4 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 15107, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_1)")), ((PyTupleObject*)((__pyx_t_1))))->ob_item[(__pyx_t_2)]); Py_INCREF(((PyObject*)((__pyx_t_4)))); __pyx_t_2++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 15107; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -27203,7 +27195,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (__builtin_expect(!!(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration)), 1)) PyErr_Clear();
-          else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 304; (void)__pyx_lineno; __pyx_clineno = 15141; (void)__pyx_clineno; } goto __pyx_L1_error; }
+          else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 15119; (void)__pyx_clineno; } goto __pyx_L1_error; }
         }
         break;
       }
@@ -27211,7 +27203,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
     }
     do { PyObject *tmp = (PyObject *) __pyx_v_pw; __pyx_v_pw = __pyx_t_4; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
     __pyx_t_4 = 0;
-# 15157 "yxdfb/Kynaraa.cpp"
+# 15135 "yxdfb/Kynaraa.cpp"
     {
       PyThreadState *__pyx_tstate;
       __pyx_tstate = _PyThreadState_UncheckedGet();
@@ -27220,8 +27212,8 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
                               ;
                               ;
                {
-# 15173 "yxdfb/Kynaraa.cpp"
-        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_generate_random_user_agent); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15173; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15151 "yxdfb/Kynaraa.cpp"
+        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_generate_random_user_agent); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 304; (void)__pyx_lineno; __pyx_clineno = 15151; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         __pyx_t_9 = __null;
         __pyx_t_10 = 0;
@@ -27241,18 +27233,18 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_9, __null};
           __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_8, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15193; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 304; (void)__pyx_lineno; __pyx_clineno = 15171; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
         }
         do { PyObject *tmp = (PyObject *) __pyx_v_ua; __pyx_v_ua = __pyx_t_4; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_4 = 0;
-# 15207 "yxdfb/Kynaraa.cpp"
-        __pyx_t_4 = ((22 <= 8) ? PyDict_New() : _PyDict_NewPresized(22)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15207; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15185 "yxdfb/Kynaraa.cpp"
+        __pyx_t_4 = ((22 <= 8) ? PyDict_New() : _PyDict_NewPresized(22)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15185; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_uuid); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15209; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_uuid); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15187; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_uuid4); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15211; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_uuid4); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15189; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
         __pyx_t_9 = __null;
@@ -27273,20 +27265,20 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_9, __null};
           __pyx_t_8 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15232; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15210; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         }
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : PyObject_Str(__pyx_t_8)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15236; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : PyObject_Str(__pyx_t_8)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15214; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_adid, __pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15239; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_adid, __pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15217; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_format, __pyx_mstate_global->__pyx_n_s_json) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15241; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 15250 "yxdfb/Kynaraa.cpp"
-        (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_uuid); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 310; (void)__pyx_lineno; __pyx_clineno = 15250; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_format, __pyx_mstate_global->__pyx_n_s_json) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15219; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15228 "yxdfb/Kynaraa.cpp"
+        (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_uuid); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15228; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_uuid4); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 310; (void)__pyx_lineno; __pyx_clineno = 15252; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_uuid4); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15230; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
         __pyx_t_8 = __null;
@@ -27307,19 +27299,19 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_8, __null};
           __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_9, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-          if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 310; (void)__pyx_lineno; __pyx_clineno = 15273; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15251; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
         }
-        __pyx_t_9 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : PyObject_Str(__pyx_t_11)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 310; (void)__pyx_lineno; __pyx_clineno = 15277; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_9 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : PyObject_Str(__pyx_t_11)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15255; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_device_id, __pyx_t_9) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15280; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_device_id, __pyx_t_9) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15258; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-# 15290 "yxdfb/Kynaraa.cpp"
-        (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_uuid); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 311; (void)__pyx_lineno; __pyx_clineno = 15290; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15268 "yxdfb/Kynaraa.cpp"
+        (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_uuid); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 309; (void)__pyx_lineno; __pyx_clineno = 15268; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_uuid4); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 311; (void)__pyx_lineno; __pyx_clineno = 15292; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_uuid4); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 309; (void)__pyx_lineno; __pyx_clineno = 15270; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_11 = __null;
@@ -27340,19 +27332,19 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_11, __null};
           __pyx_t_9 = __Pyx_PyObject_FastCallDict(__pyx_t_8, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 311; (void)__pyx_lineno; __pyx_clineno = 15313; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 309; (void)__pyx_lineno; __pyx_clineno = 15291; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
         }
-        __pyx_t_8 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_9)))), __pyx_t_9) : PyObject_Str(__pyx_t_9)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 311; (void)__pyx_lineno; __pyx_clineno = 15317; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_8 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_9)))), __pyx_t_9) : PyObject_Str(__pyx_t_9)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 309; (void)__pyx_lineno; __pyx_clineno = 15295; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_family_device_id, __pyx_t_8) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15320; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_family_device_id, __pyx_t_8) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15298; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-# 15330 "yxdfb/Kynaraa.cpp"
-        (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_uuid); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 312; (void)__pyx_lineno; __pyx_clineno = 15330; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15308 "yxdfb/Kynaraa.cpp"
+        (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_uuid); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 310; (void)__pyx_lineno; __pyx_clineno = 15308; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_uuid4); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 312; (void)__pyx_lineno; __pyx_clineno = 15332; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_uuid4); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 310; (void)__pyx_lineno; __pyx_clineno = 15310; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
         __pyx_t_9 = __null;
@@ -27373,76 +27365,76 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_9, __null};
           __pyx_t_8 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 312; (void)__pyx_lineno; __pyx_clineno = 15353; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 310; (void)__pyx_lineno; __pyx_clineno = 15331; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         }
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : PyObject_Str(__pyx_t_8)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 312; (void)__pyx_lineno; __pyx_clineno = 15357; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : PyObject_Str(__pyx_t_8)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 310; (void)__pyx_lineno; __pyx_clineno = 15335; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_secure_family_device_id, __pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15360; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_secure_family_device_id, __pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15338; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_cpl, __pyx_mstate_global->__pyx_n_s_true) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15362; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_try_num, __pyx_mstate_global->__pyx_kp_s_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15363; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 15372 "yxdfb/Kynaraa.cpp"
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_email, __pyx_v_user) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15372; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 15381 "yxdfb/Kynaraa.cpp"
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_password, __pyx_v_pw) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15381; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_method, __pyx_mstate_global->__pyx_kp_s_auth_login) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15382; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_generate_session_cookies, __pyx_mstate_global->__pyx_kp_s_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15383; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_sim_serials, __pyx_mstate_global->__pyx_kp_s_80973453345210784798) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15384; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_openid_flow, __pyx_mstate_global->__pyx_n_s_android_login) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15385; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_openid_provider, __pyx_mstate_global->__pyx_n_s_google) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15386; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_openid_emails, __pyx_mstate_global->__pyx_kp_s_01710940017) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15387; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_openid_tokens, __pyx_mstate_global->__pyx_kp_s_eyJhbGciOiJSUzI1NiIsImtpZCI6Ijd) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15388; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_error_detail_type, __pyx_mstate_global->__pyx_n_s_button_with_disabled) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15389; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_source, __pyx_mstate_global->__pyx_n_s_account_recovery) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15390; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_locale, __pyx_mstate_global->__pyx_n_s_id_ID) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15391; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_client_country_code, __pyx_mstate_global->__pyx_n_s_ID) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15392; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_fb_api_req_friendly_name, __pyx_mstate_global->__pyx_n_s_authenticate) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15393; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_fb_api_caller_class, __pyx_mstate_global->__pyx_kp_s_AuthOperations_PasswordAuthOpera) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 308; (void)__pyx_lineno; __pyx_clineno = 15394; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_cpl, __pyx_mstate_global->__pyx_n_s_true) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15340; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_try_num, __pyx_mstate_global->__pyx_kp_s_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15341; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15350 "yxdfb/Kynaraa.cpp"
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_email, __pyx_v_user) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15350; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15359 "yxdfb/Kynaraa.cpp"
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_password, __pyx_v_pw) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15359; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_method, __pyx_mstate_global->__pyx_kp_s_auth_login) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15360; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_generate_session_cookies, __pyx_mstate_global->__pyx_kp_s_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15361; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_sim_serials, __pyx_mstate_global->__pyx_kp_s_80973453345210784798) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15362; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_openid_flow, __pyx_mstate_global->__pyx_n_s_android_login) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15363; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_openid_provider, __pyx_mstate_global->__pyx_n_s_google) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15364; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_openid_emails, __pyx_mstate_global->__pyx_kp_s_01710940017) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15365; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_openid_tokens, __pyx_mstate_global->__pyx_kp_s_eyJhbGciOiJSUzI1NiIsImtpZCI6Ijd) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15366; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_error_detail_type, __pyx_mstate_global->__pyx_n_s_button_with_disabled) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15367; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_source, __pyx_mstate_global->__pyx_n_s_account_recovery) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15368; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_locale, __pyx_mstate_global->__pyx_n_s_id_ID) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15369; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_client_country_code, __pyx_mstate_global->__pyx_n_s_ID) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15370; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_fb_api_req_friendly_name, __pyx_mstate_global->__pyx_n_s_authenticate) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15371; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_fb_api_caller_class, __pyx_mstate_global->__pyx_kp_s_AuthOperations_PasswordAuthOpera) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 306; (void)__pyx_lineno; __pyx_clineno = 15372; (void)__pyx_clineno; } goto __pyx_L5_error; }
         do { PyObject *tmp = (PyObject *) __pyx_v_data; __pyx_v_data = ((PyObject*)__pyx_t_4); Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_4 = 0;
-# 15405 "yxdfb/Kynaraa.cpp"
-        __pyx_t_4 = ((7 <= 8) ? PyDict_New() : _PyDict_NewPresized(7)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 332; (void)__pyx_lineno; __pyx_clineno = 15405; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15383 "yxdfb/Kynaraa.cpp"
+        __pyx_t_4 = ((7 <= 8) ? PyDict_New() : _PyDict_NewPresized(7)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 330; (void)__pyx_lineno; __pyx_clineno = 15383; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_Host, __pyx_mstate_global->__pyx_kp_s_graph_facebook_com) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 332; (void)__pyx_lineno; __pyx_clineno = 15407; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_kp_s_Content_Type, __pyx_mstate_global->__pyx_kp_s_application_x_www_form_urlencode) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 332; (void)__pyx_lineno; __pyx_clineno = 15408; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_kp_s_Accept_Encoding, __pyx_mstate_global->__pyx_kp_s_gzip_deflate) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 332; (void)__pyx_lineno; __pyx_clineno = 15409; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_Connection, __pyx_mstate_global->__pyx_kp_s_keep_alive) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 332; (void)__pyx_lineno; __pyx_clineno = 15410; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_Priority, __pyx_mstate_global->__pyx_kp_s_u_3_i) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 332; (void)__pyx_lineno; __pyx_clineno = 15411; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 15420 "yxdfb/Kynaraa.cpp"
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_kp_s_User_Agent, __pyx_v_ua) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 332; (void)__pyx_lineno; __pyx_clineno = 15420; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_Authorization, __pyx_mstate_global->__pyx_kp_s_OAuth_350685531728_62f8ce9f74b12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 332; (void)__pyx_lineno; __pyx_clineno = 15421; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_Host, __pyx_mstate_global->__pyx_kp_s_graph_facebook_com) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 330; (void)__pyx_lineno; __pyx_clineno = 15385; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_kp_s_Content_Type, __pyx_mstate_global->__pyx_kp_s_application_x_www_form_urlencode) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 330; (void)__pyx_lineno; __pyx_clineno = 15386; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_kp_s_Accept_Encoding, __pyx_mstate_global->__pyx_kp_s_gzip_deflate) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 330; (void)__pyx_lineno; __pyx_clineno = 15387; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_Connection, __pyx_mstate_global->__pyx_kp_s_keep_alive) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 330; (void)__pyx_lineno; __pyx_clineno = 15388; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_Priority, __pyx_mstate_global->__pyx_kp_s_u_3_i) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 330; (void)__pyx_lineno; __pyx_clineno = 15389; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15398 "yxdfb/Kynaraa.cpp"
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_kp_s_User_Agent, __pyx_v_ua) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 330; (void)__pyx_lineno; __pyx_clineno = 15398; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_Authorization, __pyx_mstate_global->__pyx_kp_s_OAuth_350685531728_62f8ce9f74b12) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 330; (void)__pyx_lineno; __pyx_clineno = 15399; (void)__pyx_clineno; } goto __pyx_L5_error; }
         do { PyObject *tmp = (PyObject *) __pyx_v_headers; __pyx_v_headers = ((PyObject*)__pyx_t_4); Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_4 = 0;
-# 15432 "yxdfb/Kynaraa.cpp"
+# 15410 "yxdfb/Kynaraa.cpp"
         Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_kp_s_https_b_graph_facebook_com_auth))));
         do { PyObject *tmp = (PyObject *) __pyx_v_curl; __pyx_v_curl = __pyx_mstate_global->__pyx_kp_s_https_b_graph_facebook_com_auth; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
-# 15442 "yxdfb/Kynaraa.cpp"
-        (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_ses); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15442; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15420 "yxdfb/Kynaraa.cpp"
+        (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_ses); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 339; (void)__pyx_lineno; __pyx_clineno = 15420; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_post); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15444; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_post); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 339; (void)__pyx_lineno; __pyx_clineno = 15422; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-        __pyx_t_4 = PyTuple_New(1); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15447; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_4 = PyTuple_New(1); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 339; (void)__pyx_lineno; __pyx_clineno = 15425; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_INCREF(((PyObject*)((__pyx_v_curl))));
                                    ;
-        if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (0), ((PyObject*)((__pyx_v_curl)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15451; (void)__pyx_clineno; } goto __pyx_L5_error; };
-        __pyx_t_8 = ((2 <= 8) ? PyDict_New() : _PyDict_NewPresized(2)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15452; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (0), ((PyObject*)((__pyx_v_curl)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 339; (void)__pyx_lineno; __pyx_clineno = 15429; (void)__pyx_clineno; } goto __pyx_L5_error; };
+        __pyx_t_8 = ((2 <= 8) ? PyDict_New() : _PyDict_NewPresized(2)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 339; (void)__pyx_lineno; __pyx_clineno = 15430; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        if (PyDict_SetItem(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_data, __pyx_v_data) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15454; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_headers, __pyx_v_headers) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15455; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_t_4, __pyx_t_8); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15456; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_data, __pyx_v_data) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 339; (void)__pyx_lineno; __pyx_clineno = 15432; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_headers, __pyx_v_headers) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 339; (void)__pyx_lineno; __pyx_clineno = 15433; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_t_4, __pyx_t_8); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 339; (void)__pyx_lineno; __pyx_clineno = 15434; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
         Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
         do { PyObject *tmp = (PyObject *) __pyx_v_response; __pyx_v_response = __pyx_t_9; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_9 = 0;
-# 15471 "yxdfb/Kynaraa.cpp"
-        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_json); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 342; (void)__pyx_lineno; __pyx_clineno = 15471; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15449 "yxdfb/Kynaraa.cpp"
+        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_json); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 340; (void)__pyx_lineno; __pyx_clineno = 15449; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         __pyx_t_4 = __null;
         __pyx_t_10 = 0;
@@ -27462,16 +27454,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_4, __null};
           __pyx_t_9 = __Pyx_PyObject_FastCallDict(__pyx_t_8, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-          if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 342; (void)__pyx_lineno; __pyx_clineno = 15491; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 340; (void)__pyx_lineno; __pyx_clineno = 15469; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
         }
         do { PyObject *tmp = (PyObject *) __pyx_v_q; __pyx_v_q = __pyx_t_9; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_9 = 0;
-# 15505 "yxdfb/Kynaraa.cpp"
-        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_print_proses_api); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 343; (void)__pyx_lineno; __pyx_clineno = 15505; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15483 "yxdfb/Kynaraa.cpp"
+        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_print_proses_api); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15483; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 343; (void)__pyx_lineno; __pyx_clineno = 15507; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15485; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         __pyx_t_11 = __null;
         __pyx_t_10 = 0;
@@ -27492,31 +27484,31 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_9 = __Pyx_PyObject_FastCallDict(__pyx_t_8, __pyx_callargs+1-__pyx_t_10, (size_t)(2+__pyx_t_10), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-          if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 343; (void)__pyx_lineno; __pyx_clineno = 15528; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 341; (void)__pyx_lineno; __pyx_clineno = 15506; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
         }
         Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-# 15541 "yxdfb/Kynaraa.cpp"
-        __pyx_t_12 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_session_key, __pyx_v_q, 2)); if (__builtin_expect(!!((__pyx_t_12 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15541; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15519 "yxdfb/Kynaraa.cpp"
+        __pyx_t_12 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_session_key, __pyx_v_q, 2)); if (__builtin_expect(!!((__pyx_t_12 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 343; (void)__pyx_lineno; __pyx_clineno = 15519; (void)__pyx_clineno; } goto __pyx_L5_error; }
         if (__pyx_t_12) {
-# 15551 "yxdfb/Kynaraa.cpp"
-          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 15551; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15529 "yxdfb/Kynaraa.cpp"
+          __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 344; (void)__pyx_lineno; __pyx_clineno = 15529; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_8 = __Pyx_PyInt_AddObjC(__pyx_t_9, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 15553; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyInt_AddObjC(__pyx_t_9, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 344; (void)__pyx_lineno; __pyx_clineno = 15531; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok, __pyx_t_8) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 15556; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok, __pyx_t_8) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 344; (void)__pyx_lineno; __pyx_clineno = 15534; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-# 15566 "yxdfb/Kynaraa.cpp"
-          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_base64); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15566; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15544 "yxdfb/Kynaraa.cpp"
+          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_base64); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15544; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_b64encode); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15568; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_b64encode); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15546; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-          (__pyx_t_13) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_os); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15571; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_13) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_os); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15549; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_mstate_global->__pyx_n_s_urandom); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15573; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_mstate_global->__pyx_n_s_urandom); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15551; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           __pyx_t_13 = __null;
@@ -27537,7 +27529,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_13, __pyx_mstate_global->__pyx_int_18};
             __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_14, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-            if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15594; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15572; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
           }
@@ -27560,11 +27552,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
             __pyx_t_9 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-            if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15617; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15595; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           }
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_decode); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15621; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_decode); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15599; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           __pyx_t_9 = __null;
@@ -27585,43 +27577,43 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_9, __null};
             __pyx_t_8 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-            if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15642; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15620; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           }
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15646; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15624; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-          __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_mstate_global->__pyx_tuple__44, __null); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15649; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_mstate_global->__pyx_tuple__44, __null); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15627; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15652; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15630; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-          __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_mstate_global->__pyx_tuple__47, __null); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15655; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_mstate_global->__pyx_tuple__47, __null); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15633; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15658; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_s_replace); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15636; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-          __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_mstate_global->__pyx_tuple__49, __null); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15661; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_mstate_global->__pyx_tuple__49, __null); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 345; (void)__pyx_lineno; __pyx_clineno = 15639; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           do { PyObject *tmp = (PyObject *) __pyx_v_datr; __pyx_v_datr = __pyx_t_8; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
           __pyx_t_8 = 0;
-# 15674 "yxdfb/Kynaraa.cpp"
-          __pyx_t_8 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_q)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_q, __pyx_mstate_global->__pyx_n_s_session_cookies) : PyObject_GetItem(__pyx_v_q, __pyx_mstate_global->__pyx_n_s_session_cookies)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15674; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15652 "yxdfb/Kynaraa.cpp"
+          __pyx_t_8 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_q)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_q, __pyx_mstate_global->__pyx_n_s_session_cookies) : PyObject_GetItem(__pyx_v_q, __pyx_mstate_global->__pyx_n_s_session_cookies)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 15652; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_11 = __pyx_pf_7Kynaraa_5Kynaa_8graph_v2_genexpr(__null, __pyx_t_8); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15676; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __pyx_pf_7Kynaraa_5Kynaa_8graph_v2_genexpr(__null, __pyx_t_8); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 15654; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-          __pyx_t_8 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__50, __pyx_t_11); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15679; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__50, __pyx_t_11); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 15657; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           do { PyObject *tmp = (PyObject *) __pyx_v_cokz; __pyx_v_cokz = ((PyObject*)__pyx_t_8); Py_XDECREF(((PyObject*)((tmp)))); } while (0);
           __pyx_t_8 = 0;
-# 15692 "yxdfb/Kynaraa.cpp"
-          __pyx_t_8 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15692; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15670 "yxdfb/Kynaraa.cpp"
+          __pyx_t_8 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15670; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_15 = 0;
           __pyx_t_16 = 127;
@@ -27629,7 +27621,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 5;
                                           ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_8))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_datr_2))));
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_datr)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_datr)))), __pyx_v_datr) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_datr)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_datr) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_datr)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_datr) : PyObject_Format(__pyx_v_datr, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15700; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_datr)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_datr)))), __pyx_v_datr) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_datr)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_datr) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_datr)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_datr) : PyObject_Format(__pyx_v_datr, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15678; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_16;
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
@@ -27640,7 +27632,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_8))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__50))));
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cokz)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_cokz)))), __pyx_v_cokz) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cokz)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_cokz) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cokz)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_cokz) : PyObject_Format(__pyx_v_cokz, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15711; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cokz)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_cokz)))), __pyx_v_cokz) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cokz)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_cokz) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_cokz)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_cokz) : PyObject_Format(__pyx_v_cokz, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15689; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_16;
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
@@ -27651,13 +27643,13 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 40;
                                                                   ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_8))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_m_pixel_ratio_1_25_dpr_1_25_wd))));
-          __pyx_t_11 = __Pyx_PyUnicode_Join(__pyx_t_8, 5, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15722; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyUnicode_Join(__pyx_t_8, 5, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 347; (void)__pyx_lineno; __pyx_clineno = 15700; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           do { PyObject *tmp = (PyObject *) __pyx_v_coki; __pyx_v_coki = ((PyObject*)__pyx_t_11); Py_XDECREF(((PyObject*)((tmp)))); } while (0);
           __pyx_t_11 = 0;
-# 15735 "yxdfb/Kynaraa.cpp"
-          __pyx_t_11 = PyTuple_New(14); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15735; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15713 "yxdfb/Kynaraa.cpp"
+          __pyx_t_11 = PyTuple_New(14); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15713; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_15 = 0;
           __pyx_t_16 = 127;
@@ -27665,9 +27657,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 2;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__3))));
-          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15743; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15721; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_8) : PyObject_Format(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15745; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_8) : PyObject_Format(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15723; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) : __pyx_t_16;
@@ -27679,9 +27671,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 2;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_n_u_OK_2))));
-          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15757; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15735; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_8 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_9)))), __pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_9) : PyObject_Format(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15759; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_9)))), __pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_9) : PyObject_Format(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15737; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_8)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_8)))) : __pyx_t_16;
@@ -27693,9 +27685,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__51))));
-          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15771; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15749; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_8) : PyObject_Format(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15773; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_8) : PyObject_Format(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15751; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) : __pyx_t_16;
@@ -27707,7 +27699,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 1;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__7))));
-          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15785; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15763; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) : __pyx_t_16;
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_9))));
@@ -27718,7 +27710,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15796; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15774; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_9)))) : __pyx_t_16;
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_9))));
@@ -27734,9 +27726,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_v_coki))));
                                      ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (11), ((PyObject*)((__pyx_v_coki))));
-          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15812; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_9) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15790; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_8 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_9)))), __pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_9) : PyObject_Format(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15814; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_9)))), __pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_9) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_9)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_9) : PyObject_Format(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15792; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_8)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_8)))) : __pyx_t_16;
@@ -27748,17 +27740,17 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 12;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (13), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__52))));
-          __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_11, 14, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15826; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_11, 14, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15804; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          __pyx_t_11 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_8); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 350; (void)__pyx_lineno; __pyx_clineno = 15829; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_8); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 15807; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-# 15841 "yxdfb/Kynaraa.cpp"
-          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15841; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15819 "yxdfb/Kynaraa.cpp"
+          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15819; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_9 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15843; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15821; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_15 = 0;
           __pyx_t_16 = 127;
@@ -27766,7 +27758,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 18;
                                                      ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_9))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_data_result_OK_OK))));
-          (__pyx_t_13) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15851; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_13) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15829; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_17 = __null;
           __pyx_t_10 = 0;
@@ -27786,11 +27778,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_17, __null};
             __pyx_t_14 = __Pyx_PyObject_FastCallDict(__pyx_t_13, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_17)))); __pyx_t_17 = 0;
-            if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15871; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15849; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           }
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15875; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15853; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
           __pyx_t_14 = __null;
@@ -27811,11 +27803,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_14, __null};
             __pyx_t_4 = __Pyx_PyObject_FastCallDict(__pyx_t_13, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
-            if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15896; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15874; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           }
-          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15900; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15878; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) : __pyx_t_16;
@@ -27827,14 +27819,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 4;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_9))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_txt))));
-          __pyx_t_13 = __Pyx_PyUnicode_Join(__pyx_t_9, 3, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15912; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyUnicode_Join(__pyx_t_9, 3, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15890; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-          __pyx_t_9 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15915; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_9 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15893; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_15 = 0;
           __pyx_t_16 = 127;
-          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15919; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15897; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_16;
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
@@ -27845,7 +27837,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_9))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15930; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15908; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_16;
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
@@ -27861,7 +27853,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_v_coki))));
                                      ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_9))), (4), ((PyObject*)((__pyx_v_coki))));
-          __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_9, 5, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15946; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_9, 5, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15924; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           __pyx_t_9 = __null;
@@ -27884,34 +27876,34 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
             Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-            if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15969; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 349; (void)__pyx_lineno; __pyx_clineno = 15947; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           }
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-# 15982 "yxdfb/Kynaraa.cpp"
+# 15960 "yxdfb/Kynaraa.cpp"
           goto __pyx_L10_try_break;
-# 15991 "yxdfb/Kynaraa.cpp"
+# 15969 "yxdfb/Kynaraa.cpp"
         }
-# 16000 "yxdfb/Kynaraa.cpp"
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_q)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_q, __pyx_mstate_global->__pyx_n_s_error) : PyObject_GetItem(__pyx_v_q, __pyx_mstate_global->__pyx_n_s_error)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16000; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15978 "yxdfb/Kynaraa.cpp"
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_q)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_v_q, __pyx_mstate_global->__pyx_n_s_error) : PyObject_GetItem(__pyx_v_q, __pyx_mstate_global->__pyx_n_s_error)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15978; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_8 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_message) : PyObject_GetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_message)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16002; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_8 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_message) : PyObject_GetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_message)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15980; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-        __pyx_t_12 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_kp_s_User_must_verify_their_account, __pyx_t_8, 2)); if (__builtin_expect(!!((__pyx_t_12 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16005; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_12 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_kp_s_User_must_verify_their_account, __pyx_t_8, 2)); if (__builtin_expect(!!((__pyx_t_12 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 351; (void)__pyx_lineno; __pyx_clineno = 15983; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
         if (__pyx_t_12) {
-# 16016 "yxdfb/Kynaraa.cpp"
-          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16016; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 15994 "yxdfb/Kynaraa.cpp"
+          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 352; (void)__pyx_lineno; __pyx_clineno = 15994; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_11 = __Pyx_PyInt_AddObjC(__pyx_t_8, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16018; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyInt_AddObjC(__pyx_t_8, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 352; (void)__pyx_lineno; __pyx_clineno = 15996; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
-          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp, __pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16021; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp, __pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 352; (void)__pyx_lineno; __pyx_clineno = 15999; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-# 16031 "yxdfb/Kynaraa.cpp"
-          __pyx_t_11 = PyTuple_New(12); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16031; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 16009 "yxdfb/Kynaraa.cpp"
+          __pyx_t_11 = PyTuple_New(12); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16009; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_15 = 0;
           __pyx_t_16 = 127;
@@ -27919,9 +27911,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 2;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__3))));
-          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16039; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16017; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_8) : PyObject_Format(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16041; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_8) : PyObject_Format(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16019; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_16;
@@ -27933,9 +27925,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 2;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_n_u_CP_2))));
-          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16053; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16031; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_8 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16055; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16033; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_8)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_8)))) : __pyx_t_16;
@@ -27947,9 +27939,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__51))));
-          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16067; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_8) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16045; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_8) : PyObject_Format(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16069; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_8)))), __pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_8) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_8)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_8) : PyObject_Format(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16047; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_16;
@@ -27961,7 +27953,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 1;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__7))));
-          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16081; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16059; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_16;
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
@@ -27972,16 +27964,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16092; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16070; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_4)))) : __pyx_t_16;
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_4))));
                                   ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (9), ((PyObject*)((__pyx_t_4))));
           __pyx_t_4 = 0;
-          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16099; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16077; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_8 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16101; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_4)))), __pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_4) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_4)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_4) : PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16079; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_8)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_8)))) : __pyx_t_16;
@@ -27993,17 +27985,17 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 12;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (11), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__52))));
-          __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_11, 12, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16113; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_11, 12, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16091; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          __pyx_t_11 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_8); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 355; (void)__pyx_lineno; __pyx_clineno = 16116; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_8); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 353; (void)__pyx_lineno; __pyx_clineno = 16094; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-# 16128 "yxdfb/Kynaraa.cpp"
-          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16128; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 16106 "yxdfb/Kynaraa.cpp"
+          __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16106; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
-          __pyx_t_4 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16130; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16108; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_15 = 0;
           __pyx_t_16 = 127;
@@ -28011,7 +28003,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 18;
                                                      ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_data_result_CP_CP))));
-          (__pyx_t_14) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16138; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_14) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16116; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_17 = __null;
           __pyx_t_10 = 0;
@@ -28031,11 +28023,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_17, __null};
             __pyx_t_9 = __Pyx_PyObject_FastCallDict(__pyx_t_14, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_17)))); __pyx_t_17 = 0;
-            if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16158; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16136; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
           }
-          __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16162; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16140; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
           __pyx_t_9 = __null;
@@ -28056,11 +28048,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_9, __null};
             __pyx_t_13 = __Pyx_PyObject_FastCallDict(__pyx_t_14, __pyx_callargs+1-__pyx_t_10, (size_t)(0+__pyx_t_10), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-            if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16183; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16161; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
           }
-          __pyx_t_14 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_13)))), __pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_13) : PyObject_Format(__pyx_t_13, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16187; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_14 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_13)))), __pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_13) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_13)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_13) : PyObject_Format(__pyx_t_13, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16165; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_14)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_14)))) : __pyx_t_16;
@@ -28072,14 +28064,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 4;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_txt))));
-          __pyx_t_14 = __Pyx_PyUnicode_Join(__pyx_t_4, 3, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16199; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_14 = __Pyx_PyUnicode_Join(__pyx_t_4, 3, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16177; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-          __pyx_t_4 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16202; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_4 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16180; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_15 = 0;
           __pyx_t_16 = 127;
-          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16206; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16184; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) : __pyx_t_16;
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_13))));
@@ -28090,14 +28082,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           __pyx_t_15 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16217; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16195; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_16 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) > __pyx_t_16) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_13)))) : __pyx_t_16;
           __pyx_t_15 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_13))));
                                    ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_4))), (2), ((PyObject*)((__pyx_t_13))));
           __pyx_t_13 = 0;
-          __pyx_t_13 = __Pyx_PyUnicode_Join(__pyx_t_4, 3, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16224; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_13 = __Pyx_PyUnicode_Join(__pyx_t_4, 3, __pyx_t_15, __pyx_t_16); if (__builtin_expect(!!(!__pyx_t_13), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16202; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
           __pyx_t_4 = __null;
@@ -28120,16 +28112,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
             Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_13)))); __pyx_t_13 = 0;
-            if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16247; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 354; (void)__pyx_lineno; __pyx_clineno = 16225; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
           }
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-# 16260 "yxdfb/Kynaraa.cpp"
+# 16238 "yxdfb/Kynaraa.cpp"
           goto __pyx_L10_try_break;
-# 16269 "yxdfb/Kynaraa.cpp"
+# 16247 "yxdfb/Kynaraa.cpp"
         }
-# 16278 "yxdfb/Kynaraa.cpp"
+# 16256 "yxdfb/Kynaraa.cpp"
       }
       Py_XDECREF(((PyObject*)((__pyx_t_5)))); __pyx_t_5 = 0;
       Py_XDECREF(((PyObject*)((__pyx_t_6)))); __pyx_t_6 = 0;
@@ -28143,14 +28135,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
       Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
       Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
       Py_XDECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
-# 16299 "yxdfb/Kynaraa.cpp"
+# 16277 "yxdfb/Kynaraa.cpp"
       __Pyx_ErrFetchInState(__pyx_tstate, &__pyx_t_11, &__pyx_t_8, &__pyx_t_13);
-      (__pyx_t_14) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_requests); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 358; (void)__pyx_lineno; __pyx_clineno = 16300; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+      (__pyx_t_14) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_requests); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16278; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                               ;
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_s_exceptions); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 358; (void)__pyx_lineno; __pyx_clineno = 16302; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_s_exceptions); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16280; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                              ;
       Py_DECREF(((PyObject*)((__pyx_t_14)))); __pyx_t_14 = 0;
-      __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_ConnectionError); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 358; (void)__pyx_lineno; __pyx_clineno = 16305; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+      __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_ConnectionError); if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16283; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                               ;
       Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
       __pyx_t_18 = __Pyx_PyErr_GivenExceptionMatches(__pyx_t_11, __pyx_t_14);
@@ -28159,14 +28151,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
       __pyx_t_11 = 0; __pyx_t_8 = 0; __pyx_t_13 = 0;
       if (__pyx_t_18) {
         __Pyx_AddTraceback("Kynaraa.Kynaa.graph_v2", __pyx_clineno, __pyx_lineno, __pyx_filename);
-        if (__Pyx__GetException(__pyx_tstate, &__pyx_t_13, &__pyx_t_8, &__pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 358; (void)__pyx_lineno; __pyx_clineno = 16314; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+        if (__Pyx__GetException(__pyx_tstate, &__pyx_t_13, &__pyx_t_8, &__pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 356; (void)__pyx_lineno; __pyx_clineno = 16292; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                  ;
                                 ;
                                  ;
-# 16326 "yxdfb/Kynaraa.cpp"
-        (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_time); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 359; (void)__pyx_lineno; __pyx_clineno = 16326; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+# 16304 "yxdfb/Kynaraa.cpp"
+        (__pyx_t_4) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_time); if (__builtin_expect(!!(!__pyx_t_4), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 357; (void)__pyx_lineno; __pyx_clineno = 16304; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                ;
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_sleep); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 359; (void)__pyx_lineno; __pyx_clineno = 16328; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_s_sleep); if (__builtin_expect(!!(!__pyx_t_9), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 357; (void)__pyx_lineno; __pyx_clineno = 16306; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
         __pyx_t_4 = __null;
@@ -28187,7 +28179,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_mstate_global->__pyx_int_15};
           __pyx_t_14 = __Pyx_PyObject_FastCallDict(__pyx_t_9, __pyx_callargs+1-__pyx_t_10, (size_t)(1+__pyx_t_10), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_4)))); __pyx_t_4 = 0;
-          if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 359; (void)__pyx_lineno; __pyx_clineno = 16349; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+          if (__builtin_expect(!!(!__pyx_t_14), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 357; (void)__pyx_lineno; __pyx_clineno = 16327; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_9)))); __pyx_t_9 = 0;
         }
@@ -28198,7 +28190,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
         goto __pyx_L6_exception_handled;
       }
       goto __pyx_L7_except_error;
-# 16368 "yxdfb/Kynaraa.cpp"
+# 16346 "yxdfb/Kynaraa.cpp"
       __pyx_L7_except_error:;
                                ;
                                ;
@@ -28218,7 +28210,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
       __Pyx__ExceptionReset(__pyx_tstate, __pyx_t_5, __pyx_t_6, __pyx_t_7);
       __pyx_L12_try_end:;
     }
-# 16395 "yxdfb/Kynaraa.cpp"
+# 16373 "yxdfb/Kynaraa.cpp"
   }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
   goto __pyx_L16_for_end;
@@ -28226,15 +28218,15 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
   goto __pyx_L16_for_end;
   __pyx_L16_for_end:;
-# 16410 "yxdfb/Kynaraa.cpp"
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 363; (void)__pyx_lineno; __pyx_clineno = 16410; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 16388 "yxdfb/Kynaraa.cpp"
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 361; (void)__pyx_lineno; __pyx_clineno = 16388; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_11 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 363; (void)__pyx_lineno; __pyx_clineno = 16412; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_11 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 361; (void)__pyx_lineno; __pyx_clineno = 16390; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop, __pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 363; (void)__pyx_lineno; __pyx_clineno = 16415; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop, __pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 361; (void)__pyx_lineno; __pyx_clineno = 16393; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-# 16427 "yxdfb/Kynaraa.cpp"
+# 16405 "yxdfb/Kynaraa.cpp"
   __pyx_r = (&_Py_NoneStruct); Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -28264,7 +28256,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_18graph_v2([[maybe_unused]] PyObject *
                                ;
   return __pyx_r;
 }
-# 16466 "yxdfb/Kynaraa.cpp"
+# 16444 "yxdfb/Kynaraa.cpp"
 static PyObject *__pyx_pw_7Kynaraa_5Kynaa_21reguller(PyObject *__pyx_self,
 
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
@@ -28329,7 +28321,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[0];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16530; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16508; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else goto __pyx_L5_argtuple_error;
         [[fallthrough]];
         case 1:
@@ -28337,9 +28329,9 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[1];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16538; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16516; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("reguller", 1, 5, 5, 1); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16540; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("reguller", 1, 5, 5, 1); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16518; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
         [[fallthrough]];
         case 2:
@@ -28347,9 +28339,9 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[2];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16548; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16526; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("reguller", 1, 5, 5, 2); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16550; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("reguller", 1, 5, 5, 2); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16528; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
         [[fallthrough]];
         case 3:
@@ -28357,9 +28349,9 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[3];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16558; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16536; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("reguller", 1, 5, 5, 3); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16560; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("reguller", 1, 5, 5, 3); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16538; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
         [[fallthrough]];
         case 4:
@@ -28367,14 +28359,14 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
           (void)values[4];
           kw_args--;
         }
-        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16568; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        else if (__builtin_expect(!!(PyErr_Occurred()), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16546; (void)__pyx_clineno; } goto __pyx_L3_error; }
         else {
-          __Pyx_RaiseArgtupleInvalid("reguller", 1, 5, 5, 4); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16570; (void)__pyx_clineno; } goto __pyx_L3_error; }
+          __Pyx_RaiseArgtupleInvalid("reguller", 1, 5, 5, 4); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16548; (void)__pyx_clineno; } goto __pyx_L3_error; }
         }
       }
       if (__builtin_expect(!!(kw_args > 0), 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "reguller") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16575; (void)__pyx_clineno; } goto __pyx_L3_error; }
+        if (__builtin_expect(!!(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "reguller") < 0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16553; (void)__pyx_clineno; } goto __pyx_L3_error; }
       }
     } else if (__builtin_expect(!!(__pyx_nargs != 5), 0)) {
       goto __pyx_L5_argtuple_error;
@@ -28393,7 +28385,7 @@ PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("reguller", 1, 5, 5, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16594; (void)__pyx_clineno; } goto __pyx_L3_error; }
+  __Pyx_RaiseArgtupleInvalid("reguller", 1, 5, 5, __pyx_nargs); { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 16572; (void)__pyx_clineno; } goto __pyx_L3_error; }
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -28460,10 +28452,10 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
   const char *__pyx_filename = __null;
   int __pyx_clineno = 0;
                                            ;
-# 16669 "yxdfb/Kynaraa.cpp"
-  (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_requests); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 393; (void)__pyx_lineno; __pyx_clineno = 16669; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 16647 "yxdfb/Kynaraa.cpp"
+  (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_requests); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 391; (void)__pyx_lineno; __pyx_clineno = 16647; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_Session); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 393; (void)__pyx_lineno; __pyx_clineno = 16671; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_Session); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 391; (void)__pyx_lineno; __pyx_clineno = 16649; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
   __pyx_t_2 = __null;
@@ -28484,21 +28476,21 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
     PyObject *__pyx_callargs[2] = {__pyx_t_2, __null};
     __pyx_t_1 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
     Py_XDECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 393; (void)__pyx_lineno; __pyx_clineno = 16692; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 391; (void)__pyx_lineno; __pyx_clineno = 16670; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
     Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
   }
   __pyx_v_ss = __pyx_t_1;
   __pyx_t_1 = 0;
-# 16706 "yxdfb/Kynaraa.cpp"
+# 16684 "yxdfb/Kynaraa.cpp"
   if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pasw)))), (&PyList_Type))), 1) || Py_IS_TYPE(((PyObject*)(((__pyx_v_pasw)))), (&PyTuple_Type))) {
     __pyx_t_1 = __pyx_v_pasw; Py_INCREF(((PyObject*)((__pyx_t_1))));
     __pyx_t_5 = 0;
     __pyx_t_6 = __null;
   } else {
-    __pyx_t_5 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_v_pasw); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 394; (void)__pyx_lineno; __pyx_clineno = 16711; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_5 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_v_pasw); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16689; (void)__pyx_clineno; } goto __pyx_L1_error; }
                            ;
-    __pyx_t_6 = (Py_TYPE(((PyObject*)((__pyx_t_1))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 394; (void)__pyx_lineno; __pyx_clineno = 16713; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    __pyx_t_6 = (Py_TYPE(((PyObject*)((__pyx_t_1))))->tp_iternext); if (__builtin_expect(!!(!__pyx_t_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16691; (void)__pyx_clineno; } goto __pyx_L1_error; }
   }
   for (;;) {
     if (__builtin_expect(!!(!__pyx_t_6), 1)) {
@@ -28511,7 +28503,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           if (__pyx_t_5 >= __pyx_temp) break;
         }
 
-        __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 16726, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_1)")), ((PyListObject*)((__pyx_t_1))))->ob_item[(__pyx_t_5)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_5++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 394; (void)__pyx_lineno; __pyx_clineno = 16726; (void)__pyx_clineno; } goto __pyx_L1_error; }
+        __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 16704, __PRETTY_FUNCTION__, "PyList_Check(__pyx_t_1)")), ((PyListObject*)((__pyx_t_1))))->ob_item[(__pyx_t_5)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_5++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16704; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -28525,7 +28517,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           if (__pyx_t_5 >= __pyx_temp) break;
         }
 
-        __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 16740, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_1)")), ((PyTupleObject*)((__pyx_t_1))))->ob_item[(__pyx_t_5)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_5++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 394; (void)__pyx_lineno; __pyx_clineno = 16740; (void)__pyx_clineno; } goto __pyx_L1_error; }
+        __pyx_t_3 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((__pyx_t_1))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 16718, __PRETTY_FUNCTION__, "PyTuple_Check(__pyx_t_1)")), ((PyTupleObject*)((__pyx_t_1))))->ob_item[(__pyx_t_5)]); Py_INCREF(((PyObject*)((__pyx_t_3)))); __pyx_t_5++; if (__builtin_expect(!!((0 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16718; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -28537,7 +28529,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (__builtin_expect(!!(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration)), 1)) PyErr_Clear();
-          else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 394; (void)__pyx_lineno; __pyx_clineno = 16752; (void)__pyx_clineno; } goto __pyx_L1_error; }
+          else { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 16730; (void)__pyx_clineno; } goto __pyx_L1_error; }
         }
         break;
       }
@@ -28545,7 +28537,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
     }
     do { PyObject *tmp = (PyObject *) __pyx_v_pw; __pyx_v_pw = __pyx_t_3; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
     __pyx_t_3 = 0;
-# 16768 "yxdfb/Kynaraa.cpp"
+# 16746 "yxdfb/Kynaraa.cpp"
     {
       PyThreadState *__pyx_tstate;
       __pyx_tstate = _PyThreadState_UncheckedGet();
@@ -28554,16 +28546,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
                               ;
                               ;
                {
-# 16784 "yxdfb/Kynaraa.cpp"
-        (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 396; (void)__pyx_lineno; __pyx_clineno = 16784; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 16762 "yxdfb/Kynaraa.cpp"
+        (__pyx_t_3) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_random); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 394; (void)__pyx_lineno; __pyx_clineno = 16762; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 396; (void)__pyx_lineno; __pyx_clineno = 16786; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_randint); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 394; (void)__pyx_lineno; __pyx_clineno = 16764; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
         do { PyObject *tmp = (PyObject *) __pyx_v_rr; __pyx_v_rr = __pyx_t_2; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_2 = 0;
-# 16799 "yxdfb/Kynaraa.cpp"
-        (__pyx_t_10) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_UserAgent); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 397; (void)__pyx_lineno; __pyx_clineno = 16799; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 16777 "yxdfb/Kynaraa.cpp"
+        (__pyx_t_10) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_UserAgent); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 395; (void)__pyx_lineno; __pyx_clineno = 16777; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         __pyx_t_11 = __null;
         __pyx_t_4 = 0;
@@ -28583,11 +28575,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_11, __null};
           __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_10, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 397; (void)__pyx_lineno; __pyx_clineno = 16819; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 395; (void)__pyx_lineno; __pyx_clineno = 16797; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
         }
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_ua_fb_val); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 397; (void)__pyx_lineno; __pyx_clineno = 16823; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_ua_fb_val); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 395; (void)__pyx_lineno; __pyx_clineno = 16801; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
         __pyx_t_3 = __null;
@@ -28608,14 +28600,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_3, __null};
           __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_10, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-          if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 397; (void)__pyx_lineno; __pyx_clineno = 16844; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 395; (void)__pyx_lineno; __pyx_clineno = 16822; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
         }
         do { PyObject *tmp = (PyObject *) __pyx_v_ua; __pyx_v_ua = __pyx_t_2; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_2 = 0;
-# 16858 "yxdfb/Kynaraa.cpp"
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_get); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 399; (void)__pyx_lineno; __pyx_clineno = 16858; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 16836 "yxdfb/Kynaraa.cpp"
+        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_get); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 397; (void)__pyx_lineno; __pyx_clineno = 16836; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         __pyx_t_3 = __null;
         __pyx_t_4 = 0;
@@ -28635,16 +28627,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_v_host};
           __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_10, __pyx_callargs+1-__pyx_t_4, (size_t)(1+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-          if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 399; (void)__pyx_lineno; __pyx_clineno = 16878; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 397; (void)__pyx_lineno; __pyx_clineno = 16856; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
         }
         do { PyObject *tmp = (PyObject *) __pyx_v_kyan; __pyx_v_kyan = __pyx_t_2; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_2 = 0;
-# 16892 "yxdfb/Kynaraa.cpp"
-        (__pyx_t_10) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_BeautifulSoup); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16892; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 16870 "yxdfb/Kynaraa.cpp"
+        (__pyx_t_10) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_BeautifulSoup); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 398; (void)__pyx_lineno; __pyx_clineno = 16870; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyan, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16894; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyan, __pyx_mstate_global->__pyx_n_s_text); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 398; (void)__pyx_lineno; __pyx_clineno = 16872; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         __pyx_t_11 = __null;
         __pyx_t_4 = 0;
@@ -28665,20 +28657,20 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_10, __pyx_callargs+1-__pyx_t_4, (size_t)(2+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-          if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16915; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 398; (void)__pyx_lineno; __pyx_clineno = 16893; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
         }
         do { PyObject *tmp = (PyObject *) __pyx_v_kyna; __pyx_v_kyna = __pyx_t_2; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_2 = 0;
-# 16929 "yxdfb/Kynaraa.cpp"
-        __pyx_t_2 = ((17 <= 8) ? PyDict_New() : _PyDict_NewPresized(17)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 16929; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 16907 "yxdfb/Kynaraa.cpp"
+        __pyx_t_2 = ((17 <= 8) ? PyDict_New() : _PyDict_NewPresized(17)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16907; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyna, __pyx_mstate_global->__pyx_n_s_find); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 16931; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyna, __pyx_mstate_global->__pyx_n_s_find); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16909; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = ((1 <= 8) ? PyDict_New() : _PyDict_NewPresized(1)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 16933; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = ((1 <= 8) ? PyDict_New() : _PyDict_NewPresized(1)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16911; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_lsd) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 16935; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_lsd) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16913; (void)__pyx_clineno; } goto __pyx_L5_error; }
         __pyx_t_12 = __null;
         __pyx_t_4 = 0;
 
@@ -28698,21 +28690,21 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_10 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, (size_t)(2+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 16955; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16933; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
         }
-        __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_value) : PyObject_GetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_value)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 16959; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_value) : PyObject_GetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_value)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16937; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_lsd, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 16962; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_lsd, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16940; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 16972 "yxdfb/Kynaraa.cpp"
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyna, __pyx_mstate_global->__pyx_n_s_find); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 403; (void)__pyx_lineno; __pyx_clineno = 16972; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 16950 "yxdfb/Kynaraa.cpp"
+        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyna, __pyx_mstate_global->__pyx_n_s_find); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 401; (void)__pyx_lineno; __pyx_clineno = 16950; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_11 = ((1 <= 8) ? PyDict_New() : _PyDict_NewPresized(1)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 403; (void)__pyx_lineno; __pyx_clineno = 16974; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = ((1 <= 8) ? PyDict_New() : _PyDict_NewPresized(1)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 401; (void)__pyx_lineno; __pyx_clineno = 16952; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_jazoest) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 403; (void)__pyx_lineno; __pyx_clineno = 16976; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_jazoest) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 401; (void)__pyx_lineno; __pyx_clineno = 16954; (void)__pyx_clineno; } goto __pyx_L5_error; }
         __pyx_t_12 = __null;
         __pyx_t_4 = 0;
 
@@ -28732,21 +28724,21 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_10, __pyx_callargs+1-__pyx_t_4, (size_t)(2+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 403; (void)__pyx_lineno; __pyx_clineno = 16996; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 401; (void)__pyx_lineno; __pyx_clineno = 16974; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
         }
-        __pyx_t_10 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_value) : PyObject_GetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_value)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 403; (void)__pyx_lineno; __pyx_clineno = 17000; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_10 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_value) : PyObject_GetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_value)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 401; (void)__pyx_lineno; __pyx_clineno = 16978; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_jazoest, __pyx_t_10) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17003; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_jazoest, __pyx_t_10) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 16981; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-# 17013 "yxdfb/Kynaraa.cpp"
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyna, __pyx_mstate_global->__pyx_n_s_find); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 404; (void)__pyx_lineno; __pyx_clineno = 17013; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 16991 "yxdfb/Kynaraa.cpp"
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyna, __pyx_mstate_global->__pyx_n_s_find); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 16991; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = ((1 <= 8) ? PyDict_New() : _PyDict_NewPresized(1)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 404; (void)__pyx_lineno; __pyx_clineno = 17015; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = ((1 <= 8) ? PyDict_New() : _PyDict_NewPresized(1)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 16993; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_m_ts) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 404; (void)__pyx_lineno; __pyx_clineno = 17017; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_m_ts) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 16995; (void)__pyx_clineno; } goto __pyx_L5_error; }
         __pyx_t_12 = __null;
         __pyx_t_4 = 0;
 
@@ -28766,21 +28758,21 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_10 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, (size_t)(2+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 404; (void)__pyx_lineno; __pyx_clineno = 17037; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17015; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
         }
-        __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_value) : PyObject_GetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_value)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 404; (void)__pyx_lineno; __pyx_clineno = 17041; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_value) : PyObject_GetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_value)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17019; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_m_ts, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17044; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_m_ts, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17022; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 17054 "yxdfb/Kynaraa.cpp"
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyna, __pyx_mstate_global->__pyx_n_s_find); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 405; (void)__pyx_lineno; __pyx_clineno = 17054; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17032 "yxdfb/Kynaraa.cpp"
+        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyna, __pyx_mstate_global->__pyx_n_s_find); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 403; (void)__pyx_lineno; __pyx_clineno = 17032; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_11 = ((1 <= 8) ? PyDict_New() : _PyDict_NewPresized(1)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 405; (void)__pyx_lineno; __pyx_clineno = 17056; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = ((1 <= 8) ? PyDict_New() : _PyDict_NewPresized(1)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 403; (void)__pyx_lineno; __pyx_clineno = 17034; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_li) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 405; (void)__pyx_lineno; __pyx_clineno = 17058; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_name, __pyx_mstate_global->__pyx_n_s_li) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 403; (void)__pyx_lineno; __pyx_clineno = 17036; (void)__pyx_clineno; } goto __pyx_L5_error; }
         __pyx_t_12 = __null;
         __pyx_t_4 = 0;
 
@@ -28800,36 +28792,36 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_10, __pyx_callargs+1-__pyx_t_4, (size_t)(2+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 405; (void)__pyx_lineno; __pyx_clineno = 17078; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 403; (void)__pyx_lineno; __pyx_clineno = 17056; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
         }
-        __pyx_t_10 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_value) : PyObject_GetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_value)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 405; (void)__pyx_lineno; __pyx_clineno = 17082; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_10 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyDict_Type))), 1) ? __Pyx_PyDict_GetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_value) : PyObject_GetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_value)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 403; (void)__pyx_lineno; __pyx_clineno = 17060; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_li, __pyx_t_10) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17085; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_li, __pyx_t_10) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17063; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_try_number, __pyx_mstate_global->__pyx_kp_s_0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17087; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_unrecognized_tries, __pyx_mstate_global->__pyx_kp_s_0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17088; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 17097 "yxdfb/Kynaraa.cpp"
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_prefill_contact_point, __pyx_v_user) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17097; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_prefill_source, __pyx_mstate_global->__pyx_n_s_provided_or_soft_matched) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17098; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_prefill_type, __pyx_mstate_global->__pyx_n_s_contact_point) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17099; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_first_prefill_source, __pyx_mstate_global->__pyx_n_s_provided_or_soft_matched) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17100; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_first_prefill_type, __pyx_mstate_global->__pyx_n_s_contact_point) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17101; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_had_cp_prefilled, __pyx_mstate_global->__pyx_n_s_true) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17102; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_had_password_prefilled, __pyx_mstate_global->__pyx_n_s_false) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17103; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_is_smart_lock, __pyx_mstate_global->__pyx_n_s_false) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17104; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_fb_noscript, __pyx_mstate_global->__pyx_n_s_true) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17105; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 17114 "yxdfb/Kynaraa.cpp"
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_email, __pyx_v_user) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17114; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_pass, __pyx_v_pw) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 402; (void)__pyx_lineno; __pyx_clineno = 17115; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_try_number, __pyx_mstate_global->__pyx_kp_s_0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17065; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_unrecognized_tries, __pyx_mstate_global->__pyx_kp_s_0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17066; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17075 "yxdfb/Kynaraa.cpp"
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_prefill_contact_point, __pyx_v_user) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17075; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_prefill_source, __pyx_mstate_global->__pyx_n_s_provided_or_soft_matched) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17076; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_prefill_type, __pyx_mstate_global->__pyx_n_s_contact_point) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17077; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_first_prefill_source, __pyx_mstate_global->__pyx_n_s_provided_or_soft_matched) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17078; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_first_prefill_type, __pyx_mstate_global->__pyx_n_s_contact_point) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17079; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_had_cp_prefilled, __pyx_mstate_global->__pyx_n_s_true) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17080; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_had_password_prefilled, __pyx_mstate_global->__pyx_n_s_false) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17081; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_is_smart_lock, __pyx_mstate_global->__pyx_n_s_false) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17082; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_fb_noscript, __pyx_mstate_global->__pyx_n_s_true) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17083; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17092 "yxdfb/Kynaraa.cpp"
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_email, __pyx_v_user) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17092; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_pass, __pyx_v_pw) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 400; (void)__pyx_lineno; __pyx_clineno = 17093; (void)__pyx_clineno; } goto __pyx_L5_error; }
         do { PyObject *tmp = (PyObject *) __pyx_v_data; __pyx_v_data = ((PyObject*)__pyx_t_2); Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_2 = 0;
-# 17126 "yxdfb/Kynaraa.cpp"
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_cookies); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17126; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17104 "yxdfb/Kynaraa.cpp"
+        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_cookies); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 409; (void)__pyx_lineno; __pyx_clineno = 17104; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_get_dict); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17128; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_s_get_dict); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 409; (void)__pyx_lineno; __pyx_clineno = 17106; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
         __pyx_t_10 = __null;
@@ -28850,27 +28842,27 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_10, __null};
           __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-          if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17149; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 409; (void)__pyx_lineno; __pyx_clineno = 17127; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
         }
         do { PyObject *tmp = (PyObject *) __pyx_v_apcb; __pyx_v_apcb = __pyx_t_2; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_2 = 0;
-# 17163 "yxdfb/Kynaraa.cpp"
-        __pyx_t_2 = ((23 <= 8) ? PyDict_New() : _PyDict_NewPresized(23)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17163; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17141 "yxdfb/Kynaraa.cpp"
+        __pyx_t_2 = ((23 <= 8) ? PyDict_New() : _PyDict_NewPresized(23)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17141; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_authority, __pyx_mstate_global->__pyx_kp_s_x_facebook_com) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17165; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_accept, __pyx_mstate_global->__pyx_kp_s_text_html_application_xhtml_xml) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17166; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_accept_language, __pyx_mstate_global->__pyx_kp_s_id_ID_id_q_0_9_en_US_q_0_8_en_q) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17167; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_cache_control, __pyx_mstate_global->__pyx_kp_s_max_age_0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17168; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_content_type, __pyx_mstate_global->__pyx_kp_s_application_x_www_form_urlencode) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17169; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_dpr, __pyx_mstate_global->__pyx_kp_s_1_600000023841858) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17170; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_origin, __pyx_mstate_global->__pyx_kp_s_https_x_facebook_com) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17171; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_referer, __pyx_mstate_global->__pyx_kp_s_https_x_facebook_com_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17172; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_accept_encoding, __pyx_mstate_global->__pyx_kp_s_br_gzip) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17173; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_prefers_color_scheme, __pyx_mstate_global->__pyx_n_s_dark) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17174; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 17183 "yxdfb/Kynaraa.cpp"
-        __pyx_t_3 = PyTuple_New(7); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17183; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_authority, __pyx_mstate_global->__pyx_kp_s_x_facebook_com) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17143; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_accept, __pyx_mstate_global->__pyx_kp_s_text_html_application_xhtml_xml) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17144; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_accept_language, __pyx_mstate_global->__pyx_kp_s_id_ID_id_q_0_9_en_US_q_0_8_en_q) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17145; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_cache_control, __pyx_mstate_global->__pyx_kp_s_max_age_0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17146; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_content_type, __pyx_mstate_global->__pyx_kp_s_application_x_www_form_urlencode) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17147; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_dpr, __pyx_mstate_global->__pyx_kp_s_1_600000023841858) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17148; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_origin, __pyx_mstate_global->__pyx_kp_s_https_x_facebook_com) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17149; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_referer, __pyx_mstate_global->__pyx_kp_s_https_x_facebook_com_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17150; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_accept_encoding, __pyx_mstate_global->__pyx_kp_s_br_gzip) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17151; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_prefers_color_scheme, __pyx_mstate_global->__pyx_n_s_dark) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17152; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17161 "yxdfb/Kynaraa.cpp"
+        __pyx_t_3 = PyTuple_New(7); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17161; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         __pyx_t_13 = 0;
         __pyx_t_14 = 127;
@@ -28878,12 +28870,12 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 17;
                                                ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Not_A_Brand_v))));
-        __pyx_t_10 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__54, __null); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17191; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_10 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__54, __null); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17169; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_10)))), __pyx_t_10) : PyObject_Str(__pyx_t_10)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17193; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_10)))), __pyx_t_10) : PyObject_Str(__pyx_t_10)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17171; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-        __pyx_t_10 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17196; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_10 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17174; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_10)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_10)))) : __pyx_t_14;
@@ -28895,12 +28887,12 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 17;
                                             ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_3))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Chromium_v))));
-        __pyx_t_10 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__55, __null); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17208; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_10 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__55, __null); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17186; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_10)))), __pyx_t_10) : PyObject_Str(__pyx_t_10)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17210; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_10)))), __pyx_t_10) : PyObject_Str(__pyx_t_10)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17188; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-        __pyx_t_10 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17213; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_10 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17191; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_10)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_10)))) : __pyx_t_14;
@@ -28912,12 +28904,12 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 22;
                                                  ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_3))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Google_Chrome_v))));
-        __pyx_t_10 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__55, __null); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17225; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_10 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__55, __null); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17203; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_10)))), __pyx_t_10) : PyObject_Str(__pyx_t_10)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17227; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_10)))), __pyx_t_10) : PyObject_Str(__pyx_t_10)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17205; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-        __pyx_t_10 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17230; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_10 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17208; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_10)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_10)))) : __pyx_t_14;
@@ -28929,13 +28921,13 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 1;
                                      ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_3))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__56))));
-        __pyx_t_10 = __Pyx_PyUnicode_Join(__pyx_t_3, 7, __pyx_t_13, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 17242; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_10 = __Pyx_PyUnicode_Join(__pyx_t_3, 7, __pyx_t_13, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 17220; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua, __pyx_t_10) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17245; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua, __pyx_t_10) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17223; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-# 17255 "yxdfb/Kynaraa.cpp"
-        __pyx_t_10 = PyTuple_New(15); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17255; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17233 "yxdfb/Kynaraa.cpp"
+        __pyx_t_10 = PyTuple_New(15); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17233; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         __pyx_t_13 = 0;
         __pyx_t_14 = 127;
@@ -28943,12 +28935,12 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 17;
                                                ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Not_A_Brand_v))));
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__54, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17263; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__54, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17241; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17265; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17243; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17268; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17246; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
@@ -28960,12 +28952,12 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 23;
                                                   ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0_0_0_Chromium_v))));
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__55, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17280; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__55, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17258; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17282; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17260; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17285; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17263; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
@@ -28977,12 +28969,12 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 3;
                                      ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0_2))));
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__57, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17297; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__57, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17275; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17299; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17277; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17302; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17280; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
@@ -28994,12 +28986,12 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 1;
                                      ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__31))));
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__58, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17314; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__58, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17292; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17316; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17294; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17319; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17297; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
@@ -29011,12 +29003,12 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 22;
                                                  ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_Google_Chrome_v))));
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__55, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17331; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__55, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17309; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17333; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17311; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17336; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17314; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
@@ -29028,12 +29020,12 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 3;
                                      ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (10), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_0_2))));
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__57, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17348; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__57, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17326; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17350; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17328; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17353; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17331; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
@@ -29045,12 +29037,12 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 1;
                                      ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (12), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__31))));
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__58, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17365; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_v_rr, __pyx_mstate_global->__pyx_tuple__58, __null); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17343; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17367; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : PyObject_Str(__pyx_t_3)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17345; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17370; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17348; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
@@ -29062,49 +29054,49 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         __pyx_t_13 += 1;
                                      ;
         PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (14), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__56))));
-        __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_10, 15, __pyx_t_13, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 17382; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_10, 15, __pyx_t_13, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 17360; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua_full_version_list, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17385; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua_full_version_list, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17363; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua_mobile, __pyx_mstate_global->__pyx_kp_s_0_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17387; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua_model, __pyx_mstate_global->__pyx_kp_s__59) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17388; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua_platform, __pyx_mstate_global->__pyx_kp_s_Linux) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17389; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua_platform_version, __pyx_mstate_global->__pyx_kp_s__59) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17390; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_fetch_dest, __pyx_mstate_global->__pyx_n_s_document) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17391; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_fetch_mode, __pyx_mstate_global->__pyx_n_s_navigate) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17392; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_fetch_site, __pyx_mstate_global->__pyx_kp_s_same_origin) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17393; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_fetch_user, __pyx_mstate_global->__pyx_kp_s_1_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17394; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_upgrade_insecure_requests, __pyx_mstate_global->__pyx_kp_s_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17395; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 17404 "yxdfb/Kynaraa.cpp"
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_user_agent, __pyx_v_ua) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17404; (void)__pyx_clineno; } goto __pyx_L5_error; }
-        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_viewport_width, __pyx_mstate_global->__pyx_kp_s_980) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 413; (void)__pyx_lineno; __pyx_clineno = 17405; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua_mobile, __pyx_mstate_global->__pyx_kp_s_0_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17365; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua_model, __pyx_mstate_global->__pyx_kp_s__59) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17366; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua_platform, __pyx_mstate_global->__pyx_kp_s_Linux) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17367; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_ch_ua_platform_version, __pyx_mstate_global->__pyx_kp_s__59) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17368; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_fetch_dest, __pyx_mstate_global->__pyx_n_s_document) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17369; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_fetch_mode, __pyx_mstate_global->__pyx_n_s_navigate) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17370; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_fetch_site, __pyx_mstate_global->__pyx_kp_s_same_origin) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17371; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_sec_fetch_user, __pyx_mstate_global->__pyx_kp_s_1_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17372; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_upgrade_insecure_requests, __pyx_mstate_global->__pyx_kp_s_1) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17373; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17382 "yxdfb/Kynaraa.cpp"
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_user_agent, __pyx_v_ua) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17382; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_kp_s_viewport_width, __pyx_mstate_global->__pyx_kp_s_980) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 411; (void)__pyx_lineno; __pyx_clineno = 17383; (void)__pyx_clineno; } goto __pyx_L5_error; }
         do { PyObject *tmp = (PyObject *) __pyx_v_head; __pyx_v_head = ((PyObject*)__pyx_t_2); Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_2 = 0;
-# 17416 "yxdfb/Kynaraa.cpp"
-        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_post); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 421; (void)__pyx_lineno; __pyx_clineno = 17416; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17394 "yxdfb/Kynaraa.cpp"
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_post); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 419; (void)__pyx_lineno; __pyx_clineno = 17394; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-# 17426 "yxdfb/Kynaraa.cpp"
-        __pyx_t_3 = ((4 <= 8) ? PyDict_New() : _PyDict_NewPresized(4)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 423; (void)__pyx_lineno; __pyx_clineno = 17426; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17404 "yxdfb/Kynaraa.cpp"
+        __pyx_t_3 = ((4 <= 8) ? PyDict_New() : _PyDict_NewPresized(4)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 421; (void)__pyx_lineno; __pyx_clineno = 17404; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_data, __pyx_v_data) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 423; (void)__pyx_lineno; __pyx_clineno = 17428; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 17437 "yxdfb/Kynaraa.cpp"
-        if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_headers, __pyx_v_head) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 423; (void)__pyx_lineno; __pyx_clineno = 17437; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 17446 "yxdfb/Kynaraa.cpp"
-        if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_cookies, __pyx_v_apcb) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 423; (void)__pyx_lineno; __pyx_clineno = 17446; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 17455 "yxdfb/Kynaraa.cpp"
-        if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_allow_redirects, ((PyObject*)((&_Py_FalseStruct)))) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 423; (void)__pyx_lineno; __pyx_clineno = 17455; (void)__pyx_clineno; } goto __pyx_L5_error; }
-# 17464 "yxdfb/Kynaraa.cpp"
-        __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_mstate_global->__pyx_tuple__60, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 421; (void)__pyx_lineno; __pyx_clineno = 17464; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_data, __pyx_v_data) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 421; (void)__pyx_lineno; __pyx_clineno = 17406; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17415 "yxdfb/Kynaraa.cpp"
+        if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_headers, __pyx_v_head) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 421; (void)__pyx_lineno; __pyx_clineno = 17415; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17424 "yxdfb/Kynaraa.cpp"
+        if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_cookies, __pyx_v_apcb) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 421; (void)__pyx_lineno; __pyx_clineno = 17424; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17433 "yxdfb/Kynaraa.cpp"
+        if (PyDict_SetItem(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_allow_redirects, ((PyObject*)((&_Py_FalseStruct)))) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 421; (void)__pyx_lineno; __pyx_clineno = 17433; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17442 "yxdfb/Kynaraa.cpp"
+        __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_mstate_global->__pyx_tuple__60, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 419; (void)__pyx_lineno; __pyx_clineno = 17442; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
         do { PyObject *tmp = (PyObject *) __pyx_v_szaz; __pyx_v_szaz = __pyx_t_10; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
         __pyx_t_10 = 0;
-# 17478 "yxdfb/Kynaraa.cpp"
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_print_proses); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 429; (void)__pyx_lineno; __pyx_clineno = 17478; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17456 "yxdfb/Kynaraa.cpp"
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_print_proses); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 427; (void)__pyx_lineno; __pyx_clineno = 17456; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyan, __pyx_mstate_global->__pyx_n_s_status_code); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 429; (void)__pyx_lineno; __pyx_clineno = 17480; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_kyan, __pyx_mstate_global->__pyx_n_s_status_code); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 427; (void)__pyx_lineno; __pyx_clineno = 17458; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
         __pyx_t_11 = __null;
         __pyx_t_4 = 0;
@@ -29125,15 +29117,15 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_10 = __Pyx_PyObject_FastCallDict(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, (size_t)(2+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 429; (void)__pyx_lineno; __pyx_clineno = 17501; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 427; (void)__pyx_lineno; __pyx_clineno = 17479; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
         }
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-# 17514 "yxdfb/Kynaraa.cpp"
-        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_cookies); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17514; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17492 "yxdfb/Kynaraa.cpp"
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_cookies); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 428; (void)__pyx_lineno; __pyx_clineno = 17492; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_get_dict); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17516; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_get_dict); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 428; (void)__pyx_lineno; __pyx_clineno = 17494; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
         __pyx_t_2 = __null;
@@ -29154,11 +29146,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_2, __null};
           __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-          if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17537; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 428; (void)__pyx_lineno; __pyx_clineno = 17515; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         }
-        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_keys); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17541; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_keys); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 428; (void)__pyx_lineno; __pyx_clineno = 17519; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
         __pyx_t_3 = __null;
@@ -29179,29 +29171,29 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_3, __null};
           __pyx_t_10 = __Pyx_PyObject_FastCallDict(__pyx_t_11, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17562; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 428; (void)__pyx_lineno; __pyx_clineno = 17540; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         }
-        __pyx_t_15 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_c_user, __pyx_t_10, 2)); if (__builtin_expect(!!((__pyx_t_15 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17566; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_15 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_c_user, __pyx_t_10, 2)); if (__builtin_expect(!!((__pyx_t_15 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 428; (void)__pyx_lineno; __pyx_clineno = 17544; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
         if (__pyx_t_15) {
-# 17577 "yxdfb/Kynaraa.cpp"
-          __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17577; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17555 "yxdfb/Kynaraa.cpp"
+          __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 429; (void)__pyx_lineno; __pyx_clineno = 17555; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_11 = __Pyx_PyInt_AddObjC(__pyx_t_10, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17579; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyInt_AddObjC(__pyx_t_10, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 429; (void)__pyx_lineno; __pyx_clineno = 17557; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok, __pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17582; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_ok, __pyx_t_11) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 429; (void)__pyx_lineno; __pyx_clineno = 17560; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-# 17592 "yxdfb/Kynaraa.cpp"
+# 17570 "yxdfb/Kynaraa.cpp"
           {
-            __pyx_t_11 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17593; (void)__pyx_clineno; } goto __pyx_L16_error; }
+            __pyx_t_11 = PyList_New(0); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17571; (void)__pyx_clineno; } goto __pyx_L16_error; }
                                     ;
             __pyx_t_13 = 0;
-            __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_cookies); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17596; (void)__pyx_clineno; } goto __pyx_L16_error; }
+            __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_cookies); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17574; (void)__pyx_clineno; } goto __pyx_L16_error; }
                                    ;
-            __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_get_dict); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17598; (void)__pyx_clineno; } goto __pyx_L16_error; }
+            __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_get_dict); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17576; (void)__pyx_clineno; } goto __pyx_L16_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
             __pyx_t_2 = __null;
@@ -29222,15 +29214,15 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
               PyObject *__pyx_callargs[2] = {__pyx_t_2, __null};
               __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_12, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
               Py_XDECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-              if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17619; (void)__pyx_clineno; } goto __pyx_L16_error; }
+              if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17597; (void)__pyx_clineno; } goto __pyx_L16_error; }
                                      ;
               Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
             }
             if (__builtin_expect(!!(__pyx_t_3 == (&_Py_NoneStruct)), 0)) {
               PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "items");
-              { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17625; (void)__pyx_clineno; } goto __pyx_L16_error; }
+              { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17603; (void)__pyx_clineno; } goto __pyx_L16_error; }
             }
-            __pyx_t_12 = __Pyx_dict_iterator(__pyx_t_3, 0, __pyx_mstate_global->__pyx_n_s_items, (&__pyx_t_16), (&__pyx_t_17)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17627; (void)__pyx_clineno; } goto __pyx_L16_error; }
+            __pyx_t_12 = __Pyx_dict_iterator(__pyx_t_3, 0, __pyx_mstate_global->__pyx_n_s_items, (&__pyx_t_16), (&__pyx_t_17)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17605; (void)__pyx_clineno; } goto __pyx_L16_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
             Py_XDECREF(((PyObject*)((__pyx_t_10))));
@@ -29239,25 +29231,25 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
             while (1) {
               __pyx_t_18 = __Pyx_dict_iter_next(__pyx_t_10, __pyx_t_16, &__pyx_t_13, &__pyx_t_12, &__pyx_t_3, __null, __pyx_t_17);
               if (__builtin_expect(!!(__pyx_t_18 == 0), 0)) break;
-              if (__builtin_expect(!!(__pyx_t_18 == -1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17636; (void)__pyx_clineno; } goto __pyx_L16_error; }
+              if (__builtin_expect(!!(__pyx_t_18 == -1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17614; (void)__pyx_clineno; } goto __pyx_L16_error; }
                                       ;
                                      ;
               do { PyObject *tmp = (PyObject *) __pyx_8genexpr4__pyx_v_key; __pyx_8genexpr4__pyx_v_key = __pyx_t_12; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
               __pyx_t_12 = 0;
               do { PyObject *tmp = (PyObject *) __pyx_8genexpr4__pyx_v_value; __pyx_8genexpr4__pyx_v_value = __pyx_t_3; Py_XDECREF(((PyObject*)((tmp)))); } while (0);
               __pyx_t_3 = 0;
-              __pyx_t_3 = PyTuple_New(2); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17643; (void)__pyx_clineno; } goto __pyx_L16_error; }
+              __pyx_t_3 = PyTuple_New(2); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17621; (void)__pyx_clineno; } goto __pyx_L16_error; }
                                      ;
               Py_INCREF(((PyObject*)((__pyx_8genexpr4__pyx_v_key))));
                                                        ;
-              if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_8genexpr4__pyx_v_key)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17647; (void)__pyx_clineno; } goto __pyx_L16_error; };
+              if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_8genexpr4__pyx_v_key)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17625; (void)__pyx_clineno; } goto __pyx_L16_error; };
               Py_INCREF(((PyObject*)((__pyx_8genexpr4__pyx_v_value))));
                                                          ;
-              if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_3))), (1), ((PyObject*)((__pyx_8genexpr4__pyx_v_value)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17650; (void)__pyx_clineno; } goto __pyx_L16_error; };
-              __pyx_t_12 = PyUnicode_Format(__pyx_mstate_global->__pyx_kp_s_s_s, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17651; (void)__pyx_clineno; } goto __pyx_L16_error; }
+              if ((PyTuple_SET_ITEM(((PyObject*)((__pyx_t_3))), (1), ((PyObject*)((__pyx_8genexpr4__pyx_v_value)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17628; (void)__pyx_clineno; } goto __pyx_L16_error; };
+              __pyx_t_12 = PyUnicode_Format(__pyx_mstate_global->__pyx_kp_s_s_s, __pyx_t_3); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17629; (void)__pyx_clineno; } goto __pyx_L16_error; }
                                       ;
               Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-              if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_11, (PyObject*)__pyx_t_12)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17654; (void)__pyx_clineno; } goto __pyx_L16_error; }
+              if (__builtin_expect(!!(__Pyx_ListComp_Append(__pyx_t_11, (PyObject*)__pyx_t_12)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17632; (void)__pyx_clineno; } goto __pyx_L16_error; }
               Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
             }
             Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
@@ -29270,13 +29262,13 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
             goto __pyx_L5_error;
             __pyx_L19_exit_scope:;
           }
-          __pyx_t_10 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__50, __pyx_t_11); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17667; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_10 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_s__50, __pyx_t_11); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 430; (void)__pyx_lineno; __pyx_clineno = 17645; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           do { PyObject *tmp = (PyObject *) __pyx_v_coki; __pyx_v_coki = ((PyObject*)__pyx_t_10); Py_XDECREF(((PyObject*)((tmp)))); } while (0);
           __pyx_t_10 = 0;
-# 17680 "yxdfb/Kynaraa.cpp"
-          __pyx_t_10 = PyTuple_New(13); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17680; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17658 "yxdfb/Kynaraa.cpp"
+          __pyx_t_10 = PyTuple_New(13); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17658; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_16 = 0;
           __pyx_t_14 = 127;
@@ -29284,9 +29276,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 2;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__3))));
-          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17688; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17666; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17690; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17668; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) : __pyx_t_14;
@@ -29298,9 +29290,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 2;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_n_u_OK_2))));
-          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17702; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17680; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17704; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17682; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
@@ -29312,9 +29304,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__51))));
-          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17716; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_H); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17694; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17718; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17696; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) : __pyx_t_14;
@@ -29326,7 +29318,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 1;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__7))));
-          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17730; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17708; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) : __pyx_t_14;
           __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_12))));
@@ -29337,7 +29329,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17741; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17719; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) : __pyx_t_14;
           __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_12))));
@@ -29348,16 +29340,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (10), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_coki)))), __pyx_v_coki) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_coki) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_coki) : PyObject_Format(__pyx_v_coki, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17752; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_coki)))), __pyx_v_coki) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_coki) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_coki) : PyObject_Format(__pyx_v_coki, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17730; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_12)))) : __pyx_t_14;
           __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_12))));
                                    ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (11), ((PyObject*)((__pyx_t_12))));
           __pyx_t_12 = 0;
-          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17759; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_12) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17737; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17761; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_12)))), __pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_12) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_12)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_12) : PyObject_Format(__pyx_t_12, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17739; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
@@ -29365,17 +29357,17 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
                                    ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_10))), (12), ((PyObject*)((__pyx_t_11))));
           __pyx_t_11 = 0;
-          __pyx_t_11 = __Pyx_PyUnicode_Join(__pyx_t_10, 13, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17769; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = __Pyx_PyUnicode_Join(__pyx_t_10, 13, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17747; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-          __pyx_t_10 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_11); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 433; (void)__pyx_lineno; __pyx_clineno = 17772; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_10 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_11); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 431; (void)__pyx_lineno; __pyx_clineno = 17750; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-# 17784 "yxdfb/Kynaraa.cpp"
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17784; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17762 "yxdfb/Kynaraa.cpp"
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17762; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_12 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17786; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17764; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_16 = 0;
           __pyx_t_14 = 127;
@@ -29383,7 +29375,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 18;
                                                      ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_data_result_OK_OK))));
-          (__pyx_t_19) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17794; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_19) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17772; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_20 = __null;
           __pyx_t_4 = 0;
@@ -29403,11 +29395,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_20, __null};
             __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_19, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_20)))); __pyx_t_20 = 0;
-            if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17814; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17792; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_19)))); __pyx_t_19 = 0;
           }
-          __pyx_t_19 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17818; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_19 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17796; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
           __pyx_t_2 = __null;
@@ -29428,11 +29420,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_2, __null};
             __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_19, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-            if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17839; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17817; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_19)))); __pyx_t_19 = 0;
           }
-          __pyx_t_19 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17843; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_19 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17821; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_19)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_19)))) : __pyx_t_14;
@@ -29444,14 +29436,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 4;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_txt))));
-          __pyx_t_19 = __Pyx_PyUnicode_Join(__pyx_t_12, 3, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17855; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_19 = __Pyx_PyUnicode_Join(__pyx_t_12, 3, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17833; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-          __pyx_t_12 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17858; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_12 = PyTuple_New(5); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17836; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_16 = 0;
           __pyx_t_14 = 127;
-          __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17862; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17840; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
           __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
@@ -29462,7 +29454,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17873; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17851; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
           __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
@@ -29473,14 +29465,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (3), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_coki)))), __pyx_v_coki) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_coki) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_coki) : PyObject_Format(__pyx_v_coki, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17884; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_coki)))), __pyx_v_coki) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_coki) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_coki)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_coki) : PyObject_Format(__pyx_v_coki, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17862; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
           __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
                                   ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_12))), (4), ((PyObject*)((__pyx_t_3))));
           __pyx_t_3 = 0;
-          __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_12, 5, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17891; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_12, 5, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17869; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           __pyx_t_12 = __null;
@@ -29503,19 +29495,19 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
             Py_XDECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_19)))); __pyx_t_19 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-            if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17914; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 432; (void)__pyx_lineno; __pyx_clineno = 17892; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           }
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-# 17927 "yxdfb/Kynaraa.cpp"
+# 17905 "yxdfb/Kynaraa.cpp"
           goto __pyx_L10_try_break;
-# 17936 "yxdfb/Kynaraa.cpp"
+# 17914 "yxdfb/Kynaraa.cpp"
         }
-# 17945 "yxdfb/Kynaraa.cpp"
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_cookies); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 17945; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17923 "yxdfb/Kynaraa.cpp"
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ss, __pyx_mstate_global->__pyx_n_s_cookies); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17923; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                ;
-        __pyx_t_19 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_get_dict); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 17947; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_19 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_get_dict); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17925; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
         __pyx_t_3 = __null;
@@ -29536,11 +29528,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_3, __null};
           __pyx_t_11 = __Pyx_PyObject_FastCallDict(__pyx_t_19, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-          if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 17968; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17946; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_19)))); __pyx_t_19 = 0;
         }
-        __pyx_t_19 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_keys); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 17972; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_19 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_keys); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17950; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_11 = __null;
@@ -29561,23 +29553,23 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_11, __null};
           __pyx_t_10 = __Pyx_PyObject_FastCallDict(__pyx_t_19, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 17993; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17971; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_19)))); __pyx_t_19 = 0;
         }
-        __pyx_t_15 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_checkpoint, __pyx_t_10, 2)); if (__builtin_expect(!!((__pyx_t_15 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 17997; (void)__pyx_clineno; } goto __pyx_L5_error; }
+        __pyx_t_15 = (__Pyx_PySequence_ContainsTF(__pyx_mstate_global->__pyx_n_s_checkpoint, __pyx_t_10, 2)); if (__builtin_expect(!!((__pyx_t_15 < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 434; (void)__pyx_lineno; __pyx_clineno = 17975; (void)__pyx_clineno; } goto __pyx_L5_error; }
         Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
         if (__pyx_t_15) {
-# 18008 "yxdfb/Kynaraa.cpp"
-          __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18008; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 17986 "yxdfb/Kynaraa.cpp"
+          __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 435; (void)__pyx_lineno; __pyx_clineno = 17986; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_19 = __Pyx_PyInt_AddObjC(__pyx_t_10, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18010; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_19 = __Pyx_PyInt_AddObjC(__pyx_t_10, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 435; (void)__pyx_lineno; __pyx_clineno = 17988; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
-          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp, __pyx_t_19) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18013; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_cp, __pyx_t_19) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 435; (void)__pyx_lineno; __pyx_clineno = 17991; (void)__pyx_clineno; } goto __pyx_L5_error; }
           Py_DECREF(((PyObject*)((__pyx_t_19)))); __pyx_t_19 = 0;
-# 18023 "yxdfb/Kynaraa.cpp"
-          __pyx_t_19 = PyTuple_New(12); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18023; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 18001 "yxdfb/Kynaraa.cpp"
+          __pyx_t_19 = PyTuple_New(12); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18001; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_16 = 0;
           __pyx_t_14 = 127;
@@ -29585,9 +29577,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 2;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_19))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__3))));
-          (__pyx_t_10) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18031; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_10) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18009; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_10)))), __pyx_t_10) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_10) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_10) : PyObject_Format(__pyx_t_10, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18033; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_10)))), __pyx_t_10) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_10) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_10) : PyObject_Format(__pyx_t_10, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18011; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
@@ -29599,9 +29591,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 2;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_19))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_n_u_CP_2))));
-          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18045; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18023; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_10 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18047; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_10 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18025; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_10)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_10)))) : __pyx_t_14;
@@ -29613,9 +29605,9 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_19))), (4), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__51))));
-          (__pyx_t_10) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18059; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_10) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_K); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18037; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_10)))), __pyx_t_10) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_10) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_10) : PyObject_Format(__pyx_t_10, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18061; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_10)))), __pyx_t_10) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_10) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_10)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_10) : PyObject_Format(__pyx_t_10, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18039; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
@@ -29627,7 +29619,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 1;
                                       ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_19))), (6), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__7))));
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18073; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18051; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
           __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
@@ -29638,16 +29630,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_19))), (8), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18084; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18062; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_11)))) : __pyx_t_14;
           __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_11))));
                                    ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_19))), (9), ((PyObject*)((__pyx_t_11))));
           __pyx_t_11 = 0;
-          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18091; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_N); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18069; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_10 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18093; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_10 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_11)))), __pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_11) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_11)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_11) : PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18071; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_10)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_10)))) : __pyx_t_14;
@@ -29659,17 +29651,17 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 12;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_19))), (11), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__52))));
-          __pyx_t_10 = __Pyx_PyUnicode_Join(__pyx_t_19, 12, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18105; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_10 = __Pyx_PyUnicode_Join(__pyx_t_19, 12, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18083; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_19)))); __pyx_t_19 = 0;
-          __pyx_t_19 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_10); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 438; (void)__pyx_lineno; __pyx_clineno = 18108; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_19 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_10); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 436; (void)__pyx_lineno; __pyx_clineno = 18086; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
           Py_DECREF(((PyObject*)((__pyx_t_19)))); __pyx_t_19 = 0;
-# 18120 "yxdfb/Kynaraa.cpp"
-          __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18120; (void)__pyx_clineno; } goto __pyx_L5_error; }
+# 18098 "yxdfb/Kynaraa.cpp"
+          __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_save_hasil); if (__builtin_expect(!!(!__pyx_t_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18098; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
-          __pyx_t_11 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18122; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18100; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_16 = 0;
           __pyx_t_14 = 127;
@@ -29677,7 +29669,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 18;
                                                      ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_data_result_CP_CP))));
-          (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18130; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18108; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_20 = __null;
           __pyx_t_4 = 0;
@@ -29697,11 +29689,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_20, __null};
             __pyx_t_12 = __Pyx_PyObject_FastCallDict(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_20)))); __pyx_t_20 = 0;
-            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18150; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18128; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
           }
-          __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18154; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_s_tggl); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18132; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
           __pyx_t_12 = __null;
@@ -29722,11 +29714,11 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
             PyObject *__pyx_callargs[2] = {__pyx_t_12, __null};
             __pyx_t_3 = __Pyx_PyObject_FastCallDict(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, (size_t)(0+__pyx_t_4), __null);
             Py_XDECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
-            if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18175; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18153; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                    ;
             Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
           }
-          __pyx_t_2 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18179; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_2 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_t_3)))), __pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_t_3) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_3)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_t_3) : PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18157; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_2)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_2)))) : __pyx_t_14;
@@ -29738,14 +29730,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 4;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u_txt))));
-          __pyx_t_2 = __Pyx_PyUnicode_Join(__pyx_t_11, 3, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18191; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_2 = __Pyx_PyUnicode_Join(__pyx_t_11, 3, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18169; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          __pyx_t_11 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18194; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_11 = PyTuple_New(3); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18172; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                   ;
           __pyx_t_16 = 0;
           __pyx_t_14 = 127;
-          __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18198; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_user)))), __pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_user) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_user)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_user) : PyObject_Format(__pyx_v_user, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18176; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
           __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
@@ -29756,14 +29748,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           __pyx_t_16 += 1;
                                        ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (1), ((PyObject*)((__pyx_mstate_global->__pyx_kp_u__20))));
-          __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18209; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_3 = ( __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyUnicode_Type))), 1) ? (Py_INCREF(((PyObject*)((__pyx_v_pw)))), __pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyLong_Type))), 1) ? PyLong_Type.tp_repr(__pyx_v_pw) : __builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_v_pw)))), (&PyFloat_Type))), 1) ? PyFloat_Type.tp_repr(__pyx_v_pw) : PyObject_Format(__pyx_v_pw, __pyx_mstate_global->__pyx_empty_unicode)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18187; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           __pyx_t_14 = (PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) > __pyx_t_14) ? PyUnicode_MAX_CHAR_VALUE(((PyObject*)((__pyx_t_3)))) : __pyx_t_14;
           __pyx_t_16 += PyUnicode_GET_LENGTH(((PyObject*)((__pyx_t_3))));
                                   ;
           PyTuple_SET_ITEM(((PyObject*)((__pyx_t_11))), (2), ((PyObject*)((__pyx_t_3))));
           __pyx_t_3 = 0;
-          __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_11, 3, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18216; (void)__pyx_clineno; } goto __pyx_L5_error; }
+          __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_11, 3, __pyx_t_16, __pyx_t_14); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18194; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
           __pyx_t_11 = __null;
@@ -29786,16 +29778,16 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
             Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
             Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-            if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18239; (void)__pyx_clineno; } goto __pyx_L5_error; }
+            if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 437; (void)__pyx_lineno; __pyx_clineno = 18217; (void)__pyx_clineno; } goto __pyx_L5_error; }
                                     ;
             Py_DECREF(((PyObject*)((__pyx_t_10)))); __pyx_t_10 = 0;
           }
           Py_DECREF(((PyObject*)((__pyx_t_19)))); __pyx_t_19 = 0;
-# 18252 "yxdfb/Kynaraa.cpp"
+# 18230 "yxdfb/Kynaraa.cpp"
           goto __pyx_L10_try_break;
-# 18261 "yxdfb/Kynaraa.cpp"
+# 18239 "yxdfb/Kynaraa.cpp"
         }
-# 18270 "yxdfb/Kynaraa.cpp"
+# 18248 "yxdfb/Kynaraa.cpp"
       }
       Py_XDECREF(((PyObject*)((__pyx_t_7)))); __pyx_t_7 = 0;
       Py_XDECREF(((PyObject*)((__pyx_t_8)))); __pyx_t_8 = 0;
@@ -29809,14 +29801,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
       Py_XDECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
       Py_XDECREF(((PyObject*)((__pyx_t_20)))); __pyx_t_20 = 0;
       Py_XDECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 18291 "yxdfb/Kynaraa.cpp"
+# 18269 "yxdfb/Kynaraa.cpp"
       __Pyx_ErrFetchInState(__pyx_tstate, &__pyx_t_19, &__pyx_t_10, &__pyx_t_3);
-      (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_requests); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 441; (void)__pyx_lineno; __pyx_clineno = 18292; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+      (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_requests); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18270; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                              ;
-      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_exceptions); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 441; (void)__pyx_lineno; __pyx_clineno = 18294; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_exceptions); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18272; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                               ;
       Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_ConnectionError); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 441; (void)__pyx_lineno; __pyx_clineno = 18297; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_ConnectionError); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18275; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                              ;
       Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
       __pyx_t_17 = __Pyx_PyErr_GivenExceptionMatches(__pyx_t_19, __pyx_t_2);
@@ -29825,14 +29817,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
       __pyx_t_19 = 0; __pyx_t_10 = 0; __pyx_t_3 = 0;
       if (__pyx_t_17) {
         __Pyx_AddTraceback("Kynaraa.Kynaa.reguller", __pyx_clineno, __pyx_lineno, __pyx_filename);
-        if (__Pyx__GetException(__pyx_tstate, &__pyx_t_3, &__pyx_t_10, &__pyx_t_19) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 441; (void)__pyx_lineno; __pyx_clineno = 18306; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+        if (__Pyx__GetException(__pyx_tstate, &__pyx_t_3, &__pyx_t_10, &__pyx_t_19) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 439; (void)__pyx_lineno; __pyx_clineno = 18284; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                 ;
                                  ;
                                  ;
-# 18318 "yxdfb/Kynaraa.cpp"
-        (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_time); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 442; (void)__pyx_lineno; __pyx_clineno = 18318; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+# 18296 "yxdfb/Kynaraa.cpp"
+        (__pyx_t_11) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_time); if (__builtin_expect(!!(!__pyx_t_11), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 440; (void)__pyx_lineno; __pyx_clineno = 18296; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                 ;
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_sleep); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 442; (void)__pyx_lineno; __pyx_clineno = 18320; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_s_sleep); if (__builtin_expect(!!(!__pyx_t_12), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 440; (void)__pyx_lineno; __pyx_clineno = 18298; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                 ;
         Py_DECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
         __pyx_t_11 = __null;
@@ -29853,7 +29845,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
           PyObject *__pyx_callargs[2] = {__pyx_t_11, __pyx_mstate_global->__pyx_int_15};
           __pyx_t_2 = __Pyx_PyObject_FastCallDict(__pyx_t_12, __pyx_callargs+1-__pyx_t_4, (size_t)(1+__pyx_t_4), __null);
           Py_XDECREF(((PyObject*)((__pyx_t_11)))); __pyx_t_11 = 0;
-          if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 442; (void)__pyx_lineno; __pyx_clineno = 18341; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
+          if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 440; (void)__pyx_lineno; __pyx_clineno = 18319; (void)__pyx_clineno; } goto __pyx_L7_except_error; }
                                  ;
           Py_DECREF(((PyObject*)((__pyx_t_12)))); __pyx_t_12 = 0;
         }
@@ -29864,7 +29856,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
         goto __pyx_L6_exception_handled;
       }
       goto __pyx_L7_except_error;
-# 18360 "yxdfb/Kynaraa.cpp"
+# 18338 "yxdfb/Kynaraa.cpp"
       __pyx_L7_except_error:;
                                ;
                                ;
@@ -29884,7 +29876,7 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
       __Pyx__ExceptionReset(__pyx_tstate, __pyx_t_7, __pyx_t_8, __pyx_t_9);
       __pyx_L12_try_end:;
     }
-# 18387 "yxdfb/Kynaraa.cpp"
+# 18365 "yxdfb/Kynaraa.cpp"
   }
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
   goto __pyx_L22_for_end;
@@ -29898,14 +29890,14 @@ static PyObject *__pyx_pf_7Kynaraa_5Kynaa_20reguller([[maybe_unused]] PyObject *
 
 
 
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 444; (void)__pyx_lineno; __pyx_clineno = 18400; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop); if (__builtin_expect(!!(!__pyx_t_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 442; (void)__pyx_lineno; __pyx_clineno = 18378; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_19 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 444; (void)__pyx_lineno; __pyx_clineno = 18402; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_19 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (__builtin_expect(!!(!__pyx_t_19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 442; (void)__pyx_lineno; __pyx_clineno = 18380; (void)__pyx_clineno; } goto __pyx_L1_error; }
                           ;
   Py_DECREF(((PyObject*)((__pyx_t_1)))); __pyx_t_1 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop, __pyx_t_19) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 444; (void)__pyx_lineno; __pyx_clineno = 18405; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_s_lop, __pyx_t_19) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 442; (void)__pyx_lineno; __pyx_clineno = 18383; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_19)))); __pyx_t_19 = 0;
-# 18417 "yxdfb/Kynaraa.cpp"
+# 18395 "yxdfb/Kynaraa.cpp"
   __pyx_r = (&_Py_NoneStruct); Py_INCREF(((PyObject*)(((&_Py_NoneStruct)))));
   goto __pyx_L0;
   __pyx_L1_error:;
@@ -30010,7 +30002,7 @@ static int __pyx_tp_clear_7Kynaraa___pyx_scope_struct__print_proses_api(PyObject
   Py_XDECREF(((PyObject*)((tmp))));
   return 0;
 }
-# 18538 "yxdfb/Kynaraa.cpp"
+# 18516 "yxdfb/Kynaraa.cpp"
 static PyTypeObject __pyx_type_7Kynaraa___pyx_scope_struct__print_proses_api = {
   { { { 1 }, (0) }, (0) },
   "Kynaraa.""__pyx_scope_struct__print_proses_api",
@@ -30167,7 +30159,7 @@ static int __pyx_tp_traverse_7Kynaraa___pyx_scope_struct_1_genexpr(PyObject *o, 
   }
   return 0;
 }
-# 18710 "yxdfb/Kynaraa.cpp"
+# 18688 "yxdfb/Kynaraa.cpp"
 static PyTypeObject __pyx_type_7Kynaraa___pyx_scope_struct_1_genexpr = {
   { { { 1 }, (0) }, (0) },
   "Kynaraa.""__pyx_scope_struct_1_genexpr",
@@ -30325,7 +30317,7 @@ static int __pyx_tp_clear_7Kynaraa___pyx_scope_struct_2_get_model(PyObject *o) {
   Py_XDECREF(((PyObject*)((tmp))));
   return 0;
 }
-# 18884 "yxdfb/Kynaraa.cpp"
+# 18862 "yxdfb/Kynaraa.cpp"
 static PyTypeObject __pyx_type_7Kynaraa___pyx_scope_struct_2_get_model = {
   { { { 1 }, (0) }, (0) },
   "Kynaraa.""__pyx_scope_struct_2_get_model",
@@ -30478,7 +30470,7 @@ static int __pyx_tp_traverse_7Kynaraa___pyx_scope_struct_3_genexpr(PyObject *o, 
   }
   return 0;
 }
-# 19052 "yxdfb/Kynaraa.cpp"
+# 19030 "yxdfb/Kynaraa.cpp"
 static PyTypeObject __pyx_type_7Kynaraa___pyx_scope_struct_3_genexpr = {
   { { { 1 }, (0) }, (0) },
   "Kynaraa.""__pyx_scope_struct_3_genexpr",
@@ -30639,7 +30631,7 @@ static int __pyx_tp_traverse_7Kynaraa___pyx_scope_struct_4_genexpr(PyObject *o, 
   }
   return 0;
 }
-# 19228 "yxdfb/Kynaraa.cpp"
+# 19206 "yxdfb/Kynaraa.cpp"
 static PyTypeObject __pyx_type_7Kynaraa___pyx_scope_struct_4_genexpr = {
   { { { 1 }, (0) }, (0) },
   "Kynaraa.""__pyx_scope_struct_4_genexpr",
@@ -30796,7 +30788,7 @@ static int __pyx_tp_traverse_7Kynaraa___pyx_scope_struct_5_genexpr(PyObject *o, 
   }
   return 0;
 }
-# 19400 "yxdfb/Kynaraa.cpp"
+# 19378 "yxdfb/Kynaraa.cpp"
 static PyTypeObject __pyx_type_7Kynaraa___pyx_scope_struct_5_genexpr = {
   { { { 1 }, (0) }, (0) },
   "Kynaraa.""__pyx_scope_struct_5_genexpr",
@@ -30885,7 +30877,7 @@ static PyTypeObject __pyx_type_7Kynaraa___pyx_scope_struct_5_genexpr = {
 static PyMethodDef __pyx_methods[] = {
   {0, 0, 0, 0}
 };
-# 19499 "yxdfb/Kynaraa.cpp"
+# 19477 "yxdfb/Kynaraa.cpp"
 static int __Pyx_CreateStringTabAndInitStrings(void) {
   __Pyx_StringTabEntry __pyx_string_tab[] = {
     {&__pyx_mstate_global->__pyx_kp_s_, __pyx_k_, sizeof(__pyx_k_), 0, 0, 1, 0},
@@ -31449,10 +31441,10 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
 }
 
 static int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_open); if (!__pyx_builtin_open) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 26; (void)__pyx_lineno; __pyx_clineno = 20062; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_print); if (!__pyx_builtin_print) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 47; (void)__pyx_lineno; __pyx_clineno = 20063; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_builtin_input = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_input); if (!__pyx_builtin_input) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 63; (void)__pyx_lineno; __pyx_clineno = 20064; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_builtin_exit = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_exit); if (!__pyx_builtin_exit) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 143; (void)__pyx_lineno; __pyx_clineno = 20065; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_open); if (!__pyx_builtin_open) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 26; (void)__pyx_lineno; __pyx_clineno = 20040; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_print); if (!__pyx_builtin_print) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 47; (void)__pyx_lineno; __pyx_clineno = 20041; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_builtin_input = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_input); if (!__pyx_builtin_input) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 63; (void)__pyx_lineno; __pyx_clineno = 20042; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_builtin_exit = __Pyx_GetBuiltinName(__pyx_mstate_global->__pyx_n_s_exit); if (!__pyx_builtin_exit) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 143; (void)__pyx_lineno; __pyx_clineno = 20043; (void)__pyx_clineno; } goto __pyx_L1_error; }
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -31462,151 +31454,151 @@ static int __Pyx_InitCachedBuiltins(void) {
 static int __Pyx_InitCachedConstants(void) {
 
                                                             ;
-# 20083 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__2 = PyTuple_Pack(3, (&_Py_NoneStruct), (&_Py_NoneStruct), (&_Py_NoneStruct)); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 26; (void)__pyx_lineno; __pyx_clineno = 20083; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20061 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__2 = PyTuple_Pack(3, (&_Py_NoneStruct), (&_Py_NoneStruct), (&_Py_NoneStruct)); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 26; (void)__pyx_lineno; __pyx_clineno = 20061; (void)__pyx_clineno; } goto __pyx_L1_error; }
                               ;
                                ;
+# 20072 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__18 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_s_ON_OFF_MODE_PESAWAT_SETIAP_200); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__18), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 20072; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+                                ;
+# 20083 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__19 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_s__17); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 76; (void)__pyx_lineno; __pyx_clineno = 20083; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                               ;
+                                ;
 # 20094 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__18 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_s_ON_OFF_MODE_PESAWAT_SETIAP_200); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__18), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 75; (void)__pyx_lineno; __pyx_clineno = 20094; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__21 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_s_Cracking_selesai); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__21), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 143; (void)__pyx_lineno; __pyx_clineno = 20094; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
 # 20105 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__19 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_s__17); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__19), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 76; (void)__pyx_lineno; __pyx_clineno = 20105; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__22 = PyTuple_Pack(3, __pyx_mstate_global->__pyx_n_s_merek, __pyx_mstate_global->__pyx_n_s_model, __pyx_mstate_global->__pyx_n_s_FBBD); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__22), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 170; (void)__pyx_lineno; __pyx_clineno = 20105; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
 # 20116 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__21 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_s_Cracking_selesai); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__21), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 143; (void)__pyx_lineno; __pyx_clineno = 20116; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__23 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_s_Error_cuy_ss_ke_admin_biar_di_f); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__23), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 177; (void)__pyx_lineno; __pyx_clineno = 20116; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
 # 20127 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__22 = PyTuple_Pack(3, __pyx_mstate_global->__pyx_n_s_merek, __pyx_mstate_global->__pyx_n_s_model, __pyx_mstate_global->__pyx_n_s_FBBD); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__22), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 170; (void)__pyx_lineno; __pyx_clineno = 20127; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__29 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_300, __pyx_mstate_global->__pyx_int_400); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__29), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 199; (void)__pyx_lineno; __pyx_clineno = 20127; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 20138 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__23 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_s_Error_cuy_ss_ke_admin_biar_di_f); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__23), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 177; (void)__pyx_lineno; __pyx_clineno = 20138; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__30 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_1, __pyx_mstate_global->__pyx_int_30); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__30), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 199; (void)__pyx_lineno; __pyx_clineno = 20130; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 20149 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__29 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_300, __pyx_mstate_global->__pyx_int_400); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__29), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 199; (void)__pyx_lineno; __pyx_clineno = 20149; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__32 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_1, __pyx_mstate_global->__pyx_int_200); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__32), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 199; (void)__pyx_lineno; __pyx_clineno = 20133; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__30 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_1, __pyx_mstate_global->__pyx_int_30); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__30), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 199; (void)__pyx_lineno; __pyx_clineno = 20152; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20144 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__33 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_300000000, __pyx_mstate_global->__pyx_int_600000000); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__33), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 202; (void)__pyx_lineno; __pyx_clineno = 20144; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__32 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_1, __pyx_mstate_global->__pyx_int_200); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__32), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 199; (void)__pyx_lineno; __pyx_clineno = 20155; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20155 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__34 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_float_1_0, __pyx_mstate_global->__pyx_float_3_0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__34), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 205; (void)__pyx_lineno; __pyx_clineno = 20155; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
 # 20166 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__33 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_300000000, __pyx_mstate_global->__pyx_int_600000000); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__33), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 202; (void)__pyx_lineno; __pyx_clineno = 20166; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__35 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_720, __pyx_mstate_global->__pyx_int_1440); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__35), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 206; (void)__pyx_lineno; __pyx_clineno = 20166; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
 # 20177 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__34 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_float_1_0, __pyx_mstate_global->__pyx_float_3_0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__34), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 205; (void)__pyx_lineno; __pyx_clineno = 20177; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__36 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_1280, __pyx_mstate_global->__pyx_int_2880); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__36), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 207; (void)__pyx_lineno; __pyx_clineno = 20177; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
 # 20188 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__35 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_720, __pyx_mstate_global->__pyx_int_1440); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__35), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 206; (void)__pyx_lineno; __pyx_clineno = 20188; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__37 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_1, __pyx_mstate_global->__pyx_int_5); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__37), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 208; (void)__pyx_lineno; __pyx_clineno = 20188; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
 # 20199 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__36 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_1280, __pyx_mstate_global->__pyx_int_2880); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__36), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 207; (void)__pyx_lineno; __pyx_clineno = 20199; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__41 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_s_https_graph_facebook_com_graphql); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__41), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 264; (void)__pyx_lineno; __pyx_clineno = 20199; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
 # 20210 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__37 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_1, __pyx_mstate_global->__pyx_int_5); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__37), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 208; (void)__pyx_lineno; __pyx_clineno = 20210; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__43 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s__42, __pyx_mstate_global->__pyx_kp_s__8); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__43), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 268; (void)__pyx_lineno; __pyx_clineno = 20210; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
 # 20221 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__41 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_s_https_graph_facebook_com_graphql); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__41), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 264; (void)__pyx_lineno; __pyx_clineno = 20221; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__44 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s__40, __pyx_mstate_global->__pyx_kp_s__8); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__44), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 20221; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 20232 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__43 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s__42, __pyx_mstate_global->__pyx_kp_s__8); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__43), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 270; (void)__pyx_lineno; __pyx_clineno = 20232; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__47 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s__45, __pyx_mstate_global->__pyx_n_s__46); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__47), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 20224; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 20243 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__44 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s__40, __pyx_mstate_global->__pyx_kp_s__8); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__44), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 20243; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__49 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s__6, __pyx_mstate_global->__pyx_kp_s__48); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__49), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 272; (void)__pyx_lineno; __pyx_clineno = 20227; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__47 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s__45, __pyx_mstate_global->__pyx_n_s__46); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__47), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 20246; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20238 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__54 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_8, __pyx_mstate_global->__pyx_int_20); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__54), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 20238; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__49 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_kp_s__6, __pyx_mstate_global->__pyx_kp_s__48); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__49), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 274; (void)__pyx_lineno; __pyx_clineno = 20249; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__55 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_40, __pyx_mstate_global->__pyx_int_114); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__55), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 414; (void)__pyx_lineno; __pyx_clineno = 20241; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 20260 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__54 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_8, __pyx_mstate_global->__pyx_int_20); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__54), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 20260; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20252 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__57 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_2000, __pyx_mstate_global->__pyx_int_5999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__57), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 20252; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__55 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_40, __pyx_mstate_global->__pyx_int_114); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__55), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 416; (void)__pyx_lineno; __pyx_clineno = 20263; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_tuple__58 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_10, __pyx_mstate_global->__pyx_int_399); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__58), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 415; (void)__pyx_lineno; __pyx_clineno = 20255; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 20274 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__57 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_2000, __pyx_mstate_global->__pyx_int_5999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__57), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 20274; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20266 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__60 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_u_https_www_facebook_com_login_dev); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__60), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 419; (void)__pyx_lineno; __pyx_clineno = 20266; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_tuple__58 = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_10, __pyx_mstate_global->__pyx_int_399); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__58), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 417; (void)__pyx_lineno; __pyx_clineno = 20277; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20277 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__61 = PyTuple_Pack(3, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_id, __pyx_mstate_global->__pyx_n_s_aw); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__61), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 20277; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 20288 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__60 = PyTuple_Pack(1, __pyx_mstate_global->__pyx_kp_u_https_www_facebook_com_login_dev); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__60), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 421; (void)__pyx_lineno; __pyx_clineno = 20288; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__62 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__61, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_init, 19, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__62), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 20280; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20289 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__63 = PyTuple_Pack(4, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_filename, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_n_s_file); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__63), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 20289; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-# 20299 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__61 = PyTuple_Pack(3, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_id, __pyx_mstate_global->__pyx_n_s_aw); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__61), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 20299; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 4, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__63, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_save_hasil, 25, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__64), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 20292; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20301 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__65 = PyTuple_Pack(4, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_code, __pyx_mstate_global->__pyx_n_s_gp, __pyx_mstate_global->__pyx_n_s_kyna); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__65), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 20301; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__62 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__61, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_init, 19, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__62), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 20302; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20311 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__63 = PyTuple_Pack(4, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_filename, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_n_s_file); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__63), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 20311; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__66 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 4, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__65, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_print_proses, 29, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__66), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 20304; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20313 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__67 = PyTuple_Pack(3, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_tod, __pyx_mstate_global->__pyx_n_s_kyna); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__67), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 20313; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 4, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__63, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_save_hasil, 25, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__64), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 20314; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20323 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__65 = PyTuple_Pack(4, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_code, __pyx_mstate_global->__pyx_n_s_gp, __pyx_mstate_global->__pyx_n_s_kyna); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__65), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 20323; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__67, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_notice, 49, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__68), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 20316; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20325 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__69 = PyTuple_Pack(15, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_asu, __pyx_mstate_global->__pyx_n_s_pwnya, __pyx_mstate_global->__pyx_n_s_pwek, __pyx_mstate_global->__pyx_n_s_password_manual, __pyx_mstate_global->__pyx_n_s_xpw, __pyx_mstate_global->__pyx_n_s_user_agent_status, __pyx_mstate_global->__pyx_n_s_executor, __pyx_mstate_global->__pyx_n_s_user, __pyx_mstate_global->__pyx_n_s_uid, __pyx_mstate_global->__pyx_n_s_nama, __pyx_mstate_global->__pyx_n_s_depan, __pyx_mstate_global->__pyx_n_s_belakang, __pyx_mstate_global->__pyx_n_s_pasw, __pyx_mstate_global->__pyx_n_s_xpwd); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__69), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 20325; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__66 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 4, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__65, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_print_proses, 29, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__66), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 20326; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20335 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__67 = PyTuple_Pack(3, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_tod, __pyx_mstate_global->__pyx_n_s_kyna); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__67), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 20335; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__70 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 15, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__69, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_abcd, 60, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__70), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 20328; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20337 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__71 = PyTuple_Pack(7, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_response_text, __pyx_mstate_global->__pyx_n_s_gp, __pyx_mstate_global->__pyx_n_s_spam_patterns, __pyx_mstate_global->__pyx_n_s_kyna, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_genexpr); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__71), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 146; (void)__pyx_lineno; __pyx_clineno = 20337; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 3, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__67, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_notice, 49, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__68), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 20338; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20347 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__69 = PyTuple_Pack(15, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_asu, __pyx_mstate_global->__pyx_n_s_pwnya, __pyx_mstate_global->__pyx_n_s_pwek, __pyx_mstate_global->__pyx_n_s_password_manual, __pyx_mstate_global->__pyx_n_s_xpw, __pyx_mstate_global->__pyx_n_s_user_agent_status, __pyx_mstate_global->__pyx_n_s_executor, __pyx_mstate_global->__pyx_n_s_user, __pyx_mstate_global->__pyx_n_s_uid, __pyx_mstate_global->__pyx_n_s_nama, __pyx_mstate_global->__pyx_n_s_depan, __pyx_mstate_global->__pyx_n_s_belakang, __pyx_mstate_global->__pyx_n_s_pasw, __pyx_mstate_global->__pyx_n_s_xpwd); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__69), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 20347; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__72 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 7, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__71, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_print_proses_api, 146, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__72), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 146; (void)__pyx_lineno; __pyx_clineno = 20340; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20349 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__73 = PyTuple_Pack(8, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_response, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_n_s_loading, __pyx_mstate_global->__pyx_n_s_titik, __pyx_mstate_global->__pyx_n_s_e, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_genexpr); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__73), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 166; (void)__pyx_lineno; __pyx_clineno = 20349; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__70 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 15, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__69, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_abcd, 60, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__70), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 20350; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20359 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__71 = PyTuple_Pack(7, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_response_text, __pyx_mstate_global->__pyx_n_s_gp, __pyx_mstate_global->__pyx_n_s_spam_patterns, __pyx_mstate_global->__pyx_n_s_kyna, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_genexpr); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__71), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 146; (void)__pyx_lineno; __pyx_clineno = 20359; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__74 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 8, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__73, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_get_model, 166, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__74), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 166; (void)__pyx_lineno; __pyx_clineno = 20352; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20361 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__75 = PyTuple_Pack(19, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_android_versions, __pyx_mstate_global->__pyx_n_s_merek, __pyx_mstate_global->__pyx_n_s_fbmf, __pyx_mstate_global->__pyx_n_s_fbbd, __pyx_mstate_global->__pyx_n_s_phone_models, __pyx_mstate_global->__pyx_n_s_build_ids, __pyx_mstate_global->__pyx_n_s_fbans, __pyx_mstate_global->__pyx_n_s_fbavs, __pyx_mstate_global->__pyx_n_s_fbpns, __pyx_mstate_global->__pyx_n_s_fblcs, __pyx_mstate_global->__pyx_n_s_fbbvs, __pyx_mstate_global->__pyx_n_s_fbcrs, __pyx_mstate_global->__pyx_n_s_fbcas, __pyx_mstate_global->__pyx_n_s_densities, __pyx_mstate_global->__pyx_n_s_screen_width, __pyx_mstate_global->__pyx_n_s_screen_height, __pyx_mstate_global->__pyx_n_s_fb_fw, __pyx_mstate_global->__pyx_n_s_user_agent_2); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__75), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 189; (void)__pyx_lineno; __pyx_clineno = 20361; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__72 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 7, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__71, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_print_proses_api, 146, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__72), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 146; (void)__pyx_lineno; __pyx_clineno = 20362; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20371 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__73 = PyTuple_Pack(8, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_response, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_n_s_loading, __pyx_mstate_global->__pyx_n_s_titik, __pyx_mstate_global->__pyx_n_s_e, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_genexpr); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__73), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 166; (void)__pyx_lineno; __pyx_clineno = 20371; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__76 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 19, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__75, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_generate_random_user_agent, 189, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__76), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 189; (void)__pyx_lineno; __pyx_clineno = 20364; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20373 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__77 = PyTuple_Pack(13, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_user, __pyx_mstate_global->__pyx_n_s_pasw, __pyx_mstate_global->__pyx_n_s_pw, __pyx_mstate_global->__pyx_n_s_ua, __pyx_mstate_global->__pyx_n_s_apcb, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_n_s_response, __pyx_mstate_global->__pyx_n_s_response_text, __pyx_mstate_global->__pyx_n_s_cokie, __pyx_mstate_global->__pyx_n_s_cookie, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_genexpr); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__77), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 225; (void)__pyx_lineno; __pyx_clineno = 20373; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__74 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 8, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__73, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_get_model, 166, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__74), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 166; (void)__pyx_lineno; __pyx_clineno = 20374; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20383 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__75 = PyTuple_Pack(19, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_android_versions, __pyx_mstate_global->__pyx_n_s_merek, __pyx_mstate_global->__pyx_n_s_fbmf, __pyx_mstate_global->__pyx_n_s_fbbd, __pyx_mstate_global->__pyx_n_s_phone_models, __pyx_mstate_global->__pyx_n_s_build_ids, __pyx_mstate_global->__pyx_n_s_fbans, __pyx_mstate_global->__pyx_n_s_fbavs, __pyx_mstate_global->__pyx_n_s_fbpns, __pyx_mstate_global->__pyx_n_s_fblcs, __pyx_mstate_global->__pyx_n_s_fbbvs, __pyx_mstate_global->__pyx_n_s_fbcrs, __pyx_mstate_global->__pyx_n_s_fbcas, __pyx_mstate_global->__pyx_n_s_densities, __pyx_mstate_global->__pyx_n_s_screen_width, __pyx_mstate_global->__pyx_n_s_screen_height, __pyx_mstate_global->__pyx_n_s_fb_fw, __pyx_mstate_global->__pyx_n_s_user_agent_2); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__75), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 189; (void)__pyx_lineno; __pyx_clineno = 20383; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__78 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 13, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__77, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_graph_v1, 225, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__78), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 225; (void)__pyx_lineno; __pyx_clineno = 20376; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20385 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__79 = PyTuple_Pack(15, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_user, __pyx_mstate_global->__pyx_n_s_pasw, __pyx_mstate_global->__pyx_n_s_pw, __pyx_mstate_global->__pyx_n_s_ua, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_n_s_headers, __pyx_mstate_global->__pyx_n_s_curl, __pyx_mstate_global->__pyx_n_s_response, __pyx_mstate_global->__pyx_n_s_q, __pyx_mstate_global->__pyx_n_s_datr, __pyx_mstate_global->__pyx_n_s_cokz, __pyx_mstate_global->__pyx_n_s_coki, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_genexpr); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__79), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 20385; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__76 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 19, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__75, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_generate_random_user_agent, 189, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__76), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 189; (void)__pyx_lineno; __pyx_clineno = 20386; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20395 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__77 = PyTuple_Pack(13, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_user, __pyx_mstate_global->__pyx_n_s_pasw, __pyx_mstate_global->__pyx_n_s_pw, __pyx_mstate_global->__pyx_n_s_ua, __pyx_mstate_global->__pyx_n_s_apcb, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_n_s_response, __pyx_mstate_global->__pyx_n_s_response_text, __pyx_mstate_global->__pyx_n_s_cokie, __pyx_mstate_global->__pyx_n_s_cookie, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_genexpr); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__77), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 225; (void)__pyx_lineno; __pyx_clineno = 20395; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__80 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 15, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__79, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_graph_v2, 300, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__80), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 20388; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20397 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_tuple__81 = PyTuple_Pack(18, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_user, __pyx_mstate_global->__pyx_n_s_pasw, __pyx_mstate_global->__pyx_n_s_host, __pyx_mstate_global->__pyx_n_s_note, __pyx_mstate_global->__pyx_n_s_ss, __pyx_mstate_global->__pyx_n_s_pw, __pyx_mstate_global->__pyx_n_s_rr, __pyx_mstate_global->__pyx_n_s_ua, __pyx_mstate_global->__pyx_n_s_kyan, __pyx_mstate_global->__pyx_n_s_kyna, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_n_s_apcb, __pyx_mstate_global->__pyx_n_s_head, __pyx_mstate_global->__pyx_n_s_szaz, __pyx_mstate_global->__pyx_n_s_coki, __pyx_mstate_global->__pyx_n_s_key, __pyx_mstate_global->__pyx_n_s_value); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__81), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 20397; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
                                 ;
-  __pyx_mstate_global->__pyx_codeobj__78 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 13, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__77, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_graph_v1, 225, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__78), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 225; (void)__pyx_lineno; __pyx_clineno = 20398; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20407 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__79 = PyTuple_Pack(15, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_user, __pyx_mstate_global->__pyx_n_s_pasw, __pyx_mstate_global->__pyx_n_s_pw, __pyx_mstate_global->__pyx_n_s_ua, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_n_s_headers, __pyx_mstate_global->__pyx_n_s_curl, __pyx_mstate_global->__pyx_n_s_response, __pyx_mstate_global->__pyx_n_s_q, __pyx_mstate_global->__pyx_n_s_datr, __pyx_mstate_global->__pyx_n_s_cokz, __pyx_mstate_global->__pyx_n_s_coki, __pyx_mstate_global->__pyx_n_s_genexpr, __pyx_mstate_global->__pyx_n_s_genexpr); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__79), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 20407; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                               ;
-                                ;
-  __pyx_mstate_global->__pyx_codeobj__80 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 15, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__79, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_graph_v2, 302, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__80), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 20410; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20419 "yxdfb/Kynaraa.cpp"
-  __pyx_mstate_global->__pyx_tuple__81 = PyTuple_Pack(18, __pyx_mstate_global->__pyx_n_s_self, __pyx_mstate_global->__pyx_n_s_user, __pyx_mstate_global->__pyx_n_s_pasw, __pyx_mstate_global->__pyx_n_s_host, __pyx_mstate_global->__pyx_n_s_note, __pyx_mstate_global->__pyx_n_s_ss, __pyx_mstate_global->__pyx_n_s_pw, __pyx_mstate_global->__pyx_n_s_rr, __pyx_mstate_global->__pyx_n_s_ua, __pyx_mstate_global->__pyx_n_s_kyan, __pyx_mstate_global->__pyx_n_s_kyna, __pyx_mstate_global->__pyx_n_s_data, __pyx_mstate_global->__pyx_n_s_apcb, __pyx_mstate_global->__pyx_n_s_head, __pyx_mstate_global->__pyx_n_s_szaz, __pyx_mstate_global->__pyx_n_s_coki, __pyx_mstate_global->__pyx_n_s_key, __pyx_mstate_global->__pyx_n_s_value); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_tuple__81), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 20419; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                               ;
-                                ;
-  __pyx_mstate_global->__pyx_codeobj__82 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 18, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__81, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_reguller, 392, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__82), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 20422; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_codeobj__82 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 18, 0, 0x0001|0x0002, __pyx_mstate_global->__pyx_empty_bytes, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_tuple__81, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_kp_s_yxdfb_Kynaraa_py, __pyx_mstate_global->__pyx_n_s_reguller, 390, __pyx_mstate_global->__pyx_empty_bytes); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_codeobj__82), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 20400; (void)__pyx_clineno; } goto __pyx_L1_error; }
                                ;
   return 0;
   __pyx_L1_error:;
@@ -31616,42 +31608,42 @@ static int __Pyx_InitCachedConstants(void) {
 
 
 static int __Pyx_InitConstants(void) {
-  if (__Pyx_CreateStringTabAndInitStrings() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20432; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  __pyx_mstate_global->__pyx_float_0_8 = PyFloat_FromDouble(0.8); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_float_0_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20433; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_float_1_0 = PyFloat_FromDouble(1.0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_float_1_0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20434; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_float_3_0 = PyFloat_FromDouble(3.0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_float_3_0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20435; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_0 = PyLong_FromLong(0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20436; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_1 = PyLong_FromLong(1); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20437; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_2 = PyLong_FromLong(2); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20438; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_3 = PyLong_FromLong(3); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20439; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_5 = PyLong_FromLong(5); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20440; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_6 = PyLong_FromLong(6); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20441; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_8 = PyLong_FromLong(8); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20442; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_10 = PyLong_FromLong(10); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20443; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_15 = PyLong_FromLong(15); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_15), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20444; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_18 = PyLong_FromLong(18); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_18), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20445; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_20 = PyLong_FromLong(20); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_20), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20446; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_30 = PyLong_FromLong(30); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_30), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20447; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_40 = PyLong_FromLong(40); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_40), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20448; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_75 = PyLong_FromLong(75); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_75), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20449; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_114 = PyLong_FromLong(114); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_114), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20450; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_200 = PyLong_FromLong(200); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_200), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20451; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_300 = PyLong_FromLong(300); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_300), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20452; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_399 = PyLong_FromLong(399); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_399), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20453; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_400 = PyLong_FromLong(400); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_400), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20454; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_401 = PyLong_FromLong(401); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_401), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20455; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_403 = PyLong_FromLong(403); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_403), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20456; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_404 = PyLong_FromLong(404); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_404), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20457; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_429 = PyLong_FromLong(429); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_429), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20458; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_500 = PyLong_FromLong(500); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_500), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20459; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_720 = PyLong_FromLong(720); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_720), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20460; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_1280 = PyLong_FromLong(1280); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_1280), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20461; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_1440 = PyLong_FromLong(1440); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_1440), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20462; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_2000 = PyLong_FromLong(2000); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_2000), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20463; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_2880 = PyLong_FromLong(2880); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_2880), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20464; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_5999 = PyLong_FromLong(5999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_5999), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20465; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_300000000 = PyLong_FromLong(300000000L); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_300000000), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20466; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_int_600000000 = PyLong_FromLong(600000000L); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_600000000), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20467; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_CreateStringTabAndInitStrings() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20410; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  __pyx_mstate_global->__pyx_float_0_8 = PyFloat_FromDouble(0.8); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_float_0_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20411; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_float_1_0 = PyFloat_FromDouble(1.0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_float_1_0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20412; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_float_3_0 = PyFloat_FromDouble(3.0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_float_3_0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20413; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_0 = PyLong_FromLong(0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_0), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20414; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_1 = PyLong_FromLong(1); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_1), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20415; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_2 = PyLong_FromLong(2); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20416; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_3 = PyLong_FromLong(3); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20417; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_5 = PyLong_FromLong(5); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_5), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20418; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_6 = PyLong_FromLong(6); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_6), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20419; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_8 = PyLong_FromLong(8); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_8), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20420; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_10 = PyLong_FromLong(10); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_10), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20421; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_15 = PyLong_FromLong(15); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_15), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20422; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_18 = PyLong_FromLong(18); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_18), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20423; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_20 = PyLong_FromLong(20); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_20), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20424; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_30 = PyLong_FromLong(30); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_30), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20425; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_40 = PyLong_FromLong(40); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_40), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20426; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_75 = PyLong_FromLong(75); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_75), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20427; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_114 = PyLong_FromLong(114); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_114), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20428; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_200 = PyLong_FromLong(200); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_200), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20429; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_300 = PyLong_FromLong(300); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_300), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20430; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_399 = PyLong_FromLong(399); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_399), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20431; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_400 = PyLong_FromLong(400); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_400), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20432; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_401 = PyLong_FromLong(401); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_401), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20433; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_403 = PyLong_FromLong(403); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_403), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20434; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_404 = PyLong_FromLong(404); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_404), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20435; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_429 = PyLong_FromLong(429); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_429), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20436; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_500 = PyLong_FromLong(500); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_500), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20437; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_720 = PyLong_FromLong(720); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_720), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20438; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_1280 = PyLong_FromLong(1280); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_1280), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20439; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_1440 = PyLong_FromLong(1440); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_1440), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20440; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_2000 = PyLong_FromLong(2000); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_2000), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20441; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_2880 = PyLong_FromLong(2880); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_2880), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20442; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_5999 = PyLong_FromLong(5999); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_5999), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20443; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_300000000 = PyLong_FromLong(300000000L); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_300000000), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20444; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_int_600000000 = PyLong_FromLong(600000000L); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_int_600000000), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20445; (void)__pyx_clineno; } goto __pyx_L1_error; }
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -31711,7 +31703,7 @@ static int __Pyx_modinit_type_init_code(void) {
 
 
 
-  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct__print_proses_api) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 146; (void)__pyx_lineno; __pyx_clineno = 20527; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct__print_proses_api) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 146; (void)__pyx_lineno; __pyx_clineno = 20505; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -31730,7 +31722,7 @@ static int __Pyx_modinit_type_init_code(void) {
 
 
 
-  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct_1_genexpr) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 159; (void)__pyx_lineno; __pyx_clineno = 20546; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct_1_genexpr) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 159; (void)__pyx_lineno; __pyx_clineno = 20524; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -31749,7 +31741,7 @@ static int __Pyx_modinit_type_init_code(void) {
 
 
 
-  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct_2_get_model) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 166; (void)__pyx_lineno; __pyx_clineno = 20565; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct_2_get_model) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 166; (void)__pyx_lineno; __pyx_clineno = 20543; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -31768,7 +31760,7 @@ static int __Pyx_modinit_type_init_code(void) {
 
 
 
-  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct_3_genexpr) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 170; (void)__pyx_lineno; __pyx_clineno = 20584; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct_3_genexpr) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 170; (void)__pyx_lineno; __pyx_clineno = 20562; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -31787,7 +31779,7 @@ static int __Pyx_modinit_type_init_code(void) {
 
 
 
-  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct_4_genexpr) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 279; (void)__pyx_lineno; __pyx_clineno = 20603; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct_4_genexpr) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 277; (void)__pyx_lineno; __pyx_clineno = 20581; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -31806,7 +31798,7 @@ static int __Pyx_modinit_type_init_code(void) {
 
 
 
-  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct_5_genexpr) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 348; (void)__pyx_lineno; __pyx_clineno = 20622; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_PyType_Ready(__pyx_mstate_global->__pyx_ptype_7Kynaraa___pyx_scope_struct_5_genexpr) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 346; (void)__pyx_lineno; __pyx_clineno = 20600; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -31879,7 +31871,7 @@ namespace {
       __pyx_methods ,
 
       __pyx_moduledef_slots,
-# 20703 "yxdfb/Kynaraa.cpp"
+# 20681 "yxdfb/Kynaraa.cpp"
       __null,
       __null,
       __null
@@ -31887,7 +31879,7 @@ namespace {
   };
 
 }
-# 20734 "yxdfb/Kynaraa.cpp"
+# 20712 "yxdfb/Kynaraa.cpp"
 extern "C" __attribute__ ((visibility ("default"))) PyObject* PyInit_Kynaraa(void) ;
 extern "C" __attribute__ ((visibility ("default"))) PyObject* PyInit_Kynaraa(void)
 
@@ -31998,59 +31990,59 @@ static int __pyx_pymod_exec_Kynaraa(PyObject *__pyx_pyinit_module)
 
   __pyx_m = __pyx_pyinit_module;
   Py_INCREF(((PyObject*)((__pyx_m))));
-# 20861 "yxdfb/Kynaraa.cpp"
+# 20839 "yxdfb/Kynaraa.cpp"
   CYTHON_UNUSED_VAR(__pyx_t_1);
-  __pyx_mstate_global->__pyx_d = PyModule_GetDict(__pyx_m); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_d), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20862; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_d = PyModule_GetDict(__pyx_m); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_d), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20840; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_d))));
-  __pyx_mstate_global->__pyx_b = __Pyx_PyImport_AddModuleRef("builtins"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_b), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20864; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_cython_runtime = __Pyx_PyImport_AddModuleRef((const char *) "cython_runtime"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_cython_runtime), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20865; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  if (PyObject_SetAttrString(__pyx_m, "__builtins__", __pyx_mstate_global->__pyx_b) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20866; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20876 "yxdfb/Kynaraa.cpp"
+  __pyx_mstate_global->__pyx_b = __Pyx_PyImport_AddModuleRef("builtins"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_b), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20842; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_cython_runtime = __Pyx_PyImport_AddModuleRef((const char *) "cython_runtime"); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_cython_runtime), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20843; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyObject_SetAttrString(__pyx_m, "__builtins__", __pyx_mstate_global->__pyx_b) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20844; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20854 "yxdfb/Kynaraa.cpp"
                                                                             ;
-  if (__Pyx_check_binary_version(((3 << 24) | (12 << 16) | (9 << 8) | (0xF << 4) | (0 << 0)), __Pyx_get_runtime_version(), 0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20877; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_check_binary_version(((3 << 24) | (12 << 16) | (9 << 8) | (0xF << 4) | (0 << 0)), __Pyx_get_runtime_version(), 0) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20855; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
-  __pyx_mstate_global->__pyx_empty_tuple = PyTuple_New(0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_tuple), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20881; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_bytes), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20882; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  __pyx_mstate_global->__pyx_empty_unicode = PyUnicode_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_unicode), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20883; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_empty_tuple = PyTuple_New(0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_tuple), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20859; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_bytes), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20860; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_mstate_global->__pyx_empty_unicode = PyUnicode_FromStringAndSize("", 0); if (__builtin_expect(!!(!__pyx_mstate_global->__pyx_empty_unicode), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20861; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
-  if (__pyx_CyFunction_init(__pyx_m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20885; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20894 "yxdfb/Kynaraa.cpp"
-  if (__pyx_Generator_init(__pyx_m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20894; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 20908 "yxdfb/Kynaraa.cpp"
-  if (__Pyx_InitConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20908; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__pyx_CyFunction_init(__pyx_m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20863; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20872 "yxdfb/Kynaraa.cpp"
+  if (__pyx_Generator_init(__pyx_m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20872; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20886 "yxdfb/Kynaraa.cpp"
+  if (__Pyx_InitConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20886; (void)__pyx_clineno; } goto __pyx_L1_error; }
   stringtab_initialized = 1;
-  if (__Pyx_InitGlobals() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20910; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_InitGlobals() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20888; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
   if (__pyx_module_is_main_Kynaraa) {
-    if (PyObject_SetAttr(__pyx_m, __pyx_mstate_global->__pyx_n_s_name_2, __pyx_mstate_global->__pyx_n_s_main) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20915; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    if (PyObject_SetAttr(__pyx_m, __pyx_mstate_global->__pyx_n_s_name_2, __pyx_mstate_global->__pyx_n_s_main) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20893; (void)__pyx_clineno; } goto __pyx_L1_error; }
   }
 
   {
-    PyObject *modules = PyImport_GetModuleDict(); if (__builtin_expect(!!(!modules), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20919; (void)__pyx_clineno; } goto __pyx_L1_error; }
+    PyObject *modules = PyImport_GetModuleDict(); if (__builtin_expect(!!(!modules), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20897; (void)__pyx_clineno; } goto __pyx_L1_error; }
     if (!PyDict_GetItemString(modules, "Kynaraa")) {
-      if (__builtin_expect(!!((PyDict_SetItemString(modules, "Kynaraa", __pyx_m) < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20921; (void)__pyx_clineno; } goto __pyx_L1_error; }
+      if (__builtin_expect(!!((PyDict_SetItemString(modules, "Kynaraa", __pyx_m) < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20899; (void)__pyx_clineno; } goto __pyx_L1_error; }
     }
   }
 
 
-  if (__Pyx_InitCachedBuiltins() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20926; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_InitCachedBuiltins() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20904; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
-  if (__Pyx_InitCachedConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20928; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_InitCachedConstants() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20906; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
   (void)__Pyx_modinit_global_init_code();
   (void)__Pyx_modinit_variable_export_code();
   (void)__Pyx_modinit_function_export_code();
-  if (__builtin_expect(!!((__Pyx_modinit_type_init_code() < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20933; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__builtin_expect(!!((__Pyx_modinit_type_init_code() < 0)), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20911; (void)__pyx_clineno; } goto __pyx_L1_error; }
   (void)__Pyx_modinit_type_import_code();
   (void)__Pyx_modinit_variable_import_code();
   (void)__Pyx_modinit_function_import_code();
 
 
-  if (__Pyx_patch_abc() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20939; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (__Pyx_patch_abc() < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20917; (void)__pyx_clineno; } goto __pyx_L1_error; }
 
 
 
@@ -32058,207 +32050,207 @@ static int __pyx_pymod_exec_Kynaraa(PyObject *__pyx_pyinit_module)
 
 
 
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_time, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20947; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_time, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20925; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_time, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20949; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_time, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20927; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_json, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20951; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_json, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20929; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_json, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20953; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_json, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20931; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_requests, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20955; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_requests, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20933; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_requests, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20957; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_requests, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20935; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_uuid, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20959; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_uuid, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20937; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_uuid, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20961; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_uuid, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20939; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_random, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20963; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_random, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20941; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_random, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20965; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_random, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20943; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_os, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20967; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_os, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20945; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_os, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20969; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_os, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20947; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_re, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20971; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_re, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20949; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_re, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20973; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_re, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20951; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_base64, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20975; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_base64, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20953; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_base64, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20977; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_base64, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20955; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_sys, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20979; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportDottedModule(__pyx_mstate_global->__pyx_n_s_sys, __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20957; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_sys, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20981; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_sys, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 20959; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-# 20991 "yxdfb/Kynaraa.cpp"
-  __pyx_t_2 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 20991; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20969 "yxdfb/Kynaraa.cpp"
+  __pyx_t_2 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 20969; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_ThreadPoolExecutor))));
                                              ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_2))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_ThreadPoolExecutor)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 20995; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  __pyx_t_3 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_concurrent_futures, __pyx_t_2, 0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 20996; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_2))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_ThreadPoolExecutor)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 20973; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  __pyx_t_3 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_concurrent_futures, __pyx_t_2, 0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 20974; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_ThreadPoolExecutor); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 20999; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_ThreadPoolExecutor); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 20977; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_ThreadPoolExecutor, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 21001; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_ThreadPoolExecutor, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 3; (void)__pyx_lineno; __pyx_clineno = 20979; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21012 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 21012; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 20990 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 20990; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_BeautifulSoup))));
                                         ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_BeautifulSoup)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 21016; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  __pyx_t_2 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_bs4, __pyx_t_3, 0); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 21017; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_BeautifulSoup)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 20994; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  __pyx_t_2 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_bs4, __pyx_t_3, 0); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 20995; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_ImportFrom(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_BeautifulSoup); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 21020; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_3 = __Pyx_ImportFrom(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_BeautifulSoup); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 20998; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_BeautifulSoup, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 21022; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_BeautifulSoup, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 4; (void)__pyx_lineno; __pyx_clineno = 21000; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-# 21033 "yxdfb/Kynaraa.cpp"
-  __pyx_t_2 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 21033; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21011 "yxdfb/Kynaraa.cpp"
+  __pyx_t_2 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 21011; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Pws))));
                               ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_2))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Pws)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 21037; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  __pyx_t_3 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_Password, __pyx_t_2, 1); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 21038; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_2))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Pws)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 21015; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  __pyx_t_3 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_Password, __pyx_t_2, 1); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 21016; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_Pws); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 21041; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_Pws); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 21019; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_Pws, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 21043; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_Pws, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 5; (void)__pyx_lineno; __pyx_clineno = 21021; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21054 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 21054; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21032 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 21032; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Tod))));
                               ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Tod)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 21058; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  __pyx_t_2 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_Module, __pyx_t_3, 1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 21059; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Tod)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 21036; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  __pyx_t_2 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_Module, __pyx_t_3, 1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 21037; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_ImportFrom(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 21062; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_3 = __Pyx_ImportFrom(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_Tod); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 21040; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_Tod, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 21064; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_Tod, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 6; (void)__pyx_lineno; __pyx_clineno = 21042; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-# 21075 "yxdfb/Kynaraa.cpp"
-  __pyx_t_2 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 21075; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21053 "yxdfb/Kynaraa.cpp"
+  __pyx_t_2 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 21053; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_Logo))));
                                ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_2))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Logo)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 21079; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  __pyx_t_3 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_bluid_logo, __pyx_t_2, 0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 21080; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_2))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_Logo)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 21057; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  __pyx_t_3 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_bluid_logo, __pyx_t_2, 0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 21058; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_Logo); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 21083; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_3, __pyx_mstate_global->__pyx_n_s_Logo); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 21061; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_Logo, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 21085; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_Logo, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 7; (void)__pyx_lineno; __pyx_clineno = 21063; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21096 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 21096; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21074 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = PyList_New(1); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 21074; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_INCREF(((PyObject*)((__pyx_mstate_global->__pyx_n_s_UserAgent))));
                                     ;
-  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_UserAgent)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 21100; (void)__pyx_clineno; } goto __pyx_L1_error; };
-  __pyx_t_2 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_bluid_data, __pyx_t_3, 0); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 21101; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((PyList_SET_ITEM(((PyObject*)((__pyx_t_3))), (0), ((PyObject*)((__pyx_mstate_global->__pyx_n_s_UserAgent)))), (0))) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 21078; (void)__pyx_clineno; } goto __pyx_L1_error; };
+  __pyx_t_2 = __Pyx_Import(__pyx_mstate_global->__pyx_n_s_bluid_data, __pyx_t_3, 0); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 21079; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_ImportFrom(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_UserAgent); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 21104; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_3 = __Pyx_ImportFrom(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_UserAgent); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 21082; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_UserAgent, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 21106; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_UserAgent, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 8; (void)__pyx_lineno; __pyx_clineno = 21084; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-# 21117 "yxdfb/Kynaraa.cpp"
-  (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_requests); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 21117; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21095 "yxdfb/Kynaraa.cpp"
+  (__pyx_t_2) = __Pyx__GetModuleGlobalName(__pyx_mstate_global->__pyx_n_s_requests); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 21095; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_Session); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 21119; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_Session); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 21097; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_CallNoArg(__pyx_t_3); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 21122; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = __Pyx_PyObject_CallNoArg(__pyx_t_3); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 21100; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_ses, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 21125; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_ses, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 10; (void)__pyx_lineno; __pyx_clineno = 21103; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
-# 21135 "yxdfb/Kynaraa.cpp"
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_H, __pyx_mstate_global->__pyx_kp_s_1_92m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 12; (void)__pyx_lineno; __pyx_clineno = 21135; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 21144 "yxdfb/Kynaraa.cpp"
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_K, __pyx_mstate_global->__pyx_kp_s_1_93m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 21144; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 21153 "yxdfb/Kynaraa.cpp"
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_N, __pyx_mstate_global->__pyx_kp_s_0m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 14; (void)__pyx_lineno; __pyx_clineno = 21153; (void)__pyx_clineno; } goto __pyx_L1_error; }
-# 21162 "yxdfb/Kynaraa.cpp"
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_R, __pyx_mstate_global->__pyx_kp_s_0_31m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 15; (void)__pyx_lineno; __pyx_clineno = 21162; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21113 "yxdfb/Kynaraa.cpp"
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_H, __pyx_mstate_global->__pyx_kp_s_1_92m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 12; (void)__pyx_lineno; __pyx_clineno = 21113; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21122 "yxdfb/Kynaraa.cpp"
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_K, __pyx_mstate_global->__pyx_kp_s_1_93m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 13; (void)__pyx_lineno; __pyx_clineno = 21122; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21131 "yxdfb/Kynaraa.cpp"
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_N, __pyx_mstate_global->__pyx_kp_s_0m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 14; (void)__pyx_lineno; __pyx_clineno = 21131; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21140 "yxdfb/Kynaraa.cpp"
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_R, __pyx_mstate_global->__pyx_kp_s_0_31m) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 15; (void)__pyx_lineno; __pyx_clineno = 21140; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21149 "yxdfb/Kynaraa.cpp"
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) __null, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_s_Kynaa, __pyx_mstate_global->__pyx_n_s_Kynaa, (PyObject *) __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, (PyObject *) __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 21149; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+# 21159 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_1__init__, 0, __pyx_mstate_global->__pyx_n_s_Kynaa___init, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__62)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 21159; (void)__pyx_clineno; } goto __pyx_L1_error; }
+                         ;
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_init, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_init)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_init, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 21161; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
 # 21171 "yxdfb/Kynaraa.cpp"
-  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) __null, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_s_Kynaa, __pyx_mstate_global->__pyx_n_s_Kynaa, (PyObject *) __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, (PyObject *) __null); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 21171; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_3save_hasil, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_save_hasil, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__64)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 21171; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-# 21181 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_1__init__, 0, __pyx_mstate_global->__pyx_n_s_Kynaa___init, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__62)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 21181; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_init, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_init)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_init, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 19; (void)__pyx_lineno; __pyx_clineno = 21183; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_save_hasil, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_save_hasil)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_save_hasil, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 21173; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21193 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_3save_hasil, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_save_hasil, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__64)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 21193; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21183 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_5print_proses, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_print_proses, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__66)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 21183; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_save_hasil, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_save_hasil)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_save_hasil, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 25; (void)__pyx_lineno; __pyx_clineno = 21195; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_print_proses, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_print_proses)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_print_proses, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 21185; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21205 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_5print_proses, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_print_proses, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__66)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 21205; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21195 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_7notice, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_notice, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__68)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 21195; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_print_proses, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_print_proses)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_print_proses, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 29; (void)__pyx_lineno; __pyx_clineno = 21207; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_notice, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_notice)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_notice, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 21197; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21217 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_7notice, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_notice, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__68)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 21217; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21207 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_9abcd, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_abcd, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__70)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 21207; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_notice, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_notice)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_notice, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 49; (void)__pyx_lineno; __pyx_clineno = 21219; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_abcd, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_abcd)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_abcd, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 21209; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21229 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_9abcd, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_abcd, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__70)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 21229; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21219 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_11print_proses_api, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_print_proses_api, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__72)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 146; (void)__pyx_lineno; __pyx_clineno = 21219; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_abcd, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_abcd)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_abcd, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 60; (void)__pyx_lineno; __pyx_clineno = 21231; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_print_proses_api, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_print_proses_api)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_print_proses_api, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 146; (void)__pyx_lineno; __pyx_clineno = 21221; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21241 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_11print_proses_api, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_print_proses_api, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__72)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 146; (void)__pyx_lineno; __pyx_clineno = 21241; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21231 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_13get_model, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_get_model, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__74)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 166; (void)__pyx_lineno; __pyx_clineno = 21231; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_print_proses_api, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_print_proses_api)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_print_proses_api, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 146; (void)__pyx_lineno; __pyx_clineno = 21243; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_get_model, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_get_model)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_get_model, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 166; (void)__pyx_lineno; __pyx_clineno = 21233; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21253 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_13get_model, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_get_model, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__74)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 166; (void)__pyx_lineno; __pyx_clineno = 21253; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21243 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_15generate_random_user_agent, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_generate_random_user_agent, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__76)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 189; (void)__pyx_lineno; __pyx_clineno = 21243; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_get_model, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_get_model)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_get_model, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 166; (void)__pyx_lineno; __pyx_clineno = 21255; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_generate_random_user_agent, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_generate_random_user_agent)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_generate_random_user_agent, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 189; (void)__pyx_lineno; __pyx_clineno = 21245; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21265 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_15generate_random_user_agent, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_generate_random_user_agent, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__76)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 189; (void)__pyx_lineno; __pyx_clineno = 21265; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21255 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_17graph_v1, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_graph_v1, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__78)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 225; (void)__pyx_lineno; __pyx_clineno = 21255; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_generate_random_user_agent, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_generate_random_user_agent)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_generate_random_user_agent, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 189; (void)__pyx_lineno; __pyx_clineno = 21267; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_graph_v1, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_graph_v1)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_graph_v1, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 225; (void)__pyx_lineno; __pyx_clineno = 21257; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21277 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_17graph_v1, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_graph_v1, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__78)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 225; (void)__pyx_lineno; __pyx_clineno = 21277; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21267 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_19graph_v2, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_graph_v2, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__80)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 21267; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_graph_v1, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_graph_v1)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_graph_v1, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 225; (void)__pyx_lineno; __pyx_clineno = 21279; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_graph_v2, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_graph_v2)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_graph_v2, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 300; (void)__pyx_lineno; __pyx_clineno = 21269; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21289 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_19graph_v2, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_graph_v2, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__80)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 21289; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21279 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_21reguller, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_reguller, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__82)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 21279; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_graph_v2, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_graph_v2)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_graph_v2, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 302; (void)__pyx_lineno; __pyx_clineno = 21291; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_reguller, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_reguller)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_reguller, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 390; (void)__pyx_lineno; __pyx_clineno = 21281; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21301 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_7Kynaraa_5Kynaa_21reguller, 0, __pyx_mstate_global->__pyx_n_s_Kynaa_reguller, __null, __pyx_mstate_global->__pyx_n_s_Kynaraa, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj__82)); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 21301; (void)__pyx_clineno; } goto __pyx_L1_error; }
+# 21291 "yxdfb/Kynaraa.cpp"
+  __pyx_t_3 = __Pyx_Py3ClassCreate(((PyObject*)&PyType_Type), __pyx_mstate_global->__pyx_n_s_Kynaa, __pyx_mstate_global->__pyx_empty_tuple, __pyx_t_2, __null, 0, 0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 21291; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if ((__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((__pyx_t_2)))), (&PyDict_Type))), 1) ? _PyDict_SetItem_KnownHash(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_reguller, __pyx_t_3, ((PyASCIIObject *) __pyx_mstate_global->__pyx_n_s_reguller)->hash) : PyObject_SetItem(__pyx_t_2, __pyx_mstate_global->__pyx_n_s_reguller, __pyx_t_3)) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 392; (void)__pyx_lineno; __pyx_clineno = 21303; (void)__pyx_clineno; } goto __pyx_L1_error; }
-  Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
-# 21313 "yxdfb/Kynaraa.cpp"
-  __pyx_t_3 = __Pyx_Py3ClassCreate(((PyObject*)&PyType_Type), __pyx_mstate_global->__pyx_n_s_Kynaa, __pyx_mstate_global->__pyx_empty_tuple, __pyx_t_2, __null, 0, 0); if (__builtin_expect(!!(!__pyx_t_3), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 21313; (void)__pyx_clineno; } goto __pyx_L1_error; }
-                         ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_Kynaa, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 21315; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_Kynaa, __pyx_t_3) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 17; (void)__pyx_lineno; __pyx_clineno = 21293; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_3)))); __pyx_t_3 = 0;
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
 
@@ -32267,9 +32259,9 @@ static int __pyx_pymod_exec_Kynaraa(PyObject *__pyx_pyinit_module)
 
 
 
-  __pyx_t_2 = ((0 <= 8) ? PyDict_New() : _PyDict_NewPresized(0)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 21324; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  __pyx_t_2 = ((0 <= 8) ? PyDict_New() : _PyDict_NewPresized(0)); if (__builtin_expect(!!(!__pyx_t_2), 0)) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 21302; (void)__pyx_clineno; } goto __pyx_L1_error; }
                          ;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_test, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 21326; (void)__pyx_clineno; } goto __pyx_L1_error; }
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_s_test, __pyx_t_2) < 0) { { __pyx_filename = __pyx_f[0]; (void)__pyx_filename; __pyx_lineno = 1; (void)__pyx_lineno; __pyx_clineno = 21304; (void)__pyx_clineno; } goto __pyx_L1_error; }
   Py_DECREF(((PyObject*)((__pyx_t_2)))); __pyx_t_2 = 0;
 
 
@@ -32284,7 +32276,7 @@ static int __pyx_pymod_exec_Kynaraa(PyObject *__pyx_pyinit_module)
     }
 
     do { __typeof__(__pyx_m)* _tmp_op_ptr = &(__pyx_m); __typeof__(__pyx_m) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
-# 21350 "yxdfb/Kynaraa.cpp"
+# 21328 "yxdfb/Kynaraa.cpp"
   } else if (!PyErr_Occurred()) {
     PyErr_SetString(PyExc_ImportError, "init Kynaraa");
   }
@@ -32298,17 +32290,17 @@ static int __pyx_pymod_exec_Kynaraa(PyObject *__pyx_pyinit_module)
 
 
 }
-# 21400 "yxdfb/Kynaraa.cpp"
+# 21378 "yxdfb/Kynaraa.cpp"
 static int __Pyx_PyErr_ExceptionMatchesTuple(PyObject *exc_type, PyObject *tuple) {
     Py_ssize_t i, n;
     n = PyTuple_GET_SIZE(((PyObject*)((tuple))));
 
     for (i=0; i<n; i++) {
-        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21405, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
+        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21383, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
     }
 
     for (i=0; i<n; i++) {
-        if (__Pyx_PyErr_GivenExceptionMatches(exc_type, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21409, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]))) return 1;
+        if (__Pyx_PyErr_GivenExceptionMatches(exc_type, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21387, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]))) return 1;
     }
     return 0;
 }
@@ -32320,7 +32312,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_ExceptionMatchesI
     if (__builtin_expect(!!(!current_exception), 0)) return 0;
     exc_type = (PyObject*) Py_TYPE(((PyObject*)((current_exception))));
     if (exc_type == err) return 1;
-# 21429 "yxdfb/Kynaraa.cpp"
+# 21407 "yxdfb/Kynaraa.cpp"
     if (__builtin_expect(!!(PyType_HasFeature((Py_TYPE(((PyObject*)((err))))), ((1UL << 26)))), 0)) {
         result = __Pyx_PyErr_ExceptionMatchesTuple(exc_type, err);
     } else {
@@ -32338,7 +32330,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_ExceptionMatchesI
 static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {
 
     PyObject *tmp_value;
-    ((type == __null || (value != __null && type == (PyObject*) Py_TYPE(((PyObject*)((value)))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21446, __PRETTY_FUNCTION__, "type == NULL || (value != NULL && type == (PyObject*) Py_TYPE(value))"));
+    ((type == __null || (value != __null && type == (PyObject*) Py_TYPE(((PyObject*)((value)))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21424, __PRETTY_FUNCTION__, "type == NULL || (value != NULL && type == (PyObject*) Py_TYPE(value))"));
     if (value) {
 
         if (__builtin_expect(!!(((PyBaseExceptionObject*) value)->traceback != tb), 0))
@@ -32350,7 +32342,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrRestoreInState(PyTh
     Py_XDECREF(((PyObject*)((tmp_value))));
     Py_XDECREF(((PyObject*)((type))));
     Py_XDECREF(((PyObject*)((tb))));
-# 21470 "yxdfb/Kynaraa.cpp"
+# 21448 "yxdfb/Kynaraa.cpp"
 }
 static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb) {
 
@@ -32370,7 +32362,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx_ErrFetchInState(PyThre
 
 
     }
-# 21497 "yxdfb/Kynaraa.cpp"
+# 21475 "yxdfb/Kynaraa.cpp"
 }
 
 
@@ -32488,7 +32480,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyBytes_Equals(PyObject
             return (equals == 2);
         } else {
             int result;
-# 21622 "yxdfb/Kynaraa.cpp"
+# 21600 "yxdfb/Kynaraa.cpp"
             result = memcmp(ps1, ps2, (size_t)length);
             return (equals == 2) ? (result == 0) : (result != 0);
         }
@@ -32522,7 +32514,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyUnicode_Equals(PyObje
     }
     s1_is_unicode = Py_IS_TYPE(((PyObject*)(((s1)))), (&PyUnicode_Type));
     s2_is_unicode = Py_IS_TYPE(((PyObject*)(((s2)))), (&PyUnicode_Type));
-# 21672 "yxdfb/Kynaraa.cpp"
+# 21650 "yxdfb/Kynaraa.cpp"
     if (s1_is_unicode & s2_is_unicode) {
         Py_ssize_t length;
         int kind;
@@ -32548,8 +32540,8 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyUnicode_Equals(PyObje
             }
         }
 
-        kind = ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s1))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21697, __PRETTY_FUNCTION__, "PyUnicode_Check(s1)")), ((PyASCIIObject*)((s1))))->state.kind)));
-        if (kind != ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s2))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21698, __PRETTY_FUNCTION__, "PyUnicode_Check(s2)")), ((PyASCIIObject*)((s2))))->state.kind)))) {
+        kind = ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s1))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21675, __PRETTY_FUNCTION__, "PyUnicode_Check(s1)")), ((PyASCIIObject*)((s1))))->state.kind)));
+        if (kind != ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((s2))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21676, __PRETTY_FUNCTION__, "PyUnicode_Check(s2)")), ((PyASCIIObject*)((s2))))->state.kind)))) {
             goto return_ne;
         }
         data1 = PyUnicode_DATA(((PyObject*)((s1))));
@@ -32601,11 +32593,11 @@ static __inline__ __attribute__ ((__unused__)) PyObject * __Pyx_GetKwValue_FASTC
     Py_ssize_t i, n = PyTuple_GET_SIZE(((PyObject*)((kwnames))));
     for (i = 0; i < n; i++)
     {
-        if (s == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21750, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)])) return kwvalues[i];
+        if (s == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21728, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)])) return kwvalues[i];
     }
     for (i = 0; i < n; i++)
     {
-        int eq = __Pyx_PyUnicode_Equals(s, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21754, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)]), 2);
+        int eq = __Pyx_PyUnicode_Equals(s, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwnames))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21732, __PRETTY_FUNCTION__, "PyTuple_Check(kwnames)")), ((PyTupleObject*)((kwnames))))->ob_item[(i)]), 2);
         if (__builtin_expect(!!(eq != 0), 0)) {
             if (__builtin_expect(!!(eq < 0), 0)) return __null;
             return kwvalues[i];
@@ -32613,7 +32605,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject * __Pyx_GetKwValue_FASTC
     }
     return __null;
 }
-# 21783 "yxdfb/Kynaraa.cpp"
+# 21761 "yxdfb/Kynaraa.cpp"
 static void __Pyx_RaiseArgtupleInvalid(
     const char* func_name,
     int exact,
@@ -32684,7 +32676,7 @@ static int __Pyx_ParseOptionalKeywords(
 
 
 
-            key = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwds))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21853, __PRETTY_FUNCTION__, "PyTuple_Check(kwds)")), ((PyTupleObject*)((kwds))))->ob_item[(pos)]);
+            key = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((kwds))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 21831, __PRETTY_FUNCTION__, "PyTuple_Check(kwds)")), ((PyTupleObject*)((kwds))))->ob_item[(pos)]);
 
 
 
@@ -32716,7 +32708,7 @@ static int __Pyx_ParseOptionalKeywords(
 
         Py_INCREF(((PyObject*)((value))));
         name = first_kw_arg;
-# 21912 "yxdfb/Kynaraa.cpp"
+# 21890 "yxdfb/Kynaraa.cpp"
         if (__builtin_expect(!!(PyType_HasFeature((Py_TYPE(((PyObject*)((key))))), ((1UL << 28)))), 1)) {
             while (*name) {
                 int cmp = (
@@ -32795,7 +32787,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyObject_SetAttrStr(PyO
 
     return PyObject_SetAttr(obj, attr_name, value);
 }
-# 22022 "yxdfb/Kynaraa.cpp"
+# 22000 "yxdfb/Kynaraa.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx__GetModuleGlobalName(PyObject *name)
 
 {
@@ -32809,10 +32801,10 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx__GetModuleGlobalN
     } else if (__builtin_expect(!!(PyErr_Occurred()), 0)) {
         return __null;
     }
-# 22058 "yxdfb/Kynaraa.cpp"
+# 22036 "yxdfb/Kynaraa.cpp"
     return __Pyx_GetBuiltinName(name);
 }
-# 22186 "yxdfb/Kynaraa.cpp"
+# 22164 "yxdfb/Kynaraa.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw) {
     PyObject *result;
     ternaryfunc call = Py_TYPE(((PyObject*)((func))))->tp_call;
@@ -32859,7 +32851,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_CallMeth
     }
     return result;
 }
-# 22252 "yxdfb/Kynaraa.cpp"
+# 22230 "yxdfb/Kynaraa.cpp"
 static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_FastCallDict(PyObject *func, PyObject **args, size_t _nargs, PyObject *kwargs) {
     Py_ssize_t nargs = _PyVectorcall_NARGS((size_t)(_nargs));
 
@@ -32871,7 +32863,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_FastCall
         if (__Pyx_IsAnySubtype2(Py_TYPE(((PyObject*)((func)))), (PyTypeObject *)__pyx_mstate_global->__pyx_CyFunctionType, (PyTypeObject *)&PyCFunction_Type) && __builtin_expect(!!((((PyCFunctionObject*)(func))->m_ml->ml_flags) & 0x0008), 1))
             return __Pyx_PyObject_CallMethO(func, args[0]);
     }
-# 22285 "yxdfb/Kynaraa.cpp"
+# 22263 "yxdfb/Kynaraa.cpp"
     if (kwargs == __null) {
 
 
@@ -32955,7 +32947,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionSave(PyThrea
         Py_INCREF(((PyObject*)((*type))));
         *tb = PyException_GetTraceback(exc_value);
     }
-# 22384 "yxdfb/Kynaraa.cpp"
+# 22362 "yxdfb/Kynaraa.cpp"
 }
 static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionReset(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {
 
@@ -32965,7 +32957,7 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionReset(PyThre
     Py_XDECREF(((PyObject*)((tmp_value))));
     Py_XDECREF(((PyObject*)((type))));
     Py_XDECREF(((PyObject*)((tb))));
-# 22415 "yxdfb/Kynaraa.cpp"
+# 22393 "yxdfb/Kynaraa.cpp"
 }
 
 
@@ -32987,7 +32979,7 @@ static int __Pyx__GetException(PyThreadState *tstate, PyObject **type, PyObject 
         Py_INCREF(((PyObject*)((local_type))));
         local_tb = PyException_GetTraceback(local_value);
     }
-# 22447 "yxdfb/Kynaraa.cpp"
+# 22425 "yxdfb/Kynaraa.cpp"
     PyErr_NormalizeException(&local_type, &local_value, &local_tb);
 
     if (__builtin_expect(!!(tstate->current_exception), 0))
@@ -33020,9 +33012,9 @@ static int __Pyx__GetException(PyThreadState *tstate, PyObject **type, PyObject 
         tmp_tb = __null;
         Py_XDECREF(((PyObject*)((local_type))));
         Py_XDECREF(((PyObject*)((local_tb))));
-# 22487 "yxdfb/Kynaraa.cpp"
+# 22465 "yxdfb/Kynaraa.cpp"
     }
-# 22496 "yxdfb/Kynaraa.cpp"
+# 22474 "yxdfb/Kynaraa.cpp"
     Py_XDECREF(((PyObject*)((tmp_type))));
     Py_XDECREF(((PyObject*)((tmp_value))));
     Py_XDECREF(((PyObject*)((tmp_tb))));
@@ -33047,7 +33039,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_BoolEqObjC(PyObje
     if (op1 == op2) {
         return 1;
     }
-# 22528 "yxdfb/Kynaraa.cpp"
+# 22506 "yxdfb/Kynaraa.cpp"
     if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((op1)))), (&PyLong_Type))), 1)) {
         int unequal;
         unsigned long uintval;
@@ -33064,7 +33056,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_BoolEqObjC(PyObje
                 return 0;
         }
         uintval = (unsigned long) intval;
-# 22557 "yxdfb/Kynaraa.cpp"
+# 22535 "yxdfb/Kynaraa.cpp"
         if (uintval >> (30 * 2)) {
             unequal = (size != 3) || (digits[0] != (uintval & (unsigned long) ((digit)(((digit)1 << 30) - 1))))
                  | (digits[1] != ((uintval >> (1 * 30)) & (unsigned long) ((digit)(((digit)1 << 30) - 1)))) | (digits[2] != ((uintval >> (2 * 30)) & (unsigned long) ((digit)(((digit)1 << 30) - 1))));
@@ -33115,13 +33107,13 @@ static PyObject* __Pyx_PyUnicode_Join(PyObject* value_tuple, Py_ssize_t value_co
 
 
 
-    ((kind_shift == 2 || kind_shift == 1 || kind_shift == 0) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22607, __PRETTY_FUNCTION__, "kind_shift == 2 || kind_shift == 1 || kind_shift == 0"));
+    ((kind_shift == 2 || kind_shift == 1 || kind_shift == 0) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22585, __PRETTY_FUNCTION__, "kind_shift == 2 || kind_shift == 1 || kind_shift == 0"));
     char_pos = 0;
     for (i=0; i < value_count; i++) {
         int ukind;
         Py_ssize_t ulength;
         void *udata;
-        PyObject *uval = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((value_tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22613, __PRETTY_FUNCTION__, "PyTuple_Check(value_tuple)")), ((PyTupleObject*)((value_tuple))))->ob_item[(i)]);
+        PyObject *uval = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((value_tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22591, __PRETTY_FUNCTION__, "PyTuple_Check(value_tuple)")), ((PyTupleObject*)((value_tuple))))->ob_item[(i)]);
         if (__builtin_expect(!!((0)), 0))
             goto bad;
         ulength = PyUnicode_GET_LENGTH(((PyObject*)((uval))));
@@ -33129,7 +33121,7 @@ static PyObject* __Pyx_PyUnicode_Join(PyObject* value_tuple, Py_ssize_t value_co
             continue;
         if (__builtin_expect(!!((9223372036854775807L >> kind_shift) - ulength < char_pos), 0))
             goto overflow;
-        ukind = ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((uval))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22621, __PRETTY_FUNCTION__, "PyUnicode_Check(uval)")), ((PyASCIIObject*)((uval))))->state.kind)));
+        ukind = ((int)((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((uval))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22599, __PRETTY_FUNCTION__, "PyUnicode_Check(uval)")), ((PyASCIIObject*)((uval))))->state.kind)));
         udata = PyUnicode_DATA(((PyObject*)((uval))));
         if (!1 || ukind == result_ukind) {
             memcpy((char *)result_udata + (char_pos << kind_shift), udata, (size_t) (ulength << kind_shift));
@@ -33221,7 +33213,7 @@ static PyObject* __Pyx_PyUnicode_BuildFromAscii(Py_ssize_t ulength, char* chars,
     for (i=0; i < clength; i++) {
         PyUnicode_WRITE(static_cast<int>(PyUnicode_1BYTE_KIND), ((void*)(udata)), (uoffset+i), static_cast<Py_UCS4>((Py_UCS4) chars[i]));
     }
-# 22753 "yxdfb/Kynaraa.cpp"
+# 22731 "yxdfb/Kynaraa.cpp"
     return uval;
 }
 
@@ -33271,11 +33263,11 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyUnicode_From_Py
             remaining = (Py_ssize_t) (remaining / 16);
             break;
         default:
-            ((0) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22802, __PRETTY_FUNCTION__, "0"));
+            ((0) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22780, __PRETTY_FUNCTION__, "0"));
             break;
         }
     } while (__builtin_expect(!!(remaining != 0), 0));
-    ((!last_one_off || *dpos == '0') ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22806, __PRETTY_FUNCTION__, "!last_one_off || *dpos == '0'"));
+    ((!last_one_off || *dpos == '0') ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22784, __PRETTY_FUNCTION__, "!last_one_off || *dpos == '0'"));
     dpos += last_one_off;
     length = end - dpos;
     ulength = length;
@@ -33327,7 +33319,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_List_F
         wrapped_i += PyList_GET_SIZE(((PyObject*)((o))));
     }
     if ((!boundscheck) || __builtin_expect(!!(__Pyx_is_valid_index(wrapped_i, PyList_GET_SIZE(((PyObject*)((o)))))), 1)) {
-        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22858, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(wrapped_i)]);
+        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22836, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(wrapped_i)]);
         Py_INCREF(((PyObject*)((r))));
         return r;
     }
@@ -33345,7 +33337,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Tuple_
         wrapped_i += PyTuple_GET_SIZE(((PyObject*)((o))));
     }
     if ((!boundscheck) || __builtin_expect(!!(__Pyx_is_valid_index(wrapped_i, PyTuple_GET_SIZE(((PyObject*)((o)))))), 1)) {
-        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22876, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(wrapped_i)]);
+        PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22854, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(wrapped_i)]);
         Py_INCREF(((PyObject*)((r))));
         return r;
     }
@@ -33361,7 +33353,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Fast(P
     if (is_list || Py_IS_TYPE(((PyObject*)(((o)))), (&PyList_Type))) {
         Py_ssize_t n = ((!wraparound) | __builtin_expect(!!(i >= 0), 1)) ? i : i + PyList_GET_SIZE(((PyObject*)((o))));
         if ((!boundscheck) || (__builtin_expect(!!(__Pyx_is_valid_index(n, PyList_GET_SIZE(((PyObject*)((o)))))), 1))) {
-            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22892, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(n)]);
+            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22870, __PRETTY_FUNCTION__, "PyList_Check(o)")), ((PyListObject*)((o))))->ob_item[(n)]);
             Py_INCREF(((PyObject*)((r))));
             return r;
         }
@@ -33369,7 +33361,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_GetItemInt_Fast(P
     else if (Py_IS_TYPE(((PyObject*)(((o)))), (&PyTuple_Type))) {
         Py_ssize_t n = ((!wraparound) | __builtin_expect(!!(i >= 0), 1)) ? i : i + PyTuple_GET_SIZE(((PyObject*)((o))));
         if ((!boundscheck) || __builtin_expect(!!(__Pyx_is_valid_index(n, PyTuple_GET_SIZE(((PyObject*)((o)))))), 1)) {
-            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22900, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(n)]);
+            PyObject *r = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((o))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 22878, __PRETTY_FUNCTION__, "PyTuple_Check(o)")), ((PyTupleObject*)((o))))->ob_item[(n)]);
             Py_INCREF(((PyObject*)((r))));
             return r;
         }
@@ -33511,7 +33503,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_PyUnicode_ConcatI
     new_len = left_len + right_len;
     if (__Pyx_unicode_modifiable(left)
             && Py_IS_TYPE(((PyObject*)(((right)))), (&PyUnicode_Type))
-            && ((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((right))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23042, __PRETTY_FUNCTION__, "PyUnicode_Check(right)")), ((PyASCIIObject*)((right))))->state.kind)) <= ((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((left))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23042, __PRETTY_FUNCTION__, "PyUnicode_Check(left)")), ((PyASCIIObject*)((left))))->state.kind))
+            && ((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((right))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23020, __PRETTY_FUNCTION__, "PyUnicode_Check(right)")), ((PyASCIIObject*)((right))))->state.kind)) <= ((void)0, ((((PyType_HasFeature((Py_TYPE(((PyObject*)((left))))), ((1UL << 28)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23020, __PRETTY_FUNCTION__, "PyUnicode_Check(left)")), ((PyASCIIObject*)((left))))->state.kind))
             && !(PyUnicode_IS_ASCII(((PyObject*)((left)))) && !PyUnicode_IS_ASCII(((PyObject*)((right)))))) {
         int ret;
                               ;
@@ -33556,12 +33548,12 @@ static __inline__ __attribute__ ((__unused__)) void __Pyx__ExceptionSwap(PyThrea
 
 
     }
-# 23103 "yxdfb/Kynaraa.cpp"
+# 23081 "yxdfb/Kynaraa.cpp"
     *type = tmp_type;
     *value = tmp_value;
     *tb = tmp_tb;
 }
-# 23155 "yxdfb/Kynaraa.cpp"
+# 23133 "yxdfb/Kynaraa.cpp"
 static __inline__ __attribute__ ((__unused__)) int __Pyx_IterFinish(void) {
     PyObject* exc_type;
     PyThreadState *__pyx_tstate;
@@ -33586,7 +33578,7 @@ static int __Pyx_PyObject_GetMethod(PyObject *obj, PyObject *name, PyObject **me
     descrgetfunc f = __null;
     PyObject **dictptr, *dict;
     int meth_found = 0;
-    ((*method == __null) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23179, __PRETTY_FUNCTION__, "*method == NULL"));
+    ((*method == __null) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23157, __PRETTY_FUNCTION__, "*method == NULL"));
     if (__builtin_expect(!!(tp->tp_getattro != PyObject_GenericGetAttr), 0)) {
         attr = __Pyx_PyObject_GetAttrStr(obj, name);
         goto try_unpack;
@@ -33599,7 +33591,7 @@ static int __Pyx_PyObject_GetMethod(PyObject *obj, PyObject *name, PyObject **me
         Py_INCREF(((PyObject*)((descr))));
 
         if ((((((PyTypeObject *)Py_TYPE(((PyObject*)((descr)))))->tp_flags) & ((1UL << 17))) != 0))
-# 23205 "yxdfb/Kynaraa.cpp"
+# 23183 "yxdfb/Kynaraa.cpp"
         {
             meth_found = 1;
         } else {
@@ -33728,8 +33720,8 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_unpack_tuple2_exact(
 
 
 
-    value1 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23333, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(0)]); Py_INCREF(((PyObject*)((value1))));
-    value2 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23334, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(1)]); Py_INCREF(((PyObject*)((value2))));
+    value1 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23311, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(0)]); Py_INCREF(((PyObject*)((value1))));
+    value2 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23312, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(1)]); Py_INCREF(((PyObject*)((value2))));
 
     if (decref_tuple) {
         Py_DECREF(((PyObject*)((tuple))));
@@ -33785,7 +33777,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_dict_iterator(PyO
         *p_orig_length = PyDict_Size(iterable);
         Py_INCREF(((PyObject*)((iterable))));
         return iterable;
-# 23408 "yxdfb/Kynaraa.cpp"
+# 23386 "yxdfb/Kynaraa.cpp"
     }
     *p_orig_length = 0;
     if (method_name) {
@@ -33842,13 +33834,13 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_dict_iter_next(
         Py_ssize_t pos = *ppos;
         if (__builtin_expect(!!(pos >= PyTuple_GET_SIZE(((PyObject*)((iter_obj))))), 0)) return 0;
         *ppos = pos + 1;
-        next_item = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((iter_obj))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23464, __PRETTY_FUNCTION__, "PyTuple_Check(iter_obj)")), ((PyTupleObject*)((iter_obj))))->ob_item[(pos)]);
+        next_item = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((iter_obj))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23442, __PRETTY_FUNCTION__, "PyTuple_Check(iter_obj)")), ((PyTupleObject*)((iter_obj))))->ob_item[(pos)]);
         Py_INCREF(((PyObject*)((next_item))));
     } else if (Py_IS_TYPE(((PyObject*)(((iter_obj)))), (&PyList_Type))) {
         Py_ssize_t pos = *ppos;
         if (__builtin_expect(!!(pos >= PyList_GET_SIZE(((PyObject*)((iter_obj))))), 0)) return 0;
         *ppos = pos + 1;
-        next_item = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((iter_obj))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23470, __PRETTY_FUNCTION__, "PyList_Check(iter_obj)")), ((PyListObject*)((iter_obj))))->ob_item[(pos)]);
+        next_item = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((iter_obj))))), ((1UL << 25)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23448, __PRETTY_FUNCTION__, "PyList_Check(iter_obj)")), ((PyListObject*)((iter_obj))))->ob_item[(pos)]);
         Py_INCREF(((PyObject*)((next_item))));
     } else
 
@@ -33877,7 +33869,7 @@ static PyObject* __Pyx_PyInt_AddObjC(PyObject *op1, PyObject *op2, long intval, 
     CYTHON_UNUSED_VAR(intval);
     CYTHON_UNUSED_VAR(inplace);
     CYTHON_UNUSED_VAR(zerodivision_check);
-# 23512 "yxdfb/Kynaraa.cpp"
+# 23490 "yxdfb/Kynaraa.cpp"
     if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((op1)))), (&PyLong_Type))), 1)) {
         const long b = intval;
         long a, x;
@@ -33997,7 +33989,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyObject_Call2Arg
     PyObject *args[3] = {__null, arg1, arg2};
     return __Pyx_PyObject_FastCallDict(function, args+1, (size_t)(2 | (static_cast<size_t>(1) << (8 * sizeof(size_t) - 1))), __null);
 }
-# 23640 "yxdfb/Kynaraa.cpp"
+# 23618 "yxdfb/Kynaraa.cpp"
 static PyObject* __Pyx_PyObject_CallMethod1(PyObject* obj, PyObject* method_name, PyObject* arg) {
 
     PyObject *args[2] = {obj, arg};
@@ -34005,7 +33997,7 @@ static PyObject* __Pyx_PyObject_CallMethod1(PyObject* obj, PyObject* method_name
     (void) __Pyx_PyObject_CallOneArg;
     (void) __Pyx_PyObject_Call2Args;
     return PyObject_VectorcallMethod(method_name, args, 2 | (static_cast<size_t>(1) << (8 * sizeof(size_t) - 1)), __null);
-# 23658 "yxdfb/Kynaraa.cpp"
+# 23636 "yxdfb/Kynaraa.cpp"
 }
 
 
@@ -34038,7 +34030,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_IsSubtype(PyTypeObject 
         Py_ssize_t i, n;
         n = PyTuple_GET_SIZE(((PyObject*)((mro))));
         for (i = 0; i < n; i++) {
-            if (((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23690, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]) == (PyObject *)b)
+            if (((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23668, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]) == (PyObject *)b)
                 return 1;
         }
         return 0;
@@ -34053,7 +34045,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_IsAnySubtype2(PyTypeObj
         Py_ssize_t i, n;
         n = PyTuple_GET_SIZE(((PyObject*)((mro))));
         for (i = 0; i < n; i++) {
-            PyObject *base = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23705, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]);
+            PyObject *base = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((mro))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23683, __PRETTY_FUNCTION__, "PyTuple_Check(mro)")), ((PyTupleObject*)((mro))))->ob_item[(i)]);
             if (base == (PyObject *)a || base == (PyObject *)b)
                 return 1;
         }
@@ -34061,7 +34053,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_IsAnySubtype2(PyTypeObj
     }
     return __Pyx_InBases(cls, a) || __Pyx_InBases(cls, b);
 }
-# 23736 "yxdfb/Kynaraa.cpp"
+# 23714 "yxdfb/Kynaraa.cpp"
 static __inline__ __attribute__ ((__unused__)) int __Pyx_inner_PyErr_GivenExceptionMatches2(PyObject *err, PyObject* exc_type1, PyObject *exc_type2) {
     if (exc_type1) {
         return __Pyx_IsAnySubtype2((PyTypeObject*)err, (PyTypeObject*)exc_type1, (PyTypeObject*)exc_type2);
@@ -34072,15 +34064,15 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_inner_PyErr_GivenExcept
 
 static int __Pyx_PyErr_GivenExceptionMatchesTuple(PyObject *exc_type, PyObject *tuple) {
     Py_ssize_t i, n;
-    (((PyType_Check(((PyObject*)(((exc_type))))) && PyType_HasFeature(((PyTypeObject*)(exc_type)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23746, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type)"));
+    (((PyType_Check(((PyObject*)(((exc_type))))) && PyType_HasFeature(((PyTypeObject*)(exc_type)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23724, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type)"));
     n = PyTuple_GET_SIZE(((PyObject*)((tuple))));
 
     for (i=0; i<n; i++) {
-        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23750, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
+        if (exc_type == ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23728, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)])) return 1;
     }
 
     for (i=0; i<n; i++) {
-        PyObject *t = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23754, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]);
+        PyObject *t = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23732, __PRETTY_FUNCTION__, "PyTuple_Check(tuple)")), ((PyTupleObject*)((tuple))))->ob_item[(i)]);
 
 
 
@@ -34104,15 +34096,15 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_GivenExceptionMat
     return PyErr_GivenExceptionMatches(err, exc_type);
 }
 static __inline__ __attribute__ ((__unused__)) int __Pyx_PyErr_GivenExceptionMatches2(PyObject *err, PyObject *exc_type1, PyObject *exc_type2) {
-    (((PyType_Check(((PyObject*)(((exc_type1))))) && PyType_HasFeature(((PyTypeObject*)(exc_type1)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23778, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type1)"));
-    (((PyType_Check(((PyObject*)(((exc_type2))))) && PyType_HasFeature(((PyTypeObject*)(exc_type2)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23779, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type2)"));
+    (((PyType_Check(((PyObject*)(((exc_type1))))) && PyType_HasFeature(((PyTypeObject*)(exc_type1)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23756, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type1)"));
+    (((PyType_Check(((PyObject*)(((exc_type2))))) && PyType_HasFeature(((PyTypeObject*)(exc_type2)), ((1UL << 30))))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23757, __PRETTY_FUNCTION__, "PyExceptionClass_Check(exc_type2)"));
     if (__builtin_expect(!!(err == exc_type1 || err == exc_type2), 1)) return 1;
     if (__builtin_expect(!!((PyType_Check(((PyObject*)(((err))))) && PyType_HasFeature(((PyTypeObject*)(err)), ((1UL << 30))))), 1)) {
         return __Pyx_inner_PyErr_GivenExceptionMatches2(err, exc_type1, exc_type2);
     }
     return (PyErr_GivenExceptionMatches(err, exc_type1) || PyErr_GivenExceptionMatches(err, exc_type2));
 }
-# 23863 "yxdfb/Kynaraa.cpp"
+# 23841 "yxdfb/Kynaraa.cpp"
 static int __Pyx_validate_bases_tuple(const char *type_name, Py_ssize_t dictoffset, PyObject *bases) {
     Py_ssize_t i, n;
 
@@ -34127,13 +34119,13 @@ static int __Pyx_validate_bases_tuple(const char *type_name, Py_ssize_t dictoffs
 
 
 
-        PyObject *b0 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((bases))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23877, __PRETTY_FUNCTION__, "PyTuple_Check(bases)")), ((PyTupleObject*)((bases))))->ob_item[(i)]);
+        PyObject *b0 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((bases))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 23855, __PRETTY_FUNCTION__, "PyTuple_Check(bases)")), ((PyTupleObject*)((bases))))->ob_item[(i)]);
 
 
 
 
         PyTypeObject *b;
-# 23894 "yxdfb/Kynaraa.cpp"
+# 23872 "yxdfb/Kynaraa.cpp"
         b = (PyTypeObject*) b0;
         if (!(((((PyTypeObject *)b)->tp_flags) & ((1UL << 9))) != 0))
         {
@@ -34205,7 +34197,7 @@ static int __Pyx_PyType_Ready(PyTypeObject *t) {
 
         gc_was_enabled = PyGC_Disable();
         (void)__Pyx_PyObject_CallMethod0;
-# 23992 "yxdfb/Kynaraa.cpp"
+# 23970 "yxdfb/Kynaraa.cpp"
         t->tp_flags |= (1UL << 9);
 
         t->tp_flags |= (1UL << 8);
@@ -34219,18 +34211,18 @@ static int __Pyx_PyType_Ready(PyTypeObject *t) {
 
         if (gc_was_enabled)
             PyGC_Enable();
-# 24022 "yxdfb/Kynaraa.cpp"
+# 24000 "yxdfb/Kynaraa.cpp"
     }
 
     return r;
 
 }
-# 24071 "yxdfb/Kynaraa.cpp"
+# 24049 "yxdfb/Kynaraa.cpp"
 static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {
     PyObject *module = 0;
     PyObject *empty_dict = 0;
     PyObject *empty_list = 0;
-# 24087 "yxdfb/Kynaraa.cpp"
+# 24065 "yxdfb/Kynaraa.cpp"
     empty_dict = PyDict_New();
     if (__builtin_expect(!!(!empty_dict), 0))
         goto bad;
@@ -34250,7 +34242,7 @@ static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {
         }
 
         if (!module) {
-# 24114 "yxdfb/Kynaraa.cpp"
+# 24092 "yxdfb/Kynaraa.cpp"
             module = PyImport_ImportModuleLevelObject(
                 name, __pyx_mstate_global->__pyx_d, empty_dict, from_list, level);
 
@@ -34324,7 +34316,7 @@ static PyObject *__Pyx_ImportDottedModule_WalkParts(PyObject *module, PyObject *
     for (i=1; i < nparts && module; i++) {
         PyObject *part, *submodule;
 
-        part = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((parts_tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 24187, __PRETTY_FUNCTION__, "PyTuple_Check(parts_tuple)")), ((PyTupleObject*)((parts_tuple))))->ob_item[(i)]);
+        part = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((parts_tuple))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 24165, __PRETTY_FUNCTION__, "PyTuple_Check(parts_tuple)")), ((PyTupleObject*)((parts_tuple))))->ob_item[(i)]);
 
 
 
@@ -34342,7 +34334,7 @@ static PyObject *__Pyx_ImportDottedModule_WalkParts(PyObject *module, PyObject *
 }
 
 static PyObject *__Pyx__ImportDottedModule(PyObject *name, PyObject *parts_tuple) {
-# 24217 "yxdfb/Kynaraa.cpp"
+# 24195 "yxdfb/Kynaraa.cpp"
     PyObject *imported_module;
     PyObject *module = __Pyx_Import(name, __null, 0);
     if (!parts_tuple || __builtin_expect(!!(!module), 0))
@@ -34399,7 +34391,7 @@ static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name) {
         if (__builtin_expect(!!(!module_dot), 0)) { goto modbad; }
         full_name = PyUnicode_Concat(module_dot, name);
         if (__builtin_expect(!!(!full_name), 0)) { goto modbad; }
-# 24281 "yxdfb/Kynaraa.cpp"
+# 24259 "yxdfb/Kynaraa.cpp"
         value = PyImport_GetModule(full_name);
 
       modbad:
@@ -34476,7 +34468,7 @@ bad:
     cached_type = __null;
     goto done;
 }
-# 24407 "yxdfb/Kynaraa.cpp"
+# 24385 "yxdfb/Kynaraa.cpp"
 static PyObject *__Pyx_PyVectorcall_FastCallDict_kw(PyObject *func, vectorcallfunc vc, PyObject *const *args, size_t nargs, PyObject *kw)
 {
     PyObject *res = __null;
@@ -34529,7 +34521,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject *__Pyx_PyVectorcall_Fast
     }
     return __Pyx_PyVectorcall_FastCallDict_kw(func, vc, args, nargs, kw);
 }
-# 24472 "yxdfb/Kynaraa.cpp"
+# 24450 "yxdfb/Kynaraa.cpp"
 static __inline__ __attribute__ ((__unused__)) int __Pyx__IsSameCyOrCFunction(PyObject *func, void *cfunc) {
     return __Pyx_IsAnySubtype2(Py_TYPE(((PyObject*)((func)))), (PyTypeObject *)__pyx_mstate_global->__pyx_CyFunctionType, (PyTypeObject *)&PyCFunction_Type) && (((PyCFunctionObject*)(func))->m_ml->ml_meth) == (PyCFunction) cfunc;
 }
@@ -34703,11 +34695,11 @@ __Pyx_CyFunction_init_defaults(__pyx_CyFunctionObject *op) {
     if (__builtin_expect(!!(!res), 0))
         return -1;
 
-    op->defaults_tuple = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 24645, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(0)]);
+    op->defaults_tuple = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 24623, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(0)]);
     Py_INCREF(((PyObject*)((op->defaults_tuple))));
-    op->defaults_kwdict = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 24647, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(1)]);
+    op->defaults_kwdict = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((res))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 24625, __PRETTY_FUNCTION__, "PyTuple_Check(res)")), ((PyTupleObject*)((res))))->ob_item[(1)]);
     Py_INCREF(((PyObject*)((op->defaults_kwdict))));
-# 24657 "yxdfb/Kynaraa.cpp"
+# 24635 "yxdfb/Kynaraa.cpp"
     Py_DECREF(((PyObject*)((res))));
     return result;
 }
@@ -34837,7 +34829,7 @@ ignore:
     op->func_is_coroutine = __Pyx_PyBool_FromLong(is_coroutine);
     return (Py_INCREF(((PyObject*)((op->func_is_coroutine)))), op->func_is_coroutine);
 }
-# 24798 "yxdfb/Kynaraa.cpp"
+# 24776 "yxdfb/Kynaraa.cpp"
 static PyGetSetDef __pyx_CyFunction_getsets[] = {
     {(char *) "func_doc", (getter)__Pyx_CyFunction_get_doc, (setter)__Pyx_CyFunction_set_doc, 0, 0},
     {(char *) "__doc__", (getter)__Pyx_CyFunction_get_doc, (setter)__Pyx_CyFunction_set_doc, 0, 0},
@@ -34865,7 +34857,7 @@ static PyGetSetDef __pyx_CyFunction_getsets[] = {
 static PyMemberDef __pyx_CyFunction_members[] = {
 
     {(char *) "__module__", 6, __builtin_offsetof(PyCFunctionObject, m_module), 0, 0},
-# 24843 "yxdfb/Kynaraa.cpp"
+# 24821 "yxdfb/Kynaraa.cpp"
     {0, 0, 0, 0, 0}
 };
 static PyObject *
@@ -35050,7 +35042,7 @@ __Pyx_CyFunction_repr(__pyx_CyFunctionObject *op)
 
 }
 static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, PyObject *arg, PyObject *kw) {
-# 25037 "yxdfb/Kynaraa.cpp"
+# 25015 "yxdfb/Kynaraa.cpp"
     PyCFunctionObject* f = (PyCFunctionObject*)func;
     PyCFunction meth = f->m_ml->ml_meth;
     int flags = f->m_ml->ml_flags;
@@ -35073,7 +35065,7 @@ static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, Py
 
             if (__builtin_expect(!!(size == 0), 1))
                 return (*meth)(self, __null);
-# 25067 "yxdfb/Kynaraa.cpp"
+# 25045 "yxdfb/Kynaraa.cpp"
             PyErr_Format(PyExc_TypeError,
                 "%.200s() takes no arguments (%" "z" "d given)",
                 f->m_ml->ml_name, size);
@@ -35092,7 +35084,7 @@ static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, Py
             if (__builtin_expect(!!(size == 1), 1)) {
                 PyObject *result, *arg0;
 
-                arg0 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((arg))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 25085, __PRETTY_FUNCTION__, "PyTuple_Check(arg)")), ((PyTupleObject*)((arg))))->ob_item[(0)]);
+                arg0 = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((arg))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 25063, __PRETTY_FUNCTION__, "PyTuple_Check(arg)")), ((PyTupleObject*)((arg))))->ob_item[(0)]);
 
 
 
@@ -35102,7 +35094,7 @@ static PyObject * __Pyx_CyFunction_CallMethod(PyObject *func, PyObject *self, Py
 
                 return result;
             }
-# 25103 "yxdfb/Kynaraa.cpp"
+# 25081 "yxdfb/Kynaraa.cpp"
             PyErr_Format(PyExc_TypeError,
                 "%.200s() takes exactly one argument (%" "z" "d given)",
                 f->m_ml->ml_name, size);
@@ -35144,7 +35136,7 @@ static PyObject *__Pyx_CyFunction_CallAsMethod(PyObject *func, PyObject *args, P
      vectorcallfunc vc = (((PyCFunctionObject*)cyfunc)->vectorcall);
     if (vc) {
 
-        return __Pyx_PyVectorcall_FastCallDict(func, vc, &((((PyType_HasFeature((Py_TYPE(((PyObject*)((args))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 25144, __PRETTY_FUNCTION__, "PyTuple_Check(args)")), ((PyTupleObject*)((args))))->ob_item[(0)]), (size_t)PyTuple_GET_SIZE(((PyObject*)((args)))), kw);
+        return __Pyx_PyVectorcall_FastCallDict(func, vc, &((((PyType_HasFeature((Py_TYPE(((PyObject*)((args))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 25122, __PRETTY_FUNCTION__, "PyTuple_Check(args)")), ((PyTupleObject*)((args))))->ob_item[(0)]), (size_t)PyTuple_GET_SIZE(((PyObject*)((args)))), kw);
 
 
 
@@ -35312,7 +35304,7 @@ static PyObject * __Pyx_CyFunction_Vectorcall_FASTCALL_KEYWORDS_METHOD(PyObject 
     }
     return ((PyCMethod)(void(*)(void))def->ml_meth)(self, cls, args, (size_t)nargs, kwnames);
 }
-# 25340 "yxdfb/Kynaraa.cpp"
+# 25318 "yxdfb/Kynaraa.cpp"
 static PyTypeObject __pyx_CyFunctionType_type = {
     { { { 1 }, (0) }, (0) },
     "_cython_" "3_0_12" "" "." "cython_function_or_method",
@@ -35464,7 +35456,7 @@ static PyObject *__Pyx_CalculateMetaclass(PyTypeObject *metaclass, PyObject *bas
     for (i=0; i < nbases; i++) {
         PyTypeObject *tmptype;
 
-        PyObject *tmp = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((bases))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 25491, __PRETTY_FUNCTION__, "PyTuple_Check(bases)")), ((PyTupleObject*)((bases))))->ob_item[(i)]);
+        PyObject *tmp = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((bases))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 25469, __PRETTY_FUNCTION__, "PyTuple_Check(bases)")), ((PyTupleObject*)((bases))))->ob_item[(i)]);
 
 
 
@@ -35534,7 +35526,7 @@ bad:
     Py_DECREF(((PyObject*)((ns))));
     return __null;
 }
-# 25691 "yxdfb/Kynaraa.cpp"
+# 25669 "yxdfb/Kynaraa.cpp"
 static PyObject *__Pyx_Py3ClassCreate(PyObject *metaclass, PyObject *name, PyObject *bases,
                                       PyObject *dict, PyObject *mkw,
                                       int calculate_metaclass, int allow_py2_metaclass) {
@@ -35566,7 +35558,7 @@ static PyObject *__Pyx_Py3ClassCreate(PyObject *metaclass, PyObject *name, PyObj
 
     );
     Py_XDECREF(((PyObject*)((owned_metaclass))));
-# 25731 "yxdfb/Kynaraa.cpp"
+# 25709 "yxdfb/Kynaraa.cpp"
     (void) &__Pyx_GetBuiltinName;
 
     return result;
@@ -35740,7 +35732,7 @@ __attribute__ ((visibility ("default"))) void PyFrame_FastToLocals(PyFrameObject
 
 
 }
-# 25864 "yxdfb/Kynaraa.cpp" 2
+# 25842 "yxdfb/Kynaraa.cpp" 2
 
 
 
@@ -36374,8 +36366,8 @@ PyGenObject *_PyFrame_GetGenerator(_PyInterpreterFrame *frame)
 
 
 }
-# 25870 "yxdfb/Kynaraa.cpp" 2
-# 25954 "yxdfb/Kynaraa.cpp"
+# 25848 "yxdfb/Kynaraa.cpp" 2
+# 25932 "yxdfb/Kynaraa.cpp"
 static PyCodeObject* __Pyx_CreateCodeObjectForTraceback(
             const char *funcname, int c_line,
             int py_line, const char *filename) {
@@ -36403,7 +36395,7 @@ static PyCodeObject* __Pyx_CreateCodeObjectForTraceback(
 
 
     }
-# 26002 "yxdfb/Kynaraa.cpp"
+# 25980 "yxdfb/Kynaraa.cpp"
     py_code = PyCode_NewEmpty(filename, funcname, py_line);
 
     Py_XDECREF(((PyObject*)((py_funcname))));
@@ -36497,10 +36489,10 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyInt_From_long(l
         int one = 1; int little = (int)*(unsigned char *)&one;
         return _PyLong_FromByteArray(bytes, sizeof(long),
                                      little, !is_unsigned);
-# 26121 "yxdfb/Kynaraa.cpp"
+# 26099 "yxdfb/Kynaraa.cpp"
     }
 }
-# 26163 "yxdfb/Kynaraa.cpp"
+# 26141 "yxdfb/Kynaraa.cpp"
 static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject *x) {
 
 
@@ -36511,7 +36503,7 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
 
 
     const int is_unsigned = neg_one > const_zero;
-# 26186 "yxdfb/Kynaraa.cpp"
+# 26164 "yxdfb/Kynaraa.cpp"
     if (__builtin_expect(!!(!PyType_HasFeature((Py_TYPE(((PyObject*)((x))))), ((1UL << 24)))), 0)) {
         long val;
         PyObject *tmp = __Pyx_PyNumber_IntOrLong(x);
@@ -36528,7 +36520,7 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
             { __Pyx_compact_upylong value = ((((PyLongObject*)x)->long_value.ob_digit)[0]); if (sizeof(long) < sizeof(__Pyx_compact_upylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_upylong) (long) value), 0)) { __Pyx_compact_upylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_upylong)-1 && PyErr_Occurred()), 0)) return (long) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (long) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 26202, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 26180, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3))) {
                 case 2:
                     if ((8 * sizeof(long) > 1 * 30)) {
@@ -36586,7 +36578,7 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
             { __Pyx_compact_pylong value = _PyLong_CompactValue((PyLongObject*) x); if (sizeof(long) < sizeof(__Pyx_compact_pylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_pylong) (long) value), 0)) { __Pyx_compact_pylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_pylong)-1 && PyErr_Occurred()), 0)) return (long) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (long) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 26260, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 26238, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((1 - (Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag & 3)) * ((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)))) {
                 case -2:
                     if ((8 * sizeof(long) - 1 > 1 * 30)) {
@@ -36656,13 +36648,13 @@ static __inline__ __attribute__ ((__unused__)) long __Pyx_PyInt_As_long(PyObject
     {
         long val;
         int ret = -1;
-# 26340 "yxdfb/Kynaraa.cpp"
+# 26318 "yxdfb/Kynaraa.cpp"
         int one = 1; int is_little = (int)*(unsigned char *)&one;
         unsigned char *bytes = (unsigned char *)&val;
         ret = _PyLong_AsByteArray((PyLongObject *)x,
                                     bytes, sizeof(val),
                                     is_little, !is_unsigned);
-# 26415 "yxdfb/Kynaraa.cpp"
+# 26393 "yxdfb/Kynaraa.cpp"
         if (__builtin_expect(!!(ret), 0))
             return (long) -1;
         return val;
@@ -36688,7 +36680,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
 
 
     const int is_unsigned = neg_one > const_zero;
-# 26453 "yxdfb/Kynaraa.cpp"
+# 26431 "yxdfb/Kynaraa.cpp"
     if (__builtin_expect(!!(!PyType_HasFeature((Py_TYPE(((PyObject*)((x))))), ((1UL << 24)))), 0)) {
         int val;
         PyObject *tmp = __Pyx_PyNumber_IntOrLong(x);
@@ -36705,7 +36697,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
             { __Pyx_compact_upylong value = ((((PyLongObject*)x)->long_value.ob_digit)[0]); if (sizeof(int) < sizeof(__Pyx_compact_upylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_upylong) (int) value), 0)) { __Pyx_compact_upylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_upylong)-1 && PyErr_Occurred()), 0)) return (int) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (int) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 26469, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 26447, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3))) {
                 case 2:
                     if ((8 * sizeof(int) > 1 * 30)) {
@@ -36763,7 +36755,7 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
             { __Pyx_compact_pylong value = _PyLong_CompactValue((PyLongObject*) x); if (sizeof(int) < sizeof(__Pyx_compact_pylong)) { if (__builtin_expect(!!(value != (__Pyx_compact_pylong) (int) value), 0)) { __Pyx_compact_pylong zero = 0; if (0 && __builtin_expect(!!(value == (__Pyx_compact_pylong)-1 && PyErr_Occurred()), 0)) return (int) -1; if (is_unsigned && __builtin_expect(!!(value < zero), 0)) goto raise_neg_overflow; else goto raise_overflow; } } return (int) value; }
         } else {
             const digit* digits = (((PyLongObject*)x)->long_value.ob_digit);
-            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 26527, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
+            ((((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)) > 1) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 26505, __PRETTY_FUNCTION__, "__Pyx_PyLong_DigitCount(x) > 1"));
             switch (((1 - (Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag & 3)) * ((Py_ssize_t) (((PyLongObject*)x)->long_value.lv_tag >> 3)))) {
                 case -2:
                     if ((8 * sizeof(int) - 1 > 1 * 30)) {
@@ -36833,13 +36825,13 @@ static __inline__ __attribute__ ((__unused__)) int __Pyx_PyInt_As_int(PyObject *
     {
         int val;
         int ret = -1;
-# 26607 "yxdfb/Kynaraa.cpp"
+# 26585 "yxdfb/Kynaraa.cpp"
         int one = 1; int is_little = (int)*(unsigned char *)&one;
         unsigned char *bytes = (unsigned char *)&val;
         ret = _PyLong_AsByteArray((PyLongObject *)x,
                                     bytes, sizeof(val),
                                     is_little, !is_unsigned);
-# 26682 "yxdfb/Kynaraa.cpp"
+# 26660 "yxdfb/Kynaraa.cpp"
         if (__builtin_expect(!!(ret), 0))
             return (int) -1;
         return val;
@@ -36853,7 +36845,7 @@ raise_neg_overflow:
         "can't convert negative value to int");
     return (int) -1;
 }
-# 26749 "yxdfb/Kynaraa.cpp"
+# 26727 "yxdfb/Kynaraa.cpp"
 static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject *cause) {
     PyObject* owned_instance = __null;
     if (tb == (&_Py_NoneStruct)) {
@@ -36940,13 +36932,13 @@ static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject 
     if (tb) {
 
         PyException_SetTraceback(value, tb);
-# 26850 "yxdfb/Kynaraa.cpp"
+# 26828 "yxdfb/Kynaraa.cpp"
     }
 bad:
     Py_XDECREF(((PyObject*)((owned_instance))));
     return;
 }
-# 26866 "yxdfb/Kynaraa.cpp"
+# 26844 "yxdfb/Kynaraa.cpp"
 static int __Pyx_PyGen__FetchStopIterationValue(PyThreadState *__pyx_tstate, PyObject **pvalue) {
     PyObject *et, *ev, *tb;
     PyObject *value = __null;
@@ -36974,7 +36966,7 @@ static int __Pyx_PyGen__FetchStopIterationValue(PyThreadState *__pyx_tstate, PyO
         else if (__builtin_expect(!!(PyType_HasFeature((Py_TYPE(((PyObject*)((ev))))), ((1UL << 26)))), 0)) {
             if (PyTuple_GET_SIZE(((PyObject*)((ev)))) >= 1) {
 
-                value = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((ev))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 26893, __PRETTY_FUNCTION__, "PyTuple_Check(ev)")), ((PyTupleObject*)((ev))))->ob_item[(0)]);
+                value = ((((PyType_HasFeature((Py_TYPE(((PyObject*)((ev))))), ((1UL << 26)))) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 26871, __PRETTY_FUNCTION__, "PyTuple_Check(ev)")), ((PyTupleObject*)((ev))))->ob_item[(0)]);
                 Py_INCREF(((PyObject*)((value))));
 
 
@@ -37009,7 +37001,7 @@ static int __Pyx_PyGen__FetchStopIterationValue(PyThreadState *__pyx_tstate, PyO
     value = ((PyStopIterationObject *)ev)->value;
     Py_INCREF(((PyObject*)((value))));
     Py_DECREF(((PyObject*)((ev))));
-# 26943 "yxdfb/Kynaraa.cpp"
+# 26921 "yxdfb/Kynaraa.cpp"
     *pvalue = value;
     return 0;
 }
@@ -37017,14 +37009,14 @@ static __inline__ __attribute__ ((__unused__))
 void __Pyx_Coroutine_ExceptionClear(_PyErr_StackItem *exc_state) {
 
     do { __typeof__(exc_state->exc_value)* _tmp_op_ptr = &(exc_state->exc_value); __typeof__(exc_state->exc_value) _tmp_old_op = (*_tmp_op_ptr); if (_tmp_old_op != __null) { *_tmp_op_ptr = nullptr; Py_DECREF(((PyObject*)((_tmp_old_op)))); } } while (0);
-# 26962 "yxdfb/Kynaraa.cpp"
+# 26940 "yxdfb/Kynaraa.cpp"
 }
 
 static void __Pyx__Coroutine_AlreadyRunningError(__pyx_CoroutineObject *gen) {
     const char *msg;
     CYTHON_UNUSED_VAR(gen);
     if ((0)) {
-# 26976 "yxdfb/Kynaraa.cpp"
+# 26954 "yxdfb/Kynaraa.cpp"
     } else {
         msg = "generator already executing";
     }
@@ -37035,7 +37027,7 @@ static void __Pyx__Coroutine_NotStartedError(PyObject *gen) {
     const char *msg;
     CYTHON_UNUSED_VAR(gen);
     if ((0)) {
-# 26994 "yxdfb/Kynaraa.cpp"
+# 26972 "yxdfb/Kynaraa.cpp"
     } else {
         msg = "can't send non-None value to a just-started generator";
     }
@@ -37065,7 +37057,7 @@ PyObject *__Pyx_Coroutine_SendEx(__pyx_CoroutineObject *self, PyObject *value, i
     PyThreadState *tstate;
     _PyErr_StackItem *exc_state;
     PyObject *retval;
-    ((!self->is_running) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 27023, __PRETTY_FUNCTION__, "!self->is_running"));
+    ((!self->is_running) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 27001, __PRETTY_FUNCTION__, "!self->is_running"));
     if (__builtin_expect(!!(self->resume_label == 0), 0)) {
         if (__builtin_expect(!!(value && value != (&_Py_NoneStruct)), 0)) {
             return (__Pyx__Coroutine_NotStartedError((PyObject*)self), (PyObject*)__null);
@@ -37095,7 +37087,7 @@ PyObject *__Pyx_Coroutine_SendEx(__pyx_CoroutineObject *self, PyObject *value, i
         if (exc_tb) {
             PyTracebackObject *tb = (PyTracebackObject *) exc_tb;
             PyFrameObject *f = tb->tb_frame;
-            ((f->f_back == __null) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 27053, __PRETTY_FUNCTION__, "f->f_back == NULL"));
+            ((f->f_back == __null) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 27031, __PRETTY_FUNCTION__, "f->f_back == NULL"));
 
             f->f_back = PyThreadState_GetFrame(tstate);
 
@@ -37111,7 +37103,7 @@ PyObject *__Pyx_Coroutine_SendEx(__pyx_CoroutineObject *self, PyObject *value, i
 
     exc_state->previous_item = tstate->exc_info;
     tstate->exc_info = exc_state;
-# 27077 "yxdfb/Kynaraa.cpp"
+# 27055 "yxdfb/Kynaraa.cpp"
     self->is_running = 1;
     retval = self->body(self, tstate, value);
     self->is_running = 0;
@@ -37170,7 +37162,7 @@ PyObject *__Pyx_PyGen_Send(PyGenObject *gen, PyObject *arg) {
     PyObject *result;
     if (PyIter_Send((PyObject*)gen, arg ? arg : (&_Py_NoneStruct), &result) == PYGEN_RETURN) {
         if (Py_IS_TYPE(((PyObject*)(((gen)))), (&PyAsyncGen_Type))) {
-            ((result == (&_Py_NoneStruct)) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 27135, __PRETTY_FUNCTION__, "result == Py_None"));
+            ((result == (&_Py_NoneStruct)) ? (static_cast<void>(0)) : __assert2("yxdfb/Kynaraa.cpp", 27113, __PRETTY_FUNCTION__, "result == Py_None"));
             PyErr_SetNone(PyExc_StopAsyncIteration);
         }
         else if (result == (&_Py_NoneStruct)) {
@@ -37179,7 +37171,7 @@ PyObject *__Pyx_PyGen_Send(PyGenObject *gen, PyObject *arg) {
         else {
 
             _PyGen_SetStopIterationValue(result);
-# 27155 "yxdfb/Kynaraa.cpp"
+# 27133 "yxdfb/Kynaraa.cpp"
         }
         Py_DECREF(((PyObject*)((result))));
         result = __null;
@@ -37211,7 +37203,7 @@ static PyObject *__Pyx_Coroutine_Send(PyObject *self, PyObject *value) {
         if (Py_IS_TYPE(((PyObject*)((yf))), (__pyx_mstate_global->__pyx_GeneratorType))) {
             ret = __Pyx_Coroutine_Send(yf, value);
         } else
-# 27198 "yxdfb/Kynaraa.cpp"
+# 27176 "yxdfb/Kynaraa.cpp"
         if (Py_IS_TYPE(((PyObject*)(((yf)))), (&PyGen_Type))) {
             ret = __Pyx_PyGen_Send((PyGenObject*)yf, value == (&_Py_NoneStruct) ? __null : value);
         } else
@@ -37246,7 +37238,7 @@ static int __Pyx_Coroutine_CloseIter(__pyx_CoroutineObject *gen, PyObject *yf) {
         if (!retval)
             return -1;
     } else
-# 27253 "yxdfb/Kynaraa.cpp"
+# 27231 "yxdfb/Kynaraa.cpp"
     {
         PyObject *meth;
         gen->is_running = 1;
@@ -37322,7 +37314,7 @@ static PyObject *__Pyx_Coroutine_Close(PyObject *self) {
         const char *msg;
         Py_DECREF(((PyObject*)((retval))));
         if ((0)) {
-# 27340 "yxdfb/Kynaraa.cpp"
+# 27318 "yxdfb/Kynaraa.cpp"
         } else {
             msg = "generator ignored GeneratorExit";
         }
@@ -37459,7 +37451,7 @@ static void __Pyx_Coroutine_dealloc(PyObject *self) {
         }
         PyObject_GC_UnTrack(self);
     }
-# 27484 "yxdfb/Kynaraa.cpp"
+# 27462 "yxdfb/Kynaraa.cpp"
     __Pyx_Coroutine_clear(self);
     PyObject_GC_Del(gen);
 }
@@ -37476,9 +37468,9 @@ static void __Pyx_Coroutine_del(PyObject *self) {
 
     __pyx_tstate = _PyThreadState_UncheckedGet();
     __Pyx_ErrFetchInState(__pyx_tstate, &error_type, &error_value, &error_traceback);
-# 27516 "yxdfb/Kynaraa.cpp"
+# 27494 "yxdfb/Kynaraa.cpp"
     if (__builtin_expect(!!(gen->resume_label == 0 && !error_value), 0)) {
-# 27552 "yxdfb/Kynaraa.cpp"
+# 27530 "yxdfb/Kynaraa.cpp"
     } else {
         PyObject *res = __Pyx_Coroutine_Close(self);
         if (__builtin_expect(!!(!res), 0)) {
@@ -37489,7 +37481,7 @@ static void __Pyx_Coroutine_del(PyObject *self) {
         }
     }
     __Pyx_ErrRestoreInState(__pyx_tstate, error_type, error_value, error_traceback);
-# 27582 "yxdfb/Kynaraa.cpp"
+# 27560 "yxdfb/Kynaraa.cpp"
 }
 static PyObject *
 __Pyx_Coroutine_get_name(__pyx_CoroutineObject *self, void *context)
@@ -37736,7 +37728,7 @@ static PyGetSetDef __pyx_Generator_getsets[] = {
      (char*) "Frame of the generator", 0},
     {0, 0, 0, 0, 0}
 };
-# 27851 "yxdfb/Kynaraa.cpp"
+# 27829 "yxdfb/Kynaraa.cpp"
 static PyTypeObject __pyx_GeneratorType_type = {
     { { { 1 }, (0) }, (0) },
     "_cython_" "3_0_12" "" "." "generator",
@@ -37830,7 +37822,7 @@ static int __pyx_Generator_init(PyObject *module) {
 static unsigned long __Pyx_get_runtime_version(void) {
 
     return Py_Version & ~0xFFUL;
-# 27964 "yxdfb/Kynaraa.cpp"
+# 27942 "yxdfb/Kynaraa.cpp"
 }
 static int __Pyx_check_binary_version(unsigned long ct_version, unsigned long rt_version, int allow_newer) {
     const unsigned long MAJOR_MINOR = 0xFFFF0000UL;
@@ -37879,7 +37871,7 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t) {
     while (t->p) {
 
         __Pyx_InitString(*t, t->p);
-# 28025 "yxdfb/Kynaraa.cpp"
+# 28003 "yxdfb/Kynaraa.cpp"
         ++t;
     }
     return 0;
@@ -37908,9 +37900,9 @@ static __inline__ __attribute__ ((__unused__)) const char* __Pyx_PyObject_AsStri
     Py_ssize_t ignore;
     return __Pyx_PyObject_AsStringAndSize(o, &ignore);
 }
-# 28092 "yxdfb/Kynaraa.cpp"
+# 28070 "yxdfb/Kynaraa.cpp"
 static __inline__ __attribute__ ((__unused__)) const char* __Pyx_PyObject_AsStringAndSize(PyObject* o, Py_ssize_t *length) {
-# 28103 "yxdfb/Kynaraa.cpp"
+# 28081 "yxdfb/Kynaraa.cpp"
     if (PyObject_TypeCheck(((PyObject*)(((o)))), (&PyByteArray_Type))) {
         *length = PyByteArray_GET_SIZE(((PyObject*)((o))));
         return PyByteArray_AS_STRING(((PyObject*)((o))));
@@ -37976,7 +37968,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyNumber_IntOrLon
     return (Py_INCREF(((PyObject*)((x)))), x);
 
   m = Py_TYPE(((PyObject*)((x))))->tp_as_number;
-# 28178 "yxdfb/Kynaraa.cpp"
+# 28156 "yxdfb/Kynaraa.cpp"
   if (__builtin_expect(!!(m && m->nb_int), 1)) {
     name = "int";
     res = m->nb_int(x);
@@ -38005,7 +37997,7 @@ static __inline__ __attribute__ ((__unused__)) PyObject* __Pyx_PyNumber_IntOrLon
 static __inline__ __attribute__ ((__unused__)) Py_ssize_t __Pyx_PyIndex_AsSsize_t(PyObject* b) {
   Py_ssize_t ival;
   PyObject *x;
-# 28214 "yxdfb/Kynaraa.cpp"
+# 28192 "yxdfb/Kynaraa.cpp"
   if (__builtin_expect(!!(Py_IS_TYPE(((PyObject*)(((b)))), (&PyLong_Type))), 1)) {
 
     if (__builtin_expect(!!(_PyLong_IsCompact((PyLongObject*) b)), 1)) {
