@@ -1,3 +1,8 @@
+# YayanXD Brute
+
+YayanXD Brute adalah script Python dan C++ yang dirancang untuk melakukan bruteforce akun Facebook dan Instagram, serta bot otomatis Facebook.
+
+
 ![template_s](https://github.com/Yayan-XD/Brute/blob/master/assets/menu.png)
 
 
