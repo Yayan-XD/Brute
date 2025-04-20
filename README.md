@@ -12,6 +12,7 @@ YayanXD Brute adalah script Python dan C++ yang dirancang untuk melakukan brutef
  ```
  $ pkg update && pkg upgrade
  $ pkg install python git
+ $ pip install pycryptodome
  $ git clone --depth 1 https://github.com/Yayan-XD/Brute
  ```
  oke sekarang script sudah terinstall
